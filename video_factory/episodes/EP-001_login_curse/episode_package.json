@@ -46,6 +46,13 @@
     }
   },
 
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "16005548-ce4e-45b5-8687-5703041a0889", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/16005548-ce4e-45b5-8687-5703041a0889.jpg"},
+    "thumbnail_600x338": {"media_id": "40bf4f04-f9a0-4cb2-9a3a-7b549447efc9", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/40bf4f04-f9a0-4cb2-9a3a-7b549447efc9.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
   "scenes": [
     {"scene_id": "EP-001-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "bcf3a43e-65a2-4a38-9071-1756f8ac247e", "video_job_id": "d87512e4-6e58-497a-858f-0fcc8baf5565", "onscreen_text": "Incorrect password", "visual": "Victor at desk, exasperated by failed login."},
     {"scene_id": "EP-001-S02", "beat": "comic gag", "duration_seconds": 5, "keyframe_job_id": "c684654b-ecab-4646-954a-8e1f2d3ee8ca", "video_job_id": "cd892437-2117-424a-8b37-a98c90c16ee6", "onscreen_text": "", "visual": "Victor poofs to dust; a cartoon bat flutters away (recurring gag)."},

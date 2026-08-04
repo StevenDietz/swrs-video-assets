@@ -42,6 +42,13 @@
     }
   },
 
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "6e567b6d-3f6c-489d-9065-fc60154ee867", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e567b6d-3f6c-489d-9065-fc60154ee867.jpg"},
+    "thumbnail_600x338": {"media_id": "0dbd9159-c775-4d03-a34f-63d5c739faa3", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0dbd9159-c775-4d03-a34f-63d5c739faa3.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
   "scenes": [
     {"scene_id": "EP-002-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ab59bc1f-efd5-4972-a366-14cf4d4e95c6", "video_job_id": "6eb7e13f-fece-4fee-8966-430572746ddf", "onscreen_text": "New password required", "visual": "Victor buried in sticky notes; Password Goblin on the monitor scrambling his login."},
     {"scene_id": "EP-002-S02", "beat": "escalation gag", "duration_seconds": 5, "keyframe_job_id": "aba0be4e-b59d-4407-bc8a-d56ec7305c75", "video_job_id": "dcdcabfe-6d05-4625-8c85-3b80f992bca0", "onscreen_text": "", "visual": "Goblin flings a blizzard of sticky notes; Victor buried, exasperated."},

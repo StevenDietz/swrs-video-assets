@@ -42,6 +42,13 @@
     }
   },
 
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "1847d8eb-4208-4858-893a-aef0dcc01385", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1847d8eb-4208-4858-893a-aef0dcc01385.jpg"},
+    "thumbnail_600x338": {"media_id": "3c27a820-3da2-4fb8-9f3f-6dafbd8218fa", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c27a820-3da2-4fb8-9f3f-6dafbd8218fa.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
   "scenes": [
     {"scene_id": "EP-005-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "0eb3f568-d5a8-46fa-ae5f-b0df5a1d6461", "video_job_id": "0cdf7bfe-39e3-4a15-a27f-47364b856784", "onscreen_text": "How fast can we start?", "voiceover": "How fast can we start?", "visual": "Victor drums his fingers, staring impatiently at a barely-trickling hourglass beside a wall calendar."},
     {"scene_id": "EP-005-S02", "beat": "SWRS simplifies (speed)", "duration_seconds": 5, "keyframe_job_id": "a063b188-6ca5-4a24-b756-d02d4966f9e7", "video_job_id": "b852d73d-b6d9-4554-a9ad-b96d3af4a903", "onscreen_text": "The moment your accounts arrive, we get moving.", "voiceover": "The moment your accounts arrive, our team gets moving.", "visual": "Victor clicks Send; glowing documents whoosh like comets into a giant email envelope, tie blown back."},

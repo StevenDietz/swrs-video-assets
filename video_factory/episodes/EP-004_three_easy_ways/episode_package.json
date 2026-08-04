@@ -42,6 +42,13 @@
     }
   },
 
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "62664138-19da-48a3-a3ed-1a7a148d7d72", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/62664138-19da-48a3-a3ed-1a7a148d7d72.jpg"},
+    "thumbnail_600x338": {"media_id": "953331f9-ee4f-4c1b-9ed4-e5138d612953", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/953331f9-ee4f-4c1b-9ed4-e5138d612953.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
   "scenes": [
     {"scene_id": "EP-004-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "45ae50ed-1203-4097-a63b-c97d3592352a", "video_job_id": "59263c9d-d934-4b81-bd0b-453cf1b1f907", "onscreen_text": "THREE easy ways to send your accounts", "voiceover": "THREE easy ways to send us your accounts?!", "visual": "Victor buried behind a teetering mountain of paper invoices, dramatic despair."},
     {"scene_id": "EP-004-S02", "beat": "SWRS simplifies (the three ways)", "duration_seconds": 5, "keyframe_job_id": "54757e08-3475-4971-8234-4cd2d0b8321d", "video_job_id": "0725105b-d12f-4054-a4cb-5bc8570611c5", "onscreen_text": "1 Email   2 Portal   3 Excel", "voiceover": "One: email. Two: the portal. Three: an Excel file.", "visual": "Three glowing holographic icons pop in above Victor's desk: email envelope (1), portal window (2), spreadsheet (3); Victor amazed."},
