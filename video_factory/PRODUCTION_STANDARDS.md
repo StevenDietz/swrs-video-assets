@@ -61,6 +61,21 @@ veryfast/ultrafast).
 - Formats: master 16:9 1280x720 → 1:1 1080x1080 and 9:16 1080x1920 (navy pad).
   (Native vertical framing is deferred to the finishing pass.)
 
+## Real on-screen assets (client rule, 2026-08-04)
+
+**Whenever a scene shows a computer, laptop, or monitor displaying the portal, it must show
+the REAL SWRS Client Portal — never an AI-invented interface.** Standard method (proven on
+EP-003 scene 1): pass the portal screenshot as an additional `medias` role `image` reference
+on the keyframe generation alongside the character references, prompting "the REAL SWRS
+client portal login page from the reference image on the laptop screen."
+
+- Canonical portal set-piece: media `089434d8-d720-468d-a82c-a246f3c2e5e5`
+  (live screenshot of https://www.swrsportal.com/ — SWRS wordmark, "Secure access to
+  real-time recovery reporting.", Client Portal Login card, News & Updates row).
+- Re-capture in the sandbox (`npx playwright screenshot`) if the live site's design changes.
+- The same applies to any other real SWRS property shown on screen (swrecovery.com, email
+  templates): screenshot the real thing, reference it, never invent it.
+
 ## Verification (every build, before upload)
 
 - `ffprobe` duration == 23.000000.
