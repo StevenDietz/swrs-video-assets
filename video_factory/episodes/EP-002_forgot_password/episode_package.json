@@ -26,7 +26,7 @@
       "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
       "assembly": "ffmpeg in Higgsfield sandbox (captions + SFX + VO + navy brand-close card; 16:9 master -> 1:1 + 9:16)"
     },
-    "voiceover": {"line": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.", "voice": "Arthur", "job_id": "286a0679-ebe1-4a13-93c4-cf1e9e5d7c87", "placement": "under scene 3"},
+    "voiceover": {"line": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just email info@swrecovery.com.", "spoken_as": "the domain is read as 'info at S-W Recovery dot com' for a clean TTS read", "voice": "Arthur", "job_id": "4fbca0fc-e64c-4624-8613-0a2ccd2fb3ed", "placement": "under scene 3 + extended 5s brand-close card", "note": "VO runs ~12.5s so total episode extended to 23s (brand card lengthened to 5s)"},
     "standards_deferred": [
       "Official SWRS logo-lockup animation — Branding stage.",
       "Licensed music bed — Editing/Branding stage.",
@@ -34,10 +34,10 @@
     ],
     "audio_mix": "DUCKING mix: scene SFX (goblin) plays at full level (1.0x) in scenes 1-2, ducks to 0.22x only during the scene-3 narration window (t=10.0-18.2s), then recovers; voiceover at 1.25x; amix normalize=0 + alimiter 0.95. Both the goblin SFX and the VO are clearly audible. This ducking mix is the standard for all future episodes.",
     "outputs": {
-      "master_16x9": {"media_id": "c1f83158-b462-405d-8343-4d0924fccd3b", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c1f83158-b462-405d-8343-4d0924fccd3b.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "33a41d94-b011-441f-acfa-491bd8cac7ad", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/33a41d94-b011-441f-acfa-491bd8cac7ad.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "bcff3c50-720c-4bb3-9791-ec6637893971", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bcff3c50-720c-4bb3-9791-ec6637893971.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "ducked audio cut (goblin loud, dips under VO). Superseded: VO-too-low 928941c3/844f71e7/bb5a73cf, then goblin-too-low fca0990b/6589ea8b/1e40627c."
+      "master_16x9": {"media_id": "92cdf41f-2905-4fa9-bf3b-f1040987bb28", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/92cdf41f-2905-4fa9-bf3b-f1040987bb28.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "153460df-aedc-470f-9ee9-64d929e54bfe", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/153460df-aedc-470f-9ee9-64d929e54bfe.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "39834fc1-41f4-4273-9006-374267ac437c", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/39834fc1-41f4-4273-9006-374267ac437c.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "FINAL cut: 23s, VO closes with spoken email address, ducking mix. Superseded cuts: 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
     }
   },
 
