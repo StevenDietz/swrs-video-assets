@@ -1,0 +1,71 @@
+{
+  "episode_id": "EP-009",
+  "title": "What Happens After You Send Accounts?",
+  "status": "rendered to Production Standards v2 (AV-synced cut)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'I don't know what happens after I send my accounts - it feels like a black box.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "black-box fear (no visibility after sending)", "persona": "victor (any procrastinator)", "fix": "same-day team action + full visibility in the client portal", "payoff": "brand close"},
+  "characters": ["victor_the_vampire", "max_client_success"],
+  "distribution": "Day-75 transparency slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "max_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+    },
+    "set_pieces": {"real_portal_screenshot": "089434d8-d720-468d-a82c-a246f3c2e5e5", "used_in": "scene 2 wall monitor + scene 3 laptop (client rule: real portal UI on all on-screen computers)"},
+    "models": {
+      "keyframes": "nano_banana_pro (image; S1 Victor ref, S2 Max + portal refs, S3 Victor + portal refs)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the checkmark beat; silent logo reveal",
+      "AV-SYNC: scene cuts land when their lines end (7.49s / 5.70s / 6.31s / 3.5s card), scene clip audio tempo-matched",
+      "in-scene hook: Victor speaks the black-box question himself",
+      "real portal UI on every on-screen computer (set-piece 089434d8)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-21.75s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {"line": "So I hit send... then what? Where do my accounts even go?", "voice": "Arthur", "job_id": "c1ba1bce-b52a-4cff-8c56-94d5a264ac7b", "placement": "t=0.3s, Victor speaking as his sent accounts spiral into the cartoon void above his laptop (6.74s). Superseded longer takes: 6f0614be (9.99s), def65553, 1e4902ee, 62d6f870 (all over the 23s budget; re-recorded shorter, never speed-compressed)."},
+      {"line": "Straight to our recovery team — calls, letters, skip tracing, same day.", "voice": "Arthur", "job_id": "cb19e2d4-34c3-44a8-ab9b-78fd6e70e7c5", "placement": "t=7.69s over scene 2 (Max directing the recovery team into action), lower-third caption"}
+    ],
+    "voiceover": {"line": "Watch every update in your client portal. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "2d495d52-c0b8-4dd2-a7e9-425dcb30af1e", "placement": "t=13.39s under scene 3, carries onto the brand card (8.11s, ends 21.50s)"},
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "f44443de-8789-47f3-bbfb-929deba1c02a", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f44443de-8789-47f3-bbfb-929deba1c02a.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "7d3201c7-d4ee-4964-bd55-a1d3a5af3c52", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7d3201c7-d4ee-4964-bd55-a1d3a5af3c52.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "e6e4e7a5-5b5a-4527-bd1b-b4d708472d25", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e6e4e7a5-5b5a-4527-bd1b-b4d708472d25.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+    }
+  },
+
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "6b39653f-0683-4f62-b2a4-b758fd571379", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6b39653f-0683-4f62-b2a4-b758fd571379.jpg", "note": "frame at 9.8s: Max directing the recovery team with the real portal on the wall monitor, play button"},
+    "thumbnail_600x338": {"media_id": "08feaa35-ca22-4e51-963a-820100af9e09", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/08feaa35-ca22-4e51-963a-820100af9e09.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
+  "scenes": [
+    {"scene_id": "EP-009-S01", "beat": "hook + frustration (black-box fear)", "duration_seconds": 7.49, "keyframe_job_id": "ded2d6d5-3549-48c8-a0fc-ea14addda3b2", "video_job_id": "ca6d0119-c73b-4e17-87b7-b5bef67e48c4", "onscreen_text": "So I hit send... where do my accounts even go?", "voiceover": "So I hit send... then what? Where do my accounts even go?", "visual": "Victor squints suspiciously as his freshly-sent documents spiral into a comical cosmic void above his laptop; floating question marks."},
+    {"scene_id": "EP-009-S02", "beat": "SWRS simplifies (behind the scenes)", "duration_seconds": 5.7, "keyframe_job_id": "c1ba7bfd-4cde-49f9-bfb2-6c84234e4f8f", "video_job_id": "d9aff94a-0618-48c3-be46-225072e0a67f", "onscreen_text": "Calls, letters, skip tracing - same day.", "voiceover": "Straight to our recovery team — calls, letters, skip tracing, same day.", "visual": "Max directs the recovery team into action - headset calls, letters into the outbox, envelopes on light-trails; REAL client portal on the wall monitor."},
+    {"scene_id": "EP-009-S03", "beat": "clear CTA (visibility)", "duration_seconds": 6.31, "keyframe_job_id": "144095fa-50ad-4774-86e0-0d24b1f5970e", "video_job_id": "8738dd8c-4c3d-458e-818a-e04bb1f02c71", "onscreen_text": "Watch every update in your client portal. / Just email info@swrecovery.com", "voiceover": "Watch every update in your client portal. Just email info@swrecovery.com.", "visual": "Victor toasts his mug and thumbs-up at his laptop showing the REAL client portal with a green progress glow and rising holographic checkmark."},
+    {"scene_id": "EP-009-S04", "beat": "brand close", "duration_seconds": 3.5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal; closing narration carries over."}
+  ]
+}
