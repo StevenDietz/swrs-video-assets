@@ -32,12 +32,12 @@
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
-    "audio_mix": "voiceover at full level (1.35x), SFX bed at 0.08x, amix normalize=0, alimiter 0.95 — VO kept forward and clearly audible over scene SFX",
+    "audio_mix": "DUCKING mix: scene SFX (goblin) plays at full level (1.0x) in scenes 1-2, ducks to 0.22x only during the scene-3 narration window (t=10.0-18.2s), then recovers; voiceover at 1.25x; amix normalize=0 + alimiter 0.95. Both the goblin SFX and the VO are clearly audible. This ducking mix is the standard for all future episodes.",
     "outputs": {
-      "master_16x9": {"media_id": "fca0990b-4807-4825-a7fb-55fb6880e841", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fca0990b-4807-4825-a7fb-55fb6880e841.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "6589ea8b-15c9-4e2b-80eb-11ff991004c3", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6589ea8b-15c9-4e2b-80eb-11ff991004c3.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "1e40627c-cdc8-4137-a8f0-4d491069da03", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1e40627c-cdc8-4137-a8f0-4d491069da03.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "audio-fixed cut (VO forward). Prior mix (VO too low): 16x9 928941c3, 1x1 844f71e7, 9x16 bb5a73cf."
+      "master_16x9": {"media_id": "c1f83158-b462-405d-8343-4d0924fccd3b", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c1f83158-b462-405d-8343-4d0924fccd3b.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "33a41d94-b011-441f-acfa-491bd8cac7ad", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/33a41d94-b011-441f-acfa-491bd8cac7ad.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "bcff3c50-720c-4bb3-9791-ec6637893971", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bcff3c50-720c-4bb3-9791-ec6637893971.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "ducked audio cut (goblin loud, dips under VO). Superseded: VO-too-low 928941c3/844f71e7/bb5a73cf, then goblin-too-low fca0990b/6589ea8b/1e40627c."
     }
   },
 
