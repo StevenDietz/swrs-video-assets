@@ -7,7 +7,7 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; per-character reference images not yet locked",
+    "status": "canonical roster captured; Victor locked, remaining per-character reference images not yet locked",
     "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series."
   },
 
@@ -56,7 +56,7 @@
       "label": "SWRS Heroes (The Core)",
       "role_in_engine": "recurring leads and guides",
       "characters": [
-        {"id": "victor_the_vampire", "name": "Victor", "title": "The Vampire — Chief Frustration Officer", "one_liner": "Busy, overwhelmed, procrastinates, sends accounts at the last minute.", "personality": "Dramatic, funny, intelligent, easily distracted but wants to do the right thing.", "catchphrase": "There has to be an easier way.", "props": ["laptop", "phone", "coffee"], "canonical_reference": null},
+        {"id": "victor_the_vampire", "name": "Victor", "title": "The Vampire — Chief Frustration Officer", "one_liner": "Busy, overwhelmed, procrastinates, sends accounts at the last minute.", "personality": "Dramatic, funny, intelligent, easily distracted but wants to do the right thing.", "catchphrase": "There has to be an easier way.", "props": ["laptop", "phone", "coffee"], "canonical_reference": {"model": "nano_banana_pro", "locked_at": "2026-08-04", "primary": {"job_id": "2311132e-5694-4a03-b4ae-094ffbcfb7ec", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_035354_2311132e-5694-4a03-b4ae-094ffbcfb7ec.png"}, "alternates": [{"job_id": "5b562c30-0ff0-439c-bf70-72012672d0cb", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_035354_5b562c30-0ff0-439c-bf70-72012672d0cb.png"}]}},
         {"id": "penny_the_accountant", "name": "Penny", "title": "The Accountant — Director of Common Sense", "one_liner": "Calm, logical, organized, always simplifies complex problems.", "personality": "Calm, logical, patient, highly organized.", "catchphrase": "Let's simplify this.", "props": ["clipboard", "calculator", "tabs"], "canonical_reference": null},
         {"id": "max_client_success", "name": "Max", "title": "The Client Success Manager", "one_liner": "Helps clients succeed from day one.", "personality": "Positive, helpful, coachable, relationship-driven.", "catchphrase": "One small step today saves a lot of headaches tomorrow.", "props": ["tablet", "welcome kit"], "canonical_reference": null},
         {"id": "captain_compliance", "name": "Captain Compliance", "title": "The Protector", "one_liner": "Ensures ethical, compliant, and professional collections.", "personality": "Strong, calm, trustworthy, expert.", "catchphrase": "The right way is the lasting way.", "props": ["shield", "rule book"], "canonical_reference": null},
