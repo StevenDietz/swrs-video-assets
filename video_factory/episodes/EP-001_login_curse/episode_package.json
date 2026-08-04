@@ -38,8 +38,9 @@
       "placement": "under scene 3"
     },
     "final_video": {
-      "media_id": "5b644be9-3ddc-4d6b-92f9-89453c990132",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5b644be9-3ddc-4d6b-92f9-89453c990132.mp4"
+      "media_id": "706790d7-7665-4b5d-a96b-9d2fd8fb5376",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/706790d7-7665-4b5d-a96b-9d2fd8fb5376.mp4",
+      "previous_cut": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5b644be9-3ddc-4d6b-92f9-89453c990132.mp4"
     }
   },
 
@@ -49,7 +50,8 @@
       "beat": "The struggle",
       "duration_seconds": 5,
       "keyframe_job_id": "11d77018-62f2-443d-ad59-83c0db7bf08b",
-      "video_job_id": "57510237-f001-408f-9648-1dffa0704c37",
+      "video_job_id": "33d67d37-de56-4356-a172-e382d5ede6cb",
+      "video_job_id_previous": "57510237-f001-408f-9648-1dffa0704c37",
       "onscreen_text": "Incorrect password",
       "voiceover": "",
       "visual": "Victor at a bright SWRS-branded desk, exasperated by a failed login."
