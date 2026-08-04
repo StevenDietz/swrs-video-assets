@@ -30,7 +30,8 @@
       "Fira Sans Bold captions and brand card",
       "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
       "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
-      "AV-SYNC: scene cuts land when their lines end (5.66s / 6.82s / 7.02s / 3.5s card), scene clip audio tempo-matched",
+      "AV-SYNC v2: cuts at 5.66s / 4.30s (fixed, so the confetti welcome beat breathes around the short client line) / 9.54s / 3.5s card; the long client closer starts at 10.16s and ends 22.33s, carrying across scene 3 onto the brand card",
+      "real portal UI on every visible screen: scene-1 laptop and scene-3 laptop (campaign-wide screen rule)",
       "in-scene hook: Victor speaks the convert's line himself",
       "logo only on the brand-close card (the WELCOME banner in scene 2 is plain text, no logo)"
     ],
@@ -38,9 +39,9 @@
     "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-20.34s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
     "hook_voiceover": [
       {"line": "Turns out... I should have done this months ago.", "voice": "Arthur", "job_id": "067a89ef-b28b-4e75-9507-7a31caec93e4", "placement": "t=0.3s, contented Victor at his immaculate desk with the full coin jar (4.91s)"},
-      {"line": "Welcome to the family — real people, working your accounts every day.", "voice": "Arthur", "job_id": "c7118383-7c04-4d87-9e6a-39b4dd0539fb", "placement": "t=5.86s over scene 2 (Max's welcome handshake-hug, team clapping, confetti), lower-third caption"}
+      {"line": "Welcome to the Southwest Recovery family.", "voice": "Arthur", "job_id": "a4e6ee6a-54a2-4537-8e4f-5e89a0d3eae0", "placement": "t=5.86s over scene 2 (Max's welcome handshake-hug, team clapping, confetti), lower-third caption. Client-directed wording. Superseded takes: c7118383 ('Welcome to the family - real people...'), 797523e5 (8.6s Southwest Recovery variant, too long for the slot)."}
     ],
-    "voiceover": {"line": "Your team is ready when you are. Email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "c79401d4-bcbe-4666-9d62-4053c2fd2ada", "placement": "t=12.68s under scene 3 (7.41s, ends 20.09s)"},
+    "voiceover": {"line": "The SWRS family will be here to support your collection needs. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "50e9458b-9145-4cde-b96b-da9b5c1742b6", "placement": "t=10.16s under scene 3, carries onto the brand card (12.17s, ends 22.33s). Client-directed wording. Superseded take: c79401d4 ('Your team is ready when you are.')."},
     "standards_deferred": [
       "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
@@ -50,7 +51,7 @@
       "master_16x9": {"media_id": "e939a3ba-4e87-47f5-a831-1ad9f493e3b8", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e939a3ba-4e87-47f5-a831-1ad9f493e3b8.mp4", "use": "email campaigns / YouTube"},
       "square_1x1": {"media_id": "c4361655-b6b5-4416-b224-2e954b5d8777", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c4361655-b6b5-4416-b224-2e954b5d8777.mp4", "use": "LinkedIn"},
       "vertical_9x16": {"media_id": "74b20f5c-2343-49f8-b246-7ad16913d922", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/74b20f5c-2343-49f8-b246-7ad16913d922.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+      "_note": "FINAL v2 (client-directed script + portal on every screen): 23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Same media ids, overwritten in place."
     }
   },
 
@@ -62,9 +63,9 @@
   },
 
   "scenes": [
-    {"scene_id": "EP-012-S01", "beat": "hook (the convert)", "duration_seconds": 5.66, "keyframe_job_id": "857ac4e2-a599-4d13-8f86-dfc8ca9bfa19", "video_job_id": "0dbad779-0bb5-4678-8673-d972a0cf8527", "onscreen_text": "I should have done this months ago.", "voiceover": "Turns out... I should have done this months ago.", "visual": "Victor leans back contentedly at his immaculate desk - full coin jar, thriving desk plant, green checkmark on the laptop."},
-    {"scene_id": "EP-012-S02", "beat": "belonging (the welcome)", "duration_seconds": 6.82, "keyframe_job_id": "225c2d20-21f0-45a3-9ded-3cb7cf3e3c9e", "video_job_id": "5baf517f-2f23-4e6a-9ece-cdfd6ef895de", "onscreen_text": "Welcome to the family.", "voiceover": "Welcome to the family — real people, working your accounts every day.", "visual": "Max pulls Victor into a welcoming handshake-hug under a plain WELCOME banner; teammates clap; blue confetti drifts down."},
-    {"scene_id": "EP-012-S03", "beat": "clear CTA (the team)", "duration_seconds": 7.02, "keyframe_job_id": "8a20cde1-628f-4bb5-9163-a94b840c852e", "video_job_id": "6c32aa7e-aa22-4828-a016-e2861113d5cf", "onscreen_text": "Your team is ready when you are. / Just email info@swrecovery.com", "voiceover": "Your team is ready when you are. Email info@swrecovery.com.", "visual": "Team-photo shot: Victor and Max thumbs-up as the glowing envelope lifts off between them; teammates wave in the background."},
+    {"scene_id": "EP-012-S01", "beat": "hook (the convert)", "duration_seconds": 5.66, "keyframe_job_id": "293a177e-7d14-49cc-a3e8-74ec3bdb881b", "video_job_id": "bdfcc2b0-d1f0-4bd6-bef2-017c3533f1c2", "onscreen_text": "I should have done this months ago.", "voiceover": "Turns out... I should have done this months ago.", "visual": "Victor leans back contentedly at his immaculate desk - full coin jar, thriving desk plant, laptop showing the REAL client portal with a green checkmark glow. Superseded non-portal cut: keyframe 857ac4e2, video 0dbad779."},
+    {"scene_id": "EP-012-S02", "beat": "belonging (the welcome)", "duration_seconds": 4.3, "keyframe_job_id": "225c2d20-21f0-45a3-9ded-3cb7cf3e3c9e", "video_job_id": "5baf517f-2f23-4e6a-9ece-cdfd6ef895de", "onscreen_text": "Welcome to the Southwest Recovery family.", "voiceover": "Welcome to the Southwest Recovery family.", "visual": "Max pulls Victor into a welcoming handshake-hug under a plain WELCOME banner; teammates clap; blue confetti drifts down."},
+    {"scene_id": "EP-012-S03", "beat": "clear CTA (the team)", "duration_seconds": 9.54, "keyframe_job_id": "5e5ec1b1-548c-4137-8b46-163e793018e1", "video_job_id": "39b94d76-5f65-4489-b226-ca00be777dd3", "onscreen_text": "Here to support your collection needs. / Just email info@swrecovery.com", "voiceover": "The SWRS family will be here to support your collection needs. Just email info@swrecovery.com.", "visual": "Team-photo shot: Victor and Max thumbs-up as the glowing envelope lifts off between them; laptop shows the REAL client portal; teammates wave in the background. Superseded non-portal cut: keyframe 8a20cde1 (alternate dup dfafc321), video 6c32aa7e."},
     {"scene_id": "EP-012-S04", "beat": "brand close", "duration_seconds": 3.5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
   ]
 }

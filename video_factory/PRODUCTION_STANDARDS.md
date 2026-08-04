@@ -63,11 +63,16 @@ veryfast/ultrafast).
 
 ## Real on-screen assets (client rule, 2026-08-04)
 
-**Whenever a scene shows a computer, laptop, or monitor displaying the portal, it must show
-the REAL SWRS Client Portal — never an AI-invented interface.** Standard method (proven on
-EP-003 scene 1): pass the portal screenshot as an additional `medias` role `image` reference
-on the keyframe generation alongside the character references, prompting "the REAL SWRS
-client portal login page from the reference image on the laptop screen."
+**EVERY visible computer, laptop, or monitor screen in EVERY scene must display the REAL
+SWRS Client Portal — never an AI-invented interface, and never a generic icon/animation as
+the screen's content.** (Client rule strengthened 2026-08-04: "this overlay of the real
+portal needs to be on any computer screen throughout the campaign." Originally the rule
+covered only screens depicting the portal.) Floating holographic icons — envelopes,
+checkmarks, notification banners — hovering ABOVE or BESIDE a device are fine; the screen
+itself shows the portal. Standard method (proven on EP-003 scene 1): pass the portal
+screenshot as an additional `medias` role `image` reference on the keyframe generation
+alongside the character references, prompting "the laptop screen displays EXACTLY the
+client portal dashboard from the reference image, reproduced faithfully."
 
 - Canonical portal set-piece: media `089434d8-d720-468d-a82c-a246f3c2e5e5`
   (live screenshot of https://www.swrsportal.com/ — SWRS wordmark, "Secure access to
