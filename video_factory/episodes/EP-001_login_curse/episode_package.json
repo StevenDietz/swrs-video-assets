@@ -63,21 +63,21 @@
     },
     "outputs": {
       "master_16x9": {
-        "media_id": "4041d870-4386-4786-b381-935c1fc12d36",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4041d870-4386-4786-b381-935c1fc12d36.mp4",
+        "media_id": "1137f377-8405-4f5b-9bc9-ea226629afdd",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1137f377-8405-4f5b-9bc9-ea226629afdd.mp4",
         "use": "email campaigns / YouTube"
       },
       "square_1x1": {
-        "media_id": "7df0446a-b4ac-4b76-99c9-a25e1c25cdad",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7df0446a-b4ac-4b76-99c9-a25e1c25cdad.mp4",
+        "media_id": "4f98c131-0efc-42f0-bfe9-3279ded7e28a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4f98c131-0efc-42f0-bfe9-3279ded7e28a.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "7a0da239-89dd-422b-bbf9-8d186cefea80",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7a0da239-89dd-422b-bbf9-8d186cefea80.mp4",
+        "media_id": "afd2235e-1920-4581-8be7-d0beef06fa4e",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/afd2235e-1920-4581-8be7-d0beef06fa4e.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "v4 FINAL: 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: v3 5f27b958/9692fd4b/73e79b09 (21s, no email in VO, no logo), v2 Cillian a0d0cc2c/202bfa67/249d7021."
+      "_note": "v4 FINAL: 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: v3 5f27b958/9692fd4b/73e79b09 (21s, no email in VO, no logo), v2 Cillian a0d0cc2c/202bfa67/249d7021. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Fresh 16:9 URL verified serving 23.000s. Cache-stale retired ids: 4041d870/7df0446a/7a0da239."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"
