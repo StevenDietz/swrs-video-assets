@@ -20,7 +20,7 @@
     "models": {
       "keyframes": "nano_banana_pro (image, Victor reference)",
       "animation": "kling3_0_turbo (image-to-video)",
-      "voiceover": "seed_audio (preset voice Cillian d8ba9f14-8a24-44db-932b-99e16c45bd32)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
       "assembly": "ffmpeg in Higgsfield sandbox"
     },
     "standards_met": [
@@ -36,11 +36,12 @@
       "Licensed music bed — Higgsfield's music model is reserved for its game pipeline; add a licensed track at the Editing/Branding stage.",
       "Premium-tier render + 4K master archive (this is the fast/budget proof tier)."
     ],
-    "voiceover": {"line": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.", "job_id": "27eb2286-7c4c-48d3-a5e4-c4ebb557f61f", "placement": "under scene 3"},
+    "voiceover": {"line": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.", "voice": "Arthur", "job_id": "16b42525-7eec-4f55-be2b-443b3505515f", "placement": "under scene 3"},
     "outputs": {
-      "master_16x9": {"media_id": "a0d0cc2c-6f2a-4731-a386-1a2d93551a8b", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a0d0cc2c-6f2a-4731-a386-1a2d93551a8b.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "202bfa67-e571-4aca-a0c1-dc799576216d", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/202bfa67-e571-4aca-a0c1-dc799576216d.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "249d7021-bcee-4e93-8866-62fc83624d07", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/249d7021-bcee-4e93-8866-62fc83624d07.mp4", "use": "Reels / TikTok / Shorts"}
+      "master_16x9": {"media_id": "5f27b958-236c-45a0-a60f-16bd1c41a7f5", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5f27b958-236c-45a0-a60f-16bd1c41a7f5.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "9692fd4b-877b-4f46-8194-5b8eeedce448", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9692fd4b-877b-4f46-8194-5b8eeedce448.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "73e79b09-5426-4ed5-aae9-1b000db7df34", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/73e79b09-5426-4ed5-aae9-1b000db7df34.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "v3 outputs, Arthur narration. Prior Cillian cut (v2): 16x9 a0d0cc2c, 1x1 202bfa67, 9x16 249d7021."
     }
   },
 
