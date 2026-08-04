@@ -113,7 +113,7 @@
         {"id": "the_aging_clock", "name": "The Aging Clock", "title": "Represents Time & Urgency", "one_liner": "Counts up the days. Gets louder.", "props": ["calendar clock"], "canonical_reference": null},
         {"id": "excuse_generator", "name": "Excuse Generator", "title": "Represents Delay", "one_liner": "Invents reasons to wait.", "props": ["excuse printout"], "canonical_reference": null},
         {"id": "spam_monster", "name": "Spam Monster", "title": "Represents Inbox Chaos", "one_liner": "Eats important emails and fills inboxes with junk distractions.", "props": ["envelopes"], "canonical_reference": null},
-        {"id": "late_fee_dragon", "name": "Late Fee Dragon", "title": "Represents Penalties", "one_liner": "Breathes late fees and penalties.", "props": ["fire"], "canonical_reference": null},
+        {"id": "late_fee_dragon", "name": "Late Fee Dragon", "title": "Represents Penalties", "one_liner": "Breathes late fees and penalties.", "props": ["fire", "PAST DUE invoices"], "canonical_reference": {"primary": {"job_id": "64ee0e5b-691f-4f5f-af4e-68fb6529ef13", "locked": "2026-08-04", "note": "chubby baby dragon, midnight-blue scales, amber furnace belly, golden eyes, hugs PAST DUE invoices; grows huge when fed by waiting. Variant 3 of 3 (alternates: 6d6cea58 dog-sized smug, 65683b2a cat-sized with visor)."}}},
         {"id": "procrastination_sloth", "name": "Procrastination Sloth", "title": "Represents Delay", "one_liner": "Always says, \"I'll do it later.\"", "props": [], "canonical_reference": null},
         {"id": "cash_flow_vampire_hunter", "name": "Cash Flow Vampire Hunter", "title": "Protects Cash Flow", "one_liner": "Protects cash flow from leaks.", "props": [], "canonical_reference": null}
       ]
