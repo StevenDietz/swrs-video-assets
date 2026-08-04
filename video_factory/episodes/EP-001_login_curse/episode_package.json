@@ -31,25 +31,26 @@
       "final CTA + navy brand-close card in exact SWRS colors (navy #070731, sky #0495F1, light-blue #82CCFA)",
       "multi-format export: 16:9, 1:1, 9:16 at 1080p"
     ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
+    "audio_mix": "standard DUCKING mix: scene SFX full in scenes 1-2, ducks to 0.22x during the narration window (t=10.0-22.7s), recovers; VO 1.25x; amix normalize=0 + alimiter 0.95.",
     "standards_deferred": [
-      "Official SWRS logo-lockup animation — applied at the Branding stage (After Effects/Premiere) with the real logo asset; the render pipeline here cannot reach the logo file through the session proxy.",
-      "Licensed music bed — Higgsfield's music model is reserved for its game pipeline; add a licensed track at the Editing/Branding stage.",
-      "Premium-tier render + 4K master archive (this is the fast/budget proof tier)."
+      "Licensed music bed — Editing/Branding stage.",
+      "Premium-tier render + 4K master archive."
     ],
-    "voiceover": {"line": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.", "voice": "Arthur", "job_id": "16b42525-7eec-4f55-be2b-443b3505515f", "placement": "under scene 3"},
+    "voiceover": {"line": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "f3b965ef-3f1f-4bc7-b28f-eebabfaf371b", "placement": "under scene 3 + extended 5s brand-close card (total 23s)"},
     "outputs": {
-      "master_16x9": {"media_id": "5f27b958-236c-45a0-a60f-16bd1c41a7f5", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5f27b958-236c-45a0-a60f-16bd1c41a7f5.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "9692fd4b-877b-4f46-8194-5b8eeedce448", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9692fd4b-877b-4f46-8194-5b8eeedce448.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "73e79b09-5426-4ed5-aae9-1b000db7df34", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/73e79b09-5426-4ed5-aae9-1b000db7df34.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "v3 outputs, Arthur narration. Prior Cillian cut (v2): 16x9 a0d0cc2c, 1x1 202bfa67, 9x16 249d7021."
+      "master_16x9": {"media_id": "4041d870-4386-4786-b381-935c1fc12d36", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4041d870-4386-4786-b381-935c1fc12d36.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "7df0446a-b4ac-4b76-99c9-a25e1c25cdad", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7df0446a-b4ac-4b76-99c9-a25e1c25cdad.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "7a0da239-89dd-422b-bbf9-8d186cefea80", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7a0da239-89dd-422b-bbf9-8d186cefea80.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "v4 FINAL: 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: v3 5f27b958/9692fd4b/73e79b09 (21s, no email in VO, no logo), v2 Cillian a0d0cc2c/202bfa67/249d7021."
     }
   },
 
   "scenes": [
     {"scene_id": "EP-001-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "bcf3a43e-65a2-4a38-9071-1756f8ac247e", "video_job_id": "d87512e4-6e58-497a-858f-0fcc8baf5565", "onscreen_text": "Incorrect password", "visual": "Victor at desk, exasperated by failed login."},
     {"scene_id": "EP-001-S02", "beat": "comic gag", "duration_seconds": 5, "keyframe_job_id": "c684654b-ecab-4646-954a-8e1f2d3ee8ca", "video_job_id": "cd892437-2117-424a-8b37-a98c90c16ee6", "onscreen_text": "", "visual": "Victor poofs to dust; a cartoon bat flutters away (recurring gag)."},
-    {"scene_id": "EP-001-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "8e49be0f-178b-432f-93a2-ced1f6a8dd19", "video_job_id": "c461382a-4024-4df4-91c7-177497e959c8", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.", "visual": "Victor relaxed, thumbs-up with mug, glowing email icon."},
-    {"scene_id": "EP-001-S04", "beat": "brand close", "duration_seconds": 3, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with tagline + CTA (logo-lockup animation added at Branding stage)."}
+    {"scene_id": "EP-001-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "8e49be0f-178b-432f-93a2-ced1f6a8dd19", "video_job_id": "c461382a-4024-4df4-91c7-177497e959c8", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.", "visual": "Victor relaxed, thumbs-up with mug, glowing email icon."},
+    {"scene_id": "EP-001-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
   ],
 
   "history": {

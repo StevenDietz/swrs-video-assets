@@ -33,11 +33,12 @@
       "Premium-tier render + 4K master archive."
     ],
     "audio_mix": "DUCKING mix: scene SFX (goblin) plays at full level (1.0x) in scenes 1-2, ducks to 0.22x only during the scene-3 narration window (t=10.0-18.2s), then recovers; voiceover at 1.25x; amix normalize=0 + alimiter 0.95. Both the goblin SFX and the VO are clearly audible. This ducking mix is the standard for all future episodes.",
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "outputs": {
-      "master_16x9": {"media_id": "92cdf41f-2905-4fa9-bf3b-f1040987bb28", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/92cdf41f-2905-4fa9-bf3b-f1040987bb28.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "153460df-aedc-470f-9ee9-64d929e54bfe", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/153460df-aedc-470f-9ee9-64d929e54bfe.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "39834fc1-41f4-4273-9006-374267ac437c", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/39834fc1-41f4-4273-9006-374267ac437c.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "FINAL cut: 23s, VO closes with spoken email address, ducking mix. Superseded cuts: 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
+      "master_16x9": {"media_id": "559de9d2-a7d1-4dae-8d0a-0751d3bce91f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/559de9d2-a7d1-4dae-8d0a-0751d3bce91f.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "f61c0aab-3b56-4637-a036-048a8b3f7dbe", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f61c0aab-3b56-4637-a036-048a8b3f7dbe.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "28598162-d4bf-40d6-89b3-f85cdc6ba25e", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/28598162-d4bf-40d6-89b3-f85cdc6ba25e.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
     }
   },
 
@@ -45,6 +46,6 @@
     {"scene_id": "EP-002-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ab59bc1f-efd5-4972-a366-14cf4d4e95c6", "video_job_id": "6eb7e13f-fece-4fee-8966-430572746ddf", "onscreen_text": "New password required", "visual": "Victor buried in sticky notes; Password Goblin on the monitor scrambling his login."},
     {"scene_id": "EP-002-S02", "beat": "escalation gag", "duration_seconds": 5, "keyframe_job_id": "aba0be4e-b59d-4407-bc8a-d56ec7305c75", "video_job_id": "dcdcabfe-6d05-4625-8c85-3b80f992bca0", "onscreen_text": "", "visual": "Goblin flings a blizzard of sticky notes; Victor buried, exasperated."},
     {"scene_id": "EP-002-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "108316ef-7427-4310-913f-0b1bbadc8488", "video_job_id": "2b037a80-48b0-46e4-bfa4-ec1cfadf2957", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.", "visual": "Victor waves the Goblin away, relaxed, gestures to the email icon."},
-    {"scene_id": "EP-002-S04", "beat": "brand close", "duration_seconds": 3, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (logo-lockup animation added at Branding stage)."}
+    {"scene_id": "EP-002-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
   ]
 }
