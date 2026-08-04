@@ -1,0 +1,70 @@
+{
+  "episode_id": "EP-012",
+  "title": "Welcome to the SWRS Family",
+  "status": "rendered to Production Standards v2 (AV-synced cut) - SEASON ONE FINALE",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'It's just another vendor - nobody actually cares about my accounts.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook (the convert)", "belonging", "SWRS simplifies (the team)", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "vendor anonymity / no relationship", "persona": "victor (now a happy active client)", "fix": "the SWRS family - real people working accounts every day", "payoff": "brand close"},
+  "characters": ["victor_the_vampire", "max_client_success"],
+  "distribution": "Day-120 season-finale slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette with warm celebratory finish",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "max_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; S1 Victor ref, S2/S3 Victor + Max refs). S3 keyframe ran ~6 min; a parallel duplicate (dfafc321, unused alternate) was submitted before the original completed.",
+      "animation": "kling3_0_turbo (image-to-video; S3 resubmitted with declined_preset_id after a preset recommendation intercepted the first submission)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: scene cuts land when their lines end (5.66s / 6.82s / 7.02s / 3.5s card), scene clip audio tempo-matched",
+      "in-scene hook: Victor speaks the convert's line himself",
+      "logo only on the brand-close card (the WELCOME banner in scene 2 is plain text, no logo)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-20.34s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {"line": "Turns out... I should have done this months ago.", "voice": "Arthur", "job_id": "067a89ef-b28b-4e75-9507-7a31caec93e4", "placement": "t=0.3s, contented Victor at his immaculate desk with the full coin jar (4.91s)"},
+      {"line": "Welcome to the family — real people, working your accounts every day.", "voice": "Arthur", "job_id": "c7118383-7c04-4d87-9e6a-39b4dd0539fb", "placement": "t=5.86s over scene 2 (Max's welcome handshake-hug, team clapping, confetti), lower-third caption"}
+    ],
+    "voiceover": {"line": "Your team is ready when you are. Email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "c79401d4-bcbe-4666-9d62-4053c2fd2ada", "placement": "t=12.68s under scene 3 (7.41s, ends 20.09s)"},
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "e939a3ba-4e87-47f5-a831-1ad9f493e3b8", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e939a3ba-4e87-47f5-a831-1ad9f493e3b8.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "c4361655-b6b5-4416-b224-2e954b5d8777", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c4361655-b6b5-4416-b224-2e954b5d8777.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "74b20f5c-2343-49f8-b246-7ad16913d922", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/74b20f5c-2343-49f8-b246-7ad16913d922.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+    }
+  },
+
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "96f5a97a-4f7a-4879-9ad5-2f1f3c673c2f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/96f5a97a-4f7a-4879-9ad5-2f1f3c673c2f.jpg", "note": "frame at 8.5s: Max's welcome handshake-hug under the WELCOME banner with confetti, play button"},
+    "thumbnail_600x338": {"media_id": "a01d0ac4-8f23-49cf-8832-2cc38e17da19", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a01d0ac4-8f23-49cf-8832-2cc38e17da19.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
+  "scenes": [
+    {"scene_id": "EP-012-S01", "beat": "hook (the convert)", "duration_seconds": 5.66, "keyframe_job_id": "857ac4e2-a599-4d13-8f86-dfc8ca9bfa19", "video_job_id": "0dbad779-0bb5-4678-8673-d972a0cf8527", "onscreen_text": "I should have done this months ago.", "voiceover": "Turns out... I should have done this months ago.", "visual": "Victor leans back contentedly at his immaculate desk - full coin jar, thriving desk plant, green checkmark on the laptop."},
+    {"scene_id": "EP-012-S02", "beat": "belonging (the welcome)", "duration_seconds": 6.82, "keyframe_job_id": "225c2d20-21f0-45a3-9ded-3cb7cf3e3c9e", "video_job_id": "5baf517f-2f23-4e6a-9ece-cdfd6ef895de", "onscreen_text": "Welcome to the family.", "voiceover": "Welcome to the family — real people, working your accounts every day.", "visual": "Max pulls Victor into a welcoming handshake-hug under a plain WELCOME banner; teammates clap; blue confetti drifts down."},
+    {"scene_id": "EP-012-S03", "beat": "clear CTA (the team)", "duration_seconds": 7.02, "keyframe_job_id": "8a20cde1-628f-4bb5-9163-a94b840c852e", "video_job_id": "6c32aa7e-aa22-4828-a016-e2861113d5cf", "onscreen_text": "Your team is ready when you are. / Just email info@swrecovery.com", "voiceover": "Your team is ready when you are. Email info@swrecovery.com.", "visual": "Team-photo shot: Victor and Max thumbs-up as the glowing envelope lifts off between them; teammates wave in the background."},
+    {"scene_id": "EP-012-S04", "beat": "brand close", "duration_seconds": 3.5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
+  ]
+}
