@@ -1,0 +1,48 @@
+{
+  "episode_id": "EP-002",
+  "title": "Forgot Your Password?",
+  "status": "rendered to Production Handoff standards (proof-of-concept tier)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'I can't even remember my login — it's a hassle.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "password_goblin", "persona": "victor (any procrastinator)", "fix": "no password needed — just email", "payoff": "brand close"},
+  "characters": ["victor_the_vampire", "password_goblin"],
+  "distribution": "Day-14 slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "password_goblin": "c7500c1e-3774-40d0-b328-3986fcd6b361"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image, dual character reference: Victor + Goblin)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox (captions + SFX + VO + navy brand-close card; 16:9 master -> 1:1 + 9:16)"
+    },
+    "voiceover": {"line": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.", "voice": "Arthur", "job_id": "286a0679-ebe1-4a13-93c4-cf1e9e5d7c87", "placement": "under scene 3"},
+    "standards_deferred": [
+      "Official SWRS logo-lockup animation — Branding stage.",
+      "Licensed music bed — Editing/Branding stage.",
+      "Premium-tier render + 4K master archive."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "928941c3-e30c-42cc-af4a-68535204097e", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/928941c3-e30c-42cc-af4a-68535204097e.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "844f71e7-3ad5-4aad-96d6-fb41390d4182", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/844f71e7-3ad5-4aad-96d6-fb41390d4182.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "bb5a73cf-de5a-46ab-9678-345f45b3d5fb", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bb5a73cf-de5a-46ab-9678-345f45b3d5fb.mp4", "use": "Reels / TikTok / Shorts"}
+    }
+  },
+
+  "scenes": [
+    {"scene_id": "EP-002-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ab59bc1f-efd5-4972-a366-14cf4d4e95c6", "video_job_id": "6eb7e13f-fece-4fee-8966-430572746ddf", "onscreen_text": "New password required", "visual": "Victor buried in sticky notes; Password Goblin on the monitor scrambling his login."},
+    {"scene_id": "EP-002-S02", "beat": "escalation gag", "duration_seconds": 5, "keyframe_job_id": "aba0be4e-b59d-4407-bc8a-d56ec7305c75", "video_job_id": "dcdcabfe-6d05-4625-8c85-3b80f992bca0", "onscreen_text": "", "visual": "Goblin flings a blizzard of sticky notes; Victor buried, exasperated."},
+    {"scene_id": "EP-002-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "108316ef-7427-4310-913f-0b1bbadc8488", "video_job_id": "2b037a80-48b0-46e4-bfa4-ec1cfadf2957", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.", "visual": "Victor waves the Goblin away, relaxed, gestures to the email icon."},
+    {"scene_id": "EP-002-S04", "beat": "brand close", "duration_seconds": 3, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (logo-lockup animation added at Branding stage)."}
+  ]
+}
