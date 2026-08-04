@@ -66,21 +66,21 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "b91ee466-3bf8-4871-86eb-d1234bd5d3e6",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b91ee466-3bf8-4871-86eb-d1234bd5d3e6.mp4",
+        "media_id": "6e167935-73e8-4c8e-a64e-9c7213656f3d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e167935-73e8-4c8e-a64e-9c7213656f3d.mp4",
         "use": "email campaigns / YouTube"
       },
       "square_1x1": {
-        "media_id": "a5c9b8ce-95c9-4f3a-bdc1-667803205b0d",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a5c9b8ce-95c9-4f3a-bdc1-667803205b0d.mp4",
+        "media_id": "8d73805b-0690-4a75-a85a-2b7201ff6bf6",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8d73805b-0690-4a75-a85a-2b7201ff6bf6.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "41415d02-fa12-4aa4-a126-eabe77766ce2",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/41415d02-fa12-4aa4-a126-eabe77766ce2.mp4",
+        "media_id": "7cf9645e-b54a-467d-8492-ce1f6e0219f7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7cf9645e-b54a-467d-8492-ce1f6e0219f7.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v3: 26.9s (23s cap lifted by client 2026-08-04), full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified. Same media ids, overwritten in place."
+      "_note": "FINAL v3: 26.9s, full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified; fresh 16:9 URL verified serving 26.934s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b91ee466/a5c9b8ce/41415d02."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"

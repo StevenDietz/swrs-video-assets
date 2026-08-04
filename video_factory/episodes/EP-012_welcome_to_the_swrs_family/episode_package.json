@@ -78,33 +78,33 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "e939a3ba-4e87-47f5-a831-1ad9f493e3b8",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e939a3ba-4e87-47f5-a831-1ad9f493e3b8.mp4",
+        "media_id": "81dd59d7-2c93-4ca4-bc7f-51e19a1c7ff2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/81dd59d7-2c93-4ca4-bc7f-51e19a1c7ff2.mp4",
         "use": "email campaigns / YouTube"
       },
       "square_1x1": {
-        "media_id": "c4361655-b6b5-4416-b224-2e954b5d8777",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c4361655-b6b5-4416-b224-2e954b5d8777.mp4",
+        "media_id": "1db50afb-cf01-43da-b883-89be52be06e8",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1db50afb-cf01-43da-b883-89be52be06e8.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "74b20f5c-2343-49f8-b246-7ad16913d922",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/74b20f5c-2343-49f8-b246-7ad16913d922.mp4",
+        "media_id": "e36a5b93-3c2e-4a4b-9886-0f97aff00427",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e36a5b93-3c2e-4a4b-9886-0f97aff00427.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v3: 28.7s (cap lifted), both client lines in full at natural pace, portal on scene-1/scene-3 laptops, logo card-only verified. Same media ids, overwritten in place."
+      "_note": "FINAL v3: 28.7s, both client lines in full at natural pace, portal on scene-1/scene-3 laptops, logo card-only verified; fresh 16:9 URL verified serving 28.700s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: e939a3ba/c4361655/74b20f5c."
     },
     "assembly_note": "v3 (23s cap lifted): 28.7s total - cuts 5.66/9.11/10.40 + 3.5s card at 25.17s; scenes 2 and 3 regenerated as native 10s clips (b1795326, 46a659b6) so both client lines play at ~1.0x; logo verified card-only at 24.2s/26.7s."
   },
   "email_assets": {
     "thumbnail_1200x675": {
-      "media_id": "96f5a97a-4f7a-4879-9ad5-2f1f3c673c2f",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/96f5a97a-4f7a-4879-9ad5-2f1f3c673c2f.jpg",
+      "media_id": "c25eccc2-2513-49dd-a9a6-82fcb50c0158",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c25eccc2-2513-49dd-a9a6-82fcb50c0158.jpg",
       "note": "frame at 8.5s: Max's welcome handshake-hug under the WELCOME banner with confetti, play button"
     },
     "thumbnail_600x338": {
-      "media_id": "a01d0ac4-8f23-49cf-8832-2cc38e17da19",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a01d0ac4-8f23-49cf-8832-2cc38e17da19.jpg"
+      "media_id": "d415b25c-7f32-41eb-ad1c-623aad1ee731",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d415b25c-7f32-41eb-ad1c-623aad1ee731.jpg"
     },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"

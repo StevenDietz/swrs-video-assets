@@ -78,33 +78,33 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "b7bc1d26-ab60-4836-bd88-abe0ba7834a4",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b7bc1d26-ab60-4836-bd88-abe0ba7834a4.mp4",
+        "media_id": "a2ac4fb5-35d4-45e8-886d-8e391330c4c3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a2ac4fb5-35d4-45e8-886d-8e391330c4c3.mp4",
         "use": "email campaigns / YouTube"
       },
       "square_1x1": {
-        "media_id": "05be1c5a-056b-47f6-871a-b3fcadf1b313",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/05be1c5a-056b-47f6-871a-b3fcadf1b313.mp4",
+        "media_id": "9a85d816-4352-4afb-a282-b08043532b03",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9a85d816-4352-4afb-a282-b08043532b03.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "1ee3ccab-0870-47c8-bb6b-f1779cdfc076",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1ee3ccab-0870-47c8-bb6b-f1779cdfc076.mp4",
+        "media_id": "35a54d36-8a51-49c4-9343-4bdec05a8875",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/35a54d36-8a51-49c4-9343-4bdec05a8875.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v4: 27.0s (cap lifted), client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified. Same media ids, overwritten in place."
+      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab."
     },
     "assembly_note": "v4 (23s cap lifted): 27.0s total - cuts 8.16/6.70/8.67 + 3.5s card at 23.52s; scene 1 regenerated as a native 10s clip (67bdcf8d) so the emphatic hook plays at ~0.82x-natural; closer ends 22.97s; logo verified card-only at 22.5s/25.0s."
   },
   "email_assets": {
     "thumbnail_1200x675": {
-      "media_id": "1cbe8c63-e26f-414b-ab11-bfdcfec4ae80",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1cbe8c63-e26f-414b-ab11-bfdcfec4ae80.jpg",
+      "media_id": "f53f3816-9024-4494-91ae-713a5e41d206",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f53f3816-9024-4494-91ae-713a5e41d206.jpg",
       "note": "frame at 9.5s: the giant dragon looming over Victor, play button"
     },
     "thumbnail_600x338": {
-      "media_id": "f0f357c6-f5c8-403e-b909-543ab45aaa50",
-      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f0f357c6-f5c8-403e-b909-543ab45aaa50.jpg"
+      "media_id": "daad2458-64bf-414f-8356-38d0aa960af7",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/daad2458-64bf-414f-8356-38d0aa960af7.jpg"
     },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
