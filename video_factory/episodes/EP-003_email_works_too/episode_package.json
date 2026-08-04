@@ -27,24 +27,28 @@
       "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
       "assembly": "ffmpeg in Higgsfield sandbox"
     },
-    "audio_mix": "standard DUCKING mix: scene SFX full in scenes 1-2, ducks to 0.22x during the scene-3 narration window, recovers; VO 1.25x; amix normalize=0 + alimiter 0.95.",
+    "audio_mix": "standard DUCKING mix: scene SFX full except during VO windows (hook 0.3-4.7s, 'easier way' 5.2-7.1s, narration 10.0-22.7s -> 0.22x); VO 1.25-1.3x; amix normalize=0 + alimiter 0.95.",
     "voiceover": {"line": "No login. No portal. No problem. Email works too. Just send your accounts to info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "9d647e2d-5ed5-473f-a67e-9bdf989f2462", "placement": "under scene 3 + extended 5s brand-close card (total 23s)"},
+    "hook_voiceover": [
+      {"line": "Do you have... portal-phobia?", "voice": "Arthur", "job_id": "b106b49a-923e-4b44-8ab9-7c3bd3ec61ee", "placement": "t=0.4s over scene 1 (Victor eyeing the portal), lower-third caption 'Do you have PORTAL-PHOBIA?'"},
+      {"line": "There is an easier way!", "voice": "Arthur", "job_id": "b6505ccf-a867-47d1-a483-88b22aaa4922", "placement": "t=5.3s over scene 2 (lightbulb moment), lower-third caption"}
+    ],
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center over the last ~2.5s of scene 3 and holds through the brand card; 520px wide, alpha fade 0.9s from t=15.6s, soft drop shadow for legibility. This is the standard logo reveal for all future episodes.",
     "standards_deferred": [
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "75668ff3-2e8d-4570-a76e-1b1a87e87287", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/75668ff3-2e8d-4570-a76e-1b1a87e87287.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "4ec7beef-4ef7-45ca-9360-03782c74ef01", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4ec7beef-4ef7-45ca-9360-03782c74ef01.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "c390bd23-94eb-4714-a727-323fb248c9fb", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c390bd23-94eb-4714-a727-323fb248c9fb.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "LOGO cut: adds the official white SWRS logo reveal. Scene 1 uses the REAL SWRS portal on Victor's laptop. Superseded: 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal)."
+      "master_16x9": {"media_id": "97c889e2-c93f-4f3c-bcca-eacd51064674", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/97c889e2-c93f-4f3c-bcca-eacd51064674.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "07f0b15a-248a-4fb1-9ecb-c0acd85b99b4", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/07f0b15a-248a-4fb1-9ecb-c0acd85b99b4.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "dd3483a2-46ec-4b6f-81fc-bf215239b713", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/dd3483a2-46ec-4b6f-81fc-bf215239b713.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "PORTAL-PHOBIA cut: opening hook VO 'Do you have portal-phobia?' + 'There is an easier way!', working logo reveal (verified in-frame). Superseded: 75668ff3/4ec7beef/c390bd23 (logo overlay rendered transparent - missing -loop 1), 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal)."
     }
   },
 
   "scenes": [
-    {"scene_id": "EP-003-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "b4cc0793-f541-4ecb-af2d-60640d990726", "video_job_id": "294d4e40-3e2b-46ed-add2-a4ce7b729b4d", "onscreen_text": "", "visual": "Victor warily studying the REAL SWRS client portal login page on his laptop, hesitant.", "uses_real_portal": true, "superseded": {"keyframe": "4a5ecb98-b46e-484d-8019-a19a3ebde9b5", "video": "dd1f5efc-634a-48ec-a944-5698267ccef2"}},
-    {"scene_id": "EP-003-S02", "beat": "realization", "duration_seconds": 5, "keyframe_job_id": "136fb148-fc0a-4aba-a255-6176c61d11bd", "video_job_id": "eed909ee-d63c-421b-a2fc-5c2fbc52f1a1", "onscreen_text": "", "visual": "Lightbulb pops; Victor turns to the email icon, relieved."},
+    {"scene_id": "EP-003-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "b4cc0793-f541-4ecb-af2d-60640d990726", "video_job_id": "294d4e40-3e2b-46ed-add2-a4ce7b729b4d", "onscreen_text": "Do you have PORTAL-PHOBIA?", "voiceover": "Do you have... portal-phobia?", "visual": "Victor warily studying the REAL SWRS client portal login page on his laptop, hesitant.", "uses_real_portal": true, "superseded": {"keyframe": "4a5ecb98-b46e-484d-8019-a19a3ebde9b5", "video": "dd1f5efc-634a-48ec-a944-5698267ccef2"}},
+    {"scene_id": "EP-003-S02", "beat": "realization", "duration_seconds": 5, "keyframe_job_id": "136fb148-fc0a-4aba-a255-6176c61d11bd", "video_job_id": "eed909ee-d63c-421b-a2fc-5c2fbc52f1a1", "onscreen_text": "There is an easier way!", "voiceover": "There is an easier way!", "visual": "Lightbulb pops; Victor turns to the email icon, relieved."},
     {"scene_id": "EP-003-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "f39ec4f4-c9ad-41dd-b92b-88d97b1c237e", "video_job_id": "f79f9380-de66-428a-a92a-a1c671a20edf", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "No login. No portal. No problem. Email works too. Just send your accounts to info@swrecovery.com.", "visual": "Victor taps send, green 'Sent' checkmark, thumbs-up."},
     {"scene_id": "EP-003-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
   ]
