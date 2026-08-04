@@ -1,0 +1,68 @@
+{
+  "episode_id": "EP-006",
+  "title": "Meet Your Account Manager",
+  "status": "rendered to Production Standards v2 (first v2 episode)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'I don't know who to talk to - I'm on my own here.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "no known point of contact", "persona": "victor (any procrastinator)", "fix": "Max, the dedicated account manager, guides from day one", "payoff": "brand close"},
+  "characters": ["victor_the_vampire", "max_client_success"],
+  "distribution": "Day-60 slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "max_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image, dual character reference: Victor + Max)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card (brand typeface, fetched at build time)",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11 after the limiter",
+      "SFX kit: whoosh at scene cuts (5.0s, 10.0s), pop on the checkmark beat (13.5s), chime on the logo reveal (18.2s)",
+      "email thumbnails generated as standard deliverables"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow).",
+    "audio_mix": "standard DUCKING mix: scene SFX full except VO windows (0.3-2.3s, 5.1-19.65s -> 0.22x); VO 1.25-1.3x; SFX accents 0.5-0.6x; amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {"line": "Who do I even call?", "voice": "Arthur", "job_id": "87fac485-6e99-4fd8-bc4e-aeb3c2a4a71f", "placement": "t=0.4s over scene 1 (Victor lost with the phone), lower-third caption"},
+      {"line": "Meet Max — your dedicated account manager, with you from day one.", "voice": "Arthur", "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7", "placement": "t=5.2s over scene 2 (Max's entrance), lower-third caption"}
+    ],
+    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=10.9s under scene 3 (8.44s; shifted from the standard 10.6s so Max's intro line clears first)"},
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "5d52f66a-8e76-438c-b57a-5d41410e4add", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d52f66a-8e76-438c-b57a-5d41410e4add.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "933f9fad-75c6-419a-b769-e66c178e9d7a", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/933f9fad-75c6-419a-b769-e66c178e9d7a.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "0698b490-4122-4150-8be8-66023dbe1394", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0698b490-4122-4150-8be8-66023dbe1394.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "23s, first Production Standards v2 episode (Fira Sans, loudnorm, SFX kit), logo on brand card only (verified in-frame: 5851 white px at 17s vs 15452 at 20s)."
+    }
+  },
+
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d.jpg", "note": "frame at 6.5s: Max's entrance with Victor turning, play button"},
+    "thumbnail_600x338": {"media_id": "3c141cee-bc46-4c30-bfec-470ed1ae0799", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c141cee-bc46-4c30-bfec-470ed1ae0799.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
+  "scenes": [
+    {"scene_id": "EP-006-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23", "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248", "onscreen_text": "Who do I even call?", "voiceover": "Who do I even call?", "visual": "Victor lost at his desk, phone in hand, tangled directory printout, question marks floating."},
+    {"scene_id": "EP-006-S02", "beat": "SWRS simplifies (Max's entrance)", "duration_seconds": 5, "keyframe_job_id": "34d9f23a-aeae-426d-8e56-91fa87a4e27a", "video_job_id": "1fe4a577-41e8-4d45-9527-6fa49bf67f8c", "onscreen_text": "Meet Max - your dedicated account manager", "voiceover": "Meet Max — your dedicated account manager, with you from day one.", "visual": "Max steps through the doorway with a wave, tablet + welcome kit; Victor turns, relieved; question marks pop away."},
+    {"scene_id": "EP-006-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "29c3b8f9-062d-4cce-9486-3eb2c329fd50", "video_job_id": "62ff9c74-7334-4bf8-86c7-f87a604764a2", "onscreen_text": "One point of contact, every step of the way. / Just email info@swrecovery.com", "voiceover": "One point of contact, every step of the way. Just email info@swrecovery.com.", "visual": "Max's tablet checklist lights up green; warm handshake with Victor; glowing email icon."},
+    {"scene_id": "EP-006-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, chime on reveal."}
+  ]
+}
