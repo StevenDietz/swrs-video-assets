@@ -1,0 +1,69 @@
+{
+  "episode_id": "EP-010",
+  "title": "Frequently Asked Questions",
+  "status": "rendered to Production Standards v2 (AV-synced cut)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'I have too many unanswered questions to get started.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "question overload / uncertainty", "persona": "victor (any procrastinator)", "fix": "Max answers everything in one call - no mystery", "payoff": "brand close"},
+  "characters": ["victor_the_vampire", "max_client_success"],
+  "distribution": "Day-90 objection-handling slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "max_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; S1/S3 Victor ref, S2 Victor + Max refs)",
+      "animation": "kling3_0_turbo (image-to-video; S3 resubmitted with declined_preset_id after a preset recommendation intercepted the first submission)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: scene cuts land when their lines end (6.42s / 6.34s / 6.74s / 3.5s card), scene clip audio tempo-matched",
+      "in-scene hook: Victor speaks the fifty-questions line himself"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-20.09s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {"line": "Okay, before I send anything... I have a few questions. Maybe fifty.", "voice": "Arthur", "job_id": "a4817b45-53c8-46d2-8ece-e92abf6c510e", "placement": "t=0.3s, Victor speaking behind his absurdly long QUESTIONS scroll (5.67s)"},
+      {"line": "No problem. Fees, timelines, updates — Max answers them all in one call.", "voice": "Arthur", "job_id": "57076697-cc55-460d-8537-ea46702bde92", "placement": "t=6.62s over scene 2 (question marks popping into checkmarks around Max), lower-third caption"}
+    ],
+    "voiceover": {"line": "No mystery. Just answers. Send your accounts today — email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "c6c92641-5f68-4543-bc1c-879d116c4c1d", "placement": "t=12.96s under scene 3 (6.89s, ends 19.84s)"},
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "b3510d07-c85a-435e-abe0-3e74c4e033b5", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b3510d07-c85a-435e-abe0-3e74c4e033b5.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "9b1474db-76ef-4683-a6de-304e21557125", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9b1474db-76ef-4683-a6de-304e21557125.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "0f982594-f58e-4a95-96d8-05ec41a90e61", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0f982594-f58e-4a95-96d8-05ec41a90e61.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+    }
+  },
+
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "b046a72f-0f10-4424-b633-284701fc6051", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b046a72f-0f10-4424-b633-284701fc6051.jpg", "note": "frame at 3.0s: Victor overwhelmed behind the giant QUESTIONS scroll, play button"},
+    "thumbnail_600x338": {"media_id": "d76a6405-7e3f-47e4-9bec-72897a86a30b", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d76a6405-7e3f-47e4-9bec-72897a86a30b.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
+  "scenes": [
+    {"scene_id": "EP-010-S01", "beat": "hook + frustration (question overload)", "duration_seconds": 6.42, "keyframe_job_id": "8bef8bd3-3983-4368-a3d5-2d389ed1eee2", "video_job_id": "7c152e3e-d5b0-4396-b139-f0162503bf5a", "onscreen_text": "I have a few questions. Maybe fifty.", "voiceover": "Okay, before I send anything... I have a few questions. Maybe fifty.", "visual": "Victor peers overwhelmed over an absurdly long QUESTIONS parchment scroll coiling across the floor; glowing question marks bob around him."},
+    {"scene_id": "EP-010-S02", "beat": "SWRS simplifies (Max answers)", "duration_seconds": 6.34, "keyframe_job_id": "29df81b7-eb40-4923-ae9f-635deab479a8", "video_job_id": "7130d0e6-bce7-4827-9c26-fa738ab57003", "onscreen_text": "Fees, timelines, updates - answered in one call.", "voiceover": "No problem. Fees, timelines, updates — Max answers them all in one call.", "visual": "Question marks stream toward Max and pop into green checkmark confetti; Victor's giant scroll shrinks to a stub in his hands."},
+    {"scene_id": "EP-010-S03", "beat": "clear CTA", "duration_seconds": 6.74, "keyframe_job_id": "b84acaf3-0c77-4a99-a68f-64efd96b2a58", "video_job_id": "8cc368b9-b176-4e79-b756-6cf6dfed3d12", "onscreen_text": "No mystery. Just answers. / Just email info@swrecovery.com", "voiceover": "No mystery. Just answers. Send your accounts today — email info@swrecovery.com.", "visual": "Victor smirks and hits SEND; the envelope lifts off trailing light; green checkmark gleams; the crumpled scroll rests in the wastebasket."},
+    {"scene_id": "EP-010-S04", "beat": "brand close", "duration_seconds": 3.5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
+  ]
+}
