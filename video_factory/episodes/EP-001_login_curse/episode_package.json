@@ -1,0 +1,83 @@
+{
+  "episode_id": "EP-001",
+  "title": "The Login Curse",
+  "status": "proof_of_concept_rendered",
+  "produced_at": "2026-08-04",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement (any procrastinator)",
+  "activation_barrier": "Perceived login / onboarding friction ('placing accounts is a hassle').",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Send your first accounts today.",
+  "engine_mapping": {
+    "obstacle": "password_goblin",
+    "persona": "victor_the_vampire (stand-in for any procrastinating client)",
+    "fix": "place by email, skip the portal",
+    "payoff": "cash_flow_hero (message beat)"
+  },
+  "characters": ["victor_the_vampire"],
+  "format": {"aspect_ratio": "16:9", "resolution": "720p", "duration_seconds": 18},
+  "distribution": "Day-7 slot of the client activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_reference": {
+      "victor_the_vampire": {
+        "primary_job_id": "2311132e-5694-4a03-b4ae-094ffbcfb7ec",
+        "note": "locked canonical Victor; used as image reference on every scene keyframe"
+      }
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image, with Victor reference)",
+      "animation": "kling3_0_turbo (image-to-video, single start-frame)",
+      "voiceover": "seed_audio (preset voice Cillian, d8ba9f14-8a24-44db-932b-99e16c45bd32)",
+      "assembly": "ffmpeg in Higgsfield sandbox (normalize 1280x720@30 -> concat -> VO delayed under scene 3)"
+    },
+    "voiceover": {
+      "line": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.",
+      "job_id": "27eb2286-7c4c-48d3-a5e4-c4ebb557f61f",
+      "placement": "under scene 3"
+    },
+    "final_video": {
+      "media_id": "5b644be9-3ddc-4d6b-92f9-89453c990132",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5b644be9-3ddc-4d6b-92f9-89453c990132.mp4"
+    }
+  },
+
+  "scenes": [
+    {
+      "scene_id": "EP-001-S01",
+      "beat": "The struggle",
+      "duration_seconds": 5,
+      "keyframe_job_id": "11d77018-62f2-443d-ad59-83c0db7bf08b",
+      "video_job_id": "57510237-f001-408f-9648-1dffa0704c37",
+      "onscreen_text": "Incorrect password",
+      "voiceover": "",
+      "visual": "Victor at a bright SWRS-branded desk, exasperated by a failed login."
+    },
+    {
+      "scene_id": "EP-001-S02",
+      "beat": "The curse",
+      "duration_seconds": 5,
+      "keyframe_job_id": "e5b8e4d7-bf39-4576-b71b-ad84981dbb2c",
+      "video_job_id": "592a4160-2eab-405a-aa57-d96d5b7967da",
+      "onscreen_text": "",
+      "voiceover": "",
+      "visual": "Victor comically poofs into dust; a cartoon bat flutters away. Harmless gag."
+    },
+    {
+      "scene_id": "EP-001-S03",
+      "beat": "The easy way",
+      "duration_seconds": 8,
+      "keyframe_job_id": "7c05559d-6ead-4ca1-8034-d2534d82b4d8",
+      "video_job_id": "99efb1ba-da4a-4894-95c4-20e412fc2d66",
+      "onscreen_text": "Email placements to info@swrecovery.com",
+      "voiceover": "Getting your accounts to Southwest Recovery Services is easier than you think. Send your first accounts today.",
+      "visual": "Victor reforms, relaxed and smiling, gesturing to a glowing email icon."
+    }
+  ],
+
+  "notes": [
+    "Proof of concept: renders on the fast/budget animation model (kling3_0_turbo, 720p). For a polished final, re-run scene animation on a premium model and/or 1080p, and consider baked captions via the caption pipeline.",
+    "Final MP4 is hosted on Higgsfield storage (link above); it is not committed as a binary because the session proxy blocks downloading it into the repo. To archive the binary, download from the link and drop it into this folder."
+  ]
+}
