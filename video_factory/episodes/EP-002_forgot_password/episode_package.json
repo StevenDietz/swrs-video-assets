@@ -32,10 +32,12 @@
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
+    "audio_mix": "voiceover at full level (1.35x), SFX bed at 0.08x, amix normalize=0, alimiter 0.95 — VO kept forward and clearly audible over scene SFX",
     "outputs": {
-      "master_16x9": {"media_id": "928941c3-e30c-42cc-af4a-68535204097e", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/928941c3-e30c-42cc-af4a-68535204097e.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "844f71e7-3ad5-4aad-96d6-fb41390d4182", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/844f71e7-3ad5-4aad-96d6-fb41390d4182.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "bb5a73cf-de5a-46ab-9678-345f45b3d5fb", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bb5a73cf-de5a-46ab-9678-345f45b3d5fb.mp4", "use": "Reels / TikTok / Shorts"}
+      "master_16x9": {"media_id": "fca0990b-4807-4825-a7fb-55fb6880e841", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fca0990b-4807-4825-a7fb-55fb6880e841.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "6589ea8b-15c9-4e2b-80eb-11ff991004c3", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6589ea8b-15c9-4e2b-80eb-11ff991004c3.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "1e40627c-cdc8-4137-a8f0-4d491069da03", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1e40627c-cdc8-4137-a8f0-4d491069da03.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "audio-fixed cut (VO forward). Prior mix (VO too low): 16x9 928941c3, 1x1 844f71e7, 9x16 bb5a73cf."
     }
   },
 
