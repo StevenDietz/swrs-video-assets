@@ -29,6 +29,8 @@ every episode's logo overlay; do not re-upload.
 - Minimum width: **100 px on screen**, 39 mm in print.
 - In video: white logo over navy/dark scenes, soft drop shadow permitted for legibility
   (shadow is a legibility aid behind the logo, not a stroke on it).
+- **Placement rule (client directive, 2026-08-04): the logo is only to be used in the
+  last scene** — the brand-close card. Never overlay it on story footage.
 
 ## Color palette (primary)
 

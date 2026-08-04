@@ -19,7 +19,7 @@
     "character_references": {"victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"},
     "set_pieces": {
       "swrs_portal": {"media_id": "089434d8-d720-468d-a82c-a246f3c2e5e5", "source": "https://www.swrsportal.com/ (real SWRS Client Portal login page, screenshotted 2026-08-04)", "use": "shown on Victor's laptop screen in Scene 1"},
-      "swrs_logo_white": {"media_id": "38707f0b-0ba6-407b-90c4-c8800ab7b661", "source": "official 'SWRS logo final white.png' (verified sha256-identical to video_factory/brand/logo/swrs_logo_final_white.png)", "use": "animated logo reveal: fades in top-center (520px wide, soft drop shadow) at t=15.6s over the closing scene and holds through the brand card"}
+      "swrs_logo_white": {"media_id": "38707f0b-0ba6-407b-90c4-c8800ab7b661", "source": "official 'SWRS logo final white.png' (verified sha256-identical to video_factory/brand/logo/swrs_logo_final_white.png)", "use": "logo reveal on the brand-close card ONLY: fades in top-center (520px wide, soft drop shadow) at t=18.2s, holds to end. Client rule: the logo appears only in the last scene."}
     },
     "models": {
       "keyframes": "nano_banana_pro (image, Victor reference)",
@@ -33,16 +33,16 @@
       {"line": "Do you have... portal-phobia?", "voice": "Arthur", "job_id": "b106b49a-923e-4b44-8ab9-7c3bd3ec61ee", "placement": "t=0.4s over scene 1 (Victor eyeing the portal), lower-third caption 'Do you have PORTAL-PHOBIA?'"},
       {"line": "There is an easier way!", "voice": "Arthur", "job_id": "b6505ccf-a867-47d1-a483-88b22aaa4922", "placement": "t=5.3s over scene 2 (lightbulb moment), lower-third caption"}
     ],
-    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center over the last ~2.5s of scene 3 and holds through the brand card; 520px wide, alpha fade 0.9s from t=15.6s, soft drop shadow for legibility. This is the standard logo reveal for all future episodes.",
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px wide, soft drop shadow), holds to end. STANDARD FOR ALL EPISODES: the logo is only to be used in the last scene — never over story footage.",
     "standards_deferred": [
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "97c889e2-c93f-4f3c-bcca-eacd51064674", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/97c889e2-c93f-4f3c-bcca-eacd51064674.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "07f0b15a-248a-4fb1-9ecb-c0acd85b99b4", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/07f0b15a-248a-4fb1-9ecb-c0acd85b99b4.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "dd3483a2-46ec-4b6f-81fc-bf215239b713", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/dd3483a2-46ec-4b6f-81fc-bf215239b713.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "PORTAL-PHOBIA cut: opening hook VO 'Do you have portal-phobia?' + 'There is an easier way!', working logo reveal (verified in-frame). Superseded: 75668ff3/4ec7beef/c390bd23 (logo overlay rendered transparent - missing -loop 1), 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal)."
+      "master_16x9": {"media_id": "b1d04e8f-b63d-45b5-aa6d-71b3512eff2e", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b1d04e8f-b63d-45b5-aa6d-71b3512eff2e.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "665ab053-821f-4d5f-a421-450a40bc4096", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/665ab053-821f-4d5f-a421-450a40bc4096.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "5a4ffe1c-dd72-457f-b221-fc93316b0ec7", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5a4ffe1c-dd72-457f-b221-fc93316b0ec7.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "FINAL: Portal-phobia hook + logo on brand card only (verified in-frame: absent at 14s/17s, present at 20s/22s). Superseded: 97c889e2/07f0b15a/dd3483a2 (logo overlapped scene 3), 75668ff3/4ec7beef/c390bd23 (logo rendered transparent - missing -loop 1), 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal)."
     }
   },
 
