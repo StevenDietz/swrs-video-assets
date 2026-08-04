@@ -9,14 +9,28 @@
   "activation_barrier": "'I don't know HOW to get my accounts to SWRS.'",
   "core_message": "Getting your accounts to SWRS is easier than you think.",
   "cta": "Email your placements to info@swrecovery.com.",
-  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
-  "engine_mapping": {"obstacle": "not knowing the submission options", "persona": "victor (any procrastinator)", "fix": "three easy channels: email / portal / Excel", "payoff": "brand close"},
-  "characters": ["victor_the_vampire"],
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "not knowing the submission options",
+    "persona": "victor (any procrastinator)",
+    "fix": "three easy channels: email / portal / Excel",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire"
+  ],
   "distribution": "Day-30 slot of the activation drip; auto-stops on first placement.",
-
   "production": {
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
-    "character_references": {"victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"},
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
     "models": {
       "keyframes": "nano_banana_pro (image, Victor reference)",
       "animation": "kling3_0_turbo (image-to-video)",
@@ -26,33 +40,102 @@
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "audio_mix": "standard DUCKING mix: scene SFX full except during VO windows (hook 0.3-3.65s, enumeration+main 5.1-19.45s -> 0.22x); VO 1.25-1.3x; amix normalize=0 + alimiter 0.95.",
     "hook_voiceover": [
-      {"line": "THREE easy ways to send us your accounts?!", "voice": "Arthur", "job_id": "a333e423-54cf-4699-a8f5-b10b3de4ad1c", "placement": "t=0.4s over scene 1 (Victor buried in invoices), lower-third caption. Replaced longer first take 4334f094 (7.0s, would have collided with the enumeration line)."},
-      {"line": "One: email. Two: the portal. Three: an Excel file.", "voice": "Arthur", "job_id": "45ff1ad5-2e9c-46e9-b007-9cd5c607209b", "placement": "t=5.2s over scene 2 (three glowing icons), lower-third caption '1 Email  2 Portal  3 Excel'"}
+      {
+        "line": "THREE easy ways to send us your accounts?!",
+        "voice": "Arthur",
+        "job_id": "a333e423-54cf-4699-a8f5-b10b3de4ad1c",
+        "placement": "t=0.4s over scene 1 (Victor buried in invoices), lower-third caption. Replaced longer first take 4334f094 (7.0s, would have collided with the enumeration line)."
+      },
+      {
+        "line": "One: email. Two: the portal. Three: an Excel file.",
+        "voice": "Arthur",
+        "job_id": "45ff1ad5-2e9c-46e9-b007-9cd5c607209b",
+        "placement": "t=5.2s over scene 2 (three glowing icons), lower-third caption '1 Email  2 Portal  3 Excel'"
+      }
     ],
-    "voiceover": {"line": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "0bf373fb-4369-4317-823b-8e477a6b2480", "placement": "t=10.6s under scene 3 (8.55s). Replaced longer first take 30becda3 (17.2s, would not fit the 23s cut); the tagline is carried by the brand card instead."},
+    "voiceover": {
+      "line": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "0bf373fb-4369-4317-823b-8e477a6b2480",
+      "placement": "t=10.6s under scene 3 (8.55s). Replaced longer first take 30becda3 (17.2s, would not fit the 23s cut); the tagline is carried by the brand card instead."
+    },
     "standards_deferred": [
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "b91ee466-3bf8-4871-86eb-d1234bd5d3e6", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b91ee466-3bf8-4871-86eb-d1234bd5d3e6.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "a5c9b8ce-95c9-4f3a-bdc1-667803205b0d", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a5c9b8ce-95c9-4f3a-bdc1-667803205b0d.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "41415d02-fa12-4aa4-a126-eabe77766ce2", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/41415d02-fa12-4aa4-a126-eabe77766ce2.mp4", "use": "Reels / TikTok / Shorts"},
+      "master_16x9": {
+        "media_id": "b91ee466-3bf8-4871-86eb-d1234bd5d3e6",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b91ee466-3bf8-4871-86eb-d1234bd5d3e6.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "a5c9b8ce-95c9-4f3a-bdc1-667803205b0d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a5c9b8ce-95c9-4f3a-bdc1-667803205b0d.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "41415d02-fa12-4aa4-a126-eabe77766ce2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/41415d02-fa12-4aa4-a126-eabe77766ce2.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
       "_note": "23s, three-part Arthur VO, ducking mix, logo on brand card only (chain verified in-frame during build: absent at 14/17s, present at 20/22s)."
-    }
+    },
+    "v2_standards_applied": [
+      "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"
+    ]
   },
-
   "email_assets": {
-    "thumbnail_1200x675": {"media_id": "62664138-19da-48a3-a3ed-1a7a148d7d72", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/62664138-19da-48a3-a3ed-1a7a148d7d72.jpg"},
-    "thumbnail_600x338": {"media_id": "953331f9-ee4f-4c1b-9ed4-e5138d612953", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/953331f9-ee4f-4c1b-9ed4-e5138d612953.jpg"},
+    "thumbnail_1200x675": {
+      "media_id": "62664138-19da-48a3-a3ed-1a7a148d7d72",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/62664138-19da-48a3-a3ed-1a7a148d7d72.jpg"
+    },
+    "thumbnail_600x338": {
+      "media_id": "953331f9-ee4f-4c1b-9ed4-e5138d612953",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/953331f9-ee4f-4c1b-9ed4-e5138d612953.jpg"
+    },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
   },
-
   "scenes": [
-    {"scene_id": "EP-004-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "45ae50ed-1203-4097-a63b-c97d3592352a", "video_job_id": "59263c9d-d934-4b81-bd0b-453cf1b1f907", "onscreen_text": "THREE easy ways to send your accounts", "voiceover": "THREE easy ways to send us your accounts?!", "visual": "Victor buried behind a teetering mountain of paper invoices, dramatic despair."},
-    {"scene_id": "EP-004-S02", "beat": "SWRS simplifies (the three ways)", "duration_seconds": 5, "keyframe_job_id": "54757e08-3475-4971-8234-4cd2d0b8321d", "video_job_id": "0725105b-d12f-4054-a4cb-5bc8570611c5", "onscreen_text": "1 Email   2 Portal   3 Excel", "voiceover": "One: email. Two: the portal. Three: an Excel file.", "visual": "Three glowing holographic icons pop in above Victor's desk: email envelope (1), portal window (2), spreadsheet (3); Victor amazed."},
-    {"scene_id": "EP-004-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "ea84a772-7d57-4f35-b060-a3d5df99a694", "video_job_id": "4d1825a3-e507-4189-82e7-92252ab00dad", "onscreen_text": "Just email info@swrecovery.com", "voiceover": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.", "visual": "Victor clicks Send; green checkmark and paper-plane icon rise; thumbs-up with coffee mug."},
-    {"scene_id": "EP-004-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
+    {
+      "scene_id": "EP-004-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 5,
+      "keyframe_job_id": "45ae50ed-1203-4097-a63b-c97d3592352a",
+      "video_job_id": "59263c9d-d934-4b81-bd0b-453cf1b1f907",
+      "onscreen_text": "THREE easy ways to send your accounts",
+      "voiceover": "THREE easy ways to send us your accounts?!",
+      "visual": "Victor buried behind a teetering mountain of paper invoices, dramatic despair."
+    },
+    {
+      "scene_id": "EP-004-S02",
+      "beat": "SWRS simplifies (the three ways)",
+      "duration_seconds": 5,
+      "keyframe_job_id": "54757e08-3475-4971-8234-4cd2d0b8321d",
+      "video_job_id": "0725105b-d12f-4054-a4cb-5bc8570611c5",
+      "onscreen_text": "1 Email   2 Portal   3 Excel",
+      "voiceover": "One: email. Two: the portal. Three: an Excel file.",
+      "visual": "Three glowing holographic icons pop in above Victor's desk: email envelope (1), portal window (2), spreadsheet (3); Victor amazed."
+    },
+    {
+      "scene_id": "EP-004-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8,
+      "keyframe_job_id": "548a87fa-227f-40b1-84e2-57d256d0b059",
+      "video_job_id": "db0737cf-6880-4a40-9219-ba3a30033421",
+      "onscreen_text": "Just email info@swrecovery.com",
+      "voiceover": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.",
+      "visual": "Victor clicks Send; green checkmark and paper-plane icon rise; thumbs-up with coffee mug. Retrofitted with the REAL client portal on the screen; superseded cut: keyframe ea84a772, video 4d1825a3."
+    },
+    {
+      "scene_id": "EP-004-S04",
+      "beat": "brand close",
+      "duration_seconds": 5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."
+    }
   ]
 }

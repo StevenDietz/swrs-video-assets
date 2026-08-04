@@ -9,14 +9,28 @@
   "activation_barrier": "'Getting started probably takes weeks - I'll deal with it later.'",
   "core_message": "Getting your accounts to SWRS is easier than you think.",
   "cta": "Email your placements to info@swrecovery.com.",
-  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
-  "engine_mapping": {"obstacle": "perceived slow onboarding / waiting", "persona": "victor (impatient - a vampire who has waited centuries hates waiting)", "fix": "we start working accounts the day you send them", "payoff": "brand close"},
-  "characters": ["victor_the_vampire"],
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "perceived slow onboarding / waiting",
+    "persona": "victor (impatient - a vampire who has waited centuries hates waiting)",
+    "fix": "we start working accounts the day you send them",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire"
+  ],
   "distribution": "Day-45 slot of the activation drip; auto-stops on first placement.",
-
   "production": {
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
-    "character_references": {"victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"},
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
     "models": {
       "keyframes": "nano_banana_pro (image, Victor reference)",
       "animation": "kling3_0_turbo (image-to-video)",
@@ -26,34 +40,103 @@
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "audio_mix": "standard DUCKING mix: scene SFX full except during VO windows (hook 0.3-2.45s, 5.1-9.6s, 10.5-18.35s -> 0.22x); VO 1.25-1.3x; amix normalize=0 + alimiter 0.95.",
     "hook_voiceover": [
-      {"line": "How fast can Southwest Recovery Services start collections on my account?", "voice": "Arthur", "job_id": "57ad070d-7d8b-4e78-9436-14d03461f9c3", "placement": "t=0.3s over scene 1 (Victor vs. the hourglass), 6.5s, two-part lower-third caption. Client-directed wording; superseded take: 12f363ad ('How fast can we start?')."},
-      {"line": "The moment your accounts arrive, our team gets moving.", "voice": "Arthur", "job_id": "5cb4597f-33fb-404c-9c93-f6bdbc014459", "placement": "t=7.5s over scene 2 (documents whoosh into the email envelope), lower-third caption"}
+      {
+        "line": "How fast can Southwest Recovery Services start collections on my account?",
+        "voice": "Arthur",
+        "job_id": "57ad070d-7d8b-4e78-9436-14d03461f9c3",
+        "placement": "t=0.3s over scene 1 (Victor vs. the hourglass), 6.5s, two-part lower-third caption. Client-directed wording; superseded take: 12f363ad ('How fast can we start?')."
+      },
+      {
+        "line": "The moment your accounts arrive, our team gets moving.",
+        "voice": "Arthur",
+        "job_id": "5cb4597f-33fb-404c-9c93-f6bdbc014459",
+        "placement": "t=7.5s over scene 2 (documents whoosh into the email envelope), lower-third caption"
+      }
     ],
-    "voiceover": {"line": "We start working your accounts the day you send them. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "0bf373fb-4369-4317-823b-8e477a6b2480", "placement": "t=12.1s under scene 3 (8.55s, ends 20.6s)"},
+    "voiceover": {
+      "line": "We start working your accounts the day you send them. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "0bf373fb-4369-4317-823b-8e477a6b2480",
+      "placement": "t=12.1s under scene 3 (8.55s, ends 20.6s)"
+    },
     "scene_retiming": "AV-SYNC cut: scene durations retimed to the VO - scene 1 slowed to 7.3s (the slowed hourglass sells the impatience gag) so the full question plays over it, scene 2 4.6s cutting as its line ends, scene 3 7.6s, brand card 3.5s (19.5-23s, logo fade 19.7s). Scene clip audio tempo-matched.",
     "standards_deferred": [
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "647ee5d0-9631-4273-9ce9-d10da65d3b26", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/647ee5d0-9631-4273-9ce9-d10da65d3b26.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "8059e3b2-8f00-4f05-a344-e2cb5168f5b7", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8059e3b2-8f00-4f05-a344-e2cb5168f5b7.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "4019c6ef-1c95-43d0-be6d-2bf59802a82f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4019c6ef-1c95-43d0-be6d-2bf59802a82f.mp4", "use": "Reels / TikTok / Shorts"},
+      "master_16x9": {
+        "media_id": "647ee5d0-9631-4273-9ce9-d10da65d3b26",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/647ee5d0-9631-4273-9ce9-d10da65d3b26.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "8059e3b2-8f00-4f05-a344-e2cb5168f5b7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8059e3b2-8f00-4f05-a344-e2cb5168f5b7.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "4019c6ef-1c95-43d0-be6d-2bf59802a82f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4019c6ef-1c95-43d0-be6d-2bf59802a82f.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
       "_note": "FINAL v2 (client-directed hook + AV-sync retime): 23s, three-part Arthur VO, ducking mix, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Same media ids, overwritten in place."
-    }
+    },
+    "v2_standards_applied": [
+      "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"
+    ]
   },
-
   "email_assets": {
-    "thumbnail_1200x675": {"media_id": "1847d8eb-4208-4858-893a-aef0dcc01385", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1847d8eb-4208-4858-893a-aef0dcc01385.jpg"},
-    "thumbnail_600x338": {"media_id": "3c27a820-3da2-4fb8-9f3f-6dafbd8218fa", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c27a820-3da2-4fb8-9f3f-6dafbd8218fa.jpg"},
+    "thumbnail_1200x675": {
+      "media_id": "1847d8eb-4208-4858-893a-aef0dcc01385",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1847d8eb-4208-4858-893a-aef0dcc01385.jpg"
+    },
+    "thumbnail_600x338": {
+      "media_id": "3c27a820-3da2-4fb8-9f3f-6dafbd8218fa",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c27a820-3da2-4fb8-9f3f-6dafbd8218fa.jpg"
+    },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
   },
-
   "scenes": [
-    {"scene_id": "EP-005-S01", "beat": "hook + frustration", "duration_seconds": 7.3, "keyframe_job_id": "0eb3f568-d5a8-46fa-ae5f-b0df5a1d6461", "video_job_id": "0cdf7bfe-39e3-4a15-a27f-47364b856784", "onscreen_text": "How fast can Southwest Recovery Services / start collections on my account?", "voiceover": "How fast can Southwest Recovery Services start collections on my account?", "visual": "Victor drums his fingers, staring impatiently at a barely-trickling hourglass beside a wall calendar (retimed slow)."},
-    {"scene_id": "EP-005-S02", "beat": "SWRS simplifies (speed)", "duration_seconds": 5, "keyframe_job_id": "a063b188-6ca5-4a24-b756-d02d4966f9e7", "video_job_id": "b852d73d-b6d9-4554-a9ad-b96d3af4a903", "onscreen_text": "The moment your accounts arrive, we get moving.", "voiceover": "The moment your accounts arrive, our team gets moving.", "visual": "Victor clicks Send; glowing documents whoosh like comets into a giant email envelope, tie blown back."},
-    {"scene_id": "EP-005-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "03a86040-53d7-4b00-898a-d737b0fc99cc", "video_job_id": "35a44062-8a97-48cc-949f-8f4b4bbb750a", "onscreen_text": "Just email info@swrecovery.com", "voiceover": "We start working your accounts the day you send them. Just email info@swrecovery.com.", "visual": "Holographic stopwatch flashes SAME DAY; green progress bar completes with a checkmark; Victor thumbs-up with mug."},
-    {"scene_id": "EP-005-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
+    {
+      "scene_id": "EP-005-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 7.3,
+      "keyframe_job_id": "0eb3f568-d5a8-46fa-ae5f-b0df5a1d6461",
+      "video_job_id": "0cdf7bfe-39e3-4a15-a27f-47364b856784",
+      "onscreen_text": "How fast can Southwest Recovery Services / start collections on my account?",
+      "voiceover": "How fast can Southwest Recovery Services start collections on my account?",
+      "visual": "Victor drums his fingers, staring impatiently at a barely-trickling hourglass beside a wall calendar (retimed slow)."
+    },
+    {
+      "scene_id": "EP-005-S02",
+      "beat": "SWRS simplifies (speed)",
+      "duration_seconds": 5,
+      "keyframe_job_id": "132cb527-d061-46e9-b683-b693df254a7d",
+      "video_job_id": "157a7662-86c8-4706-8252-eff5f1b5cd87",
+      "onscreen_text": "The moment your accounts arrive, we get moving.",
+      "voiceover": "The moment your accounts arrive, our team gets moving.",
+      "visual": "Victor clicks Send; glowing documents whoosh like comets into a giant email envelope, tie blown back. Retrofitted with the REAL client portal on the screen; superseded cut: keyframe a063b188, video b852d73d."
+    },
+    {
+      "scene_id": "EP-005-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8,
+      "keyframe_job_id": "d6f4a891-a4a6-413b-877c-dc7a41296e71",
+      "video_job_id": "55266030-c538-4ffa-8d41-ef4b44f1d2fe",
+      "onscreen_text": "Just email info@swrecovery.com",
+      "voiceover": "We start working your accounts the day you send them. Just email info@swrecovery.com.",
+      "visual": "Holographic stopwatch flashes SAME DAY; green progress bar completes with a checkmark; Victor thumbs-up with mug. Retrofitted with the REAL client portal on the screen; superseded cut: keyframe 03a86040, video 35a44062."
+    },
+    {
+      "scene_id": "EP-005-S04",
+      "beat": "brand close",
+      "duration_seconds": 5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."
+    }
   ]
 }

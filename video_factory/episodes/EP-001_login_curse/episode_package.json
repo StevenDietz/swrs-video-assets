@@ -9,14 +9,31 @@
   "activation_barrier": "Perceived login / onboarding friction.",
   "core_message": "Getting your accounts to SWRS is easier than you think.",
   "cta": "Email your placements to info@swrecovery.com. Send your first accounts today.",
-  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
-  "engine_mapping": {"obstacle": "password_goblin", "persona": "victor (any procrastinator)", "fix": "place by email, skip the portal", "payoff": "brand close + cash_flow message"},
-  "characters": ["victor_the_vampire"],
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "password_goblin",
+    "persona": "victor (any procrastinator)",
+    "fix": "place by email, skip the portal",
+    "payoff": "brand close + cash_flow message"
+  },
+  "characters": [
+    "victor_the_vampire"
+  ],
   "distribution": "Day-7 slot of the activation drip; auto-stops on first placement.",
-
   "production": {
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette; Victor dialed back to professional-office-worker vampire (no cape) per Handoff",
-    "character_reference": {"victor_the_vampire": {"job_id": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad", "note": "locked dialed-back canonical Victor; image reference on every scene keyframe"}},
+    "character_reference": {
+      "victor_the_vampire": {
+        "job_id": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+        "note": "locked dialed-back canonical Victor; image reference on every scene keyframe"
+      }
+    },
     "models": {
       "keyframes": "nano_banana_pro (image, Victor reference)",
       "animation": "kling3_0_turbo (image-to-video)",
@@ -37,30 +54,89 @@
       "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
-    "voiceover": {"line": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "f3b965ef-3f1f-4bc7-b28f-eebabfaf371b", "placement": "under scene 3 + extended 5s brand-close card (total 23s)"},
+    "voiceover": {
+      "line": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "f3b965ef-3f1f-4bc7-b28f-eebabfaf371b",
+      "placement": "under scene 3 + extended 5s brand-close card (total 23s)"
+    },
     "outputs": {
-      "master_16x9": {"media_id": "4041d870-4386-4786-b381-935c1fc12d36", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4041d870-4386-4786-b381-935c1fc12d36.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "7df0446a-b4ac-4b76-99c9-a25e1c25cdad", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7df0446a-b4ac-4b76-99c9-a25e1c25cdad.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "7a0da239-89dd-422b-bbf9-8d186cefea80", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7a0da239-89dd-422b-bbf9-8d186cefea80.mp4", "use": "Reels / TikTok / Shorts"},
+      "master_16x9": {
+        "media_id": "4041d870-4386-4786-b381-935c1fc12d36",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4041d870-4386-4786-b381-935c1fc12d36.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "7df0446a-b4ac-4b76-99c9-a25e1c25cdad",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7df0446a-b4ac-4b76-99c9-a25e1c25cdad.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "7a0da239-89dd-422b-bbf9-8d186cefea80",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7a0da239-89dd-422b-bbf9-8d186cefea80.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
       "_note": "v4 FINAL: 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: v3 5f27b958/9692fd4b/73e79b09 (21s, no email in VO, no logo), v2 Cillian a0d0cc2c/202bfa67/249d7021."
-    }
+    },
+    "v2_standards_applied": [
+      "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"
+    ]
   },
-
   "email_assets": {
-    "thumbnail_1200x675": {"media_id": "16005548-ce4e-45b5-8687-5703041a0889", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/16005548-ce4e-45b5-8687-5703041a0889.jpg"},
-    "thumbnail_600x338": {"media_id": "40bf4f04-f9a0-4cb2-9a3a-7b549447efc9", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/40bf4f04-f9a0-4cb2-9a3a-7b549447efc9.jpg"},
+    "thumbnail_1200x675": {
+      "media_id": "16005548-ce4e-45b5-8687-5703041a0889",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/16005548-ce4e-45b5-8687-5703041a0889.jpg"
+    },
+    "thumbnail_600x338": {
+      "media_id": "40bf4f04-f9a0-4cb2-9a3a-7b549447efc9",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/40bf4f04-f9a0-4cb2-9a3a-7b549447efc9.jpg"
+    },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
   },
-
   "scenes": [
-    {"scene_id": "EP-001-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "bcf3a43e-65a2-4a38-9071-1756f8ac247e", "video_job_id": "d87512e4-6e58-497a-858f-0fcc8baf5565", "onscreen_text": "Incorrect password", "visual": "Victor at desk, exasperated by failed login."},
-    {"scene_id": "EP-001-S02", "beat": "comic gag", "duration_seconds": 5, "keyframe_job_id": "c684654b-ecab-4646-954a-8e1f2d3ee8ca", "video_job_id": "cd892437-2117-424a-8b37-a98c90c16ee6", "onscreen_text": "", "visual": "Victor poofs to dust; a cartoon bat flutters away (recurring gag)."},
-    {"scene_id": "EP-001-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "8e49be0f-178b-432f-93a2-ced1f6a8dd19", "video_job_id": "c461382a-4024-4df4-91c7-177497e959c8", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.", "visual": "Victor relaxed, thumbs-up with mug, glowing email icon."},
-    {"scene_id": "EP-001-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
+    {
+      "scene_id": "EP-001-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 5,
+      "keyframe_job_id": "8c1a6213-afc5-4ffd-bfd8-2d364b20222b",
+      "video_job_id": "4d1a360f-8be3-4957-96a4-f80f89778744",
+      "onscreen_text": "Incorrect password",
+      "visual": "Victor at desk, exasperated by failed login. Retrofitted with the REAL client portal on the screen; superseded cut: keyframe bcf3a43e, video d87512e4."
+    },
+    {
+      "scene_id": "EP-001-S02",
+      "beat": "comic gag",
+      "duration_seconds": 5,
+      "keyframe_job_id": "c684654b-ecab-4646-954a-8e1f2d3ee8ca",
+      "video_job_id": "cd892437-2117-424a-8b37-a98c90c16ee6",
+      "onscreen_text": "",
+      "visual": "Victor poofs to dust; a cartoon bat flutters away (recurring gag)."
+    },
+    {
+      "scene_id": "EP-001-S03",
+      "beat": "SWRS simplifies + CTA",
+      "duration_seconds": 8,
+      "keyframe_job_id": "8e49be0f-178b-432f-93a2-ced1f6a8dd19",
+      "video_job_id": "c461382a-4024-4df4-91c7-177497e959c8",
+      "onscreen_text": "Email placements to info@swrecovery.com",
+      "voiceover": "Getting your accounts to Southwest Recovery Services is easier than you think. Just email your placements to info@swrecovery.com.",
+      "visual": "Victor relaxed, thumbs-up with mug, glowing email icon."
+    },
+    {
+      "scene_id": "EP-001-S04",
+      "beat": "brand close",
+      "duration_seconds": 5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."
+    }
   ],
-
   "history": {
-    "v1": {"note": "first cut, caped Victor, no brand close/captions/multi-format", "final_16x9": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/706790d7-7665-4b5d-a96b-9d2fd8fb5376.mp4"}
+    "v1": {
+      "note": "first cut, caped Victor, no brand close/captions/multi-format",
+      "final_16x9": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/706790d7-7665-4b5d-a96b-9d2fd8fb5376.mp4"
+    }
   }
 }
