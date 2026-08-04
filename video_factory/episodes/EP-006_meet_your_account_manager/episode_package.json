@@ -38,7 +38,8 @@
       {"line": "Hello, is this Southwest Recovery Services? I need help with my password again.", "voice": "Arthur", "job_id": "c9c90206-1d3e-463f-a831-1e167c3067bc", "placement": "t=0.3s over scene 1 - Victor's phone call, matching the on-screen visual (client-directed line). 5.75s natural pace; two-part lower-third caption. Superseded takes: 87fac485 ('Who do I even call?'), d0c76732 (6.8s, collided), 4dd26ec3 (6.6s, collided)."},
       {"line": "Meet Max — your dedicated account manager, with you from day one.", "voice": "Arthur", "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7", "placement": "t=6.3s answering the call (timeline shifted to let the phone line finish), lower-third caption"}
     ],
-    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=11.9s under scene 3 (8.44s, ends 20.3s)"},
+    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=12.4s under scene 3 (8.44s, ends 20.84s)"},
+    "scene_retiming": "AV-SYNC cut (client feedback: 'the voice and the scene did not match'): scene durations retimed to the VO instead of the fixed 5/5/8 - scene 1 slowed to 6.5s so the full phone call plays over Victor on the phone, scene 2 5.7s (Max enters exactly as his intro starts at 6.7s), scene 3 7.3s (slight 1.1x speedup), brand card 3.5s (19.5-23s, logo fade at 19.7s). Scene clip audio tempo-matched to the retimed video.",
     "standards_deferred": [
       "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
