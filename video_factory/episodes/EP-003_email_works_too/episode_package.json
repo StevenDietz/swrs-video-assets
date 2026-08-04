@@ -1,0 +1,46 @@
+{
+  "episode_id": "EP-003",
+  "title": "Email Works Too",
+  "status": "rendered to Production Handoff standards (proof-of-concept tier)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'Do I have to log into a portal? That sounds like a hassle.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "portal/login friction", "persona": "victor (any procrastinator)", "fix": "skip the portal — email works too", "payoff": "brand close"},
+  "characters": ["victor_the_vampire"],
+  "distribution": "Day-21 slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {"victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"},
+    "models": {
+      "keyframes": "nano_banana_pro (image, Victor reference)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox"
+    },
+    "audio_mix": "standard DUCKING mix: scene SFX full in scenes 1-2, ducks to 0.22x during the scene-3 narration window, recovers; VO 1.25x; amix normalize=0 + alimiter 0.95.",
+    "voiceover": {"line": "No login. No portal. No problem. Email works too. Just send your accounts to info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "9d647e2d-5ed5-473f-a67e-9bdf989f2462", "placement": "under scene 3 + extended 5s brand-close card (total 23s)"},
+    "standards_deferred": [
+      "Official SWRS logo-lockup animation — Branding stage.",
+      "Licensed music bed — Editing/Branding stage.",
+      "Premium-tier render + 4K master archive."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "fc2b60c3-6052-4ac0-a7ed-58d5bd80f9be", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fc2b60c3-6052-4ac0-a7ed-58d5bd80f9be.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "ddfbc627-40fd-4a16-b3c6-6c402d20e557", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ddfbc627-40fd-4a16-b3c6-6c402d20e557.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "5bdec5b9-b16a-4f01-be35-06707c28fc05", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5bdec5b9-b16a-4f01-be35-06707c28fc05.mp4", "use": "Reels / TikTok / Shorts"}
+    }
+  },
+
+  "scenes": [
+    {"scene_id": "EP-003-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "4a5ecb98-b46e-484d-8019-a19a3ebde9b5", "video_job_id": "dd1f5efc-634a-48ec-a944-5698267ccef2", "onscreen_text": "", "visual": "Victor warily eyeing a busy portal login screen, overwhelmed."},
+    {"scene_id": "EP-003-S02", "beat": "realization", "duration_seconds": 5, "keyframe_job_id": "136fb148-fc0a-4aba-a255-6176c61d11bd", "video_job_id": "eed909ee-d63c-421b-a2fc-5c2fbc52f1a1", "onscreen_text": "", "visual": "Lightbulb pops; Victor turns to the email icon, relieved."},
+    {"scene_id": "EP-003-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "f39ec4f4-c9ad-41dd-b92b-88d97b1c237e", "video_job_id": "f79f9380-de66-428a-a92a-a1c671a20edf", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "No login. No portal. No problem. Email works too. Just send your accounts to info@swrecovery.com.", "visual": "Victor taps send, green 'Sent' checkmark, thumbs-up."},
+    {"scene_id": "EP-003-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (logo-lockup animation added at Branding stage)."}
+  ]
+}
