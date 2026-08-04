@@ -46,6 +46,13 @@
     }
   },
 
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "699ee6fd-c2bb-4f94-aa7b-61869ba6e601", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/699ee6fd-c2bb-4f94-aa7b-61869ba6e601.jpg", "note": "hook frame (Victor + real portal, PORTAL-PHOBIA caption) with play button; retina/2x"},
+    "thumbnail_600x338": {"media_id": "84904391-2867-4932-8220-846e9ec14fc6", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/84904391-2867-4932-8220-846e9ec14fc6.jpg", "note": "standard email width"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "thumbnail image hyperlinked to the hosted 16:9 video (email clients cannot embed playable video)"
+  },
+
   "scenes": [
     {"scene_id": "EP-003-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "b4cc0793-f541-4ecb-af2d-60640d990726", "video_job_id": "294d4e40-3e2b-46ed-add2-a4ce7b729b4d", "onscreen_text": "Do you have PORTAL-PHOBIA?", "voiceover": "Do you have... portal-phobia?", "visual": "Victor warily studying the REAL SWRS client portal login page on his laptop, hesitant.", "uses_real_portal": true, "superseded": {"keyframe": "4a5ecb98-b46e-484d-8019-a19a3ebde9b5", "video": "dd1f5efc-634a-48ec-a944-5698267ccef2"}},
     {"scene_id": "EP-003-S02", "beat": "realization", "duration_seconds": 5, "keyframe_job_id": "136fb148-fc0a-4aba-a255-6176c61d11bd", "video_job_id": "eed909ee-d63c-421b-a2fc-5c2fbc52f1a1", "onscreen_text": "There is an easier way!", "voiceover": "There is an easier way!", "visual": "Lightbulb pops; Victor turns to the email icon, relieved."},
