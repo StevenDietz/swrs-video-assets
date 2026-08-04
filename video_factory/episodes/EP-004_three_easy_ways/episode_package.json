@@ -47,18 +47,18 @@
         "placement": "t=0.4s over scene 1 (Victor buried in invoices), lower-third caption. Replaced longer first take 4334f094 (7.0s, would have collided with the enumeration line)."
       },
       {
-        "line": "One: email. Two: the portal. Three: an Excel file.",
+        "line": "One: email. Two: the portal. Three: an Excel file — you can download it right from this email.",
         "voice": "Arthur",
-        "job_id": "45ff1ad5-2e9c-46e9-b007-9cd5c607209b",
-        "placement": "t=5.2s over scene 2 (three glowing icons), lower-third caption '1 Email  2 Portal  3 Excel'"
+        "job_id": "2da64ca7-9a18-479f-85cf-0f95db094696",
+        "placement": "t=3.82s over scene 2 (three icons lighting up in sequence, new 10s clip 87d82e37 so the full read plays at natural pace), two-line lower-third caption. Client-directed wording. Superseded: 45ff1ad5 ('Three: an Excel file.')."
       }
     ],
     "voiceover": {
-      "line": "Download the Excel file right from this email. Pick whichever is easiest — just email info@swrecovery.com.",
+      "line": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.",
       "spoken_as": "email read as 'info at S-W Recovery dot com'",
       "voice": "Arthur",
-      "job_id": "399df9fd-cbd2-4265-bd0d-07a297749f3b",
-      "placement": "t=9.50s under scene 3 (9.12s, ends 18.61s). Client-directed download wording. Superseded takes: 0bf373fb ('Pick whichever is easiest - we'll take care of the rest.'), 2da64ca7/5b26d3f6 (enumeration-line variants that ran 10s and would have dragged scene 2 into slow motion)."
+      "job_id": "0bf373fb-4369-4317-823b-8e477a6b2480",
+      "placement": "t=14.32s under scene 3 (8.55s, ends 22.87s). Original closer restored; the 399df9fd 'download' closer was an interim cut while the 23s cap still applied."
     },
     "standards_deferred": [
       "Licensed music bed — Editing/Branding stage.",
@@ -80,12 +80,12 @@
         "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/41415d02-fa12-4aa4-a126-eabe77766ce2.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "23s, three-part Arthur VO, ducking mix, logo on brand card only (chain verified in-frame during build: absent at 14/17s, present at 20/22s)."
+      "_note": "FINAL v3: 26.9s (23s cap lifted by client 2026-08-04), full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified. Same media ids, overwritten in place."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"
     ],
-    "assembly_note": "Rebuilt 2026-08-04 on the Production Standards v2 AV-SYNC template (cuts 3.62/5.68/10.21/3.5 follow the lines; Fira Sans captions; whoosh/pop SFX kit; loudnorm -14 LUFS; silent card-only logo). Replaces the original fixed 5/5/8 cut and pre-v2 mix."
+    "assembly_note": "v3 (2026-08-04, client rule: episodes CAN run over 23s): 26.9s total on the v2 AV-SYNC template - cuts 3.62/10.50/9.30 + 3.5s card at 23.4s. Scene 2 regenerated as a native 10s kling clip (87d82e37, keyframe unchanged 54757e08) so the full enumeration plays at ~1.0x. Fira Sans, SFX kit, loudnorm -14 LUFS, silent card-only logo (verified at 22.4s/24.9s)."
   },
   "email_assets": {
     "thumbnail_1200x675": {
@@ -113,27 +113,27 @@
     {
       "scene_id": "EP-004-S02",
       "beat": "SWRS simplifies (the three ways)",
-      "duration_seconds": 5.68,
+      "duration_seconds": 10.5,
       "keyframe_job_id": "54757e08-3475-4971-8234-4cd2d0b8321d",
-      "video_job_id": "0725105b-d12f-4054-a4cb-5bc8570611c5",
-      "onscreen_text": "1 Email   2 Portal   3 Excel",
-      "voiceover": "One: email. Two: the portal. Three: an Excel file.",
-      "visual": "Three glowing holographic icons pop in above Victor's desk: email envelope (1), portal window (2), spreadsheet (3); Victor amazed."
+      "video_job_id": "87d82e37-994c-4afa-a1a5-33fd20d21f78",
+      "onscreen_text": "1 Email   2 Portal   3 Excel / download it right from this email",
+      "voiceover": "One: email. Two: the portal. Three: an Excel file — you can download it right from this email.",
+      "visual": "Three glowing holographic icons pop in above Victor's desk: email envelope (1), portal window (2), spreadsheet (3); Victor amazed. Regenerated as a native 10s clip for the longer client line; superseded 5s clip: 0725105b."
     },
     {
       "scene_id": "EP-004-S03",
       "beat": "clear CTA",
-      "duration_seconds": 10.21,
+      "duration_seconds": 9.3,
       "keyframe_job_id": "548a87fa-227f-40b1-84e2-57d256d0b059",
       "video_job_id": "db0737cf-6880-4a40-9219-ba3a30033421",
-      "onscreen_text": "Download the Excel file right from this email. / Just email info@swrecovery.com",
-      "voiceover": "Download the Excel file right from this email. Pick whichever is easiest — just email info@swrecovery.com.",
+      "onscreen_text": "Pick whichever is easiest. / Just email info@swrecovery.com",
+      "voiceover": "Pick whichever is easiest — we'll take care of the rest. Just email info@swrecovery.com.",
       "visual": "Victor clicks Send; green checkmark and paper-plane icon rise; thumbs-up with coffee mug. Retrofitted with the REAL client portal on the screen; superseded cut: keyframe ea84a772, video 4d1825a3."
     },
     {
       "scene_id": "EP-004-S04",
       "beat": "brand close",
-      "duration_seconds": 5,
+      "duration_seconds": 3.5,
       "type": "brand_card",
       "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
       "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."

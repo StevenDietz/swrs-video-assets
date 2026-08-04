@@ -4,16 +4,21 @@ Canonical build recipe for every episode. Established after EP-001–005; **EP-0
 must follow this spec**, and earlier episodes are retrofitted opportunistically.
 Conforms to PRODUCTION_HANDOFF.md v1.0 and brand/BRAND.md.
 
-## Episode structure (23s total)
+## Episode structure (~23s nominal, flexible)
 
-| Slot | Time | Content |
+| Slot | Duration | Content |
 |---|---|---|
-| Scene 1 | 0–5s | Unexpected hook + relatable frustration (hook VO at t=0.4s) |
-| Scene 2 | 5–10s | Escalation or "SWRS simplifies" beat (VO at t=5.2s) |
-| Scene 3 | 10–18s | SWRS simplifies + clear CTA (main VO at t=10.6s, must end ≤ 18.4s) |
-| Brand card | 18–23s | Navy end card: tagline + CTA + **logo reveal** |
+| Scene 1 | hook line + 0.75s | Unexpected hook + relatable frustration (hook VO at t=0.3s) |
+| Scene 2 | second line + 0.5s | Escalation or "SWRS simplifies" beat |
+| Scene 3 | closer + tail | SWRS simplifies + clear CTA (closer may carry onto the card) |
+| Brand card | 3.5s | Navy end card: tagline + CTA + **logo reveal** |
 
-- Max length 30s; hook lands inside the first 3 seconds.
+- **Client rule (2026-08-04): episodes CAN run over 23 seconds.** The 23s figure is a
+  nominal target, not a cap — when the script needs room, extend the timeline rather
+  than compressing reads or slow-motioning scenes past ~0.7x. Max length 30s; the AV-SYNC
+  rule (cuts land when their lines end) always holds; hook lands inside the first 3 seconds.
+- Scene clips: request kling durations that roughly match the retimed scene length
+  (5/8/10s) so retiming stays near 1.0x.
 - **VO durations must be measured (ffprobe) before assembly** — lines that collide get
   re-recorded shorter, never sped up. (EP-004 lesson: first takes ran 7s/17s and collided.)
 
@@ -83,7 +88,7 @@ client portal dashboard from the reference image, reproduced faithfully."
 
 ## Verification (every build, before upload)
 
-- `ffprobe` duration == 23.000000.
+- `ffprobe` duration == the planned total (scene durations + 3.5s card), exactly.
 - **Logo placement check**: extract frames, count near-white pixels (RGB all >225) in the
   crop (300,50)–(980,210): t=17s must be LOW (scene, no logo), t=20s HIGH (card + logo).
   Never ship a cut without this check (EP-003 lesson: a transparent logo rendered "successfully").
