@@ -29,7 +29,7 @@
     "v2_standards_applied": [
       "Fira Sans Bold captions and brand card (brand typeface, fetched at build time)",
       "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11 after the limiter",
-      "SFX kit: whoosh at scene cuts (5.0s, 10.0s), pop on the checkmark beat (13.5s), chime on the logo reveal (18.2s)",
+      "SFX kit: whoosh at scene cuts (5.0s, 10.0s), pop on the checkmark beat (13.5s). Logo reveal is SILENT - the chime was cut per client feedback ('weird bell... sounds off').",
       "email thumbnails generated as standard deliverables"
     ],
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow).",
@@ -45,10 +45,10 @@
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "5d52f66a-8e76-438c-b57a-5d41410e4add", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d52f66a-8e76-438c-b57a-5d41410e4add.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "933f9fad-75c6-419a-b769-e66c178e9d7a", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/933f9fad-75c6-419a-b769-e66c178e9d7a.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "0698b490-4122-4150-8be8-66023dbe1394", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0698b490-4122-4150-8be8-66023dbe1394.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "23s, first Production Standards v2 episode (Fira Sans, loudnorm, SFX kit), logo on brand card only (verified in-frame: 5851 white px at 17s vs 15452 at 20s)."
+      "master_16x9": {"media_id": "a013b5c3-3f81-4e26-8b22-a28bc77db544", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a013b5c3-3f81-4e26-8b22-a28bc77db544.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "1a15e51e-3c2d-4843-ab73-ee623466c71f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1a15e51e-3c2d-4843-ab73-ee623466c71f.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "7b743be6-db65-42c7-98e8-87d723cce406", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7b743be6-db65-42c7-98e8-87d723cce406.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "FINAL (silent logo reveal): 23s, Production Standards v2, logo on brand card only (verified in-frame). Superseded: 5d52f66a/933f9fad/0698b490 (chime on logo reveal, cut per client feedback)."
     }
   },
 
@@ -63,6 +63,6 @@
     {"scene_id": "EP-006-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23", "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248", "onscreen_text": "Who do I even call?", "voiceover": "Who do I even call?", "visual": "Victor lost at his desk, phone in hand, tangled directory printout, question marks floating."},
     {"scene_id": "EP-006-S02", "beat": "SWRS simplifies (Max's entrance)", "duration_seconds": 5, "keyframe_job_id": "34d9f23a-aeae-426d-8e56-91fa87a4e27a", "video_job_id": "1fe4a577-41e8-4d45-9527-6fa49bf67f8c", "onscreen_text": "Meet Max - your dedicated account manager", "voiceover": "Meet Max — your dedicated account manager, with you from day one.", "visual": "Max steps through the doorway with a wave, tablet + welcome kit; Victor turns, relieved; question marks pop away."},
     {"scene_id": "EP-006-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "29c3b8f9-062d-4cce-9486-3eb2c329fd50", "video_job_id": "62ff9c74-7334-4bf8-86c7-f87a604764a2", "onscreen_text": "One point of contact, every step of the way. / Just email info@swrecovery.com", "voiceover": "One point of contact, every step of the way. Just email info@swrecovery.com.", "visual": "Max's tablet checklist lights up green; warm handshake with Victor; glowing email icon."},
-    {"scene_id": "EP-006-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, chime on reveal."}
+    {"scene_id": "EP-006-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
   ]
 }

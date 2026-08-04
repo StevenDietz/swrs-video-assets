@@ -50,10 +50,10 @@ veryfast/ultrafast).
 - **SFX kit (v2)** — synthesized in-sandbox with sox, license-free, mixed at low level:
   - `whoosh.wav` (0.6s, filtered noise fade) → scene transitions at t=5.0 and t=10.0
   - `pop.wav` (0.12s sine tick) → checkmark/success beat in scene 3
-  - `chime.wav` (1.2s 880+1320Hz bells) → logo reveal at t=18.2
+  - **The logo reveal is SILENT** — a synthesized chime was tried on EP-006 and cut per
+    client feedback ("weird bell... sounds off"). No SFX on or after the brand card.
   ```
   sox -n -r 48000 -c 2 whoosh.wav synth 0.6 whitenoise fade h 0 0.6 0.45 lowpass 2400 gain -4
-  sox -n -r 48000 -c 2 chime.wav synth 1.2 sine 880 sine 1320 remix - fade h 0.01 1.2 1.0 gain -8
   sox -n -r 48000 -c 2 pop.wav synth 0.12 sine 620 fade h 0.005 0.12 0.09 gain -3
   ```
 - **Loudness (v2)**: final audio chain ends `alimiter=limit=0.95,loudnorm=I=-14:TP=-1.5:LRA=11`
