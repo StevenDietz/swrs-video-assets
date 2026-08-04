@@ -1,0 +1,66 @@
+{
+  "episode_id": "EP-011",
+  "title": "Your First Recovery",
+  "status": "rendered to Production Standards v2 (AV-synced cut)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'Is this even going to work? I've written that money off.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies (the payoff)", "clear CTA", "brand close"],
+  "engine_mapping": {"obstacle": "skepticism / written-off money", "persona": "victor (any procrastinator)", "fix": "the first-recovery payoff moment - money posted to your account", "payoff": "brand close"},
+  "characters": ["victor_the_vampire"],
+  "distribution": "Day-105 proof slot of the activation drip; auto-stops on first placement.",
+
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette with celebratory gold accent",
+    "character_references": {"victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"},
+    "models": {
+      "keyframes": "nano_banana_pro (image, Victor reference)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the payoff beat; silent logo reveal",
+      "AV-SYNC: scene cuts land when their lines end (4.76s / 6.35s / 8.39s / 3.5s card), scene clip audio tempo-matched; scene 3 slightly slowed to fill the CTA window",
+      "in-scene hook: Victor speaks the skeptical line himself"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-18.1s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {"line": "Let's be honest... am I ever going to see that money again?", "voice": "Arthur", "job_id": "3a2adfdb-d783-4bb1-b542-ed33bd0e5ec6", "placement": "t=0.3s, Victor slumped with the dusty PAST DUE invoice and the empty coin jar (4.01s)"},
+      {"line": "Then it happens — your first recovery, posted straight to your account.", "voice": "Arthur", "job_id": "b095df48-1eaa-44e5-ae6e-d42e4d4b2b65", "placement": "t=4.96s over scene 2 (the PAYMENT RECEIVED celebration, coin jar overflowing), lower-third caption"}
+    ],
+    "voiceover": {"line": "That money isn't gone — it's just waiting. Email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "4d3dca51-8be5-4033-bba6-31fb2133e8be", "placement": "t=11.31s under scene 3 (6.54s, ends 17.85s)"},
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {"media_id": "23eb880e-95bb-4b2c-9470-b56318e92763", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/23eb880e-95bb-4b2c-9470-b56318e92763.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "290a886f-5902-4222-9633-b4f2c6afdaff", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/290a886f-5902-4222-9633-b4f2c6afdaff.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "48c85a4d-2b04-410d-a12c-4c5dafc98124", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/48c85a4d-2b04-410d-a12c-4c5dafc98124.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+    }
+  },
+
+  "email_assets": {
+    "thumbnail_1200x675": {"media_id": "394f61da-c6d6-459f-b622-457418e51c9d", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/394f61da-c6d6-459f-b622-457418e51c9d.jpg", "note": "frame at 7.5s: the PAYMENT RECEIVED celebration with coins raining down, play button"},
+    "thumbnail_600x338": {"media_id": "354c7f8d-e283-4d77-8802-cdab7eb546ba", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/354c7f8d-e283-4d77-8802-cdab7eb546ba.jpg"},
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+
+  "scenes": [
+    {"scene_id": "EP-011-S01", "beat": "hook + frustration (skepticism)", "duration_seconds": 4.76, "keyframe_job_id": "68edcf5b-3171-4c3e-8fa5-f480560f6706", "video_job_id": "f12d1105-ea1d-45d3-a2d9-02dcb90b01c4", "onscreen_text": "Am I ever going to see that money again?", "voiceover": "Let's be honest... am I ever going to see that money again?", "visual": "Victor slumps at his desk, skeptically eyeing a dusty cobwebbed PAST DUE invoice beside an empty coin jar."},
+    {"scene_id": "EP-011-S02", "beat": "the payoff (first recovery)", "duration_seconds": 6.35, "keyframe_job_id": "37984146-d6b9-42a3-9522-ad6d6c87211f", "video_job_id": "872027a7-0db0-487b-aebb-9ff22e723875", "onscreen_text": "Your first recovery - posted to your account.", "voiceover": "Then it happens — your first recovery, posted straight to your account.", "visual": "A glowing green PAYMENT RECEIVED banner pulses as Victor springs up in a fangs-out grin; golden coins rain down and the jar overflows."},
+    {"scene_id": "EP-011-S03", "beat": "clear CTA", "duration_seconds": 8.39, "keyframe_job_id": "37757f0a-adf9-494b-9670-a071518a0e82", "video_job_id": "74697c8c-aeac-4e5e-a631-32f2360045f7", "onscreen_text": "That money isn't gone. It's just waiting. / Just email info@swrecovery.com", "voiceover": "That money isn't gone — it's just waiting. Email info@swrecovery.com.", "visual": "Energized Victor slides a fresh stack of PAST DUE invoices into the glowing email envelope; it lifts off; thumbs-up beside the full coin jar."},
+    {"scene_id": "EP-011-S04", "beat": "brand close", "duration_seconds": 3.5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
+  ]
+}
