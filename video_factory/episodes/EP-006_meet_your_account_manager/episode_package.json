@@ -35,20 +35,20 @@
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow).",
     "audio_mix": "standard DUCKING mix: scene SFX full except VO windows (0.3-2.3s, 5.1-19.65s -> 0.22x); VO 1.25-1.3x; SFX accents 0.5-0.6x; amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
     "hook_voiceover": [
-      {"line": "Who do I even call?", "voice": "Arthur", "job_id": "87fac485-6e99-4fd8-bc4e-aeb3c2a4a71f", "placement": "t=0.4s over scene 1 (Victor lost with the phone), lower-third caption"},
-      {"line": "Meet Max — your dedicated account manager, with you from day one.", "voice": "Arthur", "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7", "placement": "t=5.2s over scene 2 (Max's entrance), lower-third caption"}
+      {"line": "Hello, is this Southwest Recovery Services? I need help with my password again.", "voice": "Arthur", "job_id": "c9c90206-1d3e-463f-a831-1e167c3067bc", "placement": "t=0.3s over scene 1 - Victor's phone call, matching the on-screen visual (client-directed line). 5.75s natural pace; two-part lower-third caption. Superseded takes: 87fac485 ('Who do I even call?'), d0c76732 (6.8s, collided), 4dd26ec3 (6.6s, collided)."},
+      {"line": "Meet Max — your dedicated account manager, with you from day one.", "voice": "Arthur", "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7", "placement": "t=6.3s answering the call (timeline shifted to let the phone line finish), lower-third caption"}
     ],
-    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=10.9s under scene 3 (8.44s; shifted from the standard 10.6s so Max's intro line clears first)"},
+    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=11.9s under scene 3 (8.44s, ends 20.3s)"},
     "standards_deferred": [
       "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "a013b5c3-3f81-4e26-8b22-a28bc77db544", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a013b5c3-3f81-4e26-8b22-a28bc77db544.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "1a15e51e-3c2d-4843-ab73-ee623466c71f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1a15e51e-3c2d-4843-ab73-ee623466c71f.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "7b743be6-db65-42c7-98e8-87d723cce406", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7b743be6-db65-42c7-98e8-87d723cce406.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "FINAL (silent logo reveal): 23s, Production Standards v2, logo on brand card only (verified in-frame). Superseded: 5d52f66a/933f9fad/0698b490 (chime on logo reveal, cut per client feedback)."
+      "master_16x9": {"media_id": "3f969e20-a67d-4d42-be10-b16f5c0b2ca4", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3f969e20-a67d-4d42-be10-b16f5c0b2ca4.mp4", "use": "email campaigns / YouTube"},
+      "square_1x1": {"media_id": "4c880896-0fe4-4c96-8bf0-184b227b9dcd", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4c880896-0fe4-4c96-8bf0-184b227b9dcd.mp4", "use": "LinkedIn"},
+      "vertical_9x16": {"media_id": "c8a79b58-1649-472a-9315-4ca108e946a5", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c8a79b58-1649-472a-9315-4ca108e946a5.mp4", "use": "Reels / TikTok / Shorts"},
+      "_note": "FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal)."
     }
   },
 
@@ -60,7 +60,7 @@
   },
 
   "scenes": [
-    {"scene_id": "EP-006-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23", "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248", "onscreen_text": "Who do I even call?", "voiceover": "Who do I even call?", "visual": "Victor lost at his desk, phone in hand, tangled directory printout, question marks floating."},
+    {"scene_id": "EP-006-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23", "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248", "onscreen_text": "Hello, is this Southwest Recovery Services? / I need help with my password... again.", "voiceover": "Hello, is this Southwest Recovery Services? I need help with my password again.", "visual": "Victor on the phone at his desk, tangled directory printout, question marks floating - he's making the call."},
     {"scene_id": "EP-006-S02", "beat": "SWRS simplifies (Max's entrance)", "duration_seconds": 5, "keyframe_job_id": "34d9f23a-aeae-426d-8e56-91fa87a4e27a", "video_job_id": "1fe4a577-41e8-4d45-9527-6fa49bf67f8c", "onscreen_text": "Meet Max - your dedicated account manager", "voiceover": "Meet Max — your dedicated account manager, with you from day one.", "visual": "Max steps through the doorway with a wave, tablet + welcome kit; Victor turns, relieved; question marks pop away."},
     {"scene_id": "EP-006-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "29c3b8f9-062d-4cce-9486-3eb2c329fd50", "video_job_id": "62ff9c74-7334-4bf8-86c7-f87a604764a2", "onscreen_text": "One point of contact, every step of the way. / Just email info@swrecovery.com", "voiceover": "One point of contact, every step of the way. Just email info@swrecovery.com.", "visual": "Max's tablet checklist lights up green; warm handshake with Victor; glowing email icon."},
     {"scene_id": "EP-006-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
