@@ -9,11 +9,24 @@
   "activation_barrier": "'I can't even remember my login — it's a hassle.'",
   "core_message": "Getting your accounts to SWRS is easier than you think.",
   "cta": "Email your placements to info@swrecovery.com.",
-  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
-  "engine_mapping": {"obstacle": "password_goblin", "persona": "victor (any procrastinator)", "fix": "no password needed — just email", "payoff": "brand close"},
-  "characters": ["victor_the_vampire", "password_goblin"],
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "password_goblin",
+    "persona": "victor (any procrastinator)",
+    "fix": "no password needed — just email",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "password_goblin"
+  ],
   "distribution": "Day-14 slot of the activation drip; auto-stops on first placement.",
-
   "production": {
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
     "character_references": {
@@ -26,7 +39,14 @@
       "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
       "assembly": "ffmpeg in Higgsfield sandbox (captions + SFX + VO + navy brand-close card; 16:9 master -> 1:1 + 9:16)"
     },
-    "voiceover": {"line": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just email info@swrecovery.com.", "spoken_as": "the domain is read as 'info at S-W Recovery dot com' for a clean TTS read", "voice": "Arthur", "job_id": "4fbca0fc-e64c-4624-8613-0a2ccd2fb3ed", "placement": "under scene 3 + extended 5s brand-close card", "note": "VO runs ~12.5s so total episode extended to 23s (brand card lengthened to 5s)"},
+    "voiceover": {
+      "line": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just email info@swrecovery.com.",
+      "spoken_as": "the domain is read as 'info at S-W Recovery dot com' for a clean TTS read",
+      "voice": "Arthur",
+      "job_id": "4fbca0fc-e64c-4624-8613-0a2ccd2fb3ed",
+      "placement": "under scene 3 + extended 5s brand-close card",
+      "note": "VO runs ~12.5s so total episode extended to 23s (brand card lengthened to 5s)"
+    },
     "standards_deferred": [
       "Official SWRS logo-lockup animation — Branding stage.",
       "Licensed music bed — Editing/Branding stage.",
@@ -35,24 +55,92 @@
     "audio_mix": "DUCKING mix: scene SFX (goblin) plays at full level (1.0x) in scenes 1-2, ducks to 0.22x only during the scene-3 narration window (t=10.0-18.2s), then recovers; voiceover at 1.25x; amix normalize=0 + alimiter 0.95. Both the goblin SFX and the VO are clearly audible. This ducking mix is the standard for all future episodes.",
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "outputs": {
-      "master_16x9": {"media_id": "559de9d2-a7d1-4dae-8d0a-0751d3bce91f", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/559de9d2-a7d1-4dae-8d0a-0751d3bce91f.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "f61c0aab-3b56-4637-a036-048a8b3f7dbe", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f61c0aab-3b56-4637-a036-048a8b3f7dbe.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "28598162-d4bf-40d6-89b3-f85cdc6ba25e", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/28598162-d4bf-40d6-89b3-f85cdc6ba25e.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
+      "master_16x9": {
+        "media_id": "2c20e3c1-8d88-4d83-b6f1-c04a10aa16fb",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c20e3c1-8d88-4d83-b6f1-c04a10aa16fb.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "e6c27089-5eb0-4c3b-8005-0feeedb97d12",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e6c27089-5eb0-4c3b-8005-0feeedb97d12.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "7fd778de-a9ef-4b64-bf49-8694e0d171c4",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7fd778de-a9ef-4b64-bf49-8694e0d171c4.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): true peak was -0.94 dBTP, above the -1.5 standard. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): 559de9d2/f61c0aab/28598162. Previous _note: FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
     }
   },
-
   "email_assets": {
-    "thumbnail_1200x675": {"media_id": "6e567b6d-3f6c-489d-9065-fc60154ee867", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e567b6d-3f6c-489d-9065-fc60154ee867.jpg"},
-    "thumbnail_600x338": {"media_id": "0dbd9159-c775-4d03-a34f-63d5c739faa3", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0dbd9159-c775-4d03-a34f-63d5c739faa3.jpg"},
+    "thumbnail_1200x675": {
+      "media_id": "6e567b6d-3f6c-489d-9065-fc60154ee867",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e567b6d-3f6c-489d-9065-fc60154ee867.jpg"
+    },
+    "thumbnail_600x338": {
+      "media_id": "0dbd9159-c775-4d03-a34f-63d5c739faa3",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0dbd9159-c775-4d03-a34f-63d5c739faa3.jpg"
+    },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
   },
-
   "scenes": [
-    {"scene_id": "EP-002-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ab59bc1f-efd5-4972-a366-14cf4d4e95c6", "video_job_id": "6eb7e13f-fece-4fee-8966-430572746ddf", "onscreen_text": "New password required", "visual": "Victor buried in sticky notes; Password Goblin on the monitor scrambling his login."},
-    {"scene_id": "EP-002-S02", "beat": "escalation gag", "duration_seconds": 5, "keyframe_job_id": "aba0be4e-b59d-4407-bc8a-d56ec7305c75", "video_job_id": "dcdcabfe-6d05-4625-8c85-3b80f992bca0", "onscreen_text": "", "visual": "Goblin flings a blizzard of sticky notes; Victor buried, exasperated."},
-    {"scene_id": "EP-002-S03", "beat": "SWRS simplifies + CTA", "duration_seconds": 8, "keyframe_job_id": "108316ef-7427-4310-913f-0b1bbadc8488", "video_job_id": "2b037a80-48b0-46e4-bfa4-ec1cfadf2957", "onscreen_text": "Email placements to info@swrecovery.com", "voiceover": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.", "visual": "Victor waves the Goblin away, relaxed, gestures to the email icon."},
-    {"scene_id": "EP-002-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."}
-  ]
+    {
+      "scene_id": "EP-002-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 5,
+      "keyframe_job_id": "ab59bc1f-efd5-4972-a366-14cf4d4e95c6",
+      "video_job_id": "6eb7e13f-fece-4fee-8966-430572746ddf",
+      "onscreen_text": "New password required",
+      "visual": "Victor buried in sticky notes; Password Goblin on the monitor scrambling his login."
+    },
+    {
+      "scene_id": "EP-002-S02",
+      "beat": "escalation gag",
+      "duration_seconds": 5,
+      "keyframe_job_id": "aba0be4e-b59d-4407-bc8a-d56ec7305c75",
+      "video_job_id": "dcdcabfe-6d05-4625-8c85-3b80f992bca0",
+      "onscreen_text": "",
+      "visual": "Goblin flings a blizzard of sticky notes; Victor buried, exasperated."
+    },
+    {
+      "scene_id": "EP-002-S03",
+      "beat": "SWRS simplifies + CTA",
+      "duration_seconds": 8,
+      "keyframe_job_id": "108316ef-7427-4310-913f-0b1bbadc8488",
+      "video_job_id": "2b037a80-48b0-46e4-bfa4-ec1cfadf2957",
+      "onscreen_text": "Email placements to info@swrecovery.com",
+      "voiceover": "Forget the passwords. Getting your accounts to Southwest Recovery Services is easier than you think. Just send us an email.",
+      "visual": "Victor waves the Goblin away, relaxed, gestures to the email icon."
+    },
+    {
+      "scene_id": "EP-002-S04",
+      "beat": "brand close",
+      "duration_seconds": 5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card with the official white SWRS logo held top-center."
+    }
+  ],
+  "audio_remaster": {
+    "date": "2026-08-09",
+    "reason": "true peak was -0.94 dBTP, above the -1.5 standard",
+    "method": "two-pass linear loudnorm to I=-14 LUFS / TP=-1.5 dBTP, video stream copied unchanged",
+    "measured_before": {
+      "I": "-14.49",
+      "TP": "-0.94",
+      "LRA": "11.20"
+    },
+    "measured_after": {
+      "I": "-13.78",
+      "TP": "-1.83",
+      "LRA": "10.90"
+    },
+    "retired_media_ids": [
+      "559de9d2-a7d1-4dae-8d0a-0751d3bce91f",
+      "f61c0aab-3b56-4637-a036-048a8b3f7dbe",
+      "28598162-d4bf-40d6-89b3-f85cdc6ba25e"
+    ]
+  }
 }
