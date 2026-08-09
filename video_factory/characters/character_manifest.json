@@ -7,7 +7,7 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; Victor, Hunter, Password Goblin, Late Fee Dragon, Invoice Monster and the six industry specialists locked; remaining per-character reference images not yet locked",
+    "status": "canonical roster captured; Victor, Hunter, Password Goblin, Late Fee Dragon, Invoice Monster, Filing Cabinet Phil and the six industry specialists locked; remaining per-character reference images not yet locked",
     "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series.",
     "lock_log": [
       {
@@ -30,6 +30,14 @@
         ],
         "why": "Steven asked for two new episodes built around the paperwork obstacles; the Invoice Monster had no reference image, so it could not be used until locked.",
         "note": "Two designs were produced and both approved: A as primary (compact creature), B as the fully grown form."
+      },
+      {
+        "date": "2026-08-09",
+        "locked": [
+          "filing_cabinet_phil"
+        ],
+        "why": "Steven cast a separate voice for what had been filed as the Invoice Monster's grown form, which makes it a distinct character. Promoted to its own entry with its own locked reference and name.",
+        "note": "First two speaking characters in the series: Invoice Monster (Vlad) and Filing Cabinet Phil (Vera)."
       }
     ]
   },
@@ -478,7 +486,7 @@
           "id": "invoice_monster",
           "name": "Invoice Monster",
           "title": "Represents Aging Receivables",
-          "one_liner": "Grows as invoices age. Shrinks when accounts are placed.",
+          "one_liner": "Grows as invoices age. Shrinks when accounts are placed. One of him is almost endearing.",
           "props": [
             "overdue stack"
           ],
@@ -492,15 +500,8 @@
               "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_154844_5da9a51b-71d5-4640-a1f2-adb3df40ce87.png",
               "note": "Variant A - client-selected. Compact creature form; the default for episode work because it has a body, arms and a face that can emote across scenes."
             },
-            "alternates": [
-              {
-                "job_id": "18c962fb-d060-4438-8691-2af5f9e5b7eb",
-                "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_154844_18c962fb-d060-4438-8691-2af5f9e5b7eb.png",
-                "note": "Variant B - approved alternate. A teetering tower of statements with a paperclip crown. Client-approved for use as the FULLY GROWN form of the same character, per the canon rule that it grows as invoices age; reads more as an object than a creature, so it is not the default."
-              }
-            ],
             "canon_rule": "Grows as invoices age. Shrinks when accounts are placed.",
-            "pending_split": "Steven has cast a SEPARATE voice for variant B, which makes it a distinct character rather than this one grown. B must be promoted to its own roster entry with its own locked reference; it is recorded here as an alternate only until that name is chosen."
+            "split_note": "The design previously filed here as variant B was promoted to its own character, Filing Cabinet Phil, on 2026-08-09 once Steven cast it a separate voice. This entry is the small creature only."
           },
           "voice": {
             "name": "Vlad",
@@ -517,7 +518,8 @@
               "Cody 244233fa"
             ],
             "note": "First speaking part in the series. The season NARRATOR remains Arthur (30fc8796-ceb6-4a66-b3a7-4a145ef7f346) across all episodes - this voice belongs to the character only, so nothing in EP-001 to EP-012 changes."
-          }
+          },
+          "relationship": "Individually harmless. Enough of them stack into Filing Cabinet Phil."
         },
         {
           "id": "password_goblin",
@@ -621,6 +623,47 @@
           "one_liner": "Protects cash flow from leaks.",
           "props": [],
           "canonical_reference": null
+        },
+        {
+          "id": "filing_cabinet_phil",
+          "name": "Filing Cabinet Phil",
+          "title": "Represents the Backlog",
+          "one_liner": "One overdue invoice is nothing. A thousand of them is Phil.",
+          "personality": "Patient, smug, in no hurry whatsoever. Time is on his side and he knows it.",
+          "catchphrase": "Take your time. I've been growing.",
+          "props": [
+            "towering stack of statements",
+            "paperclip crown"
+          ],
+          "relationship": "Formed when Invoice Monsters pile up. Collapses back into them when accounts are placed.",
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "design": "a tall precarious tower of overdue statements and manila folders with a bent-staple paperclip crown, cream and manila paper tones, navy printed ruling lines, red PAST DUE and OVERDUE rubber stamps as facial markings, two big round cartoon eyes near the top of the stack and a wide goofy grin, sheets fanning out at the sides as stubby arms. No fire, no scales, no wings, no tail.",
+            "world": "Reference framing matches the Late Fee Dragon and the Invoice Monster: in-scene hero shot in a dim open-plan office at night lit by cool blue monitor glow, stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "18c962fb-d060-4438-8691-2af5f9e5b7eb",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_154844_18c962fb-d060-4438-8691-2af5f9e5b7eb.png"
+            },
+            "design_note": "NAME/DESIGN MISMATCH, accepted by Steven: the name says filing cabinet, the locked design is a paper stack. Kept deliberately - Phil is what staff call the pile, not a literal cabinet. If a future episode needs an actual cabinet, this reference must be re-locked, not quietly reinterpreted."
+          },
+          "voice": {
+            "name": "Vera",
+            "voice_id": "0c51919f-0756-5f8d-8169-026a339d8fd7",
+            "voice_type": "preset",
+            "model": "seed_audio",
+            "cast_at": "2026-08-09",
+            "cast_by": "Steven",
+            "audition_line": "Take your time. I've been growing.",
+            "audition_job_id": "9ba4a232-3ff2-48d4-aeb0-8e465ebd7f2d",
+            "also_auditioned": [
+              "Vlad 40024d7e",
+              "Knox 24dfeb95",
+              "Desmond efffdfcb",
+              "Orion c67c05dd"
+            ],
+            "note": "Deliberately female against the Invoice Monster's Vlad, so the two paper creatures can never be mistaken for one character at two sizes. The season NARRATOR remains Arthur throughout."
+          }
         }
       ]
     },
