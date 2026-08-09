@@ -7,7 +7,7 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; Victor, Hunter and the six industry specialists (Healthcare Hannah, Dental Dana, Property Patty, Roofing Rachel, Plumbing Paul, Construction Cody) locked; remaining per-character reference images not yet locked",
+    "status": "canonical roster captured; Victor, Hunter, Password Goblin, Late Fee Dragon, Invoice Monster and the six industry specialists locked; remaining per-character reference images not yet locked",
     "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series.",
     "lock_log": [
       {
@@ -22,6 +22,14 @@
         ],
         "why": "Selected to match SWRS live client mix - healthcare and dental, property management, and trades/construction were together more than half of the last 60 signings.",
         "note": "Patty, Rachel and Cody needed a restyle pass; their off-model first attempts are recorded under superseded so they are never picked up by mistake."
+      },
+      {
+        "date": "2026-08-09",
+        "locked": [
+          "invoice_monster"
+        ],
+        "why": "Steven asked for two new episodes built around the paperwork obstacles; the Invoice Monster had no reference image, so it could not be used until locked.",
+        "note": "Two designs were produced and both approved: A as primary (compact creature), B as the fully grown form."
       }
     ]
   },
@@ -474,7 +482,25 @@
           "props": [
             "overdue stack"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "design": "a shaggy hunched creature built entirely from layered invoice sheets and manila statements, cream and manila paper tones with navy printed ruling lines, bold red PAST DUE and OVERDUE rubber stamps used as markings, two big round googly cartoon eyes peering out from a fringe of paper, wide goofy grin, stubby arms of stapled sheets. No fire, no scales, no wings, no tail - deliberately distinct from the Late Fee Dragon. Where the dragon SITS ON the paperwork, the Monster is MADE OF it.",
+            "world": "Reference framing matches the Late Fee Dragon: in-scene hero shot in a dim open-plan office at night lit by cool blue monitor glow, stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "5da9a51b-71d5-4640-a1f2-adb3df40ce87",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_154844_5da9a51b-71d5-4640-a1f2-adb3df40ce87.png",
+              "note": "Variant A - client-selected. Compact creature form; the default for episode work because it has a body, arms and a face that can emote across scenes."
+            },
+            "alternates": [
+              {
+                "job_id": "18c962fb-d060-4438-8691-2af5f9e5b7eb",
+                "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_154844_18c962fb-d060-4438-8691-2af5f9e5b7eb.png",
+                "note": "Variant B - approved alternate. A teetering tower of statements with a paperclip crown. Client-approved for use as the FULLY GROWN form of the same character, per the canon rule that it grows as invoices age; reads more as an object than a creature, so it is not the default."
+              }
+            ],
+            "canon_rule": "Grows as invoices age. Shrinks when accounts are placed."
+          }
         },
         {
           "id": "password_goblin",
