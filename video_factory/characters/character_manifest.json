@@ -499,7 +499,24 @@
                 "note": "Variant B - approved alternate. A teetering tower of statements with a paperclip crown. Client-approved for use as the FULLY GROWN form of the same character, per the canon rule that it grows as invoices age; reads more as an object than a creature, so it is not the default."
               }
             ],
-            "canon_rule": "Grows as invoices age. Shrinks when accounts are placed."
+            "canon_rule": "Grows as invoices age. Shrinks when accounts are placed.",
+            "pending_split": "Steven has cast a SEPARATE voice for variant B, which makes it a distinct character rather than this one grown. B must be promoted to its own roster entry with its own locked reference; it is recorded here as an alternate only until that name is chosen."
+          },
+          "voice": {
+            "name": "Vlad",
+            "voice_id": "e5666b9c-99a2-4fac-8b4e-abee078b186d",
+            "voice_type": "preset",
+            "model": "seed_audio",
+            "cast_at": "2026-08-09",
+            "cast_by": "Steven",
+            "audition_line": "Mmm. Aged. Just how I like 'em.",
+            "audition_job_id": "cbf47303-39fb-491b-8e42-8b7be3a2013a",
+            "also_auditioned": [
+              "Benji 6f882062",
+              "Bob a47854e9",
+              "Cody 244233fa"
+            ],
+            "note": "First speaking part in the series. The season NARRATOR remains Arthur (30fc8796-ceb6-4a66-b3a7-4a145ef7f346) across all episodes - this voice belongs to the character only, so nothing in EP-001 to EP-012 changes."
           }
         },
         {
