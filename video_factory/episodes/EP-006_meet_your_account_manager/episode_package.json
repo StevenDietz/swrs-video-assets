@@ -81,21 +81,21 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "47532c78-4287-425a-bc3c-8fa6ec2e3838",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/47532c78-4287-425a-bc3c-8fa6ec2e3838.mp4",
+        "media_id": "9a4c8dc6-4a82-4076-96a5-75d662265f54",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9a4c8dc6-4a82-4076-96a5-75d662265f54.mp4",
         "use": "email campaigns / YouTube"
       },
       "square_1x1": {
-        "media_id": "87bfc666-cb51-4fb7-991d-a83aa49cafa1",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/87bfc666-cb51-4fb7-991d-a83aa49cafa1.mp4",
+        "media_id": "7e84788b-c635-4dcf-a15d-63a0194a5023",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7e84788b-c635-4dcf-a15d-63a0194a5023.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "4ad88a38-3899-41be-949f-8a62dddc2b3f",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4ad88a38-3899-41be-949f-8a62dddc2b3f.mp4",
+        "media_id": "e1eea1fb-9741-4edd-a832-ef242b9fafe7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e1eea1fb-9741-4edd-a832-ef242b9fafe7.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09: Max -> Hunter, new VO plus a new burned lower-third caption. Also fixed an audio splice that had left 0.2s of the retired Max line audible as a stray word at 11.70-11.82s; splice window extended to 12.05s. Caption bar is opaque navy #10143C to fully mask the old wording. Retired ids (never reuse): 3f969e20/4c880896/c8a79b58. Previous _note: FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal)."
+      "_note": "RE-ISSUED 2026-08-09 (v3, translucent caption restored): the v2 Hunter caption had to be an OPAQUE bar because a translucent bar drawn over the retired translucent Max bar double-darkens and leaves a visible rectangle. v3 rebuilds the picture across the caption window from the original uncaptioned scene clips, so the bar is genuinely translucent again and matches the other eleven episodes. Audio is byte-identical to v2 (already correct). Retired ids (never reuse): 47532c78/87bfc666/4ad88a38. Previous _note: RE-ISSUED 2026-08-09: Max -> Hunter, new VO plus a new burned lower-third caption. Also fixed an audio splice that had left 0.2s of the retired Max line audible as a stray word at 11.70-11.82s; splice window extended to 12.05s. Caption bar is opaque navy #10143C to fully mask the old wording. Retired ids (never reuse): 3f969e20/4c880896/c8a79b58. Previous _note: FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal)."
     }
   },
   "email_assets": {
@@ -156,5 +156,18 @@
     "to": "Hunter",
     "date": "2026-08-09",
     "note": "Renamed Max -> Hunter 2026-08-09 (client-directed). Character design, reference image and role unchanged; only the name changed."
+  },
+  "caption_rebuild": {
+    "date": "2026-08-09",
+    "reason": "restore the translucent lower-third; the v2 fix had to use an opaque bar to mask the retired Max wording",
+    "window_rebuilt": "6.30s - 12.28s (the full caption window, which starts 0.2s BEFORE the scene-2 cut at 6.50s)",
+    "method": "Picture rebuilt from the original uncaptioned scene clips: scene 1 tail (85acb1fe, retimed to 6.5s), scene 2 (1fe4a577, retimed to 5.7s, carrying the new translucent caption), and scene 3 head (62ff9c74, retimed to 7.3s). Everything outside 6.30-12.28s is the original master picture. Audio stream reused unchanged from v2.",
+    "caption_spec": "drawbox x=277 y=545 w=726 h=64, colour 0x0A0E32 at 65% opacity; Fira Sans Bold 32px white, centred, baseline y=553. Caption now appears on the scene-2 cut rather than fading in 0.2s early.",
+    "verification": "Clean plates matched the original master to within 0.33 luma out of 255 at four sample points (scene 1 @6.0s, scene 2 @1.0s and @4.0s, scene 3 @0.5s), so the splice is seamless. Seam frames checked at 6.20 / 6.40 / 7.50 / 12.10 / 12.35s. Transcription off the live CDN confirms Hunter present, Max absent, no stray fragment. Loudness unchanged at -14.41 LUFS / -1.50 dBTP.",
+    "retired_media_ids": [
+      "47532c78-4287-425a-bc3c-8fa6ec2e3838",
+      "87bfc666-cb51-4fb7-991d-a83aa49cafa1",
+      "4ad88a38-3899-41be-949f-8a62dddc2b3f"
+    ]
   }
 }
