@@ -7,8 +7,23 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; Victor and Hunter locked, remaining per-character reference images not yet locked",
-    "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series."
+    "status": "canonical roster captured; Victor, Hunter and the six industry specialists (Healthcare Hannah, Dental Dana, Property Patty, Roofing Rachel, Plumbing Paul, Construction Cody) locked; remaining per-character reference images not yet locked",
+    "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series.",
+    "lock_log": [
+      {
+        "date": "2026-08-09",
+        "locked": [
+          "construction_cody",
+          "dental_dana",
+          "healthcare_hannah",
+          "plumbing_paul",
+          "property_patty",
+          "roofing_rachel"
+        ],
+        "why": "Selected to match SWRS live client mix - healthcare and dental, property management, and trades/construction were together more than half of the last 60 signings.",
+        "note": "Patty, Rachel and Cody needed a restyle pass; their off-model first attempts are recorded under superseded so they are never picked up by mistake."
+      }
+    ]
   },
   "continuity_rules": [
     "These characters are assets. Always maintain their core appearance, personality, and voice.",
@@ -674,13 +689,31 @@
           "id": "healthcare_hannah",
           "name": "Healthcare Hannah",
           "industry": "Healthcare Receivables",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "healthcare practice administrator, mid thirties, warm medium skin, dark chestnut shoulder-length blunt bob; light sky-blue medical scrub top under a tailored deep navy blazer, slim navy trousers, white low-profile sneakers, plain navy badge lanyard with a blank white ID card, silver wristwatch; prop: slim dark tablet",
+            "primary": {
+              "job_id": "8178e6ba-d5f5-4da0-b89c-437a3c1dc4b6",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_141049_8178e6ba-d5f5-4da0-b89c-437a3c1dc4b6.png"
+            }
+          }
         },
         {
           "id": "dental_dana",
           "name": "Dental Dana",
           "industry": "Dental Collections",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "dental office manager, early thirties, fair skin, honey-blonde neat low ponytail; pale sky-blue v-neck dental scrub top, open mid-blue zip cardigan, navy scrub trousers, white slip-on clogs, plain navy lanyard with a blank white badge, small stud earrings; prop: slim navy clipboard",
+            "primary": {
+              "job_id": "33d45a58-43e2-4e46-adbf-0bc866a24e7f",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_141049_33d45a58-43e2-4e46-adbf-0bc866a24e7f.png"
+            }
+          }
         },
         {
           "id": "veterinary_vince",
@@ -704,7 +737,22 @@
           "id": "construction_cody",
           "name": "Construction Cody",
           "industry": "Construction Firms",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "construction firm owner, late thirties, warm tan skin, short black crop, clean shaven; sky-blue hard hat, deep navy quarter-zip over a plain white tee, plain mid-blue high-visibility vest with reflective silver bands, navy work trousers, tan leather work boots; prop: roll of pale blue blueprints",
+            "primary": {
+              "job_id": "9f47209f-e751-4985-83b7-29d45f369752",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_141334_9f47209f-e751-4985-83b7-29d45f369752.png"
+            },
+            "superseded": [
+              {
+                "job": "8fb179b9-5d5f-4ba6-bc97-29c20fe71430",
+                "note": "first pass, near-photoreal; clearly off-model beside Victor"
+              }
+            ]
+          }
         },
         {
           "id": "hvac_harvey",
@@ -716,7 +764,16 @@
           "id": "plumbing_paul",
           "name": "Plumbing Paul",
           "industry": "Plumbing Companies",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "plumbing business owner, mid forties, medium skin, short dark brown side-parted hair greying at the temples, close-trimmed beard; mid-blue work shirt with sleeves rolled to the elbow, navy utility coveralls tied at the waist with the arms knotted in front, navy work trousers, brown leather work boots, plain canvas tool belt; prop: chrome pipe wrench",
+            "primary": {
+              "job_id": "db428556-bb3c-4db6-8876-1701d8b3f1ea",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_141049_db428556-bb3c-4db6-8876-1701d8b3f1ea.png"
+            }
+          }
         },
         {
           "id": "electrical_eddie",
@@ -728,7 +785,32 @@
           "id": "roofing_rachel",
           "name": "Roofing Rachel",
           "industry": "Roofing Companies",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "roofing contractor-owner, mid thirties, sun-warmed tan skin with freckles across the nose, dark brown hair worn back under the hat; sky-blue hard hat, deep navy work shirt with sleeves rolled to the elbow, tan canvas tool belt with work gloves tucked in, navy work trousers, brown leather work boots; prop: slim dark tablet",
+            "primary": {
+              "job_id": "3b5eaea8-dd56-4d77-adcb-3fa4fab95e8a",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_143209_3b5eaea8-dd56-4d77-adcb-3fa4fab95e8a.png"
+            },
+            "alternates": [
+              {
+                "job": "9a4504f1-3287-4bb4-b702-5b0e2bf9f9b1",
+                "note": "approved alternate: braid visible over the shoulder, but reads noticeably younger; use only where the braid is needed"
+              }
+            ],
+            "superseded": [
+              {
+                "job": "5fd0c607-122e-4164-ab49-ae9f9d281f78",
+                "note": "first pass, semi-realistic"
+              },
+              {
+                "job": "17d9c6a8-a561-4e8e-8636-1676f2bef740",
+                "note": "second pass, close-up on-model but full-body panel still semi-realistic"
+              }
+            ]
+          }
         },
         {
           "id": "manufacturing_mike",
@@ -758,7 +840,22 @@
           "id": "property_patty",
           "name": "Property Patty",
           "industry": "Property Management",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-09",
+            "sheet": "Split-screen character sheet (standing full body + chest-up close-up), nano_banana_pro, 16:9, pure white seamless studio. House style: highly stylized non-photorealistic 3D animated feature-film look matching Victor - soft rounded features, matte clay-like skin, no photographic pore detail, gently exaggerated proportions. Cool-blue SWRS palette. No logos or text baked into the sheet.",
+            "design": "property manager, mid forties, light-olive skin, dark auburn shoulder-length layered hair swept to one side; crisp sky-blue button-down under a structured deep navy blazer, navy straight-leg trousers, navy low-heel loafers, slim navy belt, thin gold bracelet; props: ring of brass keys at the hip, slim dark tablet",
+            "primary": {
+              "job_id": "f770e6f9-0b23-4e7e-bfdb-7f0965f45f75",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260809_141334_f770e6f9-0b23-4e7e-bfdb-7f0965f45f75.png"
+            },
+            "superseded": [
+              {
+                "job": "eb3df774-f544-4ceb-be74-873ce97cb915",
+                "note": "first pass, drifted semi-realistic; off-model for the series"
+              }
+            ]
+          }
         },
         {
           "id": "commercial_rick",
