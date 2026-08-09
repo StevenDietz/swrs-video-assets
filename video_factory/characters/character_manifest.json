@@ -7,10 +7,9 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; Victor locked, remaining per-character reference images not yet locked",
+    "status": "canonical roster captured; Victor and Hunter locked, remaining per-character reference images not yet locked",
     "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series."
   },
-
   "continuity_rules": [
     "These characters are assets. Always maintain their core appearance, personality, and voice.",
     "Do not change hair, eye color, body type, or signature clothing.",
@@ -19,7 +18,6 @@
     "Lock ONE canonical reference image per character; generate every future frame against it.",
     "Characters never lip-sync in narrated episodes; they emote and gesture while an external narrator speaks."
   ],
-
   "episode_engine": {
     "formula": "Obstacle (the problem) -> Persona (who feels it) -> Hero/AI Guide (the easy fix) -> Success Character (the payoff/CTA)",
     "obstacles_are": "episode premises",
@@ -44,163 +42,905 @@
       "Referrals & growth"
     ],
     "example_episodes": [
-      {"episode": "The Login Curse", "obstacle": "password_goblin", "persona": "any procrastinator (Victor)", "fix": "place by email, skip the portal", "payoff": "cash_flow_hero"},
-      {"episode": "Aging Receivables Grow Teeth", "obstacle": "invoice_monster", "persona": "frank_franchise_owner", "fix": "place before 90 days", "payoff": "recovery_champ"},
-      {"episode": "Stop Putting It Off", "obstacle": "coffee_cup_carl", "persona": "patty_property_manager", "fix": "one upload", "payoff": "milestone_marker"},
-      {"episode": "Waiting Costs You Money", "obstacle": "late_fee_dragon", "persona": "harvey_hvac", "fix": "place now", "payoff": "cash_flow_hero"}
+      {
+        "episode": "The Login Curse",
+        "obstacle": "password_goblin",
+        "persona": "any procrastinator (Victor)",
+        "fix": "place by email, skip the portal",
+        "payoff": "cash_flow_hero"
+      },
+      {
+        "episode": "Aging Receivables Grow Teeth",
+        "obstacle": "invoice_monster",
+        "persona": "frank_franchise_owner",
+        "fix": "place before 90 days",
+        "payoff": "recovery_champ"
+      },
+      {
+        "episode": "Stop Putting It Off",
+        "obstacle": "coffee_cup_carl",
+        "persona": "patty_property_manager",
+        "fix": "one upload",
+        "payoff": "milestone_marker"
+      },
+      {
+        "episode": "Waiting Costs You Money",
+        "obstacle": "late_fee_dragon",
+        "persona": "harvey_hvac",
+        "fix": "place now",
+        "payoff": "cash_flow_hero"
+      }
     ]
   },
-
   "groups": {
     "heroes": {
       "label": "SWRS Heroes (The Core)",
       "role_in_engine": "recurring leads and guides",
       "characters": [
-        {"id": "victor_the_vampire", "name": "Victor", "title": "The Vampire — Chief Frustration Officer", "one_liner": "Busy, overwhelmed, procrastinates, sends accounts at the last minute.", "personality": "Dramatic, funny, intelligent, easily distracted but wants to do the right thing.", "catchphrase": "There has to be an easier way.", "props": ["laptop", "phone", "coffee"], "canonical_reference": {"model": "nano_banana_pro", "locked_at": "2026-08-04", "design": "professional office worker who happens to be a vampire; business suit, subtle fangs, no cape (dialed back per Production Handoff v1.0)", "primary": {"job_id": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_044220_e5f22563-8fb6-4090-a4aa-2f0033d6c4ad.png"}, "superseded": [{"note": "v1 caped/costumey design", "job_id": "2311132e-5694-4a03-b4ae-094ffbcfb7ec"}]}},
-        {"id": "penny_the_accountant", "name": "Penny", "title": "The Accountant — Director of Common Sense", "one_liner": "Calm, logical, organized, always simplifies complex problems.", "personality": "Calm, logical, patient, highly organized.", "catchphrase": "Let's simplify this.", "props": ["clipboard", "calculator", "tabs"], "canonical_reference": null},
-        {"id": "max_client_success", "name": "Max", "title": "The Client Success Manager", "one_liner": "Helps clients succeed from day one.", "personality": "Positive, helpful, coachable, relationship-driven.", "catchphrase": "One small step today saves a lot of headaches tomorrow.", "props": ["tablet", "welcome kit"], "canonical_reference": {"primary": {"job_id": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f", "locked": "2026-08-04", "note": "early-30s friendly account manager, light-blue shirt + navy tie + SWRS lanyard, tablet and navy welcome-kit box; Variant 1 of 3 (alternates: d17e156b navy-blazer ~40, 9d89d091 late-20s rolled sleeves). Image reference on every scene keyframe featuring Max."}}},
-        {"id": "captain_compliance", "name": "Captain Compliance", "title": "The Protector", "one_liner": "Ensures ethical, compliant, and professional collections.", "personality": "Strong, calm, trustworthy, expert.", "catchphrase": "The right way is the lasting way.", "props": ["shield", "rule book"], "canonical_reference": null},
-        {"id": "clarity_ai", "name": "Clarity AI", "title": "Your AI Guide", "one_liner": "Explains complex topics in simple, helpful ways.", "personality": "Friendly, smart, fast, patient.", "catchphrase": "Here's the simple answer.", "props": ["speech bubbles", "light bulb"], "canonical_reference": null},
-        {"id": "cash_flow_hero", "name": "Cash Flow Hero", "title": "The Reward for Action", "one_liner": "Appears when clients take action and cash starts flowing.", "personality": "Confident, optimistic, motivating.", "catchphrase": "That's how cash flow grows!", "props": ["cape", "dollar shield"], "canonical_reference": null, "also_in": "success"},
-        {"id": "chloe_onboarding", "name": "Chloe", "title": "Max's Sidekick — Onboarding Specialist", "one_liner": "Keeps clients on track and informed.", "personality": "Supportive, organized.", "catchphrase": null, "props": [], "canonical_reference": null},
-        {"id": "relationship_rachel", "name": "Relationship Rachel", "title": "Sales Relationship Expert", "one_liner": "Builds relationships and opens doors.", "personality": "Warm, personable.", "catchphrase": null, "props": [], "canonical_reference": null},
-        {"id": "followup_fiona", "name": "Follow-up Fiona", "title": "Persistence Pro", "one_liner": "Makes sure nothing falls through the cracks.", "personality": "Persistent, diligent.", "catchphrase": null, "props": ["phone"], "canonical_reference": null}
+        {
+          "id": "victor_the_vampire",
+          "name": "Victor",
+          "title": "The Vampire — Chief Frustration Officer",
+          "one_liner": "Busy, overwhelmed, procrastinates, sends accounts at the last minute.",
+          "personality": "Dramatic, funny, intelligent, easily distracted but wants to do the right thing.",
+          "catchphrase": "There has to be an easier way.",
+          "props": [
+            "laptop",
+            "phone",
+            "coffee"
+          ],
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-04",
+            "design": "professional office worker who happens to be a vampire; business suit, subtle fangs, no cape (dialed back per Production Handoff v1.0)",
+            "primary": {
+              "job_id": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_044220_e5f22563-8fb6-4090-a4aa-2f0033d6c4ad.png"
+            },
+            "superseded": [
+              {
+                "note": "v1 caped/costumey design",
+                "job_id": "2311132e-5694-4a03-b4ae-094ffbcfb7ec"
+              }
+            ]
+          }
+        },
+        {
+          "id": "penny_the_accountant",
+          "name": "Penny",
+          "title": "The Accountant — Director of Common Sense",
+          "one_liner": "Calm, logical, organized, always simplifies complex problems.",
+          "personality": "Calm, logical, patient, highly organized.",
+          "catchphrase": "Let's simplify this.",
+          "props": [
+            "clipboard",
+            "calculator",
+            "tabs"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "hunter_client_success",
+          "name": "Hunter",
+          "title": "The Client Success Manager",
+          "one_liner": "Helps clients succeed from day one.",
+          "personality": "Positive, helpful, coachable, relationship-driven.",
+          "catchphrase": "One small step today saves a lot of headaches tomorrow.",
+          "props": [
+            "tablet",
+            "welcome kit"
+          ],
+          "canonical_reference": {
+            "primary": {
+              "job_id": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+              "locked": "2026-08-04",
+              "note": "early-30s friendly account manager, light-blue shirt + navy tie + SWRS lanyard, tablet and navy welcome-kit box; Variant 1 of 3 (alternates: d17e156b navy-blazer ~40, 9d89d091 late-20s rolled sleeves). Image reference on every scene keyframe featuring Hunter."
+            },
+            "rename_note": "Renamed Max -> Hunter 2026-08-09 (client-directed). Character design, reference image and role unchanged; only the name changed."
+          },
+          "renamed_from": "Max",
+          "renamed_at": "2026-08-09"
+        },
+        {
+          "id": "captain_compliance",
+          "name": "Captain Compliance",
+          "title": "The Protector",
+          "one_liner": "Ensures ethical, compliant, and professional collections.",
+          "personality": "Strong, calm, trustworthy, expert.",
+          "catchphrase": "The right way is the lasting way.",
+          "props": [
+            "shield",
+            "rule book"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "clarity_ai",
+          "name": "Clarity AI",
+          "title": "Your AI Guide",
+          "one_liner": "Explains complex topics in simple, helpful ways.",
+          "personality": "Friendly, smart, fast, patient.",
+          "catchphrase": "Here's the simple answer.",
+          "props": [
+            "speech bubbles",
+            "light bulb"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "cash_flow_hero",
+          "name": "Cash Flow Hero",
+          "title": "The Reward for Action",
+          "one_liner": "Appears when clients take action and cash starts flowing.",
+          "personality": "Confident, optimistic, motivating.",
+          "catchphrase": "That's how cash flow grows!",
+          "props": [
+            "cape",
+            "dollar shield"
+          ],
+          "canonical_reference": null,
+          "also_in": "success"
+        },
+        {
+          "id": "chloe_onboarding",
+          "name": "Chloe",
+          "title": "Hunter's Sidekick — Onboarding Specialist",
+          "one_liner": "Keeps clients on track and informed.",
+          "personality": "Supportive, organized.",
+          "catchphrase": null,
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "relationship_rachel",
+          "name": "Relationship Rachel",
+          "title": "Sales Relationship Expert",
+          "one_liner": "Builds relationships and opens doors.",
+          "personality": "Warm, personable.",
+          "catchphrase": null,
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "followup_fiona",
+          "name": "Follow-up Fiona",
+          "title": "Persistence Pro",
+          "one_liner": "Makes sure nothing falls through the cracks.",
+          "personality": "Persistent, diligent.",
+          "catchphrase": null,
+          "props": [
+            "phone"
+          ],
+          "canonical_reference": null
+        }
       ]
     },
-
     "client_personas": {
       "label": "Client Personas (Decision Makers)",
       "role_in_engine": "audience segments",
       "characters": [
-        {"id": "frank_franchise_owner", "name": "Frank", "title": "Franchise Owner", "one_liner": "Runs multiple locations and needs consistent cash flow.", "props": ["store keys", "reports"], "canonical_reference": null},
-        {"id": "harvey_hvac", "name": "Harvey HVAC", "title": "Contractor", "one_liner": "Always on the move, always busy, always behind.", "props": ["clipboard", "tool belt"], "canonical_reference": null},
-        {"id": "patty_property_manager", "name": "Patty", "title": "Property Manager", "one_liner": "Juggles tenants, vendors, and emergencies.", "props": ["keys", "phone", "tablet"], "canonical_reference": null},
-        {"id": "doctor_deb", "name": "Doctor Deb", "title": "Medical Admin", "one_liner": "Balancing patient care with receivables.", "props": ["chart", "stethoscope"], "canonical_reference": null},
-        {"id": "manny_manufacturer", "name": "Manny", "title": "Manufacturer", "one_liner": "Focused on production while AR piles up.", "props": ["clipboard", "blueprint"], "canonical_reference": null},
-        {"id": "larry_logistics", "name": "Larry", "title": "Logistics Manager", "one_liner": "Constant movement, thin margins.", "props": ["headset", "tablet"], "canonical_reference": null},
-        {"id": "utility_ursula", "name": "Utility Ursula", "title": "Utility Billing Manager", "one_liner": "Handles large volumes and strict processes.", "props": ["reports", "calculator"], "canonical_reference": null},
-        {"id": "cody_construction", "name": "Cody", "title": "Construction Superintendent", "one_liner": "Keeps projects moving and payments coming.", "props": ["plans", "hard hat"], "canonical_reference": null},
-        {"id": "rebecca_retail", "name": "Rebecca", "title": "Retail Operator", "one_liner": "Multi-location retail, balances ops and AR.", "props": ["POS", "reports"], "canonical_reference": null},
-        {"id": "cfo_chris", "name": "CFO Chris", "title": "Chief Financial Officer", "one_liner": "Looks at data, dashboards, and ROI.", "props": ["laptop", "dashboard"], "canonical_reference": null}
+        {
+          "id": "frank_franchise_owner",
+          "name": "Frank",
+          "title": "Franchise Owner",
+          "one_liner": "Runs multiple locations and needs consistent cash flow.",
+          "props": [
+            "store keys",
+            "reports"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "harvey_hvac",
+          "name": "Harvey HVAC",
+          "title": "Contractor",
+          "one_liner": "Always on the move, always busy, always behind.",
+          "props": [
+            "clipboard",
+            "tool belt"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "patty_property_manager",
+          "name": "Patty",
+          "title": "Property Manager",
+          "one_liner": "Juggles tenants, vendors, and emergencies.",
+          "props": [
+            "keys",
+            "phone",
+            "tablet"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "doctor_deb",
+          "name": "Doctor Deb",
+          "title": "Medical Admin",
+          "one_liner": "Balancing patient care with receivables.",
+          "props": [
+            "chart",
+            "stethoscope"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "manny_manufacturer",
+          "name": "Manny",
+          "title": "Manufacturer",
+          "one_liner": "Focused on production while AR piles up.",
+          "props": [
+            "clipboard",
+            "blueprint"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "larry_logistics",
+          "name": "Larry",
+          "title": "Logistics Manager",
+          "one_liner": "Constant movement, thin margins.",
+          "props": [
+            "headset",
+            "tablet"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "utility_ursula",
+          "name": "Utility Ursula",
+          "title": "Utility Billing Manager",
+          "one_liner": "Handles large volumes and strict processes.",
+          "props": [
+            "reports",
+            "calculator"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "cody_construction",
+          "name": "Cody",
+          "title": "Construction Superintendent",
+          "one_liner": "Keeps projects moving and payments coming.",
+          "props": [
+            "plans",
+            "hard hat"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "rebecca_retail",
+          "name": "Rebecca",
+          "title": "Retail Operator",
+          "one_liner": "Multi-location retail, balances ops and AR.",
+          "props": [
+            "POS",
+            "reports"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "cfo_chris",
+          "name": "CFO Chris",
+          "title": "Chief Financial Officer",
+          "one_liner": "Looks at data, dashboards, and ROI.",
+          "props": [
+            "laptop",
+            "dashboard"
+          ],
+          "canonical_reference": null
+        }
       ]
     },
-
     "internal_team": {
       "label": "SWRS Internal Team (The Experts)",
       "role_in_engine": "meet-your-team content and process expertise",
       "characters": [
-        {"id": "connie_collector", "name": "Connie", "title": "Collector", "one_liner": "Professional negotiator. Persistent and respectful.", "props": ["headset", "notes"], "canonical_reference": null},
-        {"id": "nate_negotiator", "name": "Nate", "title": "Negotiator", "one_liner": "Skilled in conversation and resolution.", "props": ["phone", "notes"], "canonical_reference": null},
-        {"id": "tracy_training", "name": "Tracy", "title": "Training Specialist", "one_liner": "Builds confidence and results.", "props": ["laptop", "training manual"], "canonical_reference": null},
-        {"id": "olivia_operations", "name": "Olivia", "title": "Operations Manager", "one_liner": "Keeps processes running smoothly.", "props": ["clipboard", "workflow board"], "canonical_reference": null},
-        {"id": "ava_analytics", "name": "Ava", "title": "Analytics Specialist", "one_liner": "Turns data into actionable insights.", "props": ["laptop", "charts"], "canonical_reference": null},
-        {"id": "quinn_quality", "name": "Quinn", "title": "Quality Analyst", "one_liner": "Accuracy. Compliance. Quality.", "props": ["checklist", "magnifier"], "canonical_reference": null},
-        {"id": "ian_it", "name": "Ian", "title": "IT Specialist", "one_liner": "Solves tech challenges quickly.", "props": ["laptop", "headset"], "canonical_reference": null},
-        {"id": "mason_marketing", "name": "Mason", "title": "Marketing Strategist", "one_liner": "Tells our story and builds brand trust.", "props": ["laptop", "camera"], "canonical_reference": null},
-        {"id": "chloe_customer_success", "name": "Chloe", "title": "Customer Success Rep", "one_liner": "Ensures clients get value and see results.", "props": ["tablet"], "canonical_reference": null},
-        {"id": "paul_placement", "name": "Paul", "title": "Placement Specialist", "one_liner": "Expert in placements and account preparation.", "props": ["headset", "forms"], "canonical_reference": null}
+        {
+          "id": "connie_collector",
+          "name": "Connie",
+          "title": "Collector",
+          "one_liner": "Professional negotiator. Persistent and respectful.",
+          "props": [
+            "headset",
+            "notes"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "nate_negotiator",
+          "name": "Nate",
+          "title": "Negotiator",
+          "one_liner": "Skilled in conversation and resolution.",
+          "props": [
+            "phone",
+            "notes"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "tracy_training",
+          "name": "Tracy",
+          "title": "Training Specialist",
+          "one_liner": "Builds confidence and results.",
+          "props": [
+            "laptop",
+            "training manual"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "olivia_operations",
+          "name": "Olivia",
+          "title": "Operations Manager",
+          "one_liner": "Keeps processes running smoothly.",
+          "props": [
+            "clipboard",
+            "workflow board"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "ava_analytics",
+          "name": "Ava",
+          "title": "Analytics Specialist",
+          "one_liner": "Turns data into actionable insights.",
+          "props": [
+            "laptop",
+            "charts"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "quinn_quality",
+          "name": "Quinn",
+          "title": "Quality Analyst",
+          "one_liner": "Accuracy. Compliance. Quality.",
+          "props": [
+            "checklist",
+            "magnifier"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "ian_it",
+          "name": "Ian",
+          "title": "IT Specialist",
+          "one_liner": "Solves tech challenges quickly.",
+          "props": [
+            "laptop",
+            "headset"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "mason_marketing",
+          "name": "Mason",
+          "title": "Marketing Strategist",
+          "one_liner": "Tells our story and builds brand trust.",
+          "props": [
+            "laptop",
+            "camera"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "chloe_customer_success",
+          "name": "Chloe",
+          "title": "Customer Success Rep",
+          "one_liner": "Ensures clients get value and see results.",
+          "props": [
+            "tablet"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "paul_placement",
+          "name": "Paul",
+          "title": "Placement Specialist",
+          "one_liner": "Expert in placements and account preparation.",
+          "props": [
+            "headset",
+            "forms"
+          ],
+          "canonical_reference": null
+        }
       ]
     },
-
     "comic_obstacles": {
       "label": "Comic Obstacles (The Problems)",
       "role_in_engine": "episode premises",
       "characters": [
-        {"id": "invoice_monster", "name": "Invoice Monster", "title": "Represents Aging Receivables", "one_liner": "Grows as invoices age. Shrinks when accounts are placed.", "props": ["overdue stack"], "canonical_reference": null},
-        {"id": "password_goblin", "name": "Password Goblin", "title": "Villain (annoying, not evil)", "one_liner": "Changes passwords at the worst times.", "props": ["keyboard", "sticky notes"], "canonical_reference": {"model": "nano_banana_pro", "locked_at": "2026-08-04", "design": "small green impish goblin, big ears, keyboard + sticky notes, comedic not scary", "primary": {"job_id": "c7500c1e-3774-40d0-b328-3986fcd6b361", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_053035_c7500c1e-3774-40d0-b328-3986fcd6b361.png"}, "motion_test": "861939ed-759c-4341-8449-c9f267d32113"}},
-        {"id": "printer_gremlin", "name": "Printer Gremlin", "title": "Represents Unnecessary Complications", "one_liner": "Paper jams, wrong prints, and waste.", "props": ["printer"], "canonical_reference": null},
-        {"id": "coffee_cup_carl", "name": "Coffee Cup Carl", "title": "Appears in almost every episode", "one_liner": "Spills coffee every time someone procrastinates.", "props": ["coffee"], "canonical_reference": null},
-        {"id": "the_aging_clock", "name": "The Aging Clock", "title": "Represents Time & Urgency", "one_liner": "Counts up the days. Gets louder.", "props": ["calendar clock"], "canonical_reference": null},
-        {"id": "excuse_generator", "name": "Excuse Generator", "title": "Represents Delay", "one_liner": "Invents reasons to wait.", "props": ["excuse printout"], "canonical_reference": null},
-        {"id": "spam_monster", "name": "Spam Monster", "title": "Represents Inbox Chaos", "one_liner": "Eats important emails and fills inboxes with junk distractions.", "props": ["envelopes"], "canonical_reference": null},
-        {"id": "late_fee_dragon", "name": "Late Fee Dragon", "title": "Represents Penalties", "one_liner": "Breathes late fees and penalties.", "props": ["fire", "PAST DUE invoices"], "canonical_reference": {"primary": {"job_id": "6d6cea58-1f3b-475d-a920-e3a92f29653a", "locked": "2026-08-04 (client-selected, replacing 64ee0e5b)", "note": "plump smug dog-sized dragon, deep navy-blue scales, ember-orange belly, tiny wings, nostril flame puffs, sits on PAST DUE invoice pile, receipt tail; grows huge when fed by waiting. Variant 1 of 3 (alternates: 65683b2a cat-sized with visor, 64ee0e5b chubby baby)."}}},
-        {"id": "procrastination_sloth", "name": "Procrastination Sloth", "title": "Represents Delay", "one_liner": "Always says, \"I'll do it later.\"", "props": [], "canonical_reference": null},
-        {"id": "cash_flow_vampire_hunter", "name": "Cash Flow Vampire Hunter", "title": "Protects Cash Flow", "one_liner": "Protects cash flow from leaks.", "props": [], "canonical_reference": null}
+        {
+          "id": "invoice_monster",
+          "name": "Invoice Monster",
+          "title": "Represents Aging Receivables",
+          "one_liner": "Grows as invoices age. Shrinks when accounts are placed.",
+          "props": [
+            "overdue stack"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "password_goblin",
+          "name": "Password Goblin",
+          "title": "Villain (annoying, not evil)",
+          "one_liner": "Changes passwords at the worst times.",
+          "props": [
+            "keyboard",
+            "sticky notes"
+          ],
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-04",
+            "design": "small green impish goblin, big ears, keyboard + sticky notes, comedic not scary",
+            "primary": {
+              "job_id": "c7500c1e-3774-40d0-b328-3986fcd6b361",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260804_053035_c7500c1e-3774-40d0-b328-3986fcd6b361.png"
+            },
+            "motion_test": "861939ed-759c-4341-8449-c9f267d32113"
+          }
+        },
+        {
+          "id": "printer_gremlin",
+          "name": "Printer Gremlin",
+          "title": "Represents Unnecessary Complications",
+          "one_liner": "Paper jams, wrong prints, and waste.",
+          "props": [
+            "printer"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "coffee_cup_carl",
+          "name": "Coffee Cup Carl",
+          "title": "Appears in almost every episode",
+          "one_liner": "Spills coffee every time someone procrastinates.",
+          "props": [
+            "coffee"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "the_aging_clock",
+          "name": "The Aging Clock",
+          "title": "Represents Time & Urgency",
+          "one_liner": "Counts up the days. Gets louder.",
+          "props": [
+            "calendar clock"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "excuse_generator",
+          "name": "Excuse Generator",
+          "title": "Represents Delay",
+          "one_liner": "Invents reasons to wait.",
+          "props": [
+            "excuse printout"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "spam_monster",
+          "name": "Spam Monster",
+          "title": "Represents Inbox Chaos",
+          "one_liner": "Eats important emails and fills inboxes with junk distractions.",
+          "props": [
+            "envelopes"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "late_fee_dragon",
+          "name": "Late Fee Dragon",
+          "title": "Represents Penalties",
+          "one_liner": "Breathes late fees and penalties.",
+          "props": [
+            "fire",
+            "PAST DUE invoices"
+          ],
+          "canonical_reference": {
+            "primary": {
+              "job_id": "6d6cea58-1f3b-475d-a920-e3a92f29653a",
+              "locked": "2026-08-04 (client-selected, replacing 64ee0e5b)",
+              "note": "plump smug dog-sized dragon, deep navy-blue scales, ember-orange belly, tiny wings, nostril flame puffs, sits on PAST DUE invoice pile, receipt tail; grows huge when fed by waiting. Variant 1 of 3 (alternates: 65683b2a cat-sized with visor, 64ee0e5b chubby baby)."
+            }
+          }
+        },
+        {
+          "id": "procrastination_sloth",
+          "name": "Procrastination Sloth",
+          "title": "Represents Delay",
+          "one_liner": "Always says, \"I'll do it later.\"",
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "cash_flow_vampire_hunter",
+          "name": "Cash Flow Vampire Hunter",
+          "title": "Protects Cash Flow",
+          "one_liner": "Protects cash flow from leaks.",
+          "props": [],
+          "canonical_reference": null
+        }
       ]
     },
-
     "success_characters": {
       "label": "Success Characters (The Rewards)",
       "role_in_engine": "closing payoff beat and CTA",
       "characters": [
-        {"id": "cash_flow_hero", "name": "Cash Flow Hero", "title": "The Reward for Action", "one_liner": "Cash flow improves and grows.", "props": ["cape", "dollar shield"], "canonical_reference": null, "also_in": "heroes"},
-        {"id": "happy_customer", "name": "Happy Customer", "title": "The Result", "one_liner": "Peace of mind and financial stability.", "props": ["thumbs up"], "canonical_reference": null},
-        {"id": "future_you", "name": "Future You", "title": "The Vision", "one_liner": "Shows the positive future.", "props": ["crystal orb"], "canonical_reference": null},
-        {"id": "victory_bell", "name": "Victory Bell", "title": "The Win Signal", "one_liner": "Rung when accounts are placed.", "props": ["bell"], "canonical_reference": null},
-        {"id": "recovery_champ", "name": "Recovery Champ", "title": "The Champion", "one_liner": "Celebrates successful recoveries.", "props": [], "canonical_reference": null},
-        {"id": "growth_graph", "name": "Growth Graph", "title": "The Trend", "one_liner": "Represents business growth.", "props": [], "canonical_reference": null},
-        {"id": "success_spark", "name": "Success Spark", "title": "The Momentum", "one_liner": "Adds energy and momentum.", "props": [], "canonical_reference": null},
-        {"id": "milestone_marker", "name": "Milestone Marker", "title": "The Goal", "one_liner": "Celebrates big wins.", "props": ["goal flag"], "canonical_reference": null},
-        {"id": "referral_ray", "name": "Referral Ray", "title": "The Connector", "one_liner": "Loves referrals and connections.", "props": ["sunglasses"], "canonical_reference": null},
-        {"id": "loyal_client_laura", "name": "Loyal Client Laura", "title": "The Advocate", "one_liner": "Long-term client advocate.", "props": [], "canonical_reference": null}
+        {
+          "id": "cash_flow_hero",
+          "name": "Cash Flow Hero",
+          "title": "The Reward for Action",
+          "one_liner": "Cash flow improves and grows.",
+          "props": [
+            "cape",
+            "dollar shield"
+          ],
+          "canonical_reference": null,
+          "also_in": "heroes"
+        },
+        {
+          "id": "happy_customer",
+          "name": "Happy Customer",
+          "title": "The Result",
+          "one_liner": "Peace of mind and financial stability.",
+          "props": [
+            "thumbs up"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "future_you",
+          "name": "Future You",
+          "title": "The Vision",
+          "one_liner": "Shows the positive future.",
+          "props": [
+            "crystal orb"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "victory_bell",
+          "name": "Victory Bell",
+          "title": "The Win Signal",
+          "one_liner": "Rung when accounts are placed.",
+          "props": [
+            "bell"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "recovery_champ",
+          "name": "Recovery Champ",
+          "title": "The Champion",
+          "one_liner": "Celebrates successful recoveries.",
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "growth_graph",
+          "name": "Growth Graph",
+          "title": "The Trend",
+          "one_liner": "Represents business growth.",
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "success_spark",
+          "name": "Success Spark",
+          "title": "The Momentum",
+          "one_liner": "Adds energy and momentum.",
+          "props": [],
+          "canonical_reference": null
+        },
+        {
+          "id": "milestone_marker",
+          "name": "Milestone Marker",
+          "title": "The Goal",
+          "one_liner": "Celebrates big wins.",
+          "props": [
+            "goal flag"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "referral_ray",
+          "name": "Referral Ray",
+          "title": "The Connector",
+          "one_liner": "Loves referrals and connections.",
+          "props": [
+            "sunglasses"
+          ],
+          "canonical_reference": null
+        },
+        {
+          "id": "loyal_client_laura",
+          "name": "Loyal Client Laura",
+          "title": "The Advocate",
+          "one_liner": "Long-term client advocate.",
+          "props": [],
+          "canonical_reference": null
+        }
       ]
     },
-
     "industry_specialists": {
       "label": "Industry Specialists (By Service Offering)",
       "role_in_engine": "vertical-aligned personas for targeted campaigns",
       "characters": [
-        {"id": "healthcare_hannah", "name": "Healthcare Hannah", "industry": "Healthcare Receivables", "canonical_reference": null},
-        {"id": "dental_dana", "name": "Dental Dana", "industry": "Dental Collections", "canonical_reference": null},
-        {"id": "veterinary_vince", "name": "Veterinary Vince", "industry": "Veterinary Practices", "canonical_reference": null},
-        {"id": "senior_care_sarah", "name": "Senior Care Sarah", "industry": "Senior Care Facilities", "canonical_reference": null},
-        {"id": "home_health_holly", "name": "Home Health Holly", "industry": "Home Health Agencies", "canonical_reference": null},
-        {"id": "construction_cody", "name": "Construction Cody", "industry": "Construction Firms", "canonical_reference": null},
-        {"id": "hvac_harvey", "name": "HVAC Harvey", "industry": "HVAC Services", "canonical_reference": null},
-        {"id": "plumbing_paul", "name": "Plumbing Paul", "industry": "Plumbing Companies", "canonical_reference": null},
-        {"id": "electrical_eddie", "name": "Electrical Eddie", "industry": "Electrical Contractors", "canonical_reference": null},
-        {"id": "roofing_rachel", "name": "Roofing Rachel", "industry": "Roofing Companies", "canonical_reference": null},
-        {"id": "manufacturing_mike", "name": "Manufacturing Mike", "industry": "Manufacturing", "canonical_reference": null},
-        {"id": "transportation_tony", "name": "Transportation Tony", "industry": "Transportation & Freight", "canonical_reference": null},
-        {"id": "equipment_ethan", "name": "Equipment Ethan", "industry": "Equipment Rental", "canonical_reference": null},
-        {"id": "retail_rebecca", "name": "Retail Rebecca", "industry": "Retail Businesses", "canonical_reference": null},
-        {"id": "property_patty", "name": "Property Patty", "industry": "Property Management", "canonical_reference": null},
-        {"id": "commercial_rick", "name": "Commercial Rick", "industry": "Commercial Real Estate", "canonical_reference": null},
-        {"id": "legal_laura", "name": "Legal Laura", "industry": "Law Firms", "canonical_reference": null},
-        {"id": "janitorial_jenny", "name": "Janitorial Jenny", "industry": "Janitorial Services", "canonical_reference": null},
-        {"id": "waste_wade", "name": "Waste Wade", "industry": "Waste Management", "canonical_reference": null},
-        {"id": "restoration_ryan", "name": "Restoration Ryan", "industry": "Restoration Companies", "canonical_reference": null},
-        {"id": "municipal_mary", "name": "Municipal Mary", "industry": "Municipal Accounts", "canonical_reference": null},
-        {"id": "education_eric", "name": "Education Eric", "industry": "Schools & Universities", "canonical_reference": null},
-        {"id": "nonprofit_nina", "name": "Nonprofit Nina", "industry": "Nonprofit Organizations", "canonical_reference": null},
-        {"id": "franchise_frank", "name": "Franchise Frank", "industry": "Franchise Systems", "canonical_reference": null},
-        {"id": "insurance_ian", "name": "Insurance Ian", "industry": "Insurance Subrogation", "canonical_reference": null},
-        {"id": "hospital_helen", "name": "Hospital Helen", "industry": "Hospitals", "canonical_reference": null},
-        {"id": "laboratories_leo", "name": "Laboratories Leo", "industry": "Medical Labs", "canonical_reference": null},
-        {"id": "government_garry", "name": "Government Garry", "industry": "Government Agencies", "canonical_reference": null},
-        {"id": "tech_tammy", "name": "Tech Tammy", "industry": "Technology Companies", "canonical_reference": null}
+        {
+          "id": "healthcare_hannah",
+          "name": "Healthcare Hannah",
+          "industry": "Healthcare Receivables",
+          "canonical_reference": null
+        },
+        {
+          "id": "dental_dana",
+          "name": "Dental Dana",
+          "industry": "Dental Collections",
+          "canonical_reference": null
+        },
+        {
+          "id": "veterinary_vince",
+          "name": "Veterinary Vince",
+          "industry": "Veterinary Practices",
+          "canonical_reference": null
+        },
+        {
+          "id": "senior_care_sarah",
+          "name": "Senior Care Sarah",
+          "industry": "Senior Care Facilities",
+          "canonical_reference": null
+        },
+        {
+          "id": "home_health_holly",
+          "name": "Home Health Holly",
+          "industry": "Home Health Agencies",
+          "canonical_reference": null
+        },
+        {
+          "id": "construction_cody",
+          "name": "Construction Cody",
+          "industry": "Construction Firms",
+          "canonical_reference": null
+        },
+        {
+          "id": "hvac_harvey",
+          "name": "HVAC Harvey",
+          "industry": "HVAC Services",
+          "canonical_reference": null
+        },
+        {
+          "id": "plumbing_paul",
+          "name": "Plumbing Paul",
+          "industry": "Plumbing Companies",
+          "canonical_reference": null
+        },
+        {
+          "id": "electrical_eddie",
+          "name": "Electrical Eddie",
+          "industry": "Electrical Contractors",
+          "canonical_reference": null
+        },
+        {
+          "id": "roofing_rachel",
+          "name": "Roofing Rachel",
+          "industry": "Roofing Companies",
+          "canonical_reference": null
+        },
+        {
+          "id": "manufacturing_mike",
+          "name": "Manufacturing Mike",
+          "industry": "Manufacturing",
+          "canonical_reference": null
+        },
+        {
+          "id": "transportation_tony",
+          "name": "Transportation Tony",
+          "industry": "Transportation & Freight",
+          "canonical_reference": null
+        },
+        {
+          "id": "equipment_ethan",
+          "name": "Equipment Ethan",
+          "industry": "Equipment Rental",
+          "canonical_reference": null
+        },
+        {
+          "id": "retail_rebecca",
+          "name": "Retail Rebecca",
+          "industry": "Retail Businesses",
+          "canonical_reference": null
+        },
+        {
+          "id": "property_patty",
+          "name": "Property Patty",
+          "industry": "Property Management",
+          "canonical_reference": null
+        },
+        {
+          "id": "commercial_rick",
+          "name": "Commercial Rick",
+          "industry": "Commercial Real Estate",
+          "canonical_reference": null
+        },
+        {
+          "id": "legal_laura",
+          "name": "Legal Laura",
+          "industry": "Law Firms",
+          "canonical_reference": null
+        },
+        {
+          "id": "janitorial_jenny",
+          "name": "Janitorial Jenny",
+          "industry": "Janitorial Services",
+          "canonical_reference": null
+        },
+        {
+          "id": "waste_wade",
+          "name": "Waste Wade",
+          "industry": "Waste Management",
+          "canonical_reference": null
+        },
+        {
+          "id": "restoration_ryan",
+          "name": "Restoration Ryan",
+          "industry": "Restoration Companies",
+          "canonical_reference": null
+        },
+        {
+          "id": "municipal_mary",
+          "name": "Municipal Mary",
+          "industry": "Municipal Accounts",
+          "canonical_reference": null
+        },
+        {
+          "id": "education_eric",
+          "name": "Education Eric",
+          "industry": "Schools & Universities",
+          "canonical_reference": null
+        },
+        {
+          "id": "nonprofit_nina",
+          "name": "Nonprofit Nina",
+          "industry": "Nonprofit Organizations",
+          "canonical_reference": null
+        },
+        {
+          "id": "franchise_frank",
+          "name": "Franchise Frank",
+          "industry": "Franchise Systems",
+          "canonical_reference": null
+        },
+        {
+          "id": "insurance_ian",
+          "name": "Insurance Ian",
+          "industry": "Insurance Subrogation",
+          "canonical_reference": null
+        },
+        {
+          "id": "hospital_helen",
+          "name": "Hospital Helen",
+          "industry": "Hospitals",
+          "canonical_reference": null
+        },
+        {
+          "id": "laboratories_leo",
+          "name": "Laboratories Leo",
+          "industry": "Medical Labs",
+          "canonical_reference": null
+        },
+        {
+          "id": "government_garry",
+          "name": "Government Garry",
+          "industry": "Government Agencies",
+          "canonical_reference": null
+        },
+        {
+          "id": "tech_tammy",
+          "name": "Tech Tammy",
+          "industry": "Technology Companies",
+          "canonical_reference": null
+        }
       ]
     },
-
     "ai_future_guides": {
       "label": "AI & Future Guides (The Innovators)",
       "role_in_engine": "future-focused AI helper cast",
       "characters": [
-        {"id": "forecast", "name": "Forecast", "one_liner": "Predicts trends and cash-flow outcomes.", "canonical_reference": null},
-        {"id": "insight", "name": "Insight", "one_liner": "Finds what matters in your data.", "canonical_reference": null},
-        {"id": "scout", "name": "Scout", "one_liner": "Surfaces opportunities; monitors accounts and risk signals.", "canonical_reference": null},
-        {"id": "navigator", "name": "Navigator", "one_liner": "Guides the best next actions.", "canonical_reference": null},
-        {"id": "optimizer", "name": "Optimizer", "one_liner": "Improves processes and outcomes.", "canonical_reference": null},
-        {"id": "pulse", "name": "Pulse", "one_liner": "Real-time performance alerts.", "canonical_reference": null},
-        {"id": "atlas", "name": "Atlas", "one_liner": "Knows the big picture and the details.", "canonical_reference": null},
-        {"id": "spark", "name": "Spark", "one_liner": "Brings new ideas and innovation.", "canonical_reference": null}
+        {
+          "id": "forecast",
+          "name": "Forecast",
+          "one_liner": "Predicts trends and cash-flow outcomes.",
+          "canonical_reference": null
+        },
+        {
+          "id": "insight",
+          "name": "Insight",
+          "one_liner": "Finds what matters in your data.",
+          "canonical_reference": null
+        },
+        {
+          "id": "scout",
+          "name": "Scout",
+          "one_liner": "Surfaces opportunities; monitors accounts and risk signals.",
+          "canonical_reference": null
+        },
+        {
+          "id": "navigator",
+          "name": "Navigator",
+          "one_liner": "Guides the best next actions.",
+          "canonical_reference": null
+        },
+        {
+          "id": "optimizer",
+          "name": "Optimizer",
+          "one_liner": "Improves processes and outcomes.",
+          "canonical_reference": null
+        },
+        {
+          "id": "pulse",
+          "name": "Pulse",
+          "one_liner": "Real-time performance alerts.",
+          "canonical_reference": null
+        },
+        {
+          "id": "atlas",
+          "name": "Atlas",
+          "one_liner": "Knows the big picture and the details.",
+          "canonical_reference": null
+        },
+        {
+          "id": "spark",
+          "name": "Spark",
+          "one_liner": "Brings new ideas and innovation.",
+          "canonical_reference": null
+        }
       ]
     }
   },
-
   "props_and_set_pieces": {
     "label": "Recurring Props & Set Pieces",
     "role_in_engine": "continuity glue and visual shorthand across episodes",
     "items": [
-      {"id": "aging_receivables_meter", "name": "Aging Receivables Meter"},
-      {"id": "cash_flow_gauge", "name": "Cash Flow Gauge"},
-      {"id": "recovery_dashboard", "name": "Recovery Dashboard"},
-      {"id": "placement_portal", "name": "Placement Portal"},
-      {"id": "magic_email_button", "name": "Magic Email Button"},
-      {"id": "collection_thermometer", "name": "Collection Thermometer"},
-      {"id": "invoice_tracker", "name": "Invoice Tracker"},
-      {"id": "kpi_wall", "name": "KPI Wall"},
-      {"id": "whiteboard_of_wins", "name": "Whiteboard of Wins"}
+      {
+        "id": "aging_receivables_meter",
+        "name": "Aging Receivables Meter"
+      },
+      {
+        "id": "cash_flow_gauge",
+        "name": "Cash Flow Gauge"
+      },
+      {
+        "id": "recovery_dashboard",
+        "name": "Recovery Dashboard"
+      },
+      {
+        "id": "placement_portal",
+        "name": "Placement Portal"
+      },
+      {
+        "id": "magic_email_button",
+        "name": "Magic Email Button"
+      },
+      {
+        "id": "collection_thermometer",
+        "name": "Collection Thermometer"
+      },
+      {
+        "id": "invoice_tracker",
+        "name": "Invoice Tracker"
+      },
+      {
+        "id": "kpi_wall",
+        "name": "KPI Wall"
+      },
+      {
+        "id": "whiteboard_of_wins",
+        "name": "Whiteboard of Wins"
+      }
     ]
   }
 }

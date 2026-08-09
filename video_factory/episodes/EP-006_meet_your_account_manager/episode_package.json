@@ -9,19 +9,32 @@
   "activation_barrier": "'I don't know who to talk to - I'm on my own here.'",
   "core_message": "Getting your accounts to SWRS is easier than you think.",
   "cta": "Email your placements to info@swrecovery.com.",
-  "structure_5beat": ["unexpected hook", "relatable frustration", "SWRS simplifies", "clear CTA", "brand close"],
-  "engine_mapping": {"obstacle": "no known point of contact", "persona": "victor (any procrastinator)", "fix": "Max, the dedicated account manager, guides from day one", "payoff": "brand close"},
-  "characters": ["victor_the_vampire", "max_client_success"],
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "no known point of contact",
+    "persona": "victor (any procrastinator)",
+    "fix": "Hunter, the dedicated account manager, guides from day one",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "hunter_client_success"
+  ],
   "distribution": "Day-60 slot of the activation drip; auto-stops on first placement.",
-
   "production": {
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
     "character_references": {
       "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
-      "max_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
     },
     "models": {
-      "keyframes": "nano_banana_pro (image, dual character reference: Victor + Max)",
+      "keyframes": "nano_banana_pro (image, dual character reference: Victor + Hunter)",
       "animation": "kling3_0_turbo (image-to-video)",
       "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
       "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2"
@@ -35,35 +48,113 @@
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow).",
     "audio_mix": "standard DUCKING mix: scene SFX full except VO windows (0.3-2.3s, 5.1-19.65s -> 0.22x); VO 1.25-1.3x; SFX accents 0.5-0.6x; amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
     "hook_voiceover": [
-      {"line": "Hello, is this Southwest Recovery Services? I need help with my password again.", "voice": "Arthur", "job_id": "c9c90206-1d3e-463f-a831-1e167c3067bc", "placement": "t=0.3s over scene 1 - Victor's phone call, matching the on-screen visual (client-directed line). 5.75s natural pace; two-part lower-third caption. Superseded takes: 87fac485 ('Who do I even call?'), d0c76732 (6.8s, collided), 4dd26ec3 (6.6s, collided)."},
-      {"line": "Meet Max — your dedicated account manager, with you from day one.", "voice": "Arthur", "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7", "placement": "t=6.3s answering the call (timeline shifted to let the phone line finish), lower-third caption"}
+      {
+        "line": "Hello, is this Southwest Recovery Services? I need help with my password again.",
+        "voice": "Arthur",
+        "job_id": "c9c90206-1d3e-463f-a831-1e167c3067bc",
+        "placement": "t=0.3s over scene 1 - Victor's phone call, matching the on-screen visual (client-directed line). 5.75s natural pace; two-part lower-third caption. Superseded takes: 87fac485 ('Who do I even call?'), d0c76732 (6.8s, collided), 4dd26ec3 (6.6s, collided)."
+      },
+      {
+        "line": "Meet Hunter - your dedicated account manager, with you from day one.",
+        "voice": "Arthur",
+        "job_id": "fb612b56-4e86-41e9-9317-a5090647e06a",
+        "placement": "t=6.3s answering the call (timeline shifted to let the phone line finish), lower-third caption",
+        "superseded_take": {
+          "job_id": "66c85005-9d4f-4d4a-ad77-4e2bfe2f98b7",
+          "line": "Meet Max — your dedicated account manager, with you from day one.",
+          "note": "retired Max take, 5.40s"
+        }
+      }
     ],
-    "voiceover": {"line": "One point of contact, every step of the way. Just email info@swrecovery.com.", "spoken_as": "email read as 'info at S-W Recovery dot com'", "voice": "Arthur", "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8", "placement": "t=12.4s under scene 3 (8.44s, ends 20.84s)"},
-    "scene_retiming": "AV-SYNC cut (client feedback: 'the voice and the scene did not match'): scene durations retimed to the VO instead of the fixed 5/5/8 - scene 1 slowed to 6.5s so the full phone call plays over Victor on the phone, scene 2 5.7s (Max enters exactly as his intro starts at 6.7s), scene 3 7.3s (slight 1.1x speedup), brand card 3.5s (19.5-23s, logo fade at 19.7s). Scene clip audio tempo-matched to the retimed video.",
+    "voiceover": {
+      "line": "One point of contact, every step of the way. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "609fad56-b1af-4c8d-8a3a-8709b44615e8",
+      "placement": "t=12.4s under scene 3 (8.44s, ends 20.84s)"
+    },
+    "scene_retiming": "AV-SYNC cut (client feedback: 'the voice and the scene did not match'): scene durations retimed to the VO instead of the fixed 5/5/8 - scene 1 slowed to 6.5s so the full phone call plays over Victor on the phone, scene 2 5.7s (Hunter enters exactly as his intro starts at 6.7s), scene 3 7.3s (slight 1.1x speedup), brand card 3.5s (19.5-23s, logo fade at 19.7s). Scene clip audio tempo-matched to the retimed video.",
     "standards_deferred": [
       "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
-      "master_16x9": {"media_id": "3f969e20-a67d-4d42-be10-b16f5c0b2ca4", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3f969e20-a67d-4d42-be10-b16f5c0b2ca4.mp4", "use": "email campaigns / YouTube"},
-      "square_1x1": {"media_id": "4c880896-0fe4-4c96-8bf0-184b227b9dcd", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4c880896-0fe4-4c96-8bf0-184b227b9dcd.mp4", "use": "LinkedIn"},
-      "vertical_9x16": {"media_id": "c8a79b58-1649-472a-9315-4ca108e946a5", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c8a79b58-1649-472a-9315-4ca108e946a5.mp4", "use": "Reels / TikTok / Shorts"},
-      "_note": "FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal)."
+      "master_16x9": {
+        "media_id": "47532c78-4287-425a-bc3c-8fa6ec2e3838",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/47532c78-4287-425a-bc3c-8fa6ec2e3838.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "87bfc666-cb51-4fb7-991d-a83aa49cafa1",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/87bfc666-cb51-4fb7-991d-a83aa49cafa1.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "4ad88a38-3899-41be-949f-8a62dddc2b3f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4ad88a38-3899-41be-949f-8a62dddc2b3f.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "RE-ISSUED 2026-08-09: Max -> Hunter, new VO plus a new burned lower-third caption. Also fixed an audio splice that had left 0.2s of the retired Max line audible as a stray word at 11.70-11.82s; splice window extended to 12.05s. Caption bar is opaque navy #10143C to fully mask the old wording. Retired ids (never reuse): 3f969e20/4c880896/c8a79b58. Previous _note: FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal)."
     }
   },
-
   "email_assets": {
-    "thumbnail_1200x675": {"media_id": "acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d.jpg", "note": "frame at 6.5s: Max's entrance with Victor turning, play button"},
-    "thumbnail_600x338": {"media_id": "3c141cee-bc46-4c30-bfec-470ed1ae0799", "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c141cee-bc46-4c30-bfec-470ed1ae0799.jpg"},
+    "thumbnail_1200x675": {
+      "media_id": "acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/acfbacc5-3aaf-4e9b-9f1f-5b0e428d7d8d.jpg",
+      "note": "frame at 6.5s: Hunter's entrance with Victor turning, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "3c141cee-bc46-4c30-bfec-470ed1ae0799",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c141cee-bc46-4c30-bfec-470ed1ae0799.jpg"
+    },
     "links_to": "outputs.master_16x9.url",
     "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
   },
-
   "scenes": [
-    {"scene_id": "EP-006-S01", "beat": "hook + frustration", "duration_seconds": 5, "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23", "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248", "onscreen_text": "Hello, is this Southwest Recovery Services? / I need help with my password... again.", "voiceover": "Hello, is this Southwest Recovery Services? I need help with my password again.", "visual": "Victor on the phone at his desk, tangled directory printout, question marks floating - he's making the call."},
-    {"scene_id": "EP-006-S02", "beat": "SWRS simplifies (Max's entrance)", "duration_seconds": 5, "keyframe_job_id": "34d9f23a-aeae-426d-8e56-91fa87a4e27a", "video_job_id": "1fe4a577-41e8-4d45-9527-6fa49bf67f8c", "onscreen_text": "Meet Max - your dedicated account manager", "voiceover": "Meet Max — your dedicated account manager, with you from day one.", "visual": "Max steps through the doorway with a wave, tablet + welcome kit; Victor turns, relieved; question marks pop away."},
-    {"scene_id": "EP-006-S03", "beat": "clear CTA", "duration_seconds": 8, "keyframe_job_id": "29c3b8f9-062d-4cce-9486-3eb2c329fd50", "video_job_id": "62ff9c74-7334-4bf8-86c7-f87a604764a2", "onscreen_text": "One point of contact, every step of the way. / Just email info@swrecovery.com", "voiceover": "One point of contact, every step of the way. Just email info@swrecovery.com.", "visual": "Max's tablet checklist lights up green; warm handshake with Victor; glowing email icon."},
-    {"scene_id": "EP-006-S04", "beat": "brand close", "duration_seconds": 5, "type": "brand_card", "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com", "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."}
-  ]
+    {
+      "scene_id": "EP-006-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 5,
+      "keyframe_job_id": "ad032af9-265a-4bae-bdcf-a0ea9dbc3c23",
+      "video_job_id": "85acb1fe-77df-4720-97dc-3ac8521c4248",
+      "onscreen_text": "Hello, is this Southwest Recovery Services? / I need help with my password... again.",
+      "voiceover": "Hello, is this Southwest Recovery Services? I need help with my password again.",
+      "visual": "Victor on the phone at his desk, tangled directory printout, question marks floating - he's making the call."
+    },
+    {
+      "scene_id": "EP-006-S02",
+      "beat": "SWRS simplifies (Hunter's entrance)",
+      "duration_seconds": 5,
+      "keyframe_job_id": "34d9f23a-aeae-426d-8e56-91fa87a4e27a",
+      "video_job_id": "1fe4a577-41e8-4d45-9527-6fa49bf67f8c",
+      "onscreen_text": "Meet Hunter - your dedicated account manager",
+      "voiceover": "Meet Hunter — your dedicated account manager, with you from day one.",
+      "visual": "Hunter steps through the doorway with a wave, tablet + welcome kit; Victor turns, relieved; question marks pop away."
+    },
+    {
+      "scene_id": "EP-006-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8,
+      "keyframe_job_id": "29c3b8f9-062d-4cce-9486-3eb2c329fd50",
+      "video_job_id": "62ff9c74-7334-4bf8-86c7-f87a604764a2",
+      "onscreen_text": "One point of contact, every step of the way. / Just email info@swrecovery.com",
+      "voiceover": "One point of contact, every step of the way. Just email info@swrecovery.com.",
+      "visual": "Hunter's tablet checklist lights up green; warm handshake with Victor; glowing email icon."
+    },
+    {
+      "scene_id": "EP-006-S04",
+      "beat": "brand close",
+      "duration_seconds": 5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "character_rename": {
+    "from": "Max",
+    "to": "Hunter",
+    "date": "2026-08-09",
+    "note": "Renamed Max -> Hunter 2026-08-09 (client-directed). Character design, reference image and role unchanged; only the name changed."
+  }
 }
