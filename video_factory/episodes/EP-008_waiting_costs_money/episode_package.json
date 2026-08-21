@@ -1,0 +1,152 @@
+{
+  "episode_id": "EP-008",
+  "title": "Waiting Costs Money",
+  "status": "rendered to Production Standards v2 (AV-synced cut)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'I'll deal with the past-due accounts later.' (procrastination)",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "late_fee_dragon",
+    "persona": "victor (any procrastinator)",
+    "fix": "place now - don't feed the dragon",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "late_fee_dragon"
+  ],
+  "distribution": "Day-45 urgency slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette with ember-orange dragon accent",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "late_fee_dragon": "6d6cea58-1f3b-475d-a920-e3a92f29653a",
+      "_dragon_note": "client-selected Variant 1 (plump, smug, dog-sized dragon). Superseded V3-dragon cut: character ref 64ee0e5b, keyframes 8da34cce/0853ccf2/0d8d9289, videos ebb11a1a/802a0e76/c76cb583; output media ids unchanged (overwritten in place)."
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image, dual character reference: Victor + Dragon)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC v3: scene cuts land when their lines end (6.26s / 6.70s / 6.54s / 3.5s card), closer ends 21.08s, scene clip audio tempo-matched",
+      "in-scene hook: Victor speaks the client-directed startled line himself",
+      "real portal UI on the scene-1 desktop monitor (campaign-wide screen rule)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-22.45s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Hey there — you scared me! How did these invoices pile up while I was at lunch?",
+        "voice": "Arthur",
+        "job_id": "ee91a902-f1a7-4c67-a179-7417829a6bce",
+        "placement": "t=0.3s, Victor startled to find the dragon on his invoice pile (7.41s emphatic full-pace read over the regenerated 10s scene-1 clip). Client-directed wording; the fast 5.51s take 9e26a147 used under the old 23s cap is superseded, as are c75967f3 and the original af42089d hook."
+      },
+      {
+        "line": "Careful — every week you wait, the late-fee dragon gets bigger.",
+        "voice": "Arthur",
+        "job_id": "79d6b28f-3e90-41a5-9dc0-be5b64f0060c",
+        "placement": "t=7.6s over scene 2 (the dragon grown enormous, feeding on coins), lower-third caption"
+      }
+    ],
+    "voiceover": {
+      "line": "Don't feed the dragon. Send your accounts today — just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "e59677e5-7b9d-4219-8fa2-ec6202f2d63e",
+      "placement": "t=14.3s under scene 3, carries onto the brand card (7.9s, ends 22.2s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "a2ac4fb5-35d4-45e8-886d-8e391330c4c3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a2ac4fb5-35d4-45e8-886d-8e391330c4c3.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "9a85d816-4352-4afb-a282-b08043532b03",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9a85d816-4352-4afb-a282-b08043532b03.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "35a54d36-8a51-49c4-9343-4bdec05a8875",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/35a54d36-8a51-49c4-9343-4bdec05a8875.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab."
+    },
+    "assembly_note": "v4 (23s cap lifted): 27.0s total - cuts 8.16/6.70/8.67 + 3.5s card at 23.52s; scene 1 regenerated as a native 10s clip (67bdcf8d) so the emphatic hook plays at ~0.82x-natural; closer ends 22.97s; logo verified card-only at 22.5s/25.0s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "f53f3816-9024-4494-91ae-713a5e41d206",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f53f3816-9024-4494-91ae-713a5e41d206.jpg",
+      "note": "frame at 9.5s: the giant dragon looming over Victor, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "daad2458-64bf-414f-8356-38d0aa960af7",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/daad2458-64bf-414f-8356-38d0aa960af7.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-008-S01",
+      "beat": "hook + frustration (surprise discovery)",
+      "duration_seconds": 8.16,
+      "keyframe_job_id": "8cfbf3aa-0031-4222-a2f1-e41c2e279fd3",
+      "video_job_id": "67bdcf8d-2d99-48d1-9d6d-52f7fe17f895",
+      "onscreen_text": "Hey there, you scared me! / How did these invoices pile up while I was at lunch?",
+      "voiceover": "Hey there — you scared me! How did these invoices pile up while I was at lunch?",
+      "visual": "Victor, back from lunch with his phone, jumps startled to find the dog-sized Late Fee Dragon grinning atop his PAST DUE invoice pile; desktop monitor shows the REAL client portal. Regenerated as a native 10s clip for the full-pace read; superseded 5s clip: cc5f8d9c."
+    },
+    {
+      "scene_id": "EP-008-S02",
+      "beat": "escalation (the dragon grows)",
+      "duration_seconds": 6.7,
+      "keyframe_job_id": "d7c5671a-1dc3-42d3-8b37-707b83811824",
+      "video_job_id": "fe939ab7-2009-4352-a8ac-c108288d1ab5",
+      "onscreen_text": "Every week you wait, the dragon gets bigger.",
+      "voiceover": "Careful — every week you wait, the late-fee dragon gets bigger.",
+      "visual": "The dragon, now enormous atop an invoice mountain, hiccups flames as coins spiral into its furnace belly; Victor alarmed."
+    },
+    {
+      "scene_id": "EP-008-S03",
+      "beat": "SWRS simplifies + clear CTA",
+      "duration_seconds": 8.67,
+      "keyframe_job_id": "6c87fca8-c9a4-4b1f-99ac-0ca2f97ed898",
+      "video_job_id": "778a1055-d340-4ef0-914c-611f191bd138",
+      "onscreen_text": "Don't feed the dragon. Send your accounts today. / Just email info@swrecovery.com",
+      "voiceover": "Don't feed the dragon. Send your accounts today — just email info@swrecovery.com.",
+      "visual": "Victor clicks Send; the email envelope lifts off; the dragon shrinks back to a pouting baby; green checkmark; thumbs-up."
+    },
+    {
+      "scene_id": "EP-008-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal; closing narration carries over."
+    }
+  ]
+}

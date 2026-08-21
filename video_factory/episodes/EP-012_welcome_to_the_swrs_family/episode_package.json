@@ -1,0 +1,163 @@
+{
+  "episode_id": "EP-012",
+  "title": "Welcome to the SWRS Family",
+  "status": "rendered to Production Standards v2 (AV-synced cut) - SEASON ONE FINALE",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'It's just another vendor - nobody actually cares about my accounts.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook (the convert)",
+    "belonging",
+    "SWRS simplifies (the team)",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "vendor anonymity / no relationship",
+    "persona": "victor (now a happy active client)",
+    "fix": "the SWRS family - real people working accounts every day",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "hunter_client_success"
+  ],
+  "distribution": "Day-120 season-finale slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette with warm celebratory finish",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; S1 Victor ref, S2/S3 Victor + Hunter refs). S3 keyframe ran ~6 min; a parallel duplicate (dfafc321, unused alternate) was submitted before the original completed.",
+      "animation": "kling3_0_turbo (image-to-video; S3 resubmitted with declined_preset_id after a preset recommendation intercepted the first submission)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC v2: cuts at 5.66s / 4.30s (fixed, so the confetti welcome beat breathes around the short client line) / 9.54s / 3.5s card; the long client closer starts at 10.16s and ends 22.33s, carrying across scene 3 onto the brand card",
+      "real portal UI on every visible screen: scene-1 laptop and scene-3 laptop (campaign-wide screen rule)",
+      "in-scene hook: Victor speaks the convert's line himself",
+      "logo only on the brand-close card (the WELCOME banner in scene 2 is plain text, no logo)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-20.34s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Turns out... I should have done this months ago.",
+        "voice": "Arthur",
+        "job_id": "067a89ef-b28b-4e75-9507-7a31caec93e4",
+        "placement": "t=0.3s, contented Victor at his immaculate desk with the full coin jar (4.91s)"
+      },
+      {
+        "line": "Welcome to the Southwest Recovery family — real people, working your accounts every day.",
+        "voice": "Arthur",
+        "job_id": "797523e5-0e0a-440e-b542-22ffe7ba3f46",
+        "placement": "t=5.86s over scene 2 (8.61s full read at natural pace over the regenerated 10s welcome clip). Client-directed wording restored in full after the 23s cap was lifted; the short interim take a4e6ee6a and c7118383 are superseded."
+      }
+    ],
+    "voiceover": {
+      "line": "The SWRS family will be here to support your collection needs. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "b25869d7-cb55-4631-ac6b-1c236810de53",
+      "placement": "t=14.97s under scene 3, carries onto the brand card (12.17s, ends 27.14s). Client-directed wording.",
+      "superseded_take": {
+        "job_id": "50e9458b-9145-4cde-b96b-da9b5c1742b6",
+        "note": "RETIRED - contained a false start (\"the SW-, the SWRS family\") and read the email as \"S-W-S Recovery dot com\""
+      },
+      "note": "regenerated 2026-08-09 at speech_rate -20, 10.34s, clean read; verified by transcription off the live CDN"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "68b88275-3ee9-48be-8b00-df5eff410a0c",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/68b88275-3ee9-48be-8b00-df5eff410a0c.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "3f78ae64-0b76-476e-bde2-279d1c99ad27",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3f78ae64-0b76-476e-bde2-279d1c99ad27.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "60f64ea2-cee5-4a06-b68b-a7d56b1c258a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/60f64ea2-cee5-4a06-b68b-a7d56b1c258a.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "RE-ISSUED 2026-08-09: closing VO rebuilt, false start removed and the spoken email corrected from \"S-W-S Recovery dot com\" to \"S-W Recovery dot com\". Metadata rename Max -> Hunter. Retired ids (never reuse): 81dd59d7/1db50afb/e36a5b93. Previous _note: FINAL v3: 28.7s, both client lines in full at natural pace, portal on scene-1/scene-3 laptops, logo card-only verified; fresh 16:9 URL verified serving 28.700s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: e939a3ba/c4361655/74b20f5c."
+    },
+    "assembly_note": "v3 (23s cap lifted): 28.7s total - cuts 5.66/9.11/10.40 + 3.5s card at 25.17s; scenes 2 and 3 regenerated as native 10s clips (b1795326, 46a659b6) so both client lines play at ~1.0x; logo verified card-only at 24.2s/26.7s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "c25eccc2-2513-49dd-a9a6-82fcb50c0158",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c25eccc2-2513-49dd-a9a6-82fcb50c0158.jpg",
+      "note": "frame at 8.5s: Hunter's welcome handshake-hug under the WELCOME banner with confetti, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "d415b25c-7f32-41eb-ad1c-623aad1ee731",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d415b25c-7f32-41eb-ad1c-623aad1ee731.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-012-S01",
+      "beat": "hook (the convert)",
+      "duration_seconds": 5.66,
+      "keyframe_job_id": "293a177e-7d14-49cc-a3e8-74ec3bdb881b",
+      "video_job_id": "bdfcc2b0-d1f0-4bd6-bef2-017c3533f1c2",
+      "onscreen_text": "I should have done this months ago.",
+      "voiceover": "Turns out... I should have done this months ago.",
+      "visual": "Victor leans back contentedly at his immaculate desk - full coin jar, thriving desk plant, laptop showing the REAL client portal with a green checkmark glow. Superseded non-portal cut: keyframe 857ac4e2, video 0dbad779."
+    },
+    {
+      "scene_id": "EP-012-S02",
+      "beat": "belonging (the welcome)",
+      "duration_seconds": 9.11,
+      "keyframe_job_id": "225c2d20-21f0-45a3-9ded-3cb7cf3e3c9e",
+      "video_job_id": "b1795326-50fc-4481-8010-61b443a17eb3",
+      "onscreen_text": "Welcome to the Southwest Recovery family - / real people, working your accounts every day.",
+      "voiceover": "Welcome to the Southwest Recovery family — real people, working your accounts every day.",
+      "visual": "Hunter pulls Victor into a welcoming handshake-hug under a plain WELCOME banner; teammates clap; blue confetti drifts down. Regenerated as a native 10s clip for the full client line; superseded 5s clip: 5baf517f."
+    },
+    {
+      "scene_id": "EP-012-S03",
+      "beat": "clear CTA (the team)",
+      "duration_seconds": 10.4,
+      "keyframe_job_id": "5e5ec1b1-548c-4137-8b46-163e793018e1",
+      "video_job_id": "46a659b6-6438-4966-91ac-94ee77c6f6bb",
+      "onscreen_text": "Here to support your collection needs. / Just email info@swrecovery.com",
+      "voiceover": "The SWRS family will be here to support your collection needs. Just email info@swrecovery.com.",
+      "visual": "Team-photo shot: Victor and Hunter thumbs-up as the glowing envelope lifts off between them; laptop shows the REAL client portal; teammates wave in the background. Regenerated as a native 10s clip; superseded 8s portal clip: 39b94d76."
+    },
+    {
+      "scene_id": "EP-012-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "character_rename": {
+    "from": "Max",
+    "to": "Hunter",
+    "date": "2026-08-09",
+    "note": "Renamed Max -> Hunter 2026-08-09 (client-directed). Character design, reference image and role unchanged; only the name changed."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "episode_id": "EP-007",
+  "title": "Sending Excel Files",
+  "status": "rendered to Production Standards v2 (AV-synced cut)",
+  "produced_at": "2026-08-04",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Encourage the first account placement from signed-but-inactive clients.",
+  "audience": "Signed clients with no placement",
+  "activation_barrier": "'My accounts live in a spreadsheet - do I have to retype everything?'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "relatable frustration",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "fear of retyping hundreds of rows",
+    "persona": "victor (any procrastinator)",
+    "fix": "attach the Excel file and email it - we take it from there",
+    "payoff": "brand close"
+  },
+  "characters": [
+    "victor_the_vampire"
+  ],
+  "distribution": "Excel-user segment of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image, Victor reference)",
+      "animation": "kling3_0_turbo (image-to-video)",
+      "voiceover": "seed_audio (preset voice Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "assembly": "ffmpeg in Higgsfield sandbox, Production Standards v2 + AV-synced scene retiming"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: scene cuts land when their lines end (5.2s / 5.2s / 9.1s / 3.5s card), scene clip audio tempo-matched",
+      "in-scene hook: Victor speaks the opening line himself"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO 0.2-17.1s), VO 1.25-1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Do I really have to retype three hundred accounts into a portal?",
+        "voice": "Arthur",
+        "job_id": "95b5f843-8fcc-4a4d-84fd-326a1620913d",
+        "placement": "t=0.3s, Victor speaking as the spreadsheet spills over his desk (4.5s), two-part lower-third caption"
+      },
+      {
+        "line": "Nope. Just attach your Excel file and email it to us.",
+        "voice": "Arthur",
+        "job_id": "1ffe2085-c0da-4c30-ae17-c62f4f94f3c4",
+        "placement": "t=5.4s over scene 2 (file dragged into the email envelope), lower-third caption"
+      }
+    ],
+    "voiceover": {
+      "line": "We'll take it from there. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "c76d77d8-e9f5-4804-b74c-1b0ed861156b",
+      "placement": "t=10.6s under scene 3 (6.2s, ends 16.8s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass.",
+      "Premium render + 4K archive — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "2419078e-7cbc-468c-a3b8-0742bfab09c5",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2419078e-7cbc-468c-a3b8-0742bfab09c5.mp4",
+        "use": "email campaigns / YouTube"
+      },
+      "square_1x1": {
+        "media_id": "4043ae09-ed04-4c8f-914c-18c78d2563b0",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4043ae09-ed04-4c8f-914c-18c78d2563b0.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "68c831f8-694e-4ce2-a3b2-229230e83705",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/68c831f8-694e-4ce2-a3b2-229230e83705.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s)."
+    }
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "f4b03e80-831b-44f7-b201-e467e1d51aac",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f4b03e80-831b-44f7-b201-e467e1d51aac.jpg",
+      "note": "hook frame: Victor vs. the overflowing spreadsheet, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "ce7eb5e2-a607-4ab7-bab6-c3de19dc838c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ce7eb5e2-a607-4ab7-bab6-c3de19dc838c.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-007-S01",
+      "beat": "hook + frustration",
+      "duration_seconds": 5.2,
+      "keyframe_job_id": "b2cb6ecc-8d4c-4f89-b45e-71711861136a",
+      "video_job_id": "99b21c51-c6fb-4cad-928b-561b0de4bd99",
+      "onscreen_text": "Do I really have to retype / 300 accounts into a portal?",
+      "voiceover": "Do I really have to retype three hundred accounts into a portal?",
+      "visual": "Victor recoils as endless green spreadsheet rows spill out of the monitor and pile across his desk."
+    },
+    {
+      "scene_id": "EP-007-S02",
+      "beat": "SWRS simplifies",
+      "duration_seconds": 5.2,
+      "keyframe_job_id": "bf18ed22-b8d5-442b-92c4-76e1047ee64b",
+      "video_job_id": "3aee340a-a3a5-4f61-a101-23747bb77829",
+      "onscreen_text": "Nope. Just attach your Excel file and email it.",
+      "voiceover": "Nope. Just attach your Excel file and email it to us.",
+      "visual": "Victor drags the spreadsheet-file icon into a glowing email envelope; it seals; his face relaxes."
+    },
+    {
+      "scene_id": "EP-007-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.1,
+      "keyframe_job_id": "a5701801-19c6-4972-ad74-e681bce3fa3b",
+      "video_job_id": "49f91eff-50aa-4581-ac89-1e71ae75839b",
+      "onscreen_text": "We'll take it from there. / Just email info@swrecovery.com",
+      "voiceover": "We'll take it from there. Just email info@swrecovery.com.",
+      "visual": "Paper-plane email icon carrying the spreadsheet sails off the laptop; green checkmark; Victor toasts with his mug."
+    },
+    {
+      "scene_id": "EP-007-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "qa_accepted_variance": {
+    "item": "long tail after the last spoken word",
+    "date": "2026-08-09",
+    "status": "APPROVED AS-IS by Steven - do not re-flag",
+    "finding": "Voiceover ends at 15.82s, the earliest in the season, leaving about 3.7s of scene 3 running on the effects bed before the brand card. Tail after the last spoken word is 7.2s here versus 1.6-5.2s across the other eleven episodes, making this the outlier by about two seconds.",
+    "measurement": "The stretch is NOT silence - the bed is audible throughout and peaks near -22.7 dBFS. The final 3s at -91 dBFS is the house-standard silent logo reveal and is present in every episode (verified on EP-001, 004, 007, 008, 011, 012).",
+    "decision": "Steven listened to an isolated clip and judged it is not hurting anything. Leave the episode untouched and treat the longer tail as intentional. No re-render, no new media ids; existing EP-007 links remain valid.",
+    "options_considered": [
+      "leave as-is (chosen)",
+      "trim ~2s off scene 3",
+      "extend the voiceover"
+    ]
+  }
+}
