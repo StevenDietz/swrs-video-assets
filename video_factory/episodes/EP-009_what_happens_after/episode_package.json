@@ -81,21 +81,22 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "a97e3471-41fa-4b46-8ff1-09c6b193f6e3",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a97e3471-41fa-4b46-8ff1-09c6b193f6e3.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "21119224-380f-48c5-af0e-4a1ed50a0bf9",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/21119224-380f-48c5-af0e-4a1ed50a0bf9.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "26248d99-0630-4847-92e3-605fbe9e83d5",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/26248d99-0630-4847-92e3-605fbe9e83d5.mp4",
+        "media_id": "17c69ac1-283a-4ac5-a4c4-1f37312dadef",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/17c69ac1-283a-4ac5-a4c4-1f37312dadef.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "7dd775b4-03fb-4a70-8674-6fe9582c3985",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7dd775b4-03fb-4a70-8674-6fe9582c3985.mp4",
+        "media_id": "36ae6a8a-214e-4abc-b875-cba97b34c3e0",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/36ae6a8a-214e-4abc-b875-cba97b34c3e0.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "Name-only metadata rename Max -> Hunter 2026-08-09; no re-render required, the name is never spoken or shown on screen in this episode. 23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Fresh 16:9 URL verified serving 23.000s. Cache-stale retired ids: f44443de/7d3201c7/e6e4e7a5."
+      "_note": "Name-only metadata rename Max -> Hunter 2026-08-09; no re-render required, the name is never spoken or shown on screen in this episode. 23s, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Fresh 16:9 URL verified serving 23.000s. Cache-stale retired ids: f44443de/7d3201c7/e6e4e7a5. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: a97e3471/26248d99/7dd775b4."
     }
   },
   "email_assets": {

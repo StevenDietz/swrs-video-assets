@@ -67,21 +67,22 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "0d140da4-648c-4df2-ba82-117d103f0ea0",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0d140da4-648c-4df2-ba82-117d103f0ea0.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "1f18c6f8-2aef-4355-8d60-08d238c25641",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1f18c6f8-2aef-4355-8d60-08d238c25641.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "8a9903fc-23e7-4ef3-bcc4-bbea7fc29c8b",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8a9903fc-23e7-4ef3-bcc4-bbea7fc29c8b.mp4",
+        "media_id": "fe5cc336-c691-42ac-ba39-4cd54c906bad",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fe5cc336-c691-42ac-ba39-4cd54c906bad.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "eea3915a-15d1-4d05-95ca-3f7e853bb3b6",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/eea3915a-15d1-4d05-95ca-3f7e853bb3b6.mp4",
+        "media_id": "f65c4047-257a-4d3d-bddc-56a7ec47d6d6",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f65c4047-257a-4d3d-bddc-56a7ec47d6d6.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v2 (client-directed hook + AV-sync retime): 23s, three-part Arthur VO, ducking mix, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Same media ids, overwritten in place. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Fresh 16:9 URL verified serving 23.000s. Cache-stale retired ids: 647ee5d0/8059e3b2/4019c6ef."
+      "_note": "FINAL v2 (client-directed hook + AV-sync retime): 23s, three-part Arthur VO, ducking mix, logo on brand card only (verified in-frame: absent at 19s, present at 21s). Same media ids, overwritten in place. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Fresh 16:9 URL verified serving 23.000s. Cache-stale retired ids: 647ee5d0/8059e3b2/4019c6ef. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 0d140da4/8a9903fc/eea3915a."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"

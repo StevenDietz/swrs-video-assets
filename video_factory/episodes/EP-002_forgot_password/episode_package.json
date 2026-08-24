@@ -56,21 +56,22 @@
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "outputs": {
       "master_16x9": {
-        "media_id": "2c20e3c1-8d88-4d83-b6f1-c04a10aa16fb",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c20e3c1-8d88-4d83-b6f1-c04a10aa16fb.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "f328685b-dc74-452c-b2f6-7403d2960205",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f328685b-dc74-452c-b2f6-7403d2960205.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "e6c27089-5eb0-4c3b-8005-0feeedb97d12",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e6c27089-5eb0-4c3b-8005-0feeedb97d12.mp4",
+        "media_id": "f6d248ee-97ad-479b-839b-42dad6f5a9db",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f6d248ee-97ad-479b-839b-42dad6f5a9db.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "7fd778de-a9ef-4b64-bf49-8694e0d171c4",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7fd778de-a9ef-4b64-bf49-8694e0d171c4.mp4",
+        "media_id": "c8816def-44ed-4e4e-833c-2f5c5fdbe2bd",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c8816def-44ed-4e4e-833c-2f5c5fdbe2bd.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): true peak was -0.94 dBTP, above the -1.5 standard. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): 559de9d2/f61c0aab/28598162. Previous _note: FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email)."
+      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): true peak was -0.94 dBTP, above the -1.5 standard. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): 559de9d2/f61c0aab/28598162. Previous _note: FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 2c20e3c1/e6c27089/7fd778de. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused."
     }
   },
   "email_assets": {

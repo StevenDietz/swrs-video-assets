@@ -66,21 +66,22 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "6e167935-73e8-4c8e-a64e-9c7213656f3d",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e167935-73e8-4c8e-a64e-9c7213656f3d.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "2c6d7e6c-9b81-4c7d-9b2e-7384be2e0d7b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c6d7e6c-9b81-4c7d-9b2e-7384be2e0d7b.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "8d73805b-0690-4a75-a85a-2b7201ff6bf6",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8d73805b-0690-4a75-a85a-2b7201ff6bf6.mp4",
+        "media_id": "70a46e7c-bece-48b7-9ebe-5fb456bde0ed",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/70a46e7c-bece-48b7-9ebe-5fb456bde0ed.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "7cf9645e-b54a-467d-8492-ce1f6e0219f7",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7cf9645e-b54a-467d-8492-ce1f6e0219f7.mp4",
+        "media_id": "e11eef1d-a7e9-4ea3-8c3f-d7dd20ba187b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e11eef1d-a7e9-4ea3-8c3f-d7dd20ba187b.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v3: 26.9s, full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified; fresh 16:9 URL verified serving 26.934s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b91ee466/a5c9b8ce/41415d02."
+      "_note": "FINAL v3: 26.9s, full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified; fresh 16:9 URL verified serving 26.934s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b91ee466/a5c9b8ce/41415d02. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 6e167935/8d73805b/7cf9645e."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"

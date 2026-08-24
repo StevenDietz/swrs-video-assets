@@ -78,21 +78,22 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "d1d88825-0c13-4cb7-914e-edb97b688a60",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d1d88825-0c13-4cb7-914e-edb97b688a60.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "a396cb81-04bb-4d23-bc76-a5531f3d6926",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a396cb81-04bb-4d23-bc76-a5531f3d6926.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "9236aafc-57b1-490e-990d-2bbbe5740732",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9236aafc-57b1-490e-990d-2bbbe5740732.mp4",
+        "media_id": "40ac0767-edcb-48f9-b9dc-9051758f0f61",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/40ac0767-edcb-48f9-b9dc-9051758f0f61.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "2e170fda-00ef-45c8-a3dc-7a340697b89d",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2e170fda-00ef-45c8-a3dc-7a340697b89d.mp4",
+        "media_id": "9219b74a-17ab-42c2-9b70-314594de52c2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9219b74a-17ab-42c2-9b70-314594de52c2.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): integrated loudness was -12.52 LUFS, about 1.5 LU hotter than the rest of the season, and true peak was -0.51 dBTP; it audibly jumped when played after any other episode. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): b1d04e8f/665ab053/5a4ffe1c. Previous _note: FINAL: Portal-phobia hook + logo on brand card only (verified in-frame: absent at 14s/17s, present at 20s/22s). Superseded: 97c889e2/07f0b15a/dd3483a2 (logo overlapped scene 3), 75668ff3/4ec7beef/c390bd23 (logo rendered transparent - missing -loop 1), 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal)."
+      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): integrated loudness was -12.52 LUFS, about 1.5 LU hotter than the rest of the season, and true peak was -0.51 dBTP; it audibly jumped when played after any other episode. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): b1d04e8f/665ab053/5a4ffe1c. Previous _note: FINAL: Portal-phobia hook + logo on brand card only (verified in-frame: absent at 14s/17s, present at 20s/22s). Superseded: 97c889e2/07f0b15a/dd3483a2 (logo overlapped scene 3), 75668ff3/4ec7beef/c390bd23 (logo rendered transparent - missing -loop 1), 35bdab17/8af49061/d9c570d8 (pre-logo), fc2b60c3/ddfbc627/5bdec5b9 (AI-invented portal). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: d1d88825/9236aafc/2e170fda. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused."
     }
   },
   "email_assets": {

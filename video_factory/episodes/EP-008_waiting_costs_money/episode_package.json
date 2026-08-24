@@ -78,21 +78,22 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "a2ac4fb5-35d4-45e8-886d-8e391330c4c3",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a2ac4fb5-35d4-45e8-886d-8e391330c4c3.mp4",
-        "use": "email campaigns / YouTube"
+        "media_id": "b2498ff8-3f89-45ae-93d6-7e7dbe5ec41b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b2498ff8-3f89-45ae-93d6-7e7dbe5ec41b.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "9a85d816-4352-4afb-a282-b08043532b03",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9a85d816-4352-4afb-a282-b08043532b03.mp4",
+        "media_id": "8ee450ea-cec5-42cf-b937-46b5bd42a6bd",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8ee450ea-cec5-42cf-b937-46b5bd42a6bd.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "35a54d36-8a51-49c4-9343-4bdec05a8875",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/35a54d36-8a51-49c4-9343-4bdec05a8875.mp4",
+        "media_id": "ec79d369-f6fa-432a-afc9-f967e15e7457",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ec79d369-f6fa-432a-afc9-f967e15e7457.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab."
+      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: a2ac4fb5/9a85d816/35a54d36."
     },
     "assembly_note": "v4 (23s cap lifted): 27.0s total - cuts 8.16/6.70/8.67 + 3.5s card at 23.52s; scene 1 regenerated as a native 10s clip (67bdcf8d) so the emphatic hook plays at ~0.82x-natural; closer ends 22.97s; logo verified card-only at 22.5s/25.0s."
   },
