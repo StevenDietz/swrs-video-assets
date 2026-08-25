@@ -75,28 +75,27 @@
     },
     "scene_retiming": "AV-SYNC cut (client feedback: 'the voice and the scene did not match'): scene durations retimed to the VO instead of the fixed 5/5/8 - scene 1 slowed to 6.5s so the full phone call plays over Victor on the phone, scene 2 5.7s (Hunter enters exactly as his intro starts at 6.7s), scene 3 7.3s (slight 1.1x speedup), brand card 3.5s (19.5-23s, logo fade at 19.7s). Scene clip audio tempo-matched to the retimed video.",
     "standards_deferred": [
-      "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "aa8cf4e6-a319-49ad-97f3-0260cf4f953b",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/aa8cf4e6-a319-49ad-97f3-0260cf4f953b.mp4",
+        "media_id": "1d0a025f-ad1c-485d-80dd-fd308177e927",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1d0a025f-ad1c-485d-80dd-fd308177e927.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "dae7e41c-b6a2-452f-a185-8d813b7fdbdb",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/dae7e41c-b6a2-452f-a185-8d813b7fdbdb.mp4",
+        "media_id": "2c3a78a2-a927-4d18-a12b-1d0a06c4d09a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c3a78a2-a927-4d18-a12b-1d0a06c4d09a.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "ed11ea0a-4909-4c59-a727-0b6801ab6e06",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ed11ea0a-4909-4c59-a727-0b6801ab6e06.mp4",
+        "media_id": "b522045c-2504-4b84-a935-2dc649c4d8de",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b522045c-2504-4b84-a935-2dc649c4d8de.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09 (v3, translucent caption restored): the v2 Hunter caption had to be an OPAQUE bar because a translucent bar drawn over the retired translucent Max bar double-darkens and leaves a visible rectangle. v3 rebuilds the picture across the caption window from the original uncaptioned scene clips, so the bar is genuinely translucent again and matches the other eleven episodes. Audio is byte-identical to v2 (already correct). Retired ids (never reuse): 47532c78/87bfc666/4ad88a38. Previous _note: RE-ISSUED 2026-08-09: Max -> Hunter, new VO plus a new burned lower-third caption. Also fixed an audio splice that had left 0.2s of the retired Max line audible as a stray word at 11.70-11.82s; splice window extended to 12.05s. Caption bar is opaque navy #10143C to fully mask the old wording. Retired ids (never reuse): 3f969e20/4c880896/c8a79b58. Previous _note: FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 9a4c8dc6/7e84788b/e1eea1fb. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused."
+      "_note": "RE-ISSUED 2026-08-09 (v3, translucent caption restored): the v2 Hunter caption had to be an OPAQUE bar because a translucent bar drawn over the retired translucent Max bar double-darkens and leaves a visible rectangle. v3 rebuilds the picture across the caption window from the original uncaptioned scene clips, so the bar is genuinely translucent again and matches the other eleven episodes. Audio is byte-identical to v2 (already correct). Retired ids (never reuse): 47532c78/87bfc666/4ad88a38. Previous _note: RE-ISSUED 2026-08-09: Max -> Hunter, new VO plus a new burned lower-third caption. Also fixed an audio splice that had left 0.2s of the retired Max line audible as a stray word at 11.70-11.82s; splice window extended to 12.05s. Caption bar is opaque navy #10143C to fully mask the old wording. Retired ids (never reuse): 3f969e20/4c880896/c8a79b58. Previous _note: FINAL (phone-call hook): 23s, Production Standards v2, silent logo reveal on brand card only (verified in-frame). Superseded: a013b5c3/1a15e51e/7b743be6 ('Who do I even call?' hook), 5d52f66a/933f9fad/0698b490 (chime on logo reveal). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 9a4c8dc6/7e84788b/e1eea1fb. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: aa8cf4e6/dae7e41c/ed11ea0a."
     }
   },
   "email_assets": {

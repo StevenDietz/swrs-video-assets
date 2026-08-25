@@ -49,29 +49,28 @@
     },
     "standards_deferred": [
       "Official SWRS logo-lockup animation — Branding stage.",
-      "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "audio_mix": "DUCKING mix: scene SFX (goblin) plays at full level (1.0x) in scenes 1-2, ducks to 0.22x only during the scene-3 narration window (t=10.0-18.2s), then recovers; voiceover at 1.25x; amix normalize=0 + alimiter 0.95. Both the goblin SFX and the VO are clearly audible. This ducking mix is the standard for all future episodes.",
     "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=18.2s, 0.8s alpha fade, 520px, soft drop shadow). Standard: logo only in the last scene.",
     "outputs": {
       "master_16x9": {
-        "media_id": "f328685b-dc74-452c-b2f6-7403d2960205",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f328685b-dc74-452c-b2f6-7403d2960205.mp4",
+        "media_id": "81a5517e-a465-47d1-85a4-ccc76399917a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/81a5517e-a465-47d1-85a4-ccc76399917a.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "f6d248ee-97ad-479b-839b-42dad6f5a9db",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f6d248ee-97ad-479b-839b-42dad6f5a9db.mp4",
+        "media_id": "7e03ecc5-de89-4fe2-bc5f-6e430c90f7eb",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7e03ecc5-de89-4fe2-bc5f-6e430c90f7eb.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "c8816def-44ed-4e4e-833c-2f5c5fdbe2bd",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c8816def-44ed-4e4e-833c-2f5c5fdbe2bd.mp4",
+        "media_id": "c088cd5c-a768-4a28-a8e1-587c92efffa0",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c088cd5c-a768-4a28-a8e1-587c92efffa0.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): true peak was -0.94 dBTP, above the -1.5 standard. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): 559de9d2/f61c0aab/28598162. Previous _note: FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 2c20e3c1/e6c27089/7fd778de. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused."
+      "_note": "RE-ISSUED 2026-08-09 (audio remaster, picture untouched): true peak was -0.94 dBTP, above the -1.5 standard. Re-normalised with a two-pass linear loudnorm so dynamics were preserved rather than compressed. Retired ids (never reuse): 559de9d2/f61c0aab/28598162. Previous _note: FINAL (logo cut): 23s, spoken-email VO, ducking mix, logo on brand card only (verified in-frame). Superseded: 92cdf41f/153460df/39834fc1 (no logo), 928941c3/844f71e7/bb5a73cf (VO low), fca0990b/6589ea8b/1e40627c (goblin low), c1f83158/33a41d94/bcff3c50 (short VO without email). PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 2c20e3c1/e6c27089/7fd778de. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: f328685b/f6d248ee/c8816def."
     }
   },
   "email_assets": {

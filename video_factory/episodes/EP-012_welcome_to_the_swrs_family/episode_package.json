@@ -77,28 +77,27 @@
       "note": "regenerated 2026-08-09 at speech_rate -20, 10.34s, clean read; verified by transcription off the live CDN"
     },
     "standards_deferred": [
-      "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "30c6a4ff-2314-4faa-989a-acdf29ab70df",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/30c6a4ff-2314-4faa-989a-acdf29ab70df.mp4",
+        "media_id": "e746c002-1cc6-4899-924a-c9464083f8c7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e746c002-1cc6-4899-924a-c9464083f8c7.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "aa0394ab-481e-4afd-b389-dd120cc839ff",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/aa0394ab-481e-4afd-b389-dd120cc839ff.mp4",
+        "media_id": "bf1dc934-25d6-48e0-b85c-eba077850053",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bf1dc934-25d6-48e0-b85c-eba077850053.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "eddafd75-fd83-4475-ad09-9acf70dace6c",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/eddafd75-fd83-4475-ad09-9acf70dace6c.mp4",
+        "media_id": "8c1f839e-89ea-4e5a-8be3-84ce599a8843",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8c1f839e-89ea-4e5a-8be3-84ce599a8843.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "RE-ISSUED 2026-08-09: closing VO rebuilt, false start removed and the spoken email corrected from \"S-W-S Recovery dot com\" to \"S-W Recovery dot com\". Metadata rename Max -> Hunter. Retired ids (never reuse): 81dd59d7/1db50afb/e36a5b93. Previous _note: FINAL v3: 28.7s, both client lines in full at natural pace, portal on scene-1/scene-3 laptops, logo card-only verified; fresh 16:9 URL verified serving 28.700s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: e939a3ba/c4361655/74b20f5c. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 68b88275/3f78ae64/60f64ea2. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused."
+      "_note": "RE-ISSUED 2026-08-09: closing VO rebuilt, false start removed and the spoken email corrected from \"S-W-S Recovery dot com\" to \"S-W Recovery dot com\". Metadata rename Max -> Hunter. Retired ids (never reuse): 81dd59d7/1db50afb/e36a5b93. Previous _note: FINAL v3: 28.7s, both client lines in full at natural pace, portal on scene-1/scene-3 laptops, logo card-only verified; fresh 16:9 URL verified serving 28.700s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: e939a3ba/c4361655/74b20f5c. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 68b88275/3f78ae64/60f64ea2. CORRECTION same day: the first 4K build of this episode was mistakenly sourced from the pre-2026-08-09 cut; rebuilt from the current master and re-issued on the ids above. The mistaken intermediates were never delivered and are retired unused. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 30c6a4ff/aa0394ab/eddafd75."
     },
     "assembly_note": "v3 (23s cap lifted): 28.7s total - cuts 5.66/9.11/10.40 + 3.5s card at 25.17s; scenes 2 and 3 regenerated as native 10s clips (b1795326, 46a659b6) so both client lines play at ~1.0x; logo verified card-only at 24.2s/26.7s."
   },

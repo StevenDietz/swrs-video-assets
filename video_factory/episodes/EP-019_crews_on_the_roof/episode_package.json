@@ -56,27 +56,26 @@
       "placement": "t=9.85s under scene 3, carries onto the brand card (ends 19.65s)"
     },
     "standards_deferred": [
-      "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "5d9eedde-d61e-4984-be6e-036e46a9f197",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d9eedde-d61e-4984-be6e-036e46a9f197.mp4",
+        "media_id": "52381fb4-62fa-42ab-83f2-5a9a9b394efd",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/52381fb4-62fa-42ab-83f2-5a9a9b394efd.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "cca612d8-9008-469e-8003-062a0135c365",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/cca612d8-9008-469e-8003-062a0135c365.mp4",
+        "media_id": "266f4089-6830-4c98-927a-826b24e81bf0",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/266f4089-6830-4c98-927a-826b24e81bf0.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "87ed270c-6606-4831-915b-78aa1fbaf8b1",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/87ed270c-6606-4831-915b-78aa1fbaf8b1.mp4",
+        "media_id": "f24406c2-6e3e-4a75-86c5-de55b826a5af",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f24406c2-6e3e-4a75-86c5-de55b826a5af.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 0def49b1/167aed0b/4ea80e8b. hB re-recorded shorter (superseded take b33c9a98) after the first cut tripped the 22.5s guard."
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 0def49b1/167aed0b/4ea80e8b. hB re-recorded shorter (superseded take b33c9a98) after the first cut tripped the 22.5s guard. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 5d9eedde/cca612d8/87ed270c."
     },
     "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 6.83/2.82/9.85 + 3.5s card at 19.5s; MEND 19.65s."
   },

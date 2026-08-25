@@ -72,28 +72,27 @@
       "placement": "t=14.3s under scene 3, carries onto the brand card (7.9s, ends 22.2s)"
     },
     "standards_deferred": [
-      "Licensed music bed — finishing pass.",
       "Native vertical framing — finishing pass.",
       "Premium render + 4K archive — finishing pass."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "b2498ff8-3f89-45ae-93d6-7e7dbe5ec41b",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b2498ff8-3f89-45ae-93d6-7e7dbe5ec41b.mp4",
+        "media_id": "3fe1c9e7-9758-4538-bbe9-993940e5df87",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3fe1c9e7-9758-4538-bbe9-993940e5df87.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "8ee450ea-cec5-42cf-b937-46b5bd42a6bd",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8ee450ea-cec5-42cf-b937-46b5bd42a6bd.mp4",
+        "media_id": "1923204e-5b4f-4232-8f3e-6a71949d1d4e",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1923204e-5b4f-4232-8f3e-6a71949d1d4e.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "ec79d369-f6fa-432a-afc9-f967e15e7457",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ec79d369-f6fa-432a-afc9-f967e15e7457.mp4",
+        "media_id": "68f53a39-fec7-4ee2-a2c4-7e73c817ecce",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/68f53a39-fec7-4ee2-a2c4-7e73c817ecce.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: a2ac4fb5/9a85d816/35a54d36."
+      "_note": "FINAL v4: 27.0s, client hook at full emphatic pace, V1 dragon, portal on the scene-1 monitor, logo card-only verified; fresh 16:9 URL verified serving 27.034s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b7bc1d26/05be1c5a/1ee3ccab. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: a2ac4fb5/9a85d816/35a54d36. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: b2498ff8/8ee450ea/ec79d369."
     },
     "assembly_note": "v4 (23s cap lifted): 27.0s total - cuts 8.16/6.70/8.67 + 3.5s card at 23.52s; scene 1 regenerated as a native 10s clip (67bdcf8d) so the emphatic hook plays at ~0.82x-natural; closer ends 22.97s; logo verified card-only at 22.5s/25.0s."
   },

@@ -61,27 +61,26 @@
       "placement": "t=14.32s under scene 3 (8.55s, ends 22.87s). Original closer restored; the 399df9fd 'download' closer was an interim cut while the 23s cap still applied."
     },
     "standards_deferred": [
-      "Licensed music bed — Editing/Branding stage.",
       "Premium-tier render + 4K master archive."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "2c6d7e6c-9b81-4c7d-9b2e-7384be2e0d7b",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c6d7e6c-9b81-4c7d-9b2e-7384be2e0d7b.mp4",
+        "media_id": "56e7c956-335e-45d4-9b67-092ae4d1b9a3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/56e7c956-335e-45d4-9b67-092ae4d1b9a3.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "70a46e7c-bece-48b7-9ebe-5fb456bde0ed",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/70a46e7c-bece-48b7-9ebe-5fb456bde0ed.mp4",
+        "media_id": "9fdf01d1-7c76-437a-88ac-e3c6b6713820",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9fdf01d1-7c76-437a-88ac-e3c6b6713820.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "e11eef1d-a7e9-4ea3-8c3f-d7dd20ba187b",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e11eef1d-a7e9-4ea3-8c3f-d7dd20ba187b.mp4",
+        "media_id": "c1d1e500-2ebb-42a7-bead-40084c521621",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c1d1e500-2ebb-42a7-bead-40084c521621.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "FINAL v3: 26.9s, full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified; fresh 16:9 URL verified serving 26.934s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b91ee466/a5c9b8ce/41415d02. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 6e167935/8d73805b/7cf9645e."
+      "_note": "FINAL v3: 26.9s, full client enumeration at natural pace, portal on scene-3 laptop, logo card-only verified; fresh 16:9 URL verified serving 26.934s. Re-issued on FRESH media ids 2026-08-04 (CDN edge cached the old ids' first-delivery cut for 9h+ with no invalidation; in-place overwrites never reached viewers). Cache-stale retired ids: b91ee466/a5c9b8ce/41415d02. PREMIUM 4K REMASTER 2026-08-24: master_16x9 re-issued at 3840x2160/30fps (ByteDance aigc upscale of the delivered master; video stream from the upscaler, audio stream bit-exact copied from the delivered -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 re-derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified. Superseded HD ids: 6e167935/8d73805b/7cf9645e. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 2c6d7e6c/70a46e7c/e11eef1d."
     },
     "v2_standards_applied": [
       "real portal UI on every visible screen (campaign-wide screen rule retrofit, 2026-08-04)"

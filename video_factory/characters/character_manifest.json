@@ -1125,5 +1125,33 @@
         "name": "Whiteboard of Wins"
       }
     ]
+  },
+  "brand_audio": {
+    "theme_name": "SWRS Cinematic Theme",
+    "locked_at": "2026-08-25",
+    "chosen_by": "Steven (picked candidate D from six auditioned vibes: playful-pizzicato, corporate-piano, marimba-fintech, cinematic, retro-funk, acoustic-folk)",
+    "model": "sonilo_music",
+    "style": "light cinematic animated-film score: sprightly staccato strings, playful woodwinds, soft glockenspiel, gentle closing brass swell; ~108 bpm, instrumental, no vocals",
+    "primary": {
+      "job_id": "532fb0c8-bd5e-4238-86c9-c0409e9b002f",
+      "duration_s": 25,
+      "use": "all 23s episodes",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_073843_532fb0c8-bd5e-4238-86c9-c0409e9b002f.m4a"
+    },
+    "extended": {
+      "job_id": "a081e7c5-47fa-4610-9e63-811db82168b0",
+      "duration_s": 30,
+      "use": "long episodes EP-004/008/012 (same prompt, separate rendition)",
+      "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_074440_a081e7c5-47fa-4610-9e63-811db82168b0.m4a"
+    },
+    "mix_rule": "bed at 0.18x under the -14 LUFS master mix, 0.4s fade-in at 0s, 0.8s fade-out ENDING BEFORE each episode's brand card so the logo reveal stays silent (23s episodes: fade st=18.9; EP-004 st=22.6; EP-008 st=22.7; EP-012 st=24.4), amix normalize=0 + alimiter 0.95.",
+    "ownership": "original generated composition, SWRS-owned; no third-party license required",
+    "auditioned_unused": [
+      "A playful 557c407a",
+      "B corporate e4b939c5",
+      "C hybrid 2ecc5839",
+      "E funk 0b76947d",
+      "F folk fb551629"
+    ]
   }
 }
