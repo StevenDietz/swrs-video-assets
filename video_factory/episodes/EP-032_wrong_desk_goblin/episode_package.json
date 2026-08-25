@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-032",
+  "title": "Wrong Desk, Goblin",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "The Goblin tries Hunter's desk - and learns SWRS people plus email beat passwords every time.",
+  "audience": "Signed clients who think the portal is the only door in",
+  "activation_barrier": "'If logins are a hassle on my side, it must be a hassle on theirs too.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'If logins are a hassle on my side, it must be a hassle on theirs too.'",
+    "persona": "password_goblin (returning villain) vs hunter_client_success (real human help)",
+    "fix": "no password needed, and a real account manager keeps it moving",
+    "payoff": "wrong desk, Goblin - Hunter and the email pipeline don't need his passwords; brand close"
+  },
+  "characters": [
+    "hunter_client_success",
+    "password_goblin",
+    "victor_the_vampire"
+  ],
+  "distribution": "Human-touch reassurance slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+      "password_goblin": "c7500c1e-3774-40d0-b328-39861a1a63ca",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.55s / 4.08s / 9.87s + 3.5s card; VO ends 17.16s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "The Goblin tried Hunter's desk next. Big mistake.",
+        "voice": "Arthur",
+        "job_id": "b3a6cad2-8fda-422f-8df4-77434e6997af",
+        "placement": "t=0.3s over scene 1 (5.55s)"
+      },
+      {
+        "line": "No password. No problem.",
+        "voice": "Arthur",
+        "job_id": "918ca05a-034d-4b94-a6bf-6cd1131c29f4",
+        "placement": "t=5.75s over scene 2 (4.08s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Your account manager keeps everything moving. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "c02a07a9-9471-4798-a5bb-a564c1eac9c1",
+      "placement": "t=9.93s under scene 3, carries onto the brand card (ends 17.16s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "52b2d844-7b6b-4e44-bb5c-9f6c681688d3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/52b2d844-7b6b-4e44-bb5c-9f6c681688d3.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "4fdbfac6-0047-495e-920a-481005c72fb7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4fdbfac6-0047-495e-920a-481005c72fb7.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "2fc3a972-2edf-47a7-8fda-863866454f30",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2fc3a972-2edf-47a7-8fda-863866454f30.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): f4ef7ec4/14b6e75d/8e169b9a."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.55/4.08/9.87 + 3.5s card at 19.5s; MEND 17.16s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "9f2234c3-67e1-4aa3-9dbb-41cab82aee08",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9f2234c3-67e1-4aa3-9dbb-41cab82aee08.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "3c621a8a-6be0-48b1-ba14-da5adaa0e048",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3c621a8a-6be0-48b1-ba14-da5adaa0e048.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-032-S01",
+      "beat": "hook",
+      "duration_seconds": 5.55,
+      "keyframe_job_id": "f781f68e-c02e-45e0-8216-1554b8cf7916",
+      "video_job_id": "9e599fae-74f8-4bf5-b613-67fbb3e91406",
+      "onscreen_text": "Wrong desk, Goblin.",
+      "voiceover": "The Goblin tried Hunter's desk next. Big mistake.",
+      "visual": "The Goblin sneaks onto Hunter's desk with sticky notes ready - Hunter looks up, unimpressed; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-032-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "9ca9c9ab-63c0-447f-a975-dfce37f2b5a8",
+      "video_job_id": "083a2ae8-959b-4fdf-a499-945d9fb020fb",
+      "onscreen_text": "No password. No problem.",
+      "voiceover": "No password. No problem.",
+      "visual": "Hunter holds up the incoming placement email - the Goblin's plan collapses ('no password, no problem' beat)."
+    },
+    {
+      "scene_id": "EP-032-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.87,
+      "keyframe_job_id": "e95271f4-6abb-42bd-9ff8-20274595f147",
+      "video_job_id": "bda38dc3-e34f-4b08-bd36-647c91a38ff8",
+      "onscreen_text": "Real people keep it moving. / Just email info@swrecovery.com",
+      "voiceover": "Your account manager keeps everything moving. Just email info@swrecovery.com.",
+      "visual": "Hunter routes the placements onward with a smile; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-032-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

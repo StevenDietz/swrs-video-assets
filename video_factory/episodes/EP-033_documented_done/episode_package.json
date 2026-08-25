@@ -1,0 +1,153 @@
+{
+  "episode_id": "EP-033",
+  "title": "Documented. Done.",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Captain Compliance shows the paper trail: every action documented, audit-ready, visible in the portal.",
+  "audience": "Signed clients (esp. finance/compliance-minded) who need auditability",
+  "activation_barrier": "'If I hand accounts off, I lose visibility and my audit trail.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'If I hand accounts off, I lose visibility and my audit trail.'",
+    "persona": "captain_compliance (hero of documentation)",
+    "fix": "every step is documented and visible in the client portal",
+    "payoff": "documented, done - the audit binder practically fills itself; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "captain_compliance"
+  ],
+  "distribution": "Visibility/compliance slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "captain_compliance": "74334428-e964-441f-b091-e3c4adca398c"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 4.33s / 3.28s / 11.89s + 3.5s card; VO ends 15.11s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Every account. Every action. Documented.",
+        "voice": "Arthur",
+        "job_id": "ce36d5cf-4b7f-414f-b7a0-e7e680f7252e",
+        "placement": "t=0.3s over scene 1 (4.33s)"
+      },
+      {
+        "line": "Audit-ready, always.",
+        "voice": "Arthur",
+        "job_id": "04b082b3-704b-4ea1-af0d-8dc4d1787024",
+        "placement": "t=4.53s over scene 2 (3.28s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Track every step in your client portal. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "063efa6e-c5c1-452a-ac71-07a099f94a9d",
+      "placement": "t=7.91s under scene 3, carries onto the brand card (ends 15.11s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "3e72f331-afa9-4d33-b1be-95a4f7bab492",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3e72f331-afa9-4d33-b1be-95a4f7bab492.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "66149664-408b-4cf5-a03c-2eca342018c7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/66149664-408b-4cf5-a03c-2eca342018c7.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "840005fd-685a-4906-a143-415a37fa466a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/840005fd-685a-4906-a143-415a37fa466a.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 174a79f6/f64d630a/d3af9089."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 4.33/3.28/11.89 + 3.5s card at 19.5s; MEND 15.11s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "5313639b-e65a-4988-9629-2b5c150d23aa",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5313639b-e65a-4988-9629-2b5c150d23aa.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "fc0cfd05-df93-49e5-8694-941a7e3b29b0",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fc0cfd05-df93-49e5-8694-941a7e3b29b0.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-033-S01",
+      "beat": "hook",
+      "duration_seconds": 4.33,
+      "keyframe_job_id": "462cdfa3-ede9-44fc-a96d-4060347ab515",
+      "video_job_id": "a6658e10-e1aa-4952-a09d-1ed7c942daad",
+      "onscreen_text": "Every action, documented.",
+      "voiceover": "Every account. Every action. Documented.",
+      "visual": "Captain Compliance gestures across a wall of neatly stamped DOCUMENTED records while Victor relaxes; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-033-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.28,
+      "keyframe_job_id": "0e2a2d05-76b8-4646-bda3-4fa748c241aa",
+      "video_job_id": "fac5ab4a-1fdc-4887-bb95-ab3c173477d3",
+      "onscreen_text": "Audit-ready, always.",
+      "voiceover": "Audit-ready, always.",
+      "visual": "The Captain snaps a binder shut ('audit-ready, always' beat)."
+    },
+    {
+      "scene_id": "EP-033-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 11.89,
+      "keyframe_job_id": "6ef006d4-780a-4487-b5a0-f30d722c6ece",
+      "video_job_id": "a9431fb0-ebc3-4dcf-b9dc-23e63915478d",
+      "onscreen_text": "Every update in your portal. / Just email info@swrecovery.com",
+      "voiceover": "Track every step in your client portal. Just email info@swrecovery.com.",
+      "visual": "Victor scrolls the portal's activity log - every update in one place; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-033-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

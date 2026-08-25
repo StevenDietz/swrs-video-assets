@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-027",
+  "title": "The Right Way Is the Lasting Way",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Introduce Captain Compliance: ethical recovery that protects the client's brand and reputation.",
+  "audience": "Signed clients worried collections could damage customer relationships",
+  "activation_barrier": "'Sending customers to collections will make us look like the bad guy.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Sending customers to collections will make us look like the bad guy.'",
+    "persona": "captain_compliance (new hero: gently comic office superhero of doing it right)",
+    "fix": "ethical, professional recovery protects your name",
+    "payoff": "the Captain's motto lands: the right way is the lasting way; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "captain_compliance"
+  ],
+  "distribution": "Reputation-worry slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "captain_compliance": "74334428-e964-441f-b091-e3c4adca398c"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.25s / 4.90s / 7.35s + 3.5s card; VO ends 19.65s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Collections can feel risky. Enter Captain Compliance.",
+        "voice": "Arthur",
+        "job_id": "7bdcb944-7edd-44e0-b889-ffa083b816be",
+        "placement": "t=0.3s over scene 1 (7.25s)"
+      },
+      {
+        "line": "The right way is the lasting way.",
+        "voice": "Arthur",
+        "job_id": "95cc707e-2041-49ee-a285-f2bcf7f3fcec",
+        "placement": "t=7.45s over scene 2 (4.90s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Ethical recovery that protects your name. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "28bca147-cf1c-4f89-9eaf-2aa991ba387b",
+      "placement": "t=12.45s under scene 3, carries onto the brand card (ends 19.65s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "f6709642-7b03-488e-b5c0-75e696e043cc",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f6709642-7b03-488e-b5c0-75e696e043cc.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "2c755769-027f-41b2-9295-b6b9f355d365",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c755769-027f-41b2-9295-b6b9f355d365.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "f495a746-0726-4f67-932a-56af6d82d38a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f495a746-0726-4f67-932a-56af6d82d38a.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): c048dbd9/c2f1ad9c/04d09039."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.25/4.90/7.35 + 3.5s card at 19.5s; MEND 19.65s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top.",
+    "revision_note": "Hook and CTA lines re-recorded once (shorter phrasings) after the 22.5s guard overflow; superseded VO jobs c7e0f736 (hA) and 9d5c96f3 (vo). Scene-2 keyframe original d58cf9eb stuck in queue >10min; parallel duplicate 0f65a4e5 used."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "777c086c-2fcd-4c66-b18c-bf20b9e85e60",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/777c086c-2fcd-4c66-b18c-bf20b9e85e60.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "6f9d28b3-019e-4471-bb3a-ffc0f145f926",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6f9d28b3-019e-4471-bb3a-ffc0f145f926.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-027-S01",
+      "beat": "hook",
+      "duration_seconds": 7.25,
+      "keyframe_job_id": "914cc97e-e793-4bf2-92d9-47402eae3cf0",
+      "video_job_id": "8ffc12c7-468e-4337-bf78-768aa0933e67",
+      "onscreen_text": "Worried collections could hurt your brand?",
+      "voiceover": "Collections can feel risky. Enter Captain Compliance.",
+      "visual": "Victor frets over a 'what will customers think?' moment - Captain Compliance arrives with a reassuring stance; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-027-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.9,
+      "keyframe_job_id": "0f65a4e5-c6af-45bd-b6fa-8a78d618d7a3",
+      "video_job_id": "a3dfb38f-a471-49c6-b14d-d02a1f93f617",
+      "onscreen_text": "\"The right way is the lasting way.\"",
+      "voiceover": "The right way is the lasting way.",
+      "visual": "The Captain plants his shield-badge and delivers the motto beat with a calm nod."
+    },
+    {
+      "scene_id": "EP-027-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 7.35,
+      "keyframe_job_id": "4dd69154-64eb-40c8-8941-26a8a8c2a178",
+      "video_job_id": "01a64184-9309-4575-a6eb-d656f89ce3f3",
+      "onscreen_text": "Ethical recovery. Protected reputation. / Just email info@swrecovery.com",
+      "voiceover": "Ethical recovery that protects your name. Just email info@swrecovery.com.",
+      "visual": "Victor sends with confidence - the envelope glows past a checklist of 'ethical / documented / professional'; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-027-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

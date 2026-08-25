@@ -1,0 +1,158 @@
+{
+  "episode_id": "EP-035",
+  "title": "Between Opportunities",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Comedy victory-lap: with accounts placed on time, the monsters are unemployed.",
+  "audience": "All signed clients - reinforcement that placing early keeps problems from ever growing",
+  "activation_barrier": "'Do I really need to keep sending accounts promptly?'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Do I really need to keep sending accounts promptly?'",
+    "persona": "invoice_monster (Vlad) + filing_cabinet_phil - out of work, 'between opportunities'",
+    "fix": "keep placing promptly and the monsters stay unemployed",
+    "payoff": "Vlad's sheepish line lands; the monsters wait at a bus stop with tiny suitcases; brand close"
+  },
+  "characters": [
+    "vlad_the_invoice_monster",
+    "filing_cabinet_phil",
+    "victor_the_vampire"
+  ],
+  "distribution": "Retention/reinforcement slot of the activation drip.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "vlad_the_invoice_monster": "5da9a51b-71d5-4640-a1f2-adb3df40ce87",
+      "filing_cabinet_phil": "18c962fb-d060-4438-8691-2af5f9e5b7eb",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346; Vlad character voice e5666b9c-99a2-4fac-8b4e-abee078b186d)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 3.20s / 3.78s / 12.52s + 3.5s card; VO ends 14.48s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync: character lines play as VO over gestures",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Vlad and Phil are out of work.",
+        "voice": "Arthur",
+        "job_id": "54ca837a-644f-4de8-b6ba-a65eeb1b672c",
+        "placement": "t=0.3s over scene 1 (3.20s)"
+      },
+      {
+        "line": "We're... between opportunities.",
+        "voice": "Vlad (character VO, voice e5666b9c)",
+        "job_id": "4baee269-375b-4535-9eee-64389aa7d7c9",
+        "placement": "t=3.40s over scene 2 (3.78s); plays over gestures, no lip-sync; caption holds an extra 0.6s tail"
+      }
+    ],
+    "voiceover": {
+      "line": "Keep them unemployed. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "c47d5a38-5e26-48e8-93d0-db48b6593d5c",
+      "placement": "t=7.28s under scene 3, carries onto the brand card (ends 14.48s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "c6a516e8-ed98-4c71-ac91-22e52a5c471f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c6a516e8-ed98-4c71-ac91-22e52a5c471f.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "65e1d7c5-d635-4770-8ac5-07046127fb66",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/65e1d7c5-d635-4770-8ac5-07046127fb66.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "bf49e11a-5ec2-4674-af1c-6f96be265f26",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bf49e11a-5ec2-4674-af1c-6f96be265f26.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 2c403585/b10b43b2/33c4eaaa."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 3.20/3.78/12.52 + 3.5s card at 19.5s; MEND 14.48s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "99c2a9c6-289d-4766-b3b0-60fde3a2776b",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/99c2a9c6-289d-4766-b3b0-60fde3a2776b.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "9c1c2a53-150f-4647-b931-b911f8392055",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9c1c2a53-150f-4647-b931-b911f8392055.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-035-S01",
+      "beat": "hook",
+      "duration_seconds": 3.204,
+      "keyframe_job_id": "9f79e3ef-1eed-4c78-aeee-c93e91dbbc0e",
+      "video_job_id": "f178b521-2b73-4937-81b8-d9edf094f5db",
+      "onscreen_text": "The monsters are out of work.",
+      "voiceover": "Vlad and Phil are out of work.",
+      "visual": "Vlad (palm-size) and a knee-high Phil sit at an office bus stop with tiny suitcases - nothing left to feed on; a distant monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-035-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.78,
+      "keyframe_job_id": "861facb0-6dcf-4dea-a506-000e32c8382e",
+      "video_job_id": "73022e2f-2a0e-44fa-a6f4-df6e8dd415c3",
+      "onscreen_text": "\"We're... between opportunities.\"",
+      "voiceover": "We're... between opportunities. (Vlad, character VO)",
+      "visual": "Vlad shrugs sheepishly - his line plays as character VO over the gesture, no lip-sync ('We're... between opportunities.')."
+    },
+    {
+      "scene_id": "EP-035-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 12.516,
+      "keyframe_job_id": "da72a12b-5d15-48fb-80b9-6d6a97d0c776",
+      "video_job_id": "1b07ea4e-1c53-4479-8e59-07dedee10c1d",
+      "onscreen_text": "Keep them unemployed. / Just email info@swrecovery.com",
+      "voiceover": "Keep them unemployed. Just email info@swrecovery.com.",
+      "visual": "Victor, thriving, sends the day's placements on time; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-035-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "character_notes": {
+    "vlad_the_invoice_monster": "Line 'We're... between opportunities.' voiced by Vlad e5666b9c (his EP-013 casting reused). Plays as character VO over a sheepish shrug - no lip-sync; caption holds a 0.6s tail."
+  }
+}

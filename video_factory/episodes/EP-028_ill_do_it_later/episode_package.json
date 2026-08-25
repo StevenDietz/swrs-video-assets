@@ -1,0 +1,153 @@
+{
+  "episode_id": "EP-028",
+  "title": "I'll Do It Later",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Introduce the Procrastination Sloth: 'later' is the most expensive word in receivables.",
+  "audience": "Signed clients who keep deferring placements",
+  "activation_barrier": "'I'll get to it later.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I'll get to it later.'",
+    "persona": "procrastination_sloth (new comic obstacle: adorable, unhurried, always 'later')",
+    "fix": "today beats later - accounts lose value every week they wait",
+    "payoff": "Victor sends today while the Sloth naps; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "procrastination_sloth"
+  ],
+  "distribution": "Procrastination slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "procrastination_sloth": "8ea936b2-bc4b-41c2-a0e6-e97559a1ede0"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.65s / 3.28s / 8.57s + 3.5s card; VO ends 21.43s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Meet the Procrastination Sloth. His favorite word? Later.",
+        "voice": "Arthur",
+        "job_id": "488ff423-03c7-413f-8d56-0ce467fa1891",
+        "placement": "t=0.3s over scene 1 (7.65s)"
+      },
+      {
+        "line": "Later is expensive.",
+        "voice": "Arthur",
+        "job_id": "a75862c8-5c52-4396-a3c4-e54315f94d2d",
+        "placement": "t=7.85s over scene 2 (3.28s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Accounts lose value every week they wait. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "a49f99a5-20af-4dde-a47e-2fe53a6d0b1c",
+      "placement": "t=11.23s under scene 3, carries onto the brand card (ends 21.43s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "171caf2e-e0c6-4606-b424-d04ad0f3ce4b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/171caf2e-e0c6-4606-b424-d04ad0f3ce4b.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "8c165f12-65bf-4eb5-bf4e-cb2e5025eadb",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8c165f12-65bf-4eb5-bf4e-cb2e5025eadb.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "2947c4d5-f9c3-41de-9566-45ea003d9ddf",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2947c4d5-f9c3-41de-9566-45ea003d9ddf.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 335b750f/16fef93c/588134d7."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.65/3.28/8.57 + 3.5s card at 19.5s; MEND 21.43s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "7821a25e-00bd-4c50-9dd1-dab8a4074d5b",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7821a25e-00bd-4c50-9dd1-dab8a4074d5b.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "03fc8388-1322-4d4b-8339-520a13bbc826",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/03fc8388-1322-4d4b-8339-520a13bbc826.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-028-S01",
+      "beat": "hook",
+      "duration_seconds": 7.65,
+      "keyframe_job_id": "e387e0a1-07ee-4e0d-9fc8-0051fda48aa0",
+      "video_job_id": "128a0f7c-7979-4b7c-817f-e13304e8b705",
+      "onscreen_text": "\"I'll do it later...\"",
+      "voiceover": "Meet the Procrastination Sloth. His favorite word? Later.",
+      "visual": "The Sloth drapes over Victor's chair, LATER sticky note on his chest - Victor sighs; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-028-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.28,
+      "keyframe_job_id": "f9ac776b-dca1-4e5f-ab2e-bf39e5b0056f",
+      "video_job_id": "057f9988-4aa4-462b-87c3-6e8b15080fc4",
+      "onscreen_text": "Later is expensive.",
+      "voiceover": "Later is expensive.",
+      "visual": "A tiny calendar flips past the dozing Sloth ('later is expensive' beat)."
+    },
+    {
+      "scene_id": "EP-028-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8.57,
+      "keyframe_job_id": "5d5be3a2-f992-4357-b04f-4d8fc1aef55b",
+      "video_job_id": "c90f83df-fc61-45ab-b005-8da6a170cd26",
+      "onscreen_text": "Today beats later. Every time. / Just email info@swrecovery.com",
+      "voiceover": "Accounts lose value every week they wait. Just email info@swrecovery.com.",
+      "visual": "Victor sends TODAY - the envelope lifts off while the Sloth snoozes on; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-028-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

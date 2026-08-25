@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-031",
+  "title": "Penny vs. the Pile",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Penny vs. the pile: send the backlog early, before it becomes a Phil.",
+  "audience": "Signed clients letting a new backlog form after their first cleanup",
+  "activation_barrier": "'It's just a small pile - it can wait.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'It's just a small pile - it can wait.'",
+    "persona": "penny_the_accountant (hero) vs a young paper pile threatening to become filing_cabinet_phil",
+    "fix": "send the backlog while it's small",
+    "payoff": "Penny un-piles the pile before it grows a face; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "penny_the_accountant",
+    "filing_cabinet_phil"
+  ],
+  "distribution": "Backlog-recurrence slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "penny_the_accountant": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f",
+      "filing_cabinet_phil": "18c962fb-d060-4438-8691-2af5f9e5b7eb"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.05s / 4.08s / 9.37s + 3.5s card; VO ends 20.63s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Phil's back? Not on Penny's watch.",
+        "voice": "Arthur",
+        "job_id": "c3d6045b-5927-4ff4-9efe-c946008288a6",
+        "placement": "t=0.3s over scene 1 (6.05s)"
+      },
+      {
+        "line": "Piles don't stand a chance.",
+        "voice": "Arthur",
+        "job_id": "8da0104a-1d0a-464a-8213-e974f4912fd7",
+        "placement": "t=6.25s over scene 2 (4.08s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Send the backlog before it becomes a Phil. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "8558ab13-3ec0-4c0b-bff6-db38d40b6275",
+      "placement": "t=10.43s under scene 3, carries onto the brand card (ends 20.63s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "242603e7-d087-4e2a-9898-ef02c8b1db6a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/242603e7-d087-4e2a-9898-ef02c8b1db6a.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "80cfb042-ad94-4dcc-b1be-5b7b155a7f81",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/80cfb042-ad94-4dcc-b1be-5b7b155a7f81.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "47375dac-f43c-4488-9003-0af4e2b25e3b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/47375dac-f43c-4488-9003-0af4e2b25e3b.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 40ef6899/eb3fbba9/080759bc."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 6.05/4.08/9.37 + 3.5s card at 19.5s; MEND 20.63s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "314888bc-8bf1-4188-8280-9607bc1544e3",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/314888bc-8bf1-4188-8280-9607bc1544e3.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "4bb63ed2-91dc-4bf5-aa68-f82362539be5",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4bb63ed2-91dc-4bf5-aa68-f82362539be5.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-031-S01",
+      "beat": "hook",
+      "duration_seconds": 6.05,
+      "keyframe_job_id": "4af3f6fd-a53c-475d-aeb9-2a1d2540e936",
+      "video_job_id": "4442a587-a2e8-488d-a4ff-ee61b158d33d",
+      "onscreen_text": "A new pile? Penny's on it.",
+      "voiceover": "Phil's back? Not on Penny's watch.",
+      "visual": "A small paper pile on Victor's desk is starting to look suspiciously like a tiny Phil - Penny narrows her eyes; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-031-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "67948e37-d8d8-46be-9abb-654896bba2d4",
+      "video_job_id": "5e437bf9-f0b0-42db-9a35-bcf900cd3359",
+      "onscreen_text": "Piles don't stand a chance.",
+      "voiceover": "Piles don't stand a chance.",
+      "visual": "Penny sweeps the pile into order with one motion ('piles don't stand a chance' beat)."
+    },
+    {
+      "scene_id": "EP-031-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.37,
+      "keyframe_job_id": "948f5579-b18b-4bbb-8f1e-03fa0492656e",
+      "video_job_id": "c21c5e38-2329-480c-bdec-ecd93e6907f9",
+      "onscreen_text": "Send the backlog early. / Just email info@swrecovery.com",
+      "voiceover": "Send the backlog before it becomes a Phil. Just email info@swrecovery.com.",
+      "visual": "One send - the would-be Phil collapses into a single glowing envelope; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-031-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

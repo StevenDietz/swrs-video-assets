@@ -1,0 +1,153 @@
+{
+  "episode_id": "EP-029",
+  "title": "Don't Feed the Dragon (Again)",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Bring back the Late Fee Dragon: waiting feeds him - placing starves him.",
+  "audience": "Signed clients letting balances age instead of placing",
+  "activation_barrier": "'Another month won't hurt.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Another month won't hurt.'",
+    "persona": "late_fee_dragon (returning villain: every week of waiting is a meal)",
+    "fix": "place today and there's nothing left to feed on",
+    "payoff": "the Dragon finds an empty bowl; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "late_fee_dragon"
+  ],
+  "distribution": "Aging-balance urgency slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "late_fee_dragon": "6d6cea58-1f3b-475d-a920-e3a92f29653a"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.26s / 3.70s / 10.54s + 3.5s card; VO ends 18.16s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Remember the Late Fee Dragon? Waiting is his favorite meal.",
+        "voice": "Arthur",
+        "job_id": "89fa8353-b642-4775-a5d2-449b4bfdbae1",
+        "placement": "t=0.3s over scene 1 (5.26s)"
+      },
+      {
+        "line": "Starve him. Place today.",
+        "voice": "Arthur",
+        "job_id": "93751fe0-2bee-4760-a7dd-c056db1c62c4",
+        "placement": "t=5.46s over scene 2 (3.70s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Placed accounts leave nothing to feed on. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "9aa9a01d-0758-47f5-951b-7cd10bf1362a",
+      "placement": "t=9.26s under scene 3, carries onto the brand card (ends 18.16s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "c631ef6f-f1e1-4a83-8d87-bb573cbd1a02",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c631ef6f-f1e1-4a83-8d87-bb573cbd1a02.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "016fff89-78f7-479f-a841-d467fc38c49d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/016fff89-78f7-479f-a841-d467fc38c49d.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "4110549d-2f36-4db5-8c0b-3affe327593c",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4110549d-2f36-4db5-8c0b-3affe327593c.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): ca470012/91a9cd87/4febf788."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.26/3.70/10.54 + 3.5s card at 19.5s; MEND 18.16s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "c4997bb9-3b7a-49c8-86df-1c5471ea0c93",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c4997bb9-3b7a-49c8-86df-1c5471ea0c93.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "8b3f0f9f-2b09-4cb5-b119-28cb866cd0f8",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8b3f0f9f-2b09-4cb5-b119-28cb866cd0f8.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-029-S01",
+      "beat": "hook",
+      "duration_seconds": 5.256,
+      "keyframe_job_id": "f54d3050-6440-4b66-a5f0-eee247b36b0f",
+      "video_job_id": "d34e00f0-638a-4ad9-8e85-bd865c6277fb",
+      "onscreen_text": "Waiting feeds the dragon.",
+      "voiceover": "Remember the Late Fee Dragon? Waiting is his favorite meal.",
+      "visual": "The Late Fee Dragon waits at a food bowl labeled WAITING as Victor hesitates; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-029-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.7,
+      "keyframe_job_id": "734c927b-96d2-40b3-b56c-c65fbbcd8621",
+      "video_job_id": "7565dbe5-b0ad-4999-8a82-14f1d9be9d12",
+      "onscreen_text": "Starve him. Place today.",
+      "voiceover": "Starve him. Place today.",
+      "visual": "Victor pulls the bowl away ('starve him' beat) - the Dragon's ears droop comically."
+    },
+    {
+      "scene_id": "EP-029-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 10.544,
+      "keyframe_job_id": "3265e58f-53b0-4d59-ab2b-c8e8a4bd6234",
+      "video_job_id": "54965478-83f4-4d83-91d2-694c38b79266",
+      "onscreen_text": "Placed accounts leave nothing to feed on. / Just email info@swrecovery.com",
+      "voiceover": "Placed accounts leave nothing to feed on. Just email info@swrecovery.com.",
+      "visual": "The placed accounts sail off as glowing envelopes - the Dragon stares into an empty bowl; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-029-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

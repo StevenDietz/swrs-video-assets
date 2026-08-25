@@ -111,7 +111,7 @@
         {
           "id": "victor_the_vampire",
           "name": "Victor",
-          "title": "The Vampire — Chief Frustration Officer",
+          "title": "The Vampire \u2014 Chief Frustration Officer",
           "one_liner": "Busy, overwhelmed, procrastinates, sends accounts at the last minute.",
           "personality": "Dramatic, funny, intelligent, easily distracted but wants to do the right thing.",
           "catchphrase": "There has to be an easier way.",
@@ -139,7 +139,7 @@
         {
           "id": "penny_the_accountant",
           "name": "Penny",
-          "title": "The Accountant — Director of Common Sense",
+          "title": "The Accountant \u2014 Director of Common Sense",
           "one_liner": "Calm, logical, organized, always simplifies complex problems.",
           "personality": "Calm, logical, patient, highly organized.",
           "catchphrase": "Let's simplify this.",
@@ -148,7 +148,17 @@
             "calculator",
             "tabs"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'build this now' direction (Season Three greenlight)",
+            "design": "sharp, upbeat 3D-animated accountant in a navy cardigan over a white blouse, round glasses, neat bun, tablet in hand; warm confident smile; SWRS cool-blue palette.",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_172112_94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f.png"
+            }
+          }
         },
         {
           "id": "hunter_client_success",
@@ -183,7 +193,17 @@
             "shield",
             "rule book"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'build this now' direction (Season Three greenlight)",
+            "design": "gently comic office superhero: navy suit with a subtle cape and a shield-shaped compliance badge, square jaw, reassuring smile; heroic but office-appropriate; SWRS cool-blue palette.",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "74334428-e964-441f-b091-e3c4adca398c",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_172112_74334428-e964-441f-b091-e3c4adca398c.png"
+            }
+          }
         },
         {
           "id": "clarity_ai",
@@ -196,7 +216,17 @@
             "speech bubbles",
             "light bulb"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'build this now' direction (Season Three greenlight)",
+            "design": "friendly floating holographic AI guide: soft glowing light-blue orb with a simple smiling face and small light ribbons, hovering over a desk; helpful and calm; SWRS cool-blue palette.",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "3c7a37d1-e8de-4e19-a795-1a8daa5528c9",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_172113_3c7a37d1-e8de-4e19-a795-1a8daa5528c9.png"
+            }
+          }
         },
         {
           "id": "cash_flow_hero",
@@ -215,7 +245,7 @@
         {
           "id": "chloe_onboarding",
           "name": "Chloe",
-          "title": "Hunter's Sidekick — Onboarding Specialist",
+          "title": "Hunter's Sidekick \u2014 Onboarding Specialist",
           "one_liner": "Keeps clients on track and informed.",
           "personality": "Supportive, organized.",
           "catchphrase": null,
@@ -614,7 +644,17 @@
           "title": "Represents Delay",
           "one_liner": "Always says, \"I'll do it later.\"",
           "props": [],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'build this now' direction (Season Three greenlight)",
+            "design": "cuddly grey-brown 3D sloth draped over an office chair, half-lidded eyes, tiny coffee mug, sticky note reading LATER on his chest; endearing not lazy-coded mean; SWRS cool-blue office.",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "8ea936b2-bc4b-41c2-a0e6-e97559a1ede0",
+              "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_172112_8ea936b2-bc4b-41c2-a0e6-e97559a1ede0.png"
+            }
+          }
         },
         {
           "id": "cash_flow_vampire_hunter",

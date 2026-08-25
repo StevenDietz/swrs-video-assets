@@ -1,0 +1,161 @@
+{
+  "episode_id": "EP-036",
+  "title": "Heroes Assemble",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Season finale: the whole hero bench assembles around the one lesson - it's easier than you think.",
+  "audience": "All signed clients - season capstone",
+  "activation_barrier": "Any remaining excuse from three seasons of episodes.",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "Any remaining excuse from three seasons of episodes.",
+    "persona": "season_finale_ensemble (Victor + Penny + Captain Compliance + Clarity + Hunter, with the reformed Sloth)",
+    "fix": "one email to info@swrecovery.com - same as it's been since EP-001",
+    "payoff": "the team lines up behind Victor as he sends; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "penny_the_accountant",
+    "captain_compliance",
+    "clarity_ai",
+    "hunter_client_success",
+    "procrastination_sloth"
+  ],
+  "distribution": "Season-finale slot of the activation drip; also suitable as a standalone anthem spot.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "penny_the_accountant": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f",
+      "captain_compliance": "74334428-e964-441f-b091-e3c4adca398c",
+      "clarity_ai": "3c7a37d1-e8de-4e19-a795-1a8daa5528c9",
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+      "procrastination_sloth": "8ea936b2-bc4b-41c2-a0e6-e97559a1ede0"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 3.95s / 4.77s / 10.78s + 3.5s card; VO ends 18.72s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Three seasons. One lesson.",
+        "voice": "Arthur",
+        "job_id": "b22330a4-fd5a-4479-afb8-07217437f076",
+        "placement": "t=0.3s over scene 1 (3.95s)"
+      },
+      {
+        "line": "Getting your accounts to SWRS is easier than you think.",
+        "voice": "Arthur",
+        "job_id": "11c3cdea-535c-4b29-bb32-033467578e0d",
+        "placement": "t=4.15s over scene 2 (4.77s)"
+      }
+    ],
+    "voiceover": {
+      "line": "The whole team is ready when you are. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "686e3a6d-3c25-48ca-8e06-1ac756034f11",
+      "placement": "t=9.02s under scene 3, carries onto the brand card (ends 18.72s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "1136d302-dde1-4496-bfd3-42b88cb059a5",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1136d302-dde1-4496-bfd3-42b88cb059a5.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "b3ee136a-2f03-4cdc-bc93-a5805d165023",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b3ee136a-2f03-4cdc-bc93-a5805d165023.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "101ec78a-2ec3-4dfc-b49a-d12a3cbe0c0a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/101ec78a-2ec3-4dfc-b49a-d12a3cbe0c0a.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 6573bc8c/60abfd8e/f9696572."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 3.95/4.77/10.78 + 3.5s card at 19.5s; MEND 18.72s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "5077004f-1948-4126-b31c-89902a3e11cc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5077004f-1948-4126-b31c-89902a3e11cc.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "af062af0-501f-41b4-92c0-fcb6541c26a8",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/af062af0-501f-41b4-92c0-fcb6541c26a8.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-036-S01",
+      "beat": "hook",
+      "duration_seconds": 3.95,
+      "keyframe_job_id": "b69a0487-761a-44ef-84d7-4f2f6c4e0c87",
+      "video_job_id": "93019608-9da2-4b39-b365-beb78e4589de",
+      "onscreen_text": "Three seasons. One lesson.",
+      "voiceover": "Three seasons. One lesson.",
+      "visual": "Victor at his desk as the heroes assemble around him - Penny, the Captain, Clarity's glow, Hunter; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-036-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.772,
+      "keyframe_job_id": "766647fd-9dd7-4df5-a457-4f193557321d",
+      "video_job_id": "c462f7d4-1485-406f-aad9-e6ebefa3bf76",
+      "onscreen_text": "Easier than you think.",
+      "voiceover": "Getting your accounts to SWRS is easier than you think.",
+      "visual": "The group shares the season's one lesson ('easier than you think' beat)."
+    },
+    {
+      "scene_id": "EP-036-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 10.778,
+      "keyframe_job_id": "aaa073e8-0ea1-43af-aeee-0d8349a5c660",
+      "video_job_id": "678f9f9e-ac85-4b48-b578-6111defdedaf",
+      "onscreen_text": "The whole team is ready. / Just email info@swrecovery.com",
+      "voiceover": "The whole team is ready when you are. Just email info@swrecovery.com.",
+      "visual": "Victor clicks send with the whole team behind him - the glowing envelope soars; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-036-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

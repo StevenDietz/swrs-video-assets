@@ -1,0 +1,153 @@
+{
+  "episode_id": "EP-025",
+  "title": "Let's Simplify This",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON THREE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Introduce Penny the Accountant: the organized counterpart who shows one email beats a chaos desk.",
+  "audience": "Signed clients whose bookkeeping chaos delays placements",
+  "activation_barrier": "'My records are a mess - I can't send anything until I sort them out.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'My records are a mess - I can't send anything until I sort them out.'",
+    "persona": "penny_the_accountant (new Season Three hero: calm, organized, motto 'Let's simplify this.')",
+    "fix": "one email sends every account, chaos and all",
+    "payoff": "Penny turns Victor's chaos desk into a single glowing send; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "penny_the_accountant"
+  ],
+  "distribution": "Chaos-desk / disorganization slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "penny_the_accountant": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.25s / 5.30s / 6.95s + 3.5s card; VO ends 20.93s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule)",
+      "characters never lip-sync (narrator carries all Season Three hook/CTA lines)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Meet Penny. Where Victor sees chaos, she sees one email.",
+        "voice": "Arthur",
+        "job_id": "6d1a005d-b23f-4524-8bd8-a9e4930a9822",
+        "placement": "t=0.3s over scene 1 (7.25s)"
+      },
+      {
+        "line": "Her motto? Let's simplify this.",
+        "voice": "Arthur",
+        "job_id": "eac1b25a-b4d8-4358-9b6f-f1bca68889d1",
+        "placement": "t=7.45s over scene 2 (5.30s)"
+      }
+    ],
+    "voiceover": {
+      "line": "One email sends every account to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "9d727cad-23de-4ac6-bd75-dcb730389f85",
+      "placement": "t=12.85s under scene 3, carries onto the brand card (ends 20.93s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing \u2014 finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "2d664910-e8ae-4557-8d3c-f89d11178590",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2d664910-e8ae-4557-8d3c-f89d11178590.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "c13f3897-8468-4594-8098-aeaa42403ac9",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c13f3897-8468-4594-8098-aeaa42403ac9.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "694b8627-13fc-4db7-8e51-d738a3229ca6",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/694b8627-13fc-4db7-8e51-d738a3229ca6.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 3677a723/280a7bbf/92d874cb."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.25/5.30/6.95 + 3.5s card at 19.5s; MEND 20.93s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "f4bbe502-4e7e-46c6-9df4-67c765f7e9f2",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f4bbe502-4e7e-46c6-9df4-67c765f7e9f2.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "556dfe09-98de-42c7-9585-2d646075423f",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/556dfe09-98de-42c7-9585-2d646075423f.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-025-S01",
+      "beat": "hook",
+      "duration_seconds": 7.25,
+      "keyframe_job_id": "b94ff5db-ee65-480e-8250-b7dcf85cfc7e",
+      "video_job_id": "74d2cddc-87a3-429c-b323-3f2d2bd1d7b2",
+      "onscreen_text": "Chaos desk? Meet Penny.",
+      "voiceover": "Meet Penny. Where Victor sees chaos, she sees one email.",
+      "visual": "Victor drowning in a chaos desk of loose invoices - Penny arrives, calm and bright, tablet in hand; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-025-S02",
+      "beat": "character beat",
+      "duration_seconds": 5.3,
+      "keyframe_job_id": "6e78f9d2-8074-4da7-9017-0eff974c8e4a",
+      "video_job_id": "3c277534-cee2-460a-b6b9-f245332f752f",
+      "onscreen_text": "\"Let's simplify this.\"",
+      "voiceover": "Her motto? Let's simplify this.",
+      "visual": "Penny taps her tablet with a confident smile - papers align into one neat stack around her (her motto lands here)."
+    },
+    {
+      "scene_id": "EP-025-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 6.95,
+      "keyframe_job_id": "0e72b108-1260-4eb0-ba49-ef401931c4a4",
+      "video_job_id": "8c033ba7-6f98-4e85-a5af-d71e7ea6a2ef",
+      "onscreen_text": "One email. Every account. / Just email info@swrecovery.com",
+      "voiceover": "One email sends every account to Southwest Recovery. Just email info@swrecovery.com.",
+      "visual": "One click - the stack collapses into a single glowing envelope that lifts off; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-025-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}
