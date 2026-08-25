@@ -1,0 +1,133 @@
+{
+  "episode_id": "EP-020",
+  "title": "Move-Outs Aren't Write-Offs",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show property managers that move-out balances can be recovered instead of written off.",
+  "audience": "Property managers",
+  "activation_barrier": "'Move-out balances are small, scattered, and always end up written off.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "property_patty"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "property_patty": "f770e6f9-0b23-4e7e-bfdb-7f0965f45f75"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.71s / 3.25s / 10.54s + 3.5s card; VO ends 19.46s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 6850 / t=21 15470 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Tenants move out. Their balances move in... to Patty's desk.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051318_f77c7cdb-a6d3-4403-90b3-2af7f58060cc.wav",
+        "placement": "t=0.3s over scene 1 (4.96s)"
+      },
+      {
+        "line": "She has enough on the key ring already.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051318_44f42308-5185-4b32-9774-a9b807217c6f.wav",
+        "placement": "t=5.92s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Send tenant balances to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051318_3f4bf311-3e16-4bdf-af5e-9a87d9a0a521.wav",
+      "placement": "t=9.16s under scene 3, carries onto the brand card (ends 19.46s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "726dbc0c-e58f-40d8-9fd8-a39fdf887313",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/726dbc0c-e58f-40d8-9fd8-a39fdf887313.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "dacf5b70-b474-4837-a2a6-7971e199bd11",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/dacf5b70-b474-4837-a2a6-7971e199bd11.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "2b01b2f7-e383-4ffd-9f5e-fdbde711c326",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2b01b2f7-e383-4ffd-9f5e-fdbde711c326.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 71ad341d/89bc95b6/3477dee2."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.71/3.25/10.54 + 3.5s card at 19.5s; MEND 19.46s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "5d5c1c8e-952f-48a1-94b5-aacfc113d652",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d5c1c8e-952f-48a1-94b5-aacfc113d652.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "3a3dfb68-c42d-4ee4-bbf8-cd81fabec4c1",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3a3dfb68-c42d-4ee4-bbf8-cd81fabec4c1.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-020-S01",
+      "duration_seconds": 5.71,
+      "keyframe_job_id": "d2115888-29a4-4399-a2f0-f262e612aa33",
+      "video_job_id": "6a3d7ee0-e1c0-40de-adbd-e357f17dca88",
+      "visual": "Patty at the leasing-office desk beside a tall stack of move-out files; monitor shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-020-S02",
+      "duration_seconds": 3.25,
+      "keyframe_job_id": "f94caa42-c9fa-4567-871b-720422db95fd",
+      "video_job_id": "169a1ef8-4237-4168-b6c4-3d2f4cede30a",
+      "visual": "Patty walks the corridor balancing keys, tablet and files; practiced juggle; no screens."
+    },
+    {
+      "scene_id": "EP-020-S03",
+      "duration_seconds": 10.54,
+      "keyframe_job_id": "39dc3553-b998-4bfa-af64-d578aa73c280",
+      "video_job_id": "0ed6ef41-c896-4ed2-b89e-d8f155ecd3b6",
+      "visual": "Patty clicks Send; envelope lifts off the portal monitor; the stack is gone; keys rest on the desk."
+    },
+    {
+      "scene_id": "EP-020-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "Move-outs shouldn't mean write-offs.",
+    "cB": "Enough on the key ring already.",
+    "c1": "Tenant balances, recovered.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

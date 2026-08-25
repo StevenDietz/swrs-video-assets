@@ -1,0 +1,135 @@
+{
+  "episode_id": "EP-023",
+  "title": "A Real Person Picks Up",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Reinforce the human-service differentiator: a real account manager answers, first ring.",
+  "audience": "Clients wary of black-box vendors",
+  "activation_barrier": "'If I place accounts I will never get a human on the phone again.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "hunter_client_success",
+    "victor_the_vampire"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.77s / 5.80s / 7.93s + 3.5s card; VO ends 19.07s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 10590 / t=21 15470 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Questions about a placement? Hunter picks up on the first ring.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051517_3a6feb67-3106-4ea6-b415-9cd081e434a9.wav",
+        "placement": "t=0.3s over scene 1 (5.02s)"
+      },
+      {
+        "line": "No ticket queue. No robot menu. A real person.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051517_0b566405-c8d7-4e44-87cd-c031e8cf2d56.wav",
+        "placement": "t=5.97s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Your accounts deserve real people. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051517_0751ff3f-eadf-439a-bc5c-5ae182e34e2a.wav",
+      "placement": "t=11.77s under scene 3, carries onto the brand card (ends 19.07s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "a61097e1-2729-491c-9a7d-a8100406fa42",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a61097e1-2729-491c-9a7d-a8100406fa42.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "0241cf0d-2aa8-4e4d-86da-cf89aee269bb",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0241cf0d-2aa8-4e4d-86da-cf89aee269bb.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "269c4eb3-1f7f-4e74-87fb-05879608fcae",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/269c4eb3-1f7f-4e74-87fb-05879608fcae.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 11de9f92/10a9e6a5/3d241e45."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.77/5.80/7.93 + 3.5s card at 19.5s; MEND 19.07s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "d17d8aab-24dc-41d4-bc28-5df436cd804d",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d17d8aab-24dc-41d4-bc28-5df436cd804d.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "e875d823-131e-4a3a-8048-663786f9e3b7",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e875d823-131e-4a3a-8048-663786f9e3b7.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-023-S01",
+      "duration_seconds": 5.77,
+      "keyframe_job_id": "3f21aa2f-1c75-453b-be8c-3d5301d9b3fc",
+      "video_job_id": "4e196b71-c388-489e-8f5d-95fd6caa89fa",
+      "visual": "Hunter answers the desk phone on the first ring, warm smile, tablet in hand; monitor shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-023-S02",
+      "duration_seconds": 5.8,
+      "keyframe_job_id": "3e59b35e-7ea2-470a-a0e5-fa71c4abf39e",
+      "video_job_id": "f8f42726-b53b-4784-b634-59c00f2bd714",
+      "visual": "Victor on the phone at his own desk, visibly relieved, coffee in hand; no screens facing camera."
+    },
+    {
+      "scene_id": "EP-023-S03",
+      "duration_seconds": 7.93,
+      "keyframe_job_id": "acb3783b-f07d-4311-afff-380c372fb2b5",
+      "video_job_id": "757ffec8-d0de-4c9e-9ebf-b81e26adc98d",
+      "visual": "Hunter gives a friendly thumbs-up with his tablet; portal on the monitor; welcome-kit box beside him."
+    },
+    {
+      "scene_id": "EP-023-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "A real person picks up.",
+    "cB": "No ticket queue. No robots.",
+    "c1": "Real people on your accounts.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "episode_id": "EP-015",
+  "title": "Patient Care First",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show healthcare practices that patient balances can go to SWRS with zero disruption to patient care.",
+  "audience": "Healthcare practice administrators",
+  "activation_barrier": "'I'd rather write it off than look like I'm hounding patients.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "healthcare_hannah"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "healthcare_hannah": "8178e6ba-d5f5-4da0-b89c-437a3c1dc4b6"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.57s / 4.13s / 7.80s + 3.5s card; VO ends 21.28s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5884 / t=21 15470 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Hannah runs a busy practice. Her patient balances? Still piling up.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050839_abb39c62-ef5d-4b54-88f7-f12609fb77a3.wav",
+        "placement": "t=0.3s over scene 1 (6.82s)"
+      },
+      {
+        "line": "She'd rather care for patients than chase payments.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050840_04a8acec-6a3a-4216-8c76-e655f5546a8f.wav",
+        "placement": "t=7.77s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Send your healthcare receivables to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_050839_983b5c61-0565-4877-a996-804b21245edd.wav",
+      "placement": "t=11.90s under scene 3, carries onto the brand card (ends 21.28s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "5719ba88-646a-4499-a0e8-ae8d905b8bcc",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5719ba88-646a-4499-a0e8-ae8d905b8bcc.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "5d935052-8c93-4fad-b515-0776deeffe90",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d935052-8c93-4fad-b515-0776deeffe90.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "c414830f-9075-4e73-baf4-f8401620c124",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c414830f-9075-4e73-baf4-f8401620c124.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 31a7b5bb/90ae43d2/36159662."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 7.57/4.13/7.80 + 3.5s card at 19.5s; MEND 21.28s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "292c7895-9243-412f-b4a1-fac5b3849f02",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/292c7895-9243-412f-b4a1-fac5b3849f02.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "f88f83e1-2422-4770-bbb8-6a803d4087dc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f88f83e1-2422-4770-bbb8-6a803d4087dc.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-015-S01",
+      "duration_seconds": 7.57,
+      "keyframe_job_id": "077d95f8-dbfe-4ad6-b1ad-484772b9dd31",
+      "video_job_id": "3a16db63-cf5a-4d2a-98dc-cb5fa2439bbf",
+      "visual": "Hannah behind the clinic front desk beside a tall stack of patient statements; monitor shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-015-S02",
+      "duration_seconds": 4.13,
+      "keyframe_job_id": "b9c65a5e-2fee-4208-b87c-e455b2bdb569",
+      "video_job_id": "befda125-a81a-4369-b90b-740be71514af",
+      "visual": "Hannah in the hallway juggling tablet and statements, gentle comedy, no screens."
+    },
+    {
+      "scene_id": "EP-015-S03",
+      "duration_seconds": 7.8,
+      "keyframe_job_id": "45fbfffa-2216-45e7-aa78-9ba33f745e89",
+      "video_job_id": "80027c2c-868e-4207-bc76-20b80089618e",
+      "visual": "Hannah clicks Send; envelope lifts off the portal monitor; the stack is tiny; relieved smile."
+    },
+    {
+      "scene_id": "EP-015-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "Patient balances piling up?",
+    "cB": "Care for patients — not past-due accounts.",
+    "c1": "Healthcare receivables, handled.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

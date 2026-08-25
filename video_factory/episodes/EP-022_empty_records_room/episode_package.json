@@ -1,0 +1,135 @@
+{
+  "episode_id": "EP-022",
+  "title": "The Empty Records Room",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Sequel beat: the backlog stays gone - one upload keeps Phil from ever re-forming.",
+  "audience": "Clients who cleared a backlog once and let it rebuild",
+  "activation_barrier": "'We cleaned it up last year and it just came back.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "victor_the_vampire",
+    "filing_cabinet_phil"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "filing_cabinet_phil": "18c962fb-d060-4438-8691-2af5f9e5b7eb"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796; character line Vera 0c51919f)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.33s / 4.90s / 7.27s + 3.5s card; VO ends 21.81s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5978 / t=21 15442 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "The records room? Empty. Phil got placed.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051318_215e085d-5196-43f2-99b1-b78839e225ce.wav",
+        "placement": "t=0.3s over scene 1 (6.58s)"
+      },
+      {
+        "line": "I just wanted to be one invoice again.",
+        "voice": "Vera",
+        "wav": "hf_20260825_051318_4693a89f-20df-4a73-aa1a-8e9c74611cc5.wav",
+        "placement": "t=7.53s over scene 2 - character VO over gestures, no lip-sync"
+      }
+    ],
+    "voiceover": {
+      "line": "One upload keeps the pile from ever coming back. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051318_d9c9d9b8-2c17-4651-9828-10612beaa592.wav",
+      "placement": "t=12.43s under scene 3, carries onto the brand card (ends 21.81s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "5ea31963-a7e5-4d7b-8009-f60246ec1088",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5ea31963-a7e5-4d7b-8009-f60246ec1088.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "f24b1c43-333a-465e-9c5a-979b21178baa",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f24b1c43-333a-465e-9c5a-979b21178baa.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "df5c50c6-2910-402d-834e-eb6ef5d1e15d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/df5c50c6-2910-402d-834e-eb6ef5d1e15d.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): eec07589/dbc3dd55/4e2fce8e."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 7.33/4.90/7.27 + 3.5s card at 19.5s; MEND 21.81s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "9638226e-689a-4fa8-b8a5-d30165a896e7",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9638226e-689a-4fa8-b8a5-d30165a896e7.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "58e53f90-d5a6-4c77-ad7a-b398a69d5878",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/58e53f90-d5a6-4c77-ad7a-b398a69d5878.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-022-S01",
+      "duration_seconds": 7.33,
+      "keyframe_job_id": "004ec042-5015-4df8-81b4-5b38b336aece",
+      "video_job_id": "4e8af79e-26ac-4538-8426-db0a9f4e8755",
+      "visual": "Victor swings open the records-room door: bright, clean, EMPTY; tiny shrunken Phil in the corner with his paperclip crown."
+    },
+    {
+      "scene_id": "EP-022-S02",
+      "duration_seconds": 4.9,
+      "keyframe_job_id": "6a0e4728-bdf8-49d1-99d9-bc04c8deba6d",
+      "video_job_id": "11c083fe-2fe0-4875-9be7-a14ba2f39a74",
+      "visual": "Close on tiny Phil on a bare shelf beside one tidy envelope, wistful but content (his line plays as character VO)."
+    },
+    {
+      "scene_id": "EP-022-S03",
+      "duration_seconds": 7.27,
+      "keyframe_job_id": "36f639ac-cf1a-40f2-9f47-d6e6e6f16ebf",
+      "video_job_id": "81ec4874-aea2-48da-8052-b350303124b1",
+      "visual": "Victor clicks Send in the tidy records room; envelope lifts off the portal laptop; thumbs up."
+    },
+    {
+      "scene_id": "EP-022-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "The records room is... empty?",
+    "cB": "\"I just wanted to be one invoice again.\"",
+    "c1": "One upload. No more pile.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

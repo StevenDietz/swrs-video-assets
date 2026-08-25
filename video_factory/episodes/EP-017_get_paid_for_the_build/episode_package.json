@@ -1,0 +1,133 @@
+{
+  "episode_id": "EP-017",
+  "title": "Get Paid for the Build",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show construction firms that slow-pay commercial accounts can be placed as easily as sending an email.",
+  "audience": "Construction firm owners and superintendents",
+  "activation_barrier": "'Chasing GCs and owners for payment risks the relationship.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "construction_cody"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "construction_cody": "9f47209f-e751-4985-83b7-29d45f369752"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.46s / 4.50s / 8.54s + 3.5s card; VO ends 20.95s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5822 / t=21 15442 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Cody finished the job on time. The payment? Still not here.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050839_caaab21f-ba1f-4c0a-bd4a-0e4fc68becb9.wav",
+        "placement": "t=0.3s over scene 1 (5.71s)"
+      },
+      {
+        "line": "Slow pay adds up fast.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050839_6e5d3f5c-5f7e-4f1c-b0f0-e7db2b5dca65.wav",
+        "placement": "t=6.66s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Send your commercial accounts to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_050840_54069107-6a7f-47aa-b28e-f102902afc9e.wav",
+      "placement": "t=11.16s under scene 3, carries onto the brand card (ends 20.95s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "1714e22f-db21-49cd-b382-c9859e1f804d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1714e22f-db21-49cd-b382-c9859e1f804d.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "05fe5082-0d18-479b-86c5-63d2e3a9f953",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/05fe5082-0d18-479b-86c5-63d2e3a9f953.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "c5e53bf2-8cf1-4b17-a890-9c20dcaba38b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c5e53bf2-8cf1-4b17-a890-9c20dcaba38b.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 2701b894/1e68c038/b22fee8a."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 6.46/4.50/8.54 + 3.5s card at 19.5s; MEND 20.95s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "5e45c433-f5ea-4393-ab3c-dbdb3b230249",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5e45c433-f5ea-4393-ab3c-dbdb3b230249.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "f8afafe5-8e19-4813-9199-1f46b9efa446",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f8afafe5-8e19-4813-9199-1f46b9efa446.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-017-S01",
+      "duration_seconds": 6.46,
+      "keyframe_job_id": "aae9b935-07c5-494e-b1d8-21dee2ab3a19",
+      "video_job_id": "63517310-0c7d-4b86-b2f2-8db0875b21c6",
+      "visual": "Cody in the site trailer with blueprints, staring at PAST DUE invoices; the laptop shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-017-S02",
+      "duration_seconds": 4.5,
+      "keyframe_job_id": "8ae843f4-5c2e-4bc6-ae6c-3447c26003e4",
+      "video_job_id": "41884b91-049e-4bdc-9a92-a52e096da6dc",
+      "visual": "Cody at the job-site table pinning wind-blown invoices, golden hour, no screens."
+    },
+    {
+      "scene_id": "EP-017-S03",
+      "duration_seconds": 8.54,
+      "keyframe_job_id": "f70a2abd-9cf0-4965-96d7-3aeddc2ab850",
+      "video_job_id": "3e184940-1570-4877-b05b-0e8d58e12773",
+      "visual": "Cody clicks Send; envelope lifts off the portal laptop; satisfied nod."
+    },
+    {
+      "scene_id": "EP-017-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "Built on time. Paid... eventually?",
+    "cB": "Slow pay adds up fast.",
+    "c1": "Commercial accounts, collected.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

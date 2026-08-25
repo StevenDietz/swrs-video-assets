@@ -1,0 +1,133 @@
+{
+  "episode_id": "EP-019",
+  "title": "Crews on the Roof",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show roofing companies they can clear past-due accounts before storm season buries them.",
+  "audience": "Roofing contractors",
+  "activation_barrier": "'In season there is no time for the office pile.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "roofing_rachel"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "roofing_rachel": "3b5eaea8-dd56-4d77-adcb-3fa4fab95e8a"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.83s / 2.82s / 9.85s + 3.5s card; VO ends 19.65s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5884 / t=21 15442 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Rachel's crews are on the roof. Her invoices are under water.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051318_e995f982-0eea-499c-bed8-fa960ab00697.wav",
+        "placement": "t=0.3s over scene 1 (6.08s)"
+      },
+      {
+        "line": "Storm season is busy enough.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_053127_8675d118-8af4-49bc-999e-1cfbc20a3654.wav",
+        "placement": "t=7.03s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Send your past-due accounts to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051318_3eeaeb5d-5196-48fb-991d-e85f99d85802.wav",
+      "placement": "t=9.85s under scene 3, carries onto the brand card (ends 19.65s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "5d9eedde-d61e-4984-be6e-036e46a9f197",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5d9eedde-d61e-4984-be6e-036e46a9f197.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "cca612d8-9008-469e-8003-062a0135c365",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/cca612d8-9008-469e-8003-062a0135c365.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "87ed270c-6606-4831-915b-78aa1fbaf8b1",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/87ed270c-6606-4831-915b-78aa1fbaf8b1.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 0def49b1/167aed0b/4ea80e8b. hB re-recorded shorter (superseded take b33c9a98) after the first cut tripped the 22.5s guard."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 6.83/2.82/9.85 + 3.5s card at 19.5s; MEND 19.65s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "e15334de-f6b4-477a-941c-9bd301710f3e",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e15334de-f6b4-477a-941c-9bd301710f3e.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "61a1f1e2-96e7-4bb1-a2e7-9ca55decc94d",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/61a1f1e2-96e7-4bb1-a2e7-9ca55decc94d.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-019-S01",
+      "duration_seconds": 6.83,
+      "keyframe_job_id": "ffda6797-033d-43ab-97f5-cc6303dad063",
+      "video_job_id": "6ab73f02-3249-4184-a261-e1bf64881c9e",
+      "visual": "Rachel at her truck tailgate with tablet and a clipboard of PAST DUE invoices; crew on the roofline behind."
+    },
+    {
+      "scene_id": "EP-019-S02",
+      "duration_seconds": 2.82,
+      "keyframe_job_id": "855259f9-3121-4a90-acfa-bad54a2f0e42",
+      "video_job_id": "674a6c48-bb65-42a9-92fd-498b7ad30fe2",
+      "visual": "Wind flutters the invoices; Rachel pins them with a gloved hand; storm clouds far off; no screens."
+    },
+    {
+      "scene_id": "EP-019-S03",
+      "duration_seconds": 9.85,
+      "keyframe_job_id": "9a6d1ea7-d195-4ced-b1ae-d3bd3a8ebed7",
+      "video_job_id": "a552c3d7-71c4-4b34-8559-25a070938d88",
+      "visual": "Rachel clicks Send on the truck-cab laptop showing the REAL portal; envelope lifts off; relieved smile."
+    },
+    {
+      "scene_id": "EP-019-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "Crews on the roof. Invoices under water.",
+    "cB": "Storm season is busy enough.",
+    "c1": "Past-due accounts, off your plate.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

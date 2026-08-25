@@ -1,0 +1,133 @@
+{
+  "episode_id": "EP-018",
+  "title": "The Leak in Your Cash Flow",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show trades businesses that unpaid finished jobs are a cash-flow leak SWRS can fix.",
+  "audience": "Plumbing and trades business owners",
+  "activation_barrier": "'Small unpaid tickets aren't worth the hassle to chase.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "plumbing_paul"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "plumbing_paul": "db428556-bb3c-4db6-8876-1701d8b3f1ea"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.83s / 5.80s / 6.87s + 3.5s card; VO ends 22.21s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5888 / t=21 15442 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Paul can fix any leak... except the one in his cash flow.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050839_415645d2-1ab0-4942-baed-0e0e7873add5.wav",
+        "placement": "t=0.3s over scene 1 (6.08s)"
+      },
+      {
+        "line": "Finished jobs shouldn't turn into unpaid invoices.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_050839_3d58ed2d-cc56-42c7-a758-3981f96e1bac.wav",
+        "placement": "t=7.03s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Send those past-due accounts to Southwest Recovery. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_050839_c09a1788-36f0-46ec-84c5-c99724ef7f29.wav",
+      "placement": "t=12.83s under scene 3, carries onto the brand card (ends 22.21s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "4e70c9e8-8330-4d6d-886b-50da8223c4e9",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4e70c9e8-8330-4d6d-886b-50da8223c4e9.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "68660fd3-05ff-491c-a4a7-1b47c57dc391",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/68660fd3-05ff-491c-a4a7-1b47c57dc391.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "a00a6964-82f6-467e-96f8-3e4a4761ba80",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a00a6964-82f6-467e-96f8-3e4a4761ba80.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): c971107c/f7fb9e68/83ec3928."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 6.83/5.80/6.87 + 3.5s card at 19.5s; MEND 22.21s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "76792a7e-d51a-4072-91c4-9e6ba812fa8a",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/76792a7e-d51a-4072-91c4-9e6ba812fa8a.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "b30c9e02-364d-4539-9f14-c499d7a2176e",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b30c9e02-364d-4539-9f14-c499d7a2176e.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-018-S01",
+      "duration_seconds": 6.83,
+      "keyframe_job_id": "32c68d8e-4a72-4571-a466-542cf80d89ed",
+      "video_job_id": "3e9f70c9-6629-417f-b170-1a03ae614c99",
+      "visual": "Paul at the workbench with a clipboard of unpaid invoices; a comically dripping faucet behind; laptop shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-018-S02",
+      "duration_seconds": 5.8,
+      "keyframe_job_id": "cdac0244-0f7c-454f-80fb-df997e6786e7",
+      "video_job_id": "dd4f90ea-db00-4386-947d-a063bf04fb57",
+      "visual": "Paul tightens the faucet with his pipe wrench; invoices in a bucket catching drips; visual gag, no screens."
+    },
+    {
+      "scene_id": "EP-018-S03",
+      "duration_seconds": 6.87,
+      "keyframe_job_id": "511e5dd5-c354-4841-82ec-216e0eebcf53",
+      "video_job_id": "ca81a978-63fc-4871-a1c3-ac94d0b90116",
+      "visual": "Paul clicks Send; envelope lifts off the portal laptop; the faucet is dry; grin with wrench on shoulder."
+    },
+    {
+      "scene_id": "EP-018-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "There's a leak in the cash flow.",
+    "cB": "Finished jobs, unpaid invoices.",
+    "c1": "We fix that leak.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "episode_id": "EP-021",
+  "title": "Vlad's Bad Day",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Sequel beat: placed accounts starve the Invoice Monster - reinforces the EP-013 urgency premise with comedy.",
+  "audience": "Signed clients sitting on aging AR",
+  "activation_barrier": "'The pile has not gotten any smaller since last time.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "victor_the_vampire",
+    "vlad_the_invoice_monster"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "vlad_the_invoice_monster": "5da9a51b-71d5-4640-a1f2-adb3df40ce87"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796; character line Vlad e5666b9c)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.38s / 4.90s / 9.21s + 3.5s card; VO ends 17.79s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5851 / t=21 15470 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Remember Vlad? He's been snacking on your aging invoices.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051318_158c9de4-8dce-4d26-9428-f484364d075e.wav",
+        "placement": "t=0.3s over scene 1 (4.63s)"
+      },
+      {
+        "line": "Wait. Where did everybody go?",
+        "voice": "Vlad",
+        "wav": "hf_20260825_051318_8f294841-0607-4eda-b488-fd58d86ab8dc.wav",
+        "placement": "t=5.58s over scene 2 - character VO over gestures, no lip-sync"
+      }
+    ],
+    "voiceover": {
+      "line": "Placed accounts starve the monster. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051318_b7046fb3-f211-4930-9ca5-a0667f991fb2.wav",
+      "placement": "t=10.48s under scene 3, carries onto the brand card (ends 17.79s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "5cb742df-a44f-4d0e-832e-cdc3dccef43d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5cb742df-a44f-4d0e-832e-cdc3dccef43d.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "5ac80c7f-faf1-41bd-a10f-5a9cf1b83226",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5ac80c7f-faf1-41bd-a10f-5a9cf1b83226.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "8d796e39-a2ec-475f-9bb1-c19d35cbd67e",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8d796e39-a2ec-475f-9bb1-c19d35cbd67e.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 11114c81/f4f7f2ba/a5f046b6."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.38/4.90/9.21 + 3.5s card at 19.5s; MEND 17.79s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "58485dfb-db0f-40c4-816f-29379fb2c4d7",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/58485dfb-db0f-40c4-816f-29379fb2c4d7.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "0ffbb62d-8808-42ad-8568-32aeb64dc391",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0ffbb62d-8808-42ad-8568-32aeb64dc391.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-021-S01",
+      "duration_seconds": 5.38,
+      "keyframe_job_id": "2a9cb410-e369-475d-b16f-4b657747ed22",
+      "video_job_id": "398d5927-309d-493b-bffb-6d991dd2653f",
+      "visual": "Vlad lounges on the invoice pile nibbling a sheet; Victor watches; monitor shows the REAL portal; night office."
+    },
+    {
+      "scene_id": "EP-021-S02",
+      "duration_seconds": 4.9,
+      "keyframe_job_id": "5fc2e51b-ab2e-4bc5-8ee3-851e93fc0f2d",
+      "video_job_id": "68ccfb8f-727c-4726-9aea-eaf93a1492df",
+      "visual": "Envelopes fly off as the pile shrinks; Vlad freezes mid-snack, baffled (his line plays as character VO)."
+    },
+    {
+      "scene_id": "EP-021-S03",
+      "duration_seconds": 9.21,
+      "keyframe_job_id": "62887774-846e-48cf-8908-17b93b2647f2",
+      "video_job_id": "fbfe97b4-5f41-44d8-852d-c0602fcc8e26",
+      "visual": "Tiny palm-size Vlad pouts by the keyboard; Victor grins; laptop shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-021-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "Vlad's been snacking on your receivables.",
+    "cB": "\"Wait. Where did everybody go?\"",
+    "c1": "Placed accounts starve the monster.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}

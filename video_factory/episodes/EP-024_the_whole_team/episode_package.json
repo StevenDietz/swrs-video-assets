@@ -1,0 +1,141 @@
+{
+  "episode_id": "EP-024",
+  "title": "The Whole Team",
+  "status": "rendered to Production Standards v2 (fixed-23s template) + PREMIUM 4K - SEASON TWO FINALE",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Season Two finale: one email brings the whole SWRS bench - close the season on the full-team promise.",
+  "audience": "All signed-but-inactive clients",
+  "activation_barrier": "'One more email will not change anything.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "characters": [
+    "victor_the_vampire",
+    "hunter_client_success",
+    "healthcare_hannah",
+    "construction_cody",
+    "property_patty"
+  ],
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+      "healthcare_hannah": "8178e6ba-d5f5-4da0-b89c-437a3c1dc4b6",
+      "construction_cody": "9f47209f-e751-4985-83b7-29d45f369752",
+      "property_patty": "f770e6f9-0b23-4e7e-bfdb-7f0965f45f75"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked character refs + real portal reference on every visible screen)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template (hash-verified build script)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.25s / 4.08s / 8.17s + 3.5s card; VO ends 20.13s, inside the 22.5s guard",
+      "real portal UI on every visible screen (campaign-wide screen rule)",
+      "characters never lip-sync; character lines play as VO over gestures",
+      "logo only on the brand-close card (white-pixel check t=19 5864 / t=21 15443 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "One email put the whole SWRS team on Victor's side.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_051517_377027ab-a79b-4c7e-8f77-f8fb3cfe19a0.wav",
+        "placement": "t=0.3s over scene 1 (6.50s)"
+      },
+      {
+        "line": "Specialists for every industry.",
+        "voice": "Arthur",
+        "wav": "hf_20260825_053445_4952e047-5f55-4212-9a5d-f591dfa5b5db.wav",
+        "placement": "t=7.45s over scene 2"
+      }
+    ],
+    "voiceover": {
+      "line": "Stop waiting on what you're owed. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "wav": "hf_20260825_051517_2b340f4b-0965-4d64-b91b-4c7f2a6af077.wav",
+      "placement": "t=11.53s under scene 3, carries onto the brand card (ends 20.13s)"
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "e9a7a685-9104-422a-9d52-6ffcc2231397",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e9a7a685-9104-422a-9d52-6ffcc2231397.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "f9e70ce9-95f1-4fd0-945b-68486f4f1d1e",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f9e70ce9-95f1-4fd0-945b-68486f4f1d1e.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "fe2a84ad-43aa-4d8c-8da8-b95ae4b1f1a7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fe2a84ad-43aa-4d8c-8da8-b95ae4b1f1a7.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): e9c85f65/8909e7d3/6c62e916. hB re-recorded shorter (superseded take b1b12247) after the first cut tripped the 22.5s guard. SEASON TWO FINALE."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 7.25/4.08/8.17 + 3.5s card at 19.5s; MEND 20.13s."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "2046f688-1262-4e29-bbb3-a8a4d3c40ab0",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2046f688-1262-4e29-bbb3-a8a4d3c40ab0.jpg",
+      "note": "hook frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "86aec74f-909f-4502-97a2-f79d0a20bbae",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/86aec74f-909f-4502-97a2-f79d0a20bbae.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-024-S01",
+      "duration_seconds": 7.25,
+      "keyframe_job_id": "a2c777a3-2b13-450a-8081-84a66c6d82a1",
+      "video_job_id": "cbdb35d0-b5a4-4c37-bfdc-316f0a169c28",
+      "visual": "Victor and Hunter high-five across the desk; blue confetti; monitor shows the REAL portal."
+    },
+    {
+      "scene_id": "EP-024-S02",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "88604d4b-e50c-46e4-bcdd-89fb81c3e39f",
+      "video_job_id": "556daf14-b476-4bb4-a2d0-15b262a4bb76",
+      "visual": "SWRS lobby group shot: Hannah, Cody and Patty wave at camera; team-photo energy; no screens."
+    },
+    {
+      "scene_id": "EP-024-S03",
+      "duration_seconds": 8.17,
+      "keyframe_job_id": "f52bb7d7-1b31-4f08-8242-e253143cff9e",
+      "video_job_id": "64981e9f-d37c-4611-97a0-71ae138c3ca2",
+      "visual": "Victor clicks Send; envelope lifts off the portal laptop; confetti; season-finale ta-da."
+    },
+    {
+      "scene_id": "EP-024-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "captions": {
+    "c0": "One email. A whole team.",
+    "cB": "Specialists for every industry.",
+    "c1": "Stop waiting. Start recovering.",
+    "c3": "Just email info@swrecovery.com"
+  }
+}
