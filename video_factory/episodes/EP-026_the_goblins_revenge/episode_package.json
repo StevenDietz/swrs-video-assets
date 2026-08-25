@@ -31,7 +31,7 @@
     "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
     "character_references": {
       "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
-      "password_goblin": "c7500c1e-3774-40d0-b328-39861a1a63ca"
+      "password_goblin": "c7500c1e-3774-40d0-b328-3986fcd6b361"
     },
     "models": {
       "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
@@ -89,13 +89,29 @@
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "47f119c3-96c0-44b6-a99b-ee08a57f73dd",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/47f119c3-96c0-44b6-a99b-ee08a57f73dd.mp4",
-        "use": "Reels / TikTok / Shorts"
+        "media_id": "51ab9393-e894-46ef-991d-a4c1d72a9126",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/51ab9393-e894-46ef-991d-a4c1d72a9126.mp4",
+        "use": "Reels / TikTok / Shorts",
+        "resolution": "2160x3840 (native 9:16, 4K)",
+        "_native_note": "NATIVE VERTICAL 2026-08-25: true 9:16 re-staged cut - fresh portrait keyframes (nano_banana_pro 9:16, locked cast references, portal-screen rule respected) animated with kling3_0_turbo 9:16, assembled on the vertical v3 template (1080x1920: repositioned captions/logo/brand card, SWRS Cinematic theme in the mix, silent logo reveal verified) and upscaled to 2160x3840 with the -14 LUFS mix bit-exact muxed back. Fresh IDs per the revision rule. Interim 1080x1920 assembly id (superseded same day): a208a24d. Superseded letterboxed derivation id: 47f119c3."
       },
       "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 8e201499/e19b754e/cbc99007."
     },
-    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.65/4.31/7.54 + 3.5s card at 19.5s; MEND 22.45s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.65/4.31/7.54 + 3.5s card at 19.5s; MEND 22.45s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top.",
+    "native_vertical": {
+      "keyframe_job_ids": [
+        "5edc6bde-7a36-4774-846f-8ea7bed1aa95",
+        "59b3835e-aa2b-4a9b-85e5-c09af845d1c3",
+        "e775d90f-2e7d-4591-8dc8-8fa5df45d90a"
+      ],
+      "video_job_ids": [
+        "0622deaf-0a47-4735-9325-4706dc9bc232",
+        "08c3d826-056d-413e-aeae-bd7ec15284c2",
+        "ef67d6ea-e7f7-479a-9b08-9731ae3a2a31"
+      ],
+      "upscale_job_id": "bcaeab76-266c-412c-9f25-6d6142b8060c",
+      "assembly_metrics": "AD=6.900 S1D=7.650 S2D=4.306 S3D=7.544 MEND=22.45 wpx19=0 wpx21=15433"
+    }
   },
   "email_assets": {
     "thumbnail_1200x675": {

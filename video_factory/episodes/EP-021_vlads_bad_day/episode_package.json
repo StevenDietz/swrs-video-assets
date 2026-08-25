@@ -58,7 +58,7 @@
       "placement": "t=10.48s under scene 3, carries onto the brand card (ends 17.79s)"
     },
     "standards_deferred": [
-      "Native vertical framing — finishing pass."
+      "Native vertical framing \u2014 finishing pass."
     ],
     "outputs": {
       "master_16x9": {
@@ -73,13 +73,29 @@
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "b7b70265-b3f3-460d-b7b4-d0e04f62e28f",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b7b70265-b3f3-460d-b7b4-d0e04f62e28f.mp4",
-        "use": "Reels / TikTok / Shorts"
+        "media_id": "5f3cb673-a4ed-4987-bd45-90370ace158c",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5f3cb673-a4ed-4987-bd45-90370ace158c.mp4",
+        "use": "Reels / TikTok / Shorts",
+        "resolution": "2160x3840 (native 9:16, 4K)",
+        "_native_note": "NATIVE VERTICAL 2026-08-25: true 9:16 re-staged cut - fresh portrait keyframes (nano_banana_pro 9:16, locked cast references, portal-screen rule respected) animated with kling3_0_turbo 9:16, assembled on the vertical v3 template (1080x1920: repositioned captions/logo/brand card, SWRS Cinematic theme in the mix, silent logo reveal verified) and upscaled to 2160x3840 with the -14 LUFS mix bit-exact muxed back. Fresh IDs per the revision rule. Interim 1080x1920 assembly id (superseded same day): 43ad0946. Superseded letterboxed derivation id: b7b70265."
       },
       "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): 11114c81/f4f7f2ba/a5f046b6. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 5cb742df/5ac80c7f/8d796e39."
     },
-    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.38/4.90/9.21 + 3.5s card at 19.5s; MEND 17.79s."
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.38/4.90/9.21 + 3.5s card at 19.5s; MEND 17.79s.",
+    "native_vertical": {
+      "keyframe_job_ids": [
+        "496583da-eccd-4fee-96de-62f49e45e0c9",
+        "77557dd7-a570-4ff6-92c0-17ab43b1da8d",
+        "46337135-4a21-4309-8ee0-3eb78c24b597"
+      ],
+      "video_job_ids": [
+        "0575c4c6-c53b-4de4-8f52-180bc7272b8d",
+        "ee929123-7d4f-4778-9d7b-a953fa4eb936",
+        "3ae41798-491d-46c1-a441-30ea58ac83c3"
+      ],
+      "upscale_job_id": "1a9e7579-ef73-462d-ac4b-3a7f83cc2c67",
+      "assembly_metrics": "AD=4.635 S1D=5.385 S2D=4.900 S3D=9.215 MEND=17.79 wpx19=8862 wpx21=15450"
+    }
   },
   "email_assets": {
     "thumbnail_1200x675": {

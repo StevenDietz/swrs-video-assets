@@ -89,13 +89,29 @@
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "d74aee4a-6cd2-401e-8c31-62ad9cddb2d3",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d74aee4a-6cd2-401e-8c31-62ad9cddb2d3.mp4",
-        "use": "Reels / TikTok / Shorts"
+        "media_id": "2c448d2b-bbcd-4fe2-a598-72dfdf1567ca",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2c448d2b-bbcd-4fe2-a598-72dfdf1567ca.mp4",
+        "use": "Reels / TikTok / Shorts",
+        "resolution": "2160x3840 (native 9:16, 4K)",
+        "_native_note": "NATIVE VERTICAL 2026-08-25: true 9:16 re-staged cut - fresh portrait keyframes (nano_banana_pro 9:16, locked cast references, portal-screen rule respected) animated with kling3_0_turbo 9:16, assembled on the vertical v3 template (1080x1920: repositioned captions/logo/brand card, SWRS Cinematic theme in the mix, silent logo reveal verified) and upscaled to 2160x3840 with the -14 LUFS mix bit-exact muxed back. Fresh IDs per the revision rule. Interim 1080x1920 assembly id (superseded same day): 5d99199f. Superseded letterboxed derivation id: d74aee4a."
       },
       "_note": "SEASON THREE, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-25): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): fb198f97/f8b0593d/f976306d."
     },
-    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 3.35/3.28/12.87 + 3.5s card at 19.5s; MEND 14.13s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top."
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 3.35/3.28/12.87 + 3.5s card at 19.5s; MEND 14.13s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1/c3 top.",
+    "native_vertical": {
+      "keyframe_job_ids": [
+        "b9cacad4-7fbe-4fde-9443-fd1903ab69f4",
+        "13b4369a-de5b-4671-94e6-2a896f9cebb8",
+        "d16c353f-089a-4455-91d7-50ec806e6fe8"
+      ],
+      "video_job_ids": [
+        "69266dc6-3aa2-47aa-a5f2-b5f1d59fd5ee",
+        "ec90d08a-8897-41cd-867b-75c3b93f3e38",
+        "3729cb27-020a-4204-8296-339199f90610"
+      ],
+      "upscale_job_id": "3a7bb4a0-e347-401c-bb37-39e20767ca46",
+      "assembly_metrics": "AD=2.602 S1D=3.352 S2D=3.280 S3D=12.868 MEND=14.13 wpx19=0 wpx21=15433"
+    }
   },
   "email_assets": {
     "thumbnail_1200x675": {
