@@ -45,10 +45,10 @@
       },
       {
         "line": "I just wanted to be one invoice again.",
-        "voice": "Phil (character VO, Grady e2a2d2e6 - recast from Vera 2026-08-25)",
+        "voice": "Phil (character VO, John 6b528d43 - Steven's pick; supersedes Grady and Vera recordings)",
         "wav": "hf_20260825_051318_4693a89f-20df-4a73-aa1a-8e9c74611cc5.wav",
         "placement": "t=7.53s over scene 2 - character VO over gestures, no lip-sync",
-        "job_id": "d3174a66-591c-4abc-ad2a-63c9b3c2e03e"
+        "job_id": "8e414c62-1681-41ff-a5f0-90d20612ec7d"
       }
     ],
     "voiceover": {
@@ -63,24 +63,24 @@
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "466dd1cf-9c25-401c-8ed7-779445304143",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/466dd1cf-9c25-401c-8ed7-779445304143.mp4",
+        "media_id": "0a5da463-63cb-461e-bb57-17bd19d8c2ed",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0a5da463-63cb-461e-bb57-17bd19d8c2ed.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "fa04cd45-68ce-4128-b643-ef1382a0b7db",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fa04cd45-68ce-4128-b643-ef1382a0b7db.mp4",
+        "media_id": "7c81e704-eef8-48cb-95a4-6a9ca1effbb3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7c81e704-eef8-48cb-95a4-6a9ca1effbb3.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "f841b769-a0e0-4589-b196-bf9f4bc4597f",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f841b769-a0e0-4589-b196-bf9f4bc4597f.mp4",
+        "media_id": "1d2b9862-7eac-40a9-ac98-80e1a0545ef5",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/1d2b9862-7eac-40a9-ac98-80e1a0545ef5.mp4",
         "use": "Reels / TikTok / Shorts",
         "resolution": "2160x3840 (native 9:16, 4K)",
         "_native_note": "NATIVE VERTICAL 2026-08-25: true 9:16 re-staged cut - fresh portrait keyframes (nano_banana_pro 9:16, locked cast references, portal-screen rule respected) animated with kling3_0_turbo 9:16, assembled on the vertical v3 template (1080x1920: repositioned captions/logo/brand card, SWRS Cinematic theme in the mix, silent logo reveal verified) and upscaled to 2160x3840 with the -14 LUFS mix bit-exact muxed back. Fresh IDs per the revision rule. Interim 1080x1920 assembly id (superseded same day): cdd065d5. Superseded letterboxed derivation id: b4aa88c9."
       },
-      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): eec07589/dbc3dd55/4e2fce8e. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 5ea31963/f24b1c43/df5c50c6. VOICE RECAST 2026-08-25 (Steven: Phil needs a man's voice): Phil's line re-recorded with Grady e2a2d2e6 (supersedes the Vera 4693a89f recording); 16:9 set re-assembled (v3, music at assembly), re-upscaled and re-derived, and the native 9:16 vertical rebuilt with the new line - all on FRESH IDs. Superseded Vera-voiced ids: a6e5b0d8/33d5aff7/c734d273 (plus letterboxed vt b4aa88c9 and native-vt interim/4K 78-series predecessors c734d273). Interim assembly ids: ead3acf5 (720p 16:9), 78efd5e5 (1080x1920 native vt)."
+      "_note": "PREMIUM 4K from day one (2026-08-25, Season Two batch): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked): eec07589/dbc3dd55/4e2fce8e. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 5ea31963/f24b1c43/df5c50c6. VOICE RECAST 2026-08-25 (Steven: Phil needs a man's voice): Phil's line re-recorded with Grady e2a2d2e6 (supersedes the Vera 4693a89f recording); 16:9 set re-assembled (v3, music at assembly), re-upscaled and re-derived, and the native 9:16 vertical rebuilt with the new line - all on FRESH IDs. Superseded Vera-voiced ids: a6e5b0d8/33d5aff7/c734d273 (plus letterboxed vt b4aa88c9 and native-vt interim/4K 78-series predecessors c734d273). Interim assembly ids: ead3acf5 (720p 16:9), 78efd5e5 (1080x1920 native vt). FINAL VOICE 2026-08-25: Steven specified John 6b528d43 directly; the interim Grady rebuild (ids 466dd1cf/fa04cd45/f841b769) is superseded. John rebuild interims: c097de08 (720p 16:9), d547b907 (1080x1920 native vt)."
     },
     "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 7.33/4.90/7.27 + 3.5s card at 19.5s; MEND 21.81s.",
     "native_vertical": {
@@ -149,6 +149,6 @@
     "c3": "Just email info@swrecovery.com"
   },
   "character_notes": {
-    "filing_cabinet_phil": "Voice: Grady e2a2d2e6 (male; recast from Vera at Steven's direction 2026-08-25). Line 'I just wanted to be one invoice again.' re-recorded job d3174a66."
+    "filing_cabinet_phil": "Voice: John 6b528d43 (Steven's explicit casting 2026-08-25). Line 'I just wanted to be one invoice again.' job 8e414c62."
   }
 }

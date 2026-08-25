@@ -688,13 +688,13 @@
             "design_note": "NAME/DESIGN MISMATCH, accepted by Steven: the name says filing cabinet, the locked design is a paper stack. Kept deliberately - Phil is what staff call the pile, not a literal cabinet. If a future episode needs an actual cabinet, this reference must be re-locked, not quietly reinterpreted."
           },
           "voice": {
-            "name": "Grady",
-            "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+            "name": "John",
+            "voice_id": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
             "voice_type": "preset",
             "model": "seed_audio",
             "cast_at": "2026-08-25",
-            "cast_by": "Steven ('the video with Phil the file cabinet needs a mans voice')",
-            "recast_note": "RECAST from Vera 0c51919f (cast 2026-08-09; the deliberate female-counterpoint casting is retired at Steven's direction). Grady: gravelly male preset, distinct from narrator Arthur and Vlad's monster voice. Lines re-recorded: EP-014 'Take your time. I've been growing.' (job d67dddeb) and EP-022 'I just wanted to be one invoice again.' (job d3174a66); both episodes rebuilt on fresh IDs same day.",
+            "cast_by": "Steven (voice specified directly: 'Use the voice John')",
+            "recast_note": "FINAL CASTING. Same-day chain: Vera 0c51919f (original, female) -> Grady e2a2d2e6 (first male recast, interim, never Steven-approved) -> John 6b528d43 (Steven's explicit pick). Lines re-recorded with John: EP-014 'Take your time. I've been growing.' (job 0dacd609) and EP-022 'I just wanted to be one invoice again.' (job 8e414c62); both episodes rebuilt on fresh IDs.",
             "previous_casting": {
               "name": "Vera",
               "voice_id": "0c51919f-0756-5f8d-8169-026a339d8fd7",
