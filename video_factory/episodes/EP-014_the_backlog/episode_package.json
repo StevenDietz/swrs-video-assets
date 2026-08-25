@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-014",
+  "title": "The Backlog",
+  "status": "rendered to Production Standards v2 (AV-synced cut) + PREMIUM 4K",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Show that a giant backlog of overdue accounts collapses with one upload - no cleanup needed first.",
+  "audience": "Signed clients paralyzed by the size of their backlog",
+  "activation_barrier": "'I have to organize this mountain of paper before I can send anything.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook (meet Phil)",
+    "Phil dialogue beat",
+    "SWRS simplifies (one upload un-piles the pile)",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "the ever-growing paper backlog",
+    "persona": "filing_cabinet_phil (a tower of overdue paperwork with a face - grew from ONE unsent invoice)",
+    "fix": "one upload un-piles the pile",
+    "payoff": "Phil collapses into a single tidy envelope; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "filing_cabinet_phil"
+  ],
+  "distribution": "Backlog-paralysis slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "filing_cabinet_phil": "18c962fb-d060-4438-8691-2af5f9e5b7eb"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; Victor + Phil refs). S2 keyframe resubmitted once after an nsfw false positive; wording softened ('lighthearted comedy tone'), superseded flagged job be009001.",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346; Phil character voice Vera 0c51919f-0756-5f8d-8169-026a339d8fd7)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.41s / 5.30s / 8.79s + 3.5s card; VO ends 20.29s, inside the 22.5s guard",
+      "real portal UI on the scene-3 laptop (campaign-wide screen rule; scenes 1-2 are the screenless records room)",
+      "characters never lip-sync: Phil's line plays as character VO over a slow contented paper-shuffle",
+      "logo only on the brand-close card (white-pixel check t=19 low 5908 / t=21 high 15470 verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Meet Phil. Phil used to be one overdue invoice.",
+        "voice": "Arthur",
+        "job_id": "20bd6028-3b63-45c4-ad14-ec18ef9e556e",
+        "placement": "t=0.3s over scene 1 (4.658s), Victor at the records-room door with Phil towering over him"
+      },
+      {
+        "line": "Take your time. I've been growing.",
+        "voice": "Phil (character VO, Vera 0c51919f)",
+        "job_id": "e8ff196b-aa70-4b1c-999a-d1ad017a644a",
+        "placement": "t=5.61s over scene 2 (4.80s) - Phil's catchphrase; plays over gestures, no lip-sync; caption holds an extra 0.6s tail"
+      }
+    ],
+    "voiceover": {
+      "line": "One upload un-piles the pile. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "d5db7f95-5baf-4173-a373-7fbcebef88e2",
+      "placement": "t=10.91s under scene 3, carries onto the brand card (9.38s, ends 20.29s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "2abff0da-821e-4613-a2fa-4eaf75c2465f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2abff0da-821e-4613-a2fa-4eaf75c2465f.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "5a704bde-3371-42dc-8efd-b0e5ff280a12",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5a704bde-3371-42dc-8efd-b0e5ff280a12.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "db3d4e03-6f90-4b4f-9023-a48f872bae47",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/db3d4e03-6f90-4b4f-9023-a48f872bae47.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, matching the Season One remaster standard): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio stream bit-exact copied from the -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 4310adfd/d61352f1/92d6bba2."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.41/5.30/8.79 + 3.5s card at 19.5s; MEND 20.29s; whoosh at both cuts, pop on the send beat; captions c0 lower-third, dialogue caption on Phil's line with 0.6s tail, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "29302a7e-a255-4e71-9270-6c044b8fa8ec",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/29302a7e-a255-4e71-9270-6c044b8fa8ec.jpg",
+      "note": "frame at 2.5s: Victor at the records-room door, Phil towering, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "572df930-f180-456a-8360-6c545c0c8877",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/572df930-f180-456a-8360-6c545c0c8877.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-014-S01",
+      "beat": "hook (meet Phil)",
+      "duration_seconds": 5.41,
+      "keyframe_job_id": "74926afb-83ec-4045-a731-87f3938a1185",
+      "video_job_id": "c44facb2-c63e-449a-bd31-edbc29702303",
+      "onscreen_text": "Meet Phil. He used to be ONE overdue invoice.",
+      "voiceover": "Meet Phil. Phil used to be one overdue invoice.",
+      "visual": "Victor opens the records-room door - Phil, a friendly tower of overdue paperwork with a face, fills the doorway."
+    },
+    {
+      "scene_id": "EP-014-S02",
+      "beat": "Phil dialogue (the catchphrase)",
+      "duration_seconds": 5.3,
+      "keyframe_job_id": "e79045ae-e848-4208-a3eb-2d40fe159970",
+      "video_job_id": "b4f8ebca-ac98-46ad-83b2-7d1dcda14ded",
+      "onscreen_text": "\"Take your time. I've been growing.\"",
+      "voiceover": "Take your time. I've been growing. (Phil, character VO)",
+      "visual": "More sheets flutter down onto Phil as he settles contentedly - gentle comedy, the pile literally growing while you wait. Keyframe resubmitted once after an nsfw false positive (superseded job be009001)."
+    },
+    {
+      "scene_id": "EP-014-S03",
+      "beat": "clear CTA (one upload un-piles the pile)",
+      "duration_seconds": 8.79,
+      "keyframe_job_id": "bdb6d7ef-d9e4-4fb5-a173-7d7e5b743a6d",
+      "video_job_id": "6b203768-9312-46ea-9f08-df0de6f1c9ec",
+      "onscreen_text": "One upload un-piles the pile. / Just email info@swrecovery.com",
+      "voiceover": "One upload un-piles the pile. Just email info@swrecovery.com.",
+      "visual": "Victor uploads - Phil collapses into a single tidy glowing envelope that lifts off; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-014-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "character_notes": {
+    "filing_cabinet_phil": "Canon: a tower of overdue paperwork with a face; grew from ONE unsent invoice; catchphrase 'Take your time. I've been growing.' Voice: Vera 0c51919f. Manifest name/design mismatch accepted (paper tower, not a literal cabinet)."
+  }
+}

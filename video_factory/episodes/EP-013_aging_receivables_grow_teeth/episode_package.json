@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-013",
+  "title": "Aging Receivables Grow Teeth",
+  "status": "rendered to Production Standards v2 (AV-synced cut) + PREMIUM 4K - SEASON TWO OPENER",
+  "produced_at": "2026-08-25",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Create urgency: aging receivables lose value every week they sit unplaced.",
+  "audience": "Signed clients sitting on aging AR",
+  "activation_barrier": "'They're just old invoices - they can wait another month.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook (the monster on the desk)",
+    "monster dialogue beat (first speaking creature of the series)",
+    "SWRS simplifies (send before they grow teeth)",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "aging receivables quietly losing value",
+    "persona": "vlad_the_invoice_monster (grows as invoices age, shrinks when accounts are placed)",
+    "fix": "place the accounts - one email starves the monster",
+    "payoff": "monster shrinks to palm size; brand close"
+  },
+  "characters": [
+    "victor_the_vampire",
+    "vlad_the_invoice_monster"
+  ],
+  "distribution": "Aging-AR urgency slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, lighthearted comedy-monster tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "vlad_the_invoice_monster": "5da9a51b-71d5-4640-a1f2-adb3df40ce87"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; Victor + Invoice Monster refs)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346; Vlad character voice e5666b9c-99a2-4fac-8b4e-abee078b186d)",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.83s / 4.08s / 8.59s + 3.5s card; VO ends 21.41s, inside the 22.5s guard",
+      "real portal UI on every visible screen: scene-1 monitor and scene-3 laptop (campaign-wide screen rule)",
+      "characters never lip-sync: Vlad's line plays as character VO over savoring gestures",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Those overdue invoices aren't just sitting there... they're growing.",
+        "voice": "Arthur",
+        "job_id": "202e49a6-ade8-4fa8-ad6b-add231d83335",
+        "placement": "t=0.3s over scene 1 (6.08s), Victor recoiling from the small monster on the invoice stack"
+      },
+      {
+        "line": "Mmm. Aged. Just how I like 'em.",
+        "voice": "Vlad (character VO, voice e5666b9c)",
+        "job_id": "b2759ed4-c3c2-4343-81dc-171551741e2b",
+        "placement": "t=7.03s over scene 2 (3.58s) - first speaking character of the series; plays over savoring gesture, no lip-sync"
+      }
+    ],
+    "voiceover": {
+      "line": "Send them to Southwest Recovery before they grow teeth. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "f0411b09-9a5d-41c1-94b9-82cdd51f921c",
+      "placement": "t=11.11s under scene 3, carries onto the brand card (10.30s, ends 21.41s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Licensed music bed — finishing pass.",
+      "Native vertical framing — finishing pass."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "e9f7522f-d7df-439a-9c0c-5a5a8778bfae",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e9f7522f-d7df-439a-9c0c-5a5a8778bfae.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "e6540d08-db8e-4886-94cd-7468d07e6806",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e6540d08-db8e-4886-94cd-7468d07e6806.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "5336d21c-aea3-41f8-a003-6ae0d5546dd3",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5336d21c-aea3-41f8-a003-6ae0d5546dd3.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "PREMIUM 4K from day one (2026-08-25, matching the Season One remaster standard): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio stream bit-exact copied from the -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 8c2f70ca/3efe776e/80e7455e."
+    },
+    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 6.83/4.08/8.59 + 3.5s card at 19.5s; MEND 21.41s; whoosh at both cuts, pop on the send beat; captions c0 lower-third, dialogue caption on Vlad's line, c1/c3 top."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "11d67727-2794-4e3d-90bf-c2c7d49b4eb4",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/11d67727-2794-4e3d-90bf-c2c7d49b4eb4.jpg",
+      "note": "frame at 2.5s: Victor recoiling from the small monster on the invoice stack, play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "fe1ea5bd-1c3b-48b6-98f4-55eedd00ecfe",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/fe1ea5bd-1c3b-48b6-98f4-55eedd00ecfe.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-013-S01",
+      "beat": "hook (the monster on the desk)",
+      "duration_seconds": 6.83,
+      "keyframe_job_id": "b44f49b7-edcb-4228-8003-764f4b7b2070",
+      "video_job_id": "414687b4-0906-4867-bc25-6c0ca2a0c774",
+      "onscreen_text": "Overdue invoices don't just sit there... they grow.",
+      "voiceover": "Those overdue invoices aren't just sitting there... they're growing.",
+      "visual": "Victor recoils at his desk - a small, cute invoice monster perches on the stack of aging invoices; monitor shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-013-S02",
+      "beat": "monster dialogue (first speaking creature)",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "8e98062f-98c6-4410-8d55-a53abbcc36e9",
+      "video_job_id": "10d6cc31-c6d4-4462-8d7c-e779a5acd89e",
+      "onscreen_text": "\"Mmm. Aged. Just how I like 'em.\"",
+      "voiceover": "Mmm. Aged. Just how I like 'em. (Vlad, character VO)",
+      "visual": "Vlad has grown person-size, savoring an aged invoice like a fine snack - comedy tone, no menace toward SWRS."
+    },
+    {
+      "scene_id": "EP-013-S03",
+      "beat": "clear CTA (send before they grow teeth)",
+      "duration_seconds": 8.59,
+      "keyframe_job_id": "7ca9a676-1592-4132-9ca0-c76616f1c96d",
+      "video_job_id": "7f0983bc-720d-4e7f-8bef-65f7caa813cd",
+      "onscreen_text": "Place them before they grow teeth. / Just email info@swrecovery.com",
+      "voiceover": "Send them to Southwest Recovery before they grow teeth. Just email info@swrecovery.com.",
+      "visual": "Victor clicks Send - the glowing envelope lifts off; Vlad shrinks to palm size and pouts; laptop shows the REAL client portal."
+    },
+    {
+      "scene_id": "EP-013-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ],
+  "character_notes": {
+    "vlad_the_invoice_monster": "Canon: grows as invoices age, shrinks when accounts are placed. Voice: Vlad e5666b9c (audition line 'Mmm. Aged. Just how I like 'em.'). First speaking character in the series beyond the narrator."
+  }
+}
