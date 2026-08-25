@@ -36,7 +36,7 @@
     "models": {
       "keyframes": "nano_banana_pro (image; Victor + Phil refs). S2 keyframe resubmitted once after an nsfw false positive; wording softened ('lighthearted comedy tone'), superseded flagged job be009001.",
       "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
-      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346; Phil character voice Vera 0c51919f-0756-5f8d-8169-026a339d8fd7)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346; Phil character voice Grady e2a2d2e6-9ed2-59cd-82af-feaa27f8a678, recast from Vera 2026-08-25)",
       "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v2 template"
     },
     "v2_standards_applied": [
@@ -59,8 +59,8 @@
       },
       {
         "line": "Take your time. I've been growing.",
-        "voice": "Phil (character VO, Vera 0c51919f)",
-        "job_id": "e8ff196b-aa70-4b1c-999a-d1ad017a644a",
+        "voice": "Phil (character VO, Grady e2a2d2e6 - recast from Vera 2026-08-25)",
+        "job_id": "d67dddeb-41b9-426d-9f8d-c5b9a1a66879",
         "placement": "t=5.61s over scene 2 (4.80s) - Phil's catchphrase; plays over gestures, no lip-sync; caption holds an extra 0.6s tail"
       }
     ],
@@ -72,28 +72,28 @@
       "placement": "t=10.91s under scene 3, carries onto the brand card (9.38s, ends 20.29s). Client wording verbatim at natural pace."
     },
     "standards_deferred": [
-      "Native vertical framing — finishing pass."
+      "Native vertical framing \u2014 finishing pass."
     ],
     "outputs": {
       "master_16x9": {
-        "media_id": "5a8ee408-04e1-4531-9060-e75ff39022ac",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5a8ee408-04e1-4531-9060-e75ff39022ac.mp4",
+        "media_id": "8546a5eb-4943-40f0-9429-058e9bbf5f1d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8546a5eb-4943-40f0-9429-058e9bbf5f1d.mp4",
         "use": "email campaigns / YouTube",
         "resolution": "3840x2160 (4K)"
       },
       "square_1x1": {
-        "media_id": "0e145c1c-f500-4c04-a511-7e2892e80de0",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0e145c1c-f500-4c04-a511-7e2892e80de0.mp4",
+        "media_id": "0295388f-f563-4418-94ed-c239f8af2659",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0295388f-f563-4418-94ed-c239f8af2659.mp4",
         "use": "LinkedIn"
       },
       "vertical_9x16": {
-        "media_id": "f9362bc8-a31d-4e99-8541-382949414a42",
-        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f9362bc8-a31d-4e99-8541-382949414a42.mp4",
+        "media_id": "5824e27f-dc4a-4f00-ad82-eb220b52093c",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5824e27f-dc4a-4f00-ad82-eb220b52093c.mp4",
         "use": "Reels / TikTok / Shorts"
       },
-      "_note": "PREMIUM 4K from day one (2026-08-25, matching the Season One remaster standard): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio stream bit-exact copied from the -14 LUFS master mix — no re-encode). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 4310adfd/d61352f1/92d6bba2. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 2abff0da/5a704bde/db3d4e03."
+      "_note": "PREMIUM 4K from day one (2026-08-25, matching the Season One remaster standard): master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master; video stream from the upscaler, audio stream bit-exact copied from the -14 LUFS master mix \u2014 no re-encode). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos supersample, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 4310adfd/d61352f1/92d6bba2. MUSIC EDITION 2026-08-25: all three cuts re-issued with the licensed-equivalent original SWRS theme 'Cinematic' (owned outright; sonilo_music job 532fb0c8, 30s extended rendition a081e7c5 for the long episodes) mixed as a 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fading out before the brand card so the logo reveal stays silent. Video streams bit-exact copies of the 4K remaster. Superseded music-less ids: 2abff0da/5a704bde/db3d4e03. VOICE RECAST 2026-08-25 (Steven: Phil needs a man's voice): Phil's line re-recorded with Grady e2a2d2e6 (male preset; supersedes the Vera e8ff196b recording), episode fully re-assembled on the v3 template (music at assembly), re-upscaled to 4K and re-derived; all three cuts on FRESH IDs. Superseded Vera-voiced ids: 5a8ee408/0e145c1c/f9362bc8. Interim 720p assembly id: 32ac4020."
     },
-    "assembly_note": "Fixed-23s v2 template: 23.000s total - cuts 5.41/5.30/8.79 + 3.5s card at 19.5s; MEND 20.29s; whoosh at both cuts, pop on the send beat; captions c0 lower-third, dialogue caption on Phil's line with 0.6s tail, c1/c3 top."
+    "assembly_note": "Fixed-23s v3 template (Grady rebuild): 23.000s - cuts 5.41/4.90/9.19 + 3.5s card at 19.5s; MEND 19.89s; music mixed at assembly."
   },
   "email_assets": {
     "thumbnail_1200x675": {
@@ -149,6 +149,6 @@
     }
   ],
   "character_notes": {
-    "filing_cabinet_phil": "Canon: a tower of overdue paperwork with a face; grew from ONE unsent invoice; catchphrase 'Take your time. I've been growing.' Voice: Vera 0c51919f. Manifest name/design mismatch accepted (paper tower, not a literal cabinet)."
+    "filing_cabinet_phil": "Canon: a tower of overdue paperwork with a face; grew from ONE unsent invoice; catchphrase 'Take your time. I've been growing.' Voice: Grady e2a2d2e6 (male; recast from Vera at Steven's direction 2026-08-25)."
   }
 }
