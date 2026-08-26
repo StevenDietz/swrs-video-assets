@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-039",
+  "title": "Tick Tock",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Make the cost of waiting audible: the Aging Clock leaks money with every tick.",
+  "audience": "Clients sitting on aging receivables 'a few more weeks'",
+  "activation_barrier": "'A few more weeks won't hurt.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'A few more weeks won't hurt.'",
+    "persona": "the_aging_clock",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Tick. Tick. Tick."
+  },
+  "characters": [
+    "the_aging_clock",
+    "victor_the_vampire"
+  ],
+  "distribution": "Urgency / aging-receivables slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "the_aging_clock": "c1987aa7-1dcf-4d55-b7ff-44ee8542b92a",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.95s / 4.80s / 8.75s + 3.5s card; VO ends 18.75s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Hear that? That's the Aging Clock. Every tick costs you money.",
+        "voice": "Arthur",
+        "job_id": "1c0daaa0-9a91-497c-b677-2911513e7ade",
+        "placement": "t=0.3s over scene 1 (5.95s)"
+      },
+      {
+        "line": "Tick. Tick. Tick.",
+        "voice": "Arthur",
+        "job_id": "faae6244-7a0d-40e7-a7d9-e66bfa59cb24",
+        "placement": "t=6.15s over scene 2 (4.80s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Stop the clock. Place your accounts today. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "b7dea50c-d155-4b9d-8d41-f63bc7dfe9fc",
+      "placement": "t=11.05s under scene 3, carries onto the brand card (ends 18.75s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "5eb8c721-e53d-4765-8305-b2b19f6f8ecd",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5eb8c721-e53d-4765-8305-b2b19f6f8ecd.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "f5c8f957-1b20-4ef4-9ed8-b56aa14da85a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f5c8f957-1b20-4ef4-9ed8-b56aa14da85a.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "958ad729-0e06-4fc3-93ab-d950bff6eb9b",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/958ad729-0e06-4fc3-93ab-d950bff6eb9b.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 28c0e578-d4d0-49e4-8a87-aaa8a647a4f3; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 3803ec64-17d1-4671-b768-a70491ab6bbc/ca8ca96d-2bc6-4293-ae90-592f40ddb522/4548d458-d8db-46f7-bf6c-97df47445c74."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.95/4.80/8.75 + 3.5s card at 19.5s; MEND 18.75s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=5.203 BD=4.300 S1D=5.953 S2D=4.800 S3D=8.747 MEND=18.75 wpx19=5895 wpx21=15468"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "eefa98ad-935f-462e-9b48-100fb6704904",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/eefa98ad-935f-462e-9b48-100fb6704904.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "506668f4-4034-4c6d-a149-949772956845",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/506668f4-4034-4c6d-a149-949772956845.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-039-S01",
+      "beat": "hook",
+      "duration_seconds": 5.953,
+      "keyframe_job_id": "1cd80866-b2b6-44cb-9f1d-28ae08a61e5c",
+      "video_job_id": "1a74b7a6-e22d-4113-9dbf-9d1927c1104a",
+      "onscreen_text": "Every tick costs you money.",
+      "voiceover": "Hear that? That's the Aging Clock. Every tick costs you money.",
+      "visual": "The Aging Clock (reference character) hangs on the office wall above Victor the vampire office worker (reference character), gold coins slipping out of the slot in its back with every tick and clinking into a drain grate below; Victor glances up nervously from a stack of aging invoices;"
+    },
+    {
+      "scene_id": "EP-039-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.8,
+      "keyframe_job_id": "0a489d71-0242-4bef-a133-21ec69a84bcc",
+      "video_job_id": "954f9756-5ebe-4694-8406-e3792ff96e35",
+      "onscreen_text": "Tick. Tick. Tick.",
+      "voiceover": "Tick. Tick. Tick.",
+      "visual": "Extreme close-up of the Aging Clock (reference character): its stern sleepy face mid-tick, mustache clock-hands twitching, three gold coins caught mid-fall from the slot in its side; big tick marks in the air; gently ominous comedy; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-039-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8.747,
+      "keyframe_job_id": "d819bc0c-1e9f-4340-a01b-08e7da8c9fa5",
+      "video_job_id": "c248c687-8718-412f-bb96-245153aea9bb",
+      "onscreen_text": "Stop the clock. Place today. / Just email info@swrecovery.com",
+      "voiceover": "Stop the clock. Place your accounts today. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot;"
+    },
+    {
+      "scene_id": "EP-039-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

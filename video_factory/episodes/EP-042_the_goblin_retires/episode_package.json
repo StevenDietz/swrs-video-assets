@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-042",
+  "title": "The Goblin Retires",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Comic payoff for the series' oldest villain: even the Password Goblin concedes - email needs no login.",
+  "audience": "Clients stalled at portal logins and password resets",
+  "activation_barrier": "'I can't get into the portal.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I can't get into the portal.'",
+    "persona": "password_goblin",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Even he knows: email wins."
+  },
+  "characters": [
+    "password_goblin",
+    "victor_the_vampire"
+  ],
+  "distribution": "Login-friction slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "password_goblin": "c7500c1e-3774-40d0-b328-3986fcd6b361",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.30s / 4.08s / 10.12s + 3.5s card; VO ends 17.76s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "After three seasons, the Password Goblin is calling it quits.",
+        "voice": "Arthur",
+        "job_id": "0c67bfc9-f806-4f3d-ba5d-f375e05a3a0e",
+        "placement": "t=0.3s over scene 1 (5.30s)"
+      },
+      {
+        "line": "Even he knows: email wins.",
+        "voice": "Arthur",
+        "job_id": "00a68d1f-a0d4-48c6-a363-5d0a209fab2d",
+        "placement": "t=5.5s over scene 2 (4.08s)"
+      }
+    ],
+    "voiceover": {
+      "line": "No logins, no gatekeepers, no goblins. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "53a27ad6-d655-4baf-a45b-5e991bc937d8",
+      "placement": "t=9.68s under scene 3, carries onto the brand card (ends 17.76s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "6e88bac9-7864-4a6d-a707-ee3ea992d114",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6e88bac9-7864-4a6d-a707-ee3ea992d114.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "2dab94d0-eb19-48fe-a115-4868835dbac2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2dab94d0-eb19-48fe-a115-4868835dbac2.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "d8965ee4-7bb0-40dd-a773-0fa02af2a005",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/d8965ee4-7bb0-40dd-a773-0fa02af2a005.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 8e6f06cf-ade0-4aa6-9774-c3909b623387; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): d91a0c44-3232-404c-9203-5d6d374aa607/3f9c8dd1-efb2-486f-aead-f776bca13148/b4bf5eef-3784-4383-9f0f-a985babe5102."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.30/4.08/10.12 + 3.5s card at 19.5s; MEND 17.76s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.551 BD=3.580 S1D=5.301 S2D=4.080 S3D=10.119 MEND=17.76 wpx19=5921 wpx21=15447"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "c531f5d4-2b2e-43d8-9b92-c5cd021f1707",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c531f5d4-2b2e-43d8-9b92-c5cd021f1707.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "411bb872-2640-41e7-825a-6cc52d9c5b07",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/411bb872-2640-41e7-825a-6cc52d9c5b07.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-042-S01",
+      "beat": "hook",
+      "duration_seconds": 5.301,
+      "keyframe_job_id": "65ccd30e-0f12-43b8-a810-03b86a5cb69a",
+      "video_job_id": "08d03169-91a4-4b25-835b-784133ebc80e",
+      "onscreen_text": "The Goblin is calling it quits.",
+      "voiceover": "After three seasons, the Password Goblin is calling it quits.",
+      "visual": "The Password Goblin (reference character) stands at Victor's desk holding a small cardboard box of his belongings - sticky notes, a tiny keyboard, a WORLD'S SNEAKIEST mug - wearing a little retirement party hat, looking wistful;"
+    },
+    {
+      "scene_id": "EP-042-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "5a0e8c41-c2bc-4eb8-8ee8-db09e14beac7",
+      "video_job_id": "cc2419fc-b3c8-47f0-a630-a8f132e0a60f",
+      "onscreen_text": "Even he knows: email wins.",
+      "voiceover": "Even he knows: email wins.",
+      "visual": "Close-up: the Password Goblin (reference character) in his little retirement party hat peels his very last CHANGED sticky note off a monitor edge and looks at it fondly, one ear drooping; the monitor is angled away with no screen content visible; gentle comedy farewell."
+    },
+    {
+      "scene_id": "EP-042-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 10.119,
+      "keyframe_job_id": "23de0b50-fbb2-4bb4-a158-965a72c4f69d",
+      "video_job_id": "2828eabc-df34-4c77-b21d-1f95f7c37f3c",
+      "onscreen_text": "No logins. No gatekeepers. / Just email info@swrecovery.com",
+      "voiceover": "No logins, no gatekeepers, no goblins. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot;"
+    },
+    {
+      "scene_id": "EP-042-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

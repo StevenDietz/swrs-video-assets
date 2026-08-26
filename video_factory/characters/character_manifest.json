@@ -7,7 +7,7 @@
     "sub_promise": "Real People. Real Solutions. Real Results.",
     "version": "1.0",
     "source": "The Complete SWRS Character Universe master poster (client-provided)",
-    "status": "canonical roster captured; Victor, Hunter, Password Goblin, Late Fee Dragon, Invoice Monster, Filing Cabinet Phil and the six industry specialists locked; remaining per-character reference images not yet locked",
+    "status": "canonical roster captured; Victor, Hunter, Password Goblin, Late Fee Dragon, Invoice Monster, Filing Cabinet Phil, the six industry specialists, Penny, Captain Compliance, Clarity AI, Procrastination Sloth, Excuse Generator, Printer Gremlin, The Aging Clock and Scout locked; remaining per-character reference images not yet locked",
     "notes": "This manifest is the system-of-record the Video Factory reads from. Each character's canonical_reference must be locked to ONE approved image before it is used to generate episode scenes, so the character stays visually identical across the whole series.",
     "lock_log": [
       {
@@ -38,6 +38,17 @@
         ],
         "why": "Steven cast a separate voice for what had been filed as the Invoice Monster's grown form, which makes it a distinct character. Promoted to its own entry with its own locked reference and name.",
         "note": "First two speaking characters in the series: Invoice Monster (Vlad) and Filing Cabinet Phil (Vera)."
+      },
+      {
+        "date": "2026-08-25",
+        "locked": [
+          "excuse_generator",
+          "printer_gremlin",
+          "the_aging_clock",
+          "scout"
+        ],
+        "why": "Season Four ('No More Excuses') greenlit at Steven's 'next season' direction; these four star in EP-037/038/039/041 and had no locked references.",
+        "note": "Sheets generated 2026-08-25 (nano_banana_pro batch 234115). Scout is the first AI & Future Guides character to be locked."
       }
     ]
   },
@@ -579,7 +590,17 @@
           "props": [
             "printer"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'next season' direction (Season Four greenlight)",
+            "design": "THE PRINTER GREMLIN: a small plum-purple imp with big pointed ears, ink-stained fingers, a mischievous snaggletooth grin, wearing an empty toner cartridge strapped on like a backpack, holding a crumpled paper jam like a trophy; clearly DISTINCT from a green goblin - purple skin, rounder body, ink smudges on his cheeks; comedic not scary. Stylized non-photorealistic Pixar-style 3D animated commercial character, soft rounded features, cool-blue SWRS palette accents, soft studio lighting.\"}},{\"index\":4003,\"params\":{\"model\":\"nano_banana_pro",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two/Three cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "13745ee4-86ea-4eb3-b83d-132431201b60",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_234115_13745ee4-86ea-4eb3-b83d-132431201b60.png"
+            }
+          }
         },
         {
           "id": "coffee_cup_carl",
@@ -599,7 +620,17 @@
           "props": [
             "calendar clock"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'next season' direction (Season Four greenlight)",
+            "design": "THE AGING CLOCK: a round navy wall-clock character with a stern sleepy face on its dial, drooping mustache formed by its clock hands, stubby little legs and arms, and small gold coins slipping out of a slot in its back with every tick; a faint motion tick mark beside it; gently ominous but comedic. Stylized non-photorealistic Pixar-style 3D animated commercial character, soft rounded features, cool-blue SWRS palette, soft studio lighting.\"}},{\"index\":4004,\"params\":{\"model\":\"nano_banana_pro",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two/Three cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "c1987aa7-1dcf-4d55-b7ff-44ee8542b92a",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_234115_c1987aa7-1dcf-4d55-b7ff-44ee8542b92a.png"
+            }
+          }
         },
         {
           "id": "excuse_generator",
@@ -609,7 +640,17 @@
           "props": [
             "excuse printout"
           ],
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'next season' direction (Season Four greenlight)",
+            "design": "THE EXCUSE GENERATOR: a whimsical desktop contraption character in copper and navy with a grumpy droopy cartoon face on its front panel, brass dials, a hand crank on its side, a paper slot mouth spitting out little white excuse slips, tiny riveted feet, a faint steam puff from a small stack pipe; comedic office-villain energy, not scary. Stylized non-photorealistic Pixar-style 3D animated commercial character, soft rounded features, cool-blue SWRS palette accents, soft studio lighting.\"}},{\"index\":4002,\"params\":{\"model\":\"nano_banana_pro",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two/Three cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "ae85ddb4-423e-4e7d-84fd-715d798495e1",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_234115_ae85ddb4-423e-4e7d-84fd-715d798495e1.png"
+            }
+          }
         },
         {
           "id": "spam_monster",
@@ -1098,7 +1139,17 @@
           "id": "scout",
           "name": "Scout",
           "one_liner": "Surfaces opportunities; monitors accounts and risk signals.",
-          "canonical_reference": null
+          "canonical_reference": {
+            "model": "nano_banana_pro",
+            "locked_at": "2026-08-25",
+            "locked_by": "locked at Steven's 'next season' direction (Season Four greenlight)",
+            "design": "SCOUT the AI guide: a friendly small hovering drone-orb with a single large curious eye-lens, a tiny warm searchlight beam projecting downward, smooth teal-and-blue glowing shell with soft light ribbons trailing behind; clearly DISTINCT from a plain glowing orb - Scout has the single lens eye and searchlight; helpful, eager energy. Stylized non-photorealistic Pixar-style 3D animated commercial character, soft rounded features, cool-blue SWRS palette, soft studio lighting.\"}}]},\"caller\":{\"type\":\"direct\"}}],\"stop_reason\":\"tool_use",
+            "world": "Split-screen character sheet (standing full body + chest-up close-up), 16:9, pure white seamless studio; house style matches the Season One/Two/Three cast sheets; stylized non-photorealistic Pixar-style 3D.",
+            "primary": {
+              "job_id": "fdbe9d3b-c2cc-4f1a-b1dd-e1574ccd044d",
+              "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/hf_20260825_234115_fdbe9d3b-c2cc-4f1a-b1dd-e1574ccd044d.png"
+            }
+          }
         },
         {
           "id": "navigator",

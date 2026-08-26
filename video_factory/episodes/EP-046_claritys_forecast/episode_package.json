@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-046",
+  "title": "Clarity's Forecast",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Clarity shows the after: place on time and watch every placement tracked from day one.",
+  "audience": "Clients unsure what actually happens after they send accounts",
+  "activation_barrier": "'What happens after I send them?'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'What happens after I send them?'",
+    "persona": "clarity_ai",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Recovery, on the horizon."
+  },
+  "characters": [
+    "clarity_ai",
+    "victor_the_vampire"
+  ],
+  "distribution": "Transparency / what-happens-next slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "clarity_ai": "3c7a37d1-e8de-4e19-a795-1a8daa5528c9",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 4.45s / 3.70s / 11.35s + 3.5s card; VO ends 18.65s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Ask Clarity what happens when you place on time.",
+        "voice": "Arthur",
+        "job_id": "8907304b-f6e3-427c-9ec2-328e29bdd748",
+        "placement": "t=0.3s over scene 1 (4.45s)"
+      },
+      {
+        "line": "Recovery, on the horizon.",
+        "voice": "Arthur",
+        "job_id": "68225952-6570-43d6-b07d-15a5b16a6e4e",
+        "placement": "t=4.65s over scene 2 (3.70s)"
+      }
+    ],
+    "voiceover": {
+      "line": "See every placement tracked from day one. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "2af04ed0-801a-422a-9f4f-66cec68dcfca",
+      "placement": "t=8.45s under scene 3, carries onto the brand card (ends 18.65s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "6bd8b051-e0a9-47fa-93c5-dece613c6053",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6bd8b051-e0a9-47fa-93c5-dece613c6053.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "4ff2a017-61e4-45d0-820d-5ba2be160c96",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4ff2a017-61e4-45d0-820d-5ba2be160c96.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "49805938-03d5-4a7c-ab6c-12d3aa04fbac",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/49805938-03d5-4a7c-ab6c-12d3aa04fbac.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 6298a38c-64d2-402c-884c-97bb9c7ae39b; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 88d24b2f-52be-422e-b318-c5166f60583c/e6f6d1f1-c318-494b-b66d-053585f09250/10f514b7-9db9-49f9-a463-d4c9d495daf4."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 4.45/3.70/11.35 + 3.5s card at 19.5s; MEND 18.65s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=3.702 BD=3.200 S1D=4.452 S2D=3.700 S3D=11.348 MEND=18.65 wpx19=6071 wpx21=15468"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "0337ae55-83fe-432c-bdf4-1871deda8cd3",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0337ae55-83fe-432c-bdf4-1871deda8cd3.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "93f6c9e9-e772-47c4-ba0b-3dbeb673a89c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/93f6c9e9-e772-47c4-ba0b-3dbeb673a89c.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-046-S01",
+      "beat": "hook",
+      "duration_seconds": 4.452,
+      "keyframe_job_id": "e2144cc2-3578-4f6e-bdb3-12e94686b4aa",
+      "video_job_id": "a0e9c760-f41c-4fe9-b5e9-9619d372e450",
+      "onscreen_text": "What happens when you place on time?",
+      "voiceover": "Ask Clarity what happens when you place on time.",
+      "visual": "Victor the vampire office worker (reference character) asks a question of Clarity the AI guide (reference character), the friendly glowing light-blue orb, which projects a soft rising line of light into the air above the desk like a gentle forecast arc; hopeful mood;"
+    },
+    {
+      "scene_id": "EP-046-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.7,
+      "keyframe_job_id": "1f34bcea-421f-43f7-a460-60fff61744fe",
+      "video_job_id": "d4c0e239-41cd-4970-bb71-ad7a76c6f880",
+      "onscreen_text": "Recovery, on the horizon.",
+      "voiceover": "Recovery, on the horizon.",
+      "visual": "Close-up: Clarity the AI guide (reference character) glows warmly as its projected light-arc crests like a sunrise over a tiny skyline of envelope silhouettes; soft light ribbons; recovery-on-the-horizon beat; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-046-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 11.348,
+      "keyframe_job_id": "97b989a2-0660-4dd6-b036-7df8366b3422",
+      "video_job_id": "3f6a4df1-3c58-4445-8298-7741fdbcfa99",
+      "onscreen_text": "Tracked from day one. / Just email info@swrecovery.com",
+      "voiceover": "See every placement tracked from day one. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) reviews a laptop showing EXACTLY the real client portal interface from the reference screenshot while Clarity the AI guide (reference character) hovers approvingly beside the screen; a glowing envelope lifts off;"
+    },
+    {
+      "scene_id": "EP-046-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

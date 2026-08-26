@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-043",
+  "title": "Dragon on a Diet",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Starve the Late Fee Dragon: accounts placed the day they go past due leave him nothing to eat.",
+  "audience": "Clients letting penalties and late fees accumulate on aging accounts",
+  "activation_barrier": "'Late fees are just part of doing business.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Late fees are just part of doing business.'",
+    "persona": "late_fee_dragon",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Placed accounts. Empty bowl."
+  },
+  "characters": [
+    "late_fee_dragon",
+    "victor_the_vampire"
+  ],
+  "distribution": "Late-fee / penalties slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "late_fee_dragon": "6d6cea58-1f3b-475d-a920-e3a92f29653a",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.25s / 3.70s / 8.55s + 3.5s card; VO ends 21.53s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "The Late Fee Dragon started a diet. Not by choice.",
+        "voice": "Arthur",
+        "job_id": "ac182715-4d6c-42a3-b6a6-6d8ac561c30d",
+        "placement": "t=0.3s over scene 1 (7.25s)"
+      },
+      {
+        "line": "Placed accounts. Empty bowl.",
+        "voice": "Arthur",
+        "job_id": "43746b62-c08d-49c4-9ec4-538f9b6269bc",
+        "placement": "t=7.45s over scene 2 (3.70s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Keep him hungry. Place accounts the day they go past due. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "ea3585ca-3790-4df0-b398-a073bf51ac3e",
+      "placement": "t=11.25s under scene 3, carries onto the brand card (ends 21.53s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "ac388b63-89ca-4f34-b209-f8ddc2acb561",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ac388b63-89ca-4f34-b209-f8ddc2acb561.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "bcd48937-a516-4e3a-9030-5f7f751d0892",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/bcd48937-a516-4e3a-9030-5f7f751d0892.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "ace22fcd-7fcf-46ec-a9a0-3a56e1d274ad",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ace22fcd-7fcf-46ec-a9a0-3a56e1d274ad.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job b0fc67a1-9345-455c-84ac-7f62ec90bed3; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 3c230d5a-052f-4622-9edc-812c91e585ff/cb910dc6-9b28-4a96-87c4-4e1f7e079ea5/817ea2a3-cb19-4550-a489-48accb68195a."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.25/3.70/8.55 + 3.5s card at 19.5s; MEND 21.53s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=6.500 BD=3.200 S1D=7.250 S2D=3.700 S3D=8.550 MEND=21.53 wpx19=5731 wpx21=15468"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "de1afd0d-f0ac-45b8-b76f-89f12bde71ba",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/de1afd0d-f0ac-45b8-b76f-89f12bde71ba.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "c4509bb7-9fa1-43a7-a902-1b3e45ff23f8",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c4509bb7-9fa1-43a7-a902-1b3e45ff23f8.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-043-S01",
+      "beat": "hook",
+      "duration_seconds": 7.25,
+      "keyframe_job_id": "24767e98-fd05-4457-ab8b-8aecd927b2f0",
+      "video_job_id": "09248d9f-c26d-43d0-bd6d-84a85f8224e7",
+      "onscreen_text": "The Dragon is on a diet.",
+      "voiceover": "The Late Fee Dragon started a diet. Not by choice.",
+      "visual": "The Late Fee Dragon (reference character) sits glumly beside a food bowl labeled LATE FEES that is completely empty, a tiny measuring tape around his plump belly; Victor the vampire office worker (reference character) shrugs at him without sympathy; diet comedy, no menace;"
+    },
+    {
+      "scene_id": "EP-043-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.7,
+      "keyframe_job_id": "5e76fef2-1a2e-44f8-b660-161be85116eb",
+      "video_job_id": "fbb54cb5-1069-4c04-80aa-26171d8649ba",
+      "onscreen_text": "Placed accounts. Empty bowl.",
+      "voiceover": "Placed accounts. Empty bowl.",
+      "visual": "Close-up: the Late Fee Dragon (reference character) pokes his empty LATE FEES bowl with one claw and looks up with big pleading puppy eyes, ember-orange belly grumbling with a tiny smoke puff; comic hunger, endearing not scary; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-043-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8.55,
+      "keyframe_job_id": "1dc9fc32-cf3d-4599-b501-a77042da5a7c",
+      "video_job_id": "14f33972-70e4-48d4-ba8f-33fd9747df1c",
+      "onscreen_text": "Keep him hungry. Place on time. / Just email info@swrecovery.com",
+      "voiceover": "Keep him hungry. Place accounts the day they go past due. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot;"
+    },
+    {
+      "scene_id": "EP-043-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

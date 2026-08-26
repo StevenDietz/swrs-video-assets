@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-041",
+  "title": "Scout Finds Them All",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Introduce Scout the AI guide: recoverable money hides in ledgers, and Scout rounds it all up.",
+  "audience": "Clients who don't know which accounts are worth placing",
+  "activation_barrier": "'I don't even know which accounts are recoverable.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I don't even know which accounts are recoverable.'",
+    "persona": "scout_ai",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Found another one."
+  },
+  "characters": [
+    "scout",
+    "victor_the_vampire"
+  ],
+  "distribution": "Account-discovery slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "scout": "fdbe9d3b-c2cc-4f1a-b1dd-e1574ccd044d",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.43s / 3.28s / 8.79s + 3.5s card; VO ends 18.71s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Somewhere in your ledger, recoverable money is hiding. Scout finds it.",
+        "voice": "Arthur",
+        "job_id": "25fd7167-3818-4dda-9fee-fcd79e1df585",
+        "placement": "t=0.3s over scene 1 (7.43s)"
+      },
+      {
+        "line": "Found another one.",
+        "voice": "Arthur",
+        "job_id": "78570bd8-28d5-4ea3-8dff-3f0bda28ab4c",
+        "placement": "t=7.63s over scene 2 (3.28s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Every recoverable account, rounded up and placed. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "187f2c7c-2c10-4788-ab6d-7ad32e664b70",
+      "placement": "t=11.02s under scene 3, carries onto the brand card (ends 18.71s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "06e7a14e-21b9-46c0-b613-f2e1842c71f5",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/06e7a14e-21b9-46c0-b613-f2e1842c71f5.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "3af3972f-54f1-4d6e-b4e0-6fa2c5a26796",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3af3972f-54f1-4d6e-b4e0-6fa2c5a26796.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "b6721b6b-803d-4284-9e14-15e835af892d",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b6721b6b-803d-4284-9e14-15e835af892d.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job b7d10655-518f-48b4-ba0b-42f7237dcc4e; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): c2ef98bc-efe0-40e5-8c18-78dc6f484d0c/41fc5959-0472-4900-b1ec-ca9e19aa5d30/9fd50c65-534d-4630-b389-401842f844d5."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.43/3.28/8.79 + 3.5s card at 19.5s; MEND 18.71s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=6.685 BD=2.780 S1D=7.435 S2D=3.280 S3D=8.785 MEND=18.71 wpx19=16187 wpx21=15468",
+    "wpx_note": "wpx19=16187 is Scout's searchlight brightness inside the check crop at t=19 (scene content), not a logo leak - logo overlay is filter-gated to t>=19.7."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "4b21627b-0e92-4baf-ba63-1b3cc83a5726",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/4b21627b-0e92-4baf-ba63-1b3cc83a5726.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "8a3efde0-eaad-44a0-a6aa-85b67e37645a",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/8a3efde0-eaad-44a0-a6aa-85b67e37645a.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-041-S01",
+      "beat": "hook",
+      "duration_seconds": 7.435,
+      "keyframe_job_id": "5acc7370-7e5c-442b-9b85-9638757aedfc",
+      "video_job_id": "2489892c-2501-4b6f-8e5b-934c6f067cf3",
+      "onscreen_text": "Recoverable money hides in ledgers.",
+      "voiceover": "Somewhere in your ledger, recoverable money is hiding. Scout finds it.",
+      "visual": "Scout the AI guide (reference character), a small hovering drone-orb with a single curious eye-lens, sweeps its warm searchlight beam across a wall of open ledger books while Victor the vampire office worker (reference character) watches hopefully;"
+    },
+    {
+      "scene_id": "EP-041-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.28,
+      "keyframe_job_id": "778b9244-1758-4093-b4bf-33152ec6e19f",
+      "video_job_id": "5074bf28-77d7-4225-8c65-f776429a7777",
+      "onscreen_text": "Found another one.",
+      "voiceover": "Found another one.",
+      "visual": "Close-up: Scout the AI guide (reference character) hovers triumphantly over an open ledger, its searchlight pinned on one glowing line item, eye-lens wide with delight; small light ribbons curl behind it; discovery beat; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-041-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8.785,
+      "keyframe_job_id": "49fbfcdc-a3ab-4243-941f-33449ee1bf46",
+      "video_job_id": "a447b960-633d-4146-8a6c-e79d39747150",
+      "onscreen_text": "Every account, rounded up. / Just email info@swrecovery.com",
+      "voiceover": "Every recoverable account, rounded up and placed. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot while Scout the AI guide (reference character) hovers beside him, its searchlight guiding a stream of glowing envelopes up and away;"
+    },
+    {
+      "scene_id": "EP-041-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

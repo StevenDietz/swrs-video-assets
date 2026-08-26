@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-040",
+  "title": "Penny's Shortcut",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Penny demonstrates the shortcut: no sorting, no stapling - attach the spreadsheet as-is and send.",
+  "audience": "Clients who delay because their records 'need cleaning up first'",
+  "activation_barrier": "'I need to clean up the spreadsheet before I can send anything.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I need to clean up the spreadsheet before I can send anything.'",
+    "persona": "penny_the_accountant",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "No sorting. No stapling."
+  },
+  "characters": [
+    "penny_the_accountant",
+    "victor_the_vampire"
+  ],
+  "distribution": "Messy-records slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "penny_the_accountant": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.14s / 4.90s / 9.46s + 3.5s card; VO ends 18.04s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Penny found a shortcut. It was one email all along.",
+        "voice": "Arthur",
+        "job_id": "ab772f1f-820a-464e-9eb7-642b3db4fcf0",
+        "placement": "t=0.3s over scene 1 (5.14s)"
+      },
+      {
+        "line": "No sorting. No stapling. Just send.",
+        "voice": "Arthur",
+        "job_id": "b225ad14-5eee-4c80-ae9a-dc76f92a157e",
+        "placement": "t=5.34s over scene 2 (4.90s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Attach the spreadsheet as-is and hit send. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "cb1e7168-801c-482e-ac93-13949c776c20",
+      "placement": "t=10.34s under scene 3, carries onto the brand card (ends 18.04s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "085c8096-367f-409f-bbaf-d70d451e50e6",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/085c8096-367f-409f-bbaf-d70d451e50e6.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "09e3c807-d3da-4680-9750-f4b86ba6dc06",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/09e3c807-d3da-4680-9750-f4b86ba6dc06.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "3f5f7f85-324c-48a1-a181-12af3a9ae85c",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/3f5f7f85-324c-48a1-a181-12af3a9ae85c.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 6a9d4258-9155-4133-becb-9b38dd88253a; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): bb5aa6be-958b-4bb6-895d-ef20e327a06c/db385f4c-1d32-4c80-abea-646a359a93a8/df85105e-0d3b-485f-8e1c-b80cda772398."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.14/4.90/9.46 + 3.5s card at 19.5s; MEND 18.04s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.390 BD=4.400 S1D=5.140 S2D=4.900 S3D=9.460 MEND=18.04 wpx19=6064 wpx21=15447",
+    "preset_note": "Kling preset interception on S1 ('Wrestle' preset 98a36358-13ca-48cb-aff2-6fa109e8b959) declined with its own preset_id; prompt softened 'wrestles' -> 'fumbles with'; final S1 clip job ffbfa584."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "463bb579-ffb7-4a24-8538-f9a89a33bb11",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/463bb579-ffb7-4a24-8538-f9a89a33bb11.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "17cd77e2-5482-4c27-be8e-d4bf5282eade",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/17cd77e2-5482-4c27-be8e-d4bf5282eade.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-040-S01",
+      "beat": "hook",
+      "duration_seconds": 5.14,
+      "keyframe_job_id": "59cf0dd3-82db-47cf-81c4-a0139dceb0a7",
+      "video_job_id": "ffbfa584-6c30-42f7-a885-10891b162ed2",
+      "onscreen_text": "Penny found a shortcut.",
+      "voiceover": "Penny found a shortcut. It was one email all along.",
+      "visual": "Penny the Accountant (reference character) leans against a doorway with a knowing smile, tablet under her arm, while Victor the vampire office worker (reference character) wrestles a comically over-engineered wall chart of sorting steps covered in string and pins; gentle comedy;"
+    },
+    {
+      "scene_id": "EP-040-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.9,
+      "keyframe_job_id": "d40f6834-4a81-49e1-9833-b88c4a134cca",
+      "video_job_id": "0ded3a48-a2f6-4d64-9a59-8767b51848c7",
+      "onscreen_text": "No sorting. No stapling.",
+      "voiceover": "No sorting. No stapling. Just send.",
+      "visual": "Penny the Accountant (reference character) sweeps the string-and-pins sorting chart off the wall with one confident motion, papers gliding into a single neat folder in her other hand; her expression says 'watch this'; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-040-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.46,
+      "keyframe_job_id": "10e70d06-c27d-4e75-a9fb-a285a8ec1be9",
+      "video_job_id": "2d782fb9-025b-4630-9761-0ac33a36f29f",
+      "onscreen_text": "Attach as-is. Hit send. / Just email info@swrecovery.com",
+      "voiceover": "Attach the spreadsheet as-is and hit send. Just email info@swrecovery.com.",
+      "visual": "Penny the Accountant (reference character) attaches a spreadsheet and clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot, Victor the vampire office worker (reference character) watching delighted;"
+    },
+    {
+      "scene_id": "EP-040-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

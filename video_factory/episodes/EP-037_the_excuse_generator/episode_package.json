@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-037",
+  "title": "The Excuse Generator",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Open Season Four ('No More Excuses'): personify every stalling reason as one grumpy machine and unplug it.",
+  "audience": "Signed clients who always have a reason to wait",
+  "activation_barrier": "'I'll get to it when things calm down.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I'll get to it when things calm down.'",
+    "persona": "excuse_generator",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Every excuse. Zero results."
+  },
+  "characters": [
+    "excuse_generator",
+    "victor_the_vampire"
+  ],
+  "distribution": "Season-opener / excuse-pattern slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "excuse_generator": "ae85ddb4-423e-4e7d-84fd-715d798495e1",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.27s / 3.03s / 11.20s + 3.5s card; VO ends 18.80s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Meet the Excuse Generator. It has a reason for everything.",
+        "voice": "Arthur",
+        "job_id": "eb31e021-0946-45c9-9665-a3499392bb17",
+        "placement": "t=0.3s over scene 1 (5.27s)"
+      },
+      {
+        "line": "Every excuse, but no results.",
+        "voice": "Arthur",
+        "job_id": "ebdc67cf-cde0-4210-9b3f-2711e31c4883",
+        "placement": "t=5.47s over scene 2 (3.03s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Unplug the excuses. Send your accounts today. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "baed4d6f-577d-4006-b413-4b142fcd78ec",
+      "placement": "t=8.6s under scene 3, carries onto the brand card (ends 18.80s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "9eeb2330-0d2a-43af-924d-7dff76187055",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/9eeb2330-0d2a-43af-924d-7dff76187055.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "5e4d92c4-8318-4d62-8105-d8ea8c5f3544",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5e4d92c4-8318-4d62-8105-d8ea8c5f3544.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "5ddb841f-42b0-44f2-b2af-74d83b4a616f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/5ddb841f-42b0-44f2-b2af-74d83b4a616f.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job c0fb456e-8a3d-4d7d-a4e9-641c39e62962; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 83e284dc-45e3-4e62-9e58-8afcdab30786/68dda50f-60ac-49aa-a7ed-8b1b89e4220f/4313ab29-825e-4f54-bf3a-6f04971d19db."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.27/3.03/11.20 + 3.5s card at 19.5s; MEND 18.80s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.518 BD=2.529 S1D=5.268 S2D=3.029 S3D=11.203 MEND=18.80 wpx19=5893 wpx21=15471"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "adff3626-38d1-4a8f-9478-5453c0c074e1",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/adff3626-38d1-4a8f-9478-5453c0c074e1.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "87b890b7-ffe6-47e7-a5c6-00145f2fd58f",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/87b890b7-ffe6-47e7-a5c6-00145f2fd58f.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-037-S01",
+      "beat": "hook",
+      "duration_seconds": 5.268,
+      "keyframe_job_id": "2fd6cbcc-5051-4975-a883-20900a98c5f0",
+      "video_job_id": "c65c6fb8-504f-46ea-835e-3673c2a8b936",
+      "onscreen_text": "It has a reason for everything.",
+      "voiceover": "Meet the Excuse Generator. It has a reason for everything.",
+      "visual": "Victor the vampire office worker (reference character) stares deadpan at the Excuse Generator (reference character), a copper desktop contraption cranking out a long ribbon of little white excuse slips that pile onto his desk; slips read TOO BUSY and NEXT QUARTER in tiny print;"
+    },
+    {
+      "scene_id": "EP-037-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.029,
+      "keyframe_job_id": "965ed087-24f5-44ab-b24e-032c1e14ca16",
+      "video_job_id": "19a0c177-5e10-4999-af05-717c715c2e37",
+      "onscreen_text": "Every excuse. Zero results.",
+      "voiceover": "Every excuse, but no results.",
+      "visual": "The Excuse Generator (reference character) sits half-buried in its own mountain of excuse slips, its grumpy face drooping, crank still lazily turning, one last slip drooping from its paper-slot mouth; comic futility, no menace; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-037-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 11.203,
+      "keyframe_job_id": "8e2f70fd-c9ce-454e-9620-4a1cafc6a33c",
+      "video_job_id": "7ee30ae5-d48d-4f47-bc6b-182eec4ad2c1",
+      "onscreen_text": "Unplug the excuses. / Just email info@swrecovery.com",
+      "voiceover": "Unplug the excuses. Send your accounts today. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) pulls the Excuse Generator's power plug with one hand while clicking Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot; a glowing envelope lifts off;"
+    },
+    {
+      "scene_id": "EP-037-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

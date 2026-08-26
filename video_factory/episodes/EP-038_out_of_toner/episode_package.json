@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-038",
+  "title": "Out of Toner",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Retire the paperwork excuse: the Printer Gremlin's empty toner can't stop an email.",
+  "audience": "Clients who think placing accounts means printing and mailing paperwork",
+  "activation_barrier": "'I'd have to print everything out first.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'I'd have to print everything out first.'",
+    "persona": "printer_gremlin",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Email needs no printer."
+  },
+  "characters": [
+    "printer_gremlin",
+    "victor_the_vampire"
+  ],
+  "distribution": "Paperwork-objection slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "printer_gremlin": "13745ee4-86ea-4eb3-b83d-132431201b60",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 7.25s / 4.08s / 8.17s + 3.5s card; VO ends 21.83s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "The Printer Gremlin strikes again. Out of toner. Out of luck.",
+        "voice": "Arthur",
+        "job_id": "2985f86b-fe49-4d9d-a6b6-895b678758e3",
+        "placement": "t=0.3s over scene 1 (7.25s)"
+      },
+      {
+        "line": "Email needs no printer.",
+        "voice": "Arthur",
+        "job_id": "d6f47512-0966-4a1f-a438-9e187faccdfa",
+        "placement": "t=7.45s over scene 2 (4.08s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Skip the paperwork entirely. Send accounts digitally. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "39d8e7a7-0153-45a3-8561-7d46bdc01083",
+      "placement": "t=11.63s under scene 3, carries onto the brand card (ends 21.83s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "2bd1b9dd-f8fc-4443-9249-35fa644cc335",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/2bd1b9dd-f8fc-4443-9249-35fa644cc335.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "e09ac5c2-acee-4b9f-b350-d36cd14a908f",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/e09ac5c2-acee-4b9f-b350-d36cd14a908f.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "00b12b5f-50df-4076-bb80-2f36daf0b67a",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/00b12b5f-50df-4076-bb80-2f36daf0b67a.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 6b8ad897-ab72-4427-9762-af0af927b818; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): b19a9d62-1899-4e2b-acb7-b64c84614ec3/d2676489-2180-49fc-8a62-49343d4cdd2b/02231a83-416b-4d96-a0ca-fe4dda6f2f04."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 7.25/4.08/8.17 + 3.5s card at 19.5s; MEND 21.83s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=6.500 BD=3.580 S1D=7.250 S2D=4.080 S3D=8.170 MEND=21.83 wpx19=5848 wpx21=15444"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "a2cf0700-4afa-464a-8f3f-ff54e1336d2d",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a2cf0700-4afa-464a-8f3f-ff54e1336d2d.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "f937fd2a-6aaf-4359-ab79-9a2e5536e7ff",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/f937fd2a-6aaf-4359-ab79-9a2e5536e7ff.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-038-S01",
+      "beat": "hook",
+      "duration_seconds": 7.25,
+      "keyframe_job_id": "26942d78-3f9e-454f-b516-9e71178d8c44",
+      "video_job_id": "2220ded1-e950-4f1f-ac82-638c79a639b1",
+      "onscreen_text": "Out of toner. Again.",
+      "voiceover": "The Printer Gremlin strikes again. Out of toner. Out of luck.",
+      "visual": "The Printer Gremlin (reference character) cackles atop a jammed office printer flashing a little OUT OF TONER flag, waving a crumpled paper jam like a trophy; Victor the vampire office worker (reference character) stands beside it rubbing his temples; comedic villain moment;"
+    },
+    {
+      "scene_id": "EP-038-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.08,
+      "keyframe_job_id": "5f2f940f-e4d8-492d-b97e-5c2b5c9a56f0",
+      "video_job_id": "6fcb6671-0081-4168-8e67-b8eba7a75784",
+      "onscreen_text": "Email needs no printer.",
+      "voiceover": "Email needs no printer.",
+      "visual": "Victor the vampire office worker (reference character) holds up his phone with a sly smile while the Printer Gremlin (reference character) deflates on the printer, ears drooping, toner-cartridge backpack slipping off; a paper airplane folded from a jam floats down;"
+    },
+    {
+      "scene_id": "EP-038-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 8.17,
+      "keyframe_job_id": "937e1545-4cd0-4019-a81b-39bb17cfb041",
+      "video_job_id": "8e6c6cb0-bc79-439b-bdc3-6e69dfd24049",
+      "onscreen_text": "Skip the paperwork entirely. / Just email info@swrecovery.com",
+      "voiceover": "Skip the paperwork entirely. Send accounts digitally. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot; a glowing envelope sails over the jammed printer where the Printer Gremlin (reference character) sulks with crossed arms;"
+    },
+    {
+      "scene_id": "EP-038-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

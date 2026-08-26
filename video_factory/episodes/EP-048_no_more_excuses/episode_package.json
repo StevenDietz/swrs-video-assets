@@ -1,0 +1,162 @@
+{
+  "episode_id": "EP-048",
+  "title": "No More Excuses",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Season Four finale: four seasons of retired excuses - the team is ready when you are.",
+  "audience": "All signed-but-inactive clients (season capstone)",
+  "activation_barrier": "'Someday.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Someday.'",
+    "persona": "season_finale_ensemble",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Easier than you think."
+  },
+  "characters": [
+    "victor_the_vampire",
+    "penny_the_accountant",
+    "captain_compliance",
+    "password_goblin",
+    "late_fee_dragon",
+    "excuse_generator"
+  ],
+  "distribution": "Season finale / capstone slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad",
+      "penny_the_accountant": "94f4cd56-3e7d-4cdc-be13-72a4f3c2ec7f",
+      "captain_compliance": "74334428-e964-441f-b091-e3c4adca398c",
+      "password_goblin": "c7500c1e-3774-40d0-b328-3986fcd6b361",
+      "late_fee_dragon": "6d6cea58-1f3b-475d-a920-e3a92f29653a",
+      "excuse_generator": "ae85ddb4-423e-4e7d-84fd-715d798495e1"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 4.75s / 5.30s / 9.45s + 3.5s card; VO ends 17.55s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Four seasons. Every excuse, retired.",
+        "voice": "Arthur",
+        "job_id": "7881f239-c2a6-4eca-8fa1-8089680305ba",
+        "placement": "t=0.3s over scene 1 (4.75s)"
+      },
+      {
+        "line": "It really is easier than you think.",
+        "voice": "Arthur",
+        "job_id": "0915b89a-6331-464b-973c-ce49ae4e7d2c",
+        "placement": "t=4.95s over scene 2 (5.30s)"
+      }
+    ],
+    "voiceover": {
+      "line": "The team is ready when you are. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "4b5f08c8-cd36-43b4-831e-eb12a959aad7",
+      "placement": "t=10.35s under scene 3, carries onto the brand card (ends 17.55s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "c703e6e8-1587-4bf8-9229-77b1676edb57",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c703e6e8-1587-4bf8-9229-77b1676edb57.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "6a9a438f-c6f5-48a7-b7c2-a8120837c1da",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/6a9a438f-c6f5-48a7-b7c2-a8120837c1da.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "51a3fa73-32a5-40cf-8737-9314702138e4",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/51a3fa73-32a5-40cf-8737-9314702138e4.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job ae10eaa9-a8c3-4bea-8e44-0626a3fa59c7; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 3ac53ba7-ecc5-4b6f-99cf-b77e9ae7446a/0da9b5a4-d43c-47eb-9341-e8bd54032e62/70ad9b1c-2c05-4c7b-8364-751374e2edea."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 4.75/5.30/9.45 + 3.5s card at 19.5s; MEND 17.55s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.000 BD=4.800 S1D=4.750 S2D=5.300 S3D=9.450 MEND=17.55 wpx19=8819 wpx21=15468"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "09e1b071-f9b9-4900-9275-81c14120481e",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/09e1b071-f9b9-4900-9275-81c14120481e.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "c7abfef5-a9c4-4dc2-96c1-6b7c72d46dae",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c7abfef5-a9c4-4dc2-96c1-6b7c72d46dae.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-048-S01",
+      "beat": "hook",
+      "duration_seconds": 4.75,
+      "keyframe_job_id": "e71c1742-5661-44df-bebf-65b114595ba5",
+      "video_job_id": "a9bbe1fe-6050-4325-9e8d-582e479a13f9",
+      "onscreen_text": "Every excuse, retired.",
+      "voiceover": "Four seasons. Every excuse, retired.",
+      "visual": "Season finale wide shot: Victor the vampire office worker (reference character) stands center with Penny the Accountant (reference character) and Captain Compliance (reference character) flanking him like a hero lineup in the office;"
+    },
+    {
+      "scene_id": "EP-048-S02",
+      "beat": "character beat",
+      "duration_seconds": 5.3,
+      "keyframe_job_id": "36ba4ee3-642b-4b2f-9f2b-f865fc9ad4ef",
+      "video_job_id": "bca86137-ea5f-43a8-809d-7c0377cdb84e",
+      "onscreen_text": "Easier than you think.",
+      "voiceover": "It really is easier than you think.",
+      "visual": "The retired villains sit in a cozy support-circle of office chairs: the Excuse Generator (reference character) powered down with a HELLO MY NAME IS sticker, the Password Goblin (reference character) in his retirement party hat, and the Late Fee Dragon (reference character) with his empty b"
+    },
+    {
+      "scene_id": "EP-048-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.45,
+      "keyframe_job_id": "6b104137-9054-4a8e-9b4f-5a703159da0b",
+      "video_job_id": "94d2aa6b-4100-41e4-b4c8-0fcfc1023234",
+      "onscreen_text": "Ready when you are. / Just email info@swrecovery.com",
+      "voiceover": "The team is ready when you are. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot with Penny the Accountant (reference character) cheering beside him; one grand glowing envelope soars up trailing soft light;"
+    },
+    {
+      "scene_id": "EP-048-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

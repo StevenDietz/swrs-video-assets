@@ -1,0 +1,154 @@
+{
+  "episode_id": "EP-047",
+  "title": "One Email Army",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "One email from the client puts Hunter and the whole SWRS team to work the same day.",
+  "audience": "Clients who doubt anyone actually works their accounts",
+  "activation_barrier": "'Is anyone actually going to work these?'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'Is anyone actually going to work these?'",
+    "persona": "hunter_client_success",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "Real people. Same day."
+  },
+  "characters": [
+    "hunter_client_success",
+    "victor_the_vampire"
+  ],
+  "distribution": "Team-trust slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "hunter_client_success": "ac8b1bfe-a096-4db8-98b9-3b50ddc3397f",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 4.78s / 2.78s / 11.94s + 3.5s card; VO ends 18.06s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "One email from you puts a whole team to work.",
+        "voice": "Arthur",
+        "job_id": "eca7f77d-ad6a-4ab5-b96f-03d0b5ab86ea",
+        "placement": "t=0.3s over scene 1 (4.78s)"
+      },
+      {
+        "line": "Real people. Same day.",
+        "voice": "Arthur",
+        "job_id": "3c32db4c-9617-4d27-b1da-c863f1d720b1",
+        "placement": "t=4.98s over scene 2 (2.78s)"
+      }
+    ],
+    "voiceover": {
+      "line": "Hunter and the team start the day your accounts arrive. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "e1238e6a-7d84-4a07-aa3a-776a6ffd1f27",
+      "placement": "t=7.86s under scene 3, carries onto the brand card (ends 18.06s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "47a0e733-f65e-47bf-bd74-4fffd99331e4",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/47a0e733-f65e-47bf-bd74-4fffd99331e4.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "b80e22bb-d340-47af-84d3-d6d0965fa1b7",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b80e22bb-d340-47af-84d3-d6d0965fa1b7.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "a1fb2596-a1b3-4437-8751-541cb7c114e2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/a1fb2596-a1b3-4437-8751-541cb7c114e2.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 8b37c97e-a6e4-4a98-8f01-8fb2662715dc; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 50fa781e-a617-4a17-bbde-c72b164771fe/742f2e6f-07fe-4d8a-b0ed-4f3857569bd3/acd9eb32-2082-485c-95c1-8705f11016de."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 4.78/2.78/11.94 + 3.5s card at 19.5s; MEND 18.06s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.029 BD=2.280 S1D=4.779 S2D=2.780 S3D=11.941 MEND=18.06 wpx19=5963 wpx21=15468"
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "922ef236-3bad-4ee7-ae14-9a989ae4dd86",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/922ef236-3bad-4ee7-ae14-9a989ae4dd86.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "b8e65647-ba61-433e-8f65-fca089d4d1a2",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b8e65647-ba61-433e-8f65-fca089d4d1a2.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-047-S01",
+      "beat": "hook",
+      "duration_seconds": 4.779,
+      "keyframe_job_id": "40b341b5-f8ec-4808-9267-1cf97a3c8e35",
+      "video_job_id": "fbb37198-4444-4b7d-b79a-3b3c5e8569b2",
+      "onscreen_text": "One email. A whole team.",
+      "voiceover": "One email from you puts a whole team to work.",
+      "visual": "Hunter the friendly SWRS account manager (reference character, light-blue shirt, navy tie, SWRS lanyard) catches a glowing envelope arriving mid-air in the SWRS office and pivots to a team of silhouetted colleagues springing into motion behind him - phones lifted, folders opened;"
+    },
+    {
+      "scene_id": "EP-047-S02",
+      "beat": "character beat",
+      "duration_seconds": 2.78,
+      "keyframe_job_id": "0b62fe61-71d2-4db1-803c-3825939ac8c8",
+      "video_job_id": "7bb25903-7429-458b-be07-77145df35e38",
+      "onscreen_text": "Real people. Same day.",
+      "voiceover": "Real people. Same day.",
+      "visual": "Close-up: Hunter the friendly SWRS account manager (reference character) answers a desk phone with a genuine smile, other hand giving a thumbs up; warm real-person energy, SWRS lanyard visible; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-047-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 11.941,
+      "keyframe_job_id": "e39324b7-6436-402d-a85a-de6d342cfe29",
+      "video_job_id": "412ec27a-390f-4f2f-a39c-8680deff0f19",
+      "onscreen_text": "They start the day you send. / Just email info@swrecovery.com",
+      "voiceover": "Hunter and the team start the day your accounts arrive. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot; the glowing envelope arcs across a split scene toward Hunter (reference character) waiting with an open folder on the SWRS side;"
+    },
+    {
+      "scene_id": "EP-047-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

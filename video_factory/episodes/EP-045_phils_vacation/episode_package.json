@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-045",
+  "title": "Phil's Vacation",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Payoff beat: one upload keeps the backlog away for good - Phil shrinks to one page and takes a vacation.",
+  "audience": "Clients whose backlog once felt too big to send",
+  "activation_barrier": "'The pile is too big to deal with now.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'The pile is too big to deal with now.'",
+    "persona": "filing_cabinet_phil",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "\"Best vacation ever.\""
+  },
+  "characters": [
+    "filing_cabinet_phil",
+    "victor_the_vampire"
+  ],
+  "distribution": "Backlog payoff slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "filing_cabinet_phil": "18c962fb-d060-4438-8691-2af5f9e5b7eb",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 6.83s / 3.28s / 9.39s + 3.5s card; VO ends 17.91s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Phil finally took that vacation. All one page of him.",
+        "voice": "Arthur",
+        "job_id": "62b29e40-023d-497d-b514-7ccaae083def",
+        "placement": "t=0.3s over scene 1 (6.83s)"
+      },
+      {
+        "line": "Best vacation ever.",
+        "voice": "John (Filing Cabinet Phil cast voice 6b528d43, Steven-specified)",
+        "job_id": "bb561bd3-1704-4e42-b469-c807f4142f7d",
+        "placement": "t=7.03s over scene 2 (3.28s) - character line, dialogue tail +0.6s honored in the guard"
+      }
+    ],
+    "voiceover": {
+      "line": "One upload keeps the pile away for good. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "6bd7d00f-3943-4938-b45a-bc5289f273b7",
+      "placement": "t=10.41s under scene 3, carries onto the brand card (ends 17.91s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "c553c230-7f1b-4b0e-884a-76bc7a40e9f1",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c553c230-7f1b-4b0e-884a-76bc7a40e9f1.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "403a650e-4118-4f23-9721-4db233a26e21",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/403a650e-4118-4f23-9721-4db233a26e21.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "ed9fbd16-48ef-49e0-acad-3b7a78fa0c3e",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/ed9fbd16-48ef-49e0-acad-3b7a78fa0c3e.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job ec0a38dc-e5a6-4c5a-a0cb-2c85b837b4cc; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): d15a78c4-881a-42b0-96fe-c1f36f8815e7/16905068-3606-47cc-82af-62a623d07ee5/6b265ac5-ba4a-454c-ad9b-8e2b50522d03."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 6.83/3.28/9.39 + 3.5s card at 19.5s; MEND 17.91s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=6.080 BD=2.780 S1D=6.830 S2D=3.280 S3D=9.390 MEND=17.91 wpx19=5872 wpx21=15468",
+    "character_line_note": "Phil's line 'Best vacation ever.' is spoken in his FINAL cast voice John 6b528d43 (Steven-specified 2026-08-25) as VO over gestures - no lip-sync. Voice chain Vera -> Grady (interim) -> John is recorded in the character manifest."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "7bddcebd-6a08-45aa-b840-3c832bdbf368",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/7bddcebd-6a08-45aa-b840-3c832bdbf368.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "904186e2-ef42-4d88-83e0-85b9d39de54c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/904186e2-ef42-4d88-83e0-85b9d39de54c.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-045-S01",
+      "beat": "hook",
+      "duration_seconds": 6.83,
+      "keyframe_job_id": "a5f70a4e-b8d1-43d7-b7d5-7c1cc3522524",
+      "video_job_id": "ab50a63f-c9b5-43dc-82c0-52350a6291c3",
+      "onscreen_text": "Phil took that vacation.",
+      "voiceover": "Phil finally took that vacation. All one page of him.",
+      "visual": "Tiny Filing Cabinet Phil (reference character shrunk to a single envelope-sized paper stack with his cute face and paperclip crown) reclines on a miniature beach chair on a sunny office windowsill arranged like a tiny beach - a drink umbrella in a thimble cup, a postcard, sunglasses perche"
+    },
+    {
+      "scene_id": "EP-045-S02",
+      "beat": "character beat",
+      "duration_seconds": 3.28,
+      "keyframe_job_id": "00821a67-d93e-4907-b1ef-e469e8e5bad0",
+      "video_job_id": "f9bb00a1-6e13-443f-aa60-333321c529c3",
+      "onscreen_text": "\"Best vacation ever.\"",
+      "voiceover": "Best vacation ever.",
+      "visual": "Close-up: tiny Filing Cabinet Phil (reference character) in little sunglasses sighs contentedly on his miniature beach chair, one page-arm behind his head, drink umbrella bobbing; pure bliss; no computer screens visible."
+    },
+    {
+      "scene_id": "EP-045-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.39,
+      "keyframe_job_id": "8da4d718-508c-4c34-bd69-bc086c7a3084",
+      "video_job_id": "3852e222-245c-4b4c-9d03-8fbd4d09dac2",
+      "onscreen_text": "One upload. No more pile. Ever. / Just email info@swrecovery.com",
+      "voiceover": "One upload keeps the pile away for good. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) taps Upload on a laptop showing EXACTLY the real client portal interface from the reference screenshot;"
+    },
+    {
+      "scene_id": "EP-045-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}

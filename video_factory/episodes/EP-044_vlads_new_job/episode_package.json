@@ -1,0 +1,155 @@
+{
+  "episode_id": "EP-044",
+  "title": "Vlad's New Job",
+  "status": "rendered to Production Standards v3 (music mixed at assembly) + PREMIUM 4K - SEASON FOUR ('No More Excuses')",
+  "produced_at": "2026-08-26",
+  "conforms_to": "video_factory/PRODUCTION_STANDARDS.md (v2, extended: v3 adds the SWRS Cinematic theme mixed at assembly) + PRODUCTION_HANDOFF.md (v1.0)",
+  "objective": "Payoff beat: place accounts on time and even the Invoice Monster goes straight - Vlad lands a day job.",
+  "audience": "Returning viewers who know Vlad; reinforcement for consistent placers",
+  "activation_barrier": "'One more aging invoice won't matter.'",
+  "core_message": "Getting your accounts to SWRS is easier than you think.",
+  "cta": "Email your placements to info@swrecovery.com.",
+  "structure_5beat": [
+    "unexpected hook",
+    "character beat",
+    "SWRS simplifies",
+    "clear CTA",
+    "brand close"
+  ],
+  "engine_mapping": {
+    "obstacle": "'One more aging invoice won't matter.'",
+    "persona": "invoice_monster",
+    "fix": "one email sends every account - info@swrecovery.com",
+    "payoff": "\"I eat shredded paper now. It's fine.\""
+  },
+  "characters": [
+    "invoice_monster",
+    "victor_the_vampire"
+  ],
+  "distribution": "Payoff / retention slot of the activation drip; auto-stops on first placement.",
+  "production": {
+    "style": "polished modern 3D animated commercial, cohesive cool-blue SWRS palette, gentle comedy tone (frustration belongs to the situation, never SWRS)",
+    "character_references": {
+      "invoice_monster": "5da9a51b-71d5-4640-a1f2-adb3df40ce87",
+      "victor_the_vampire": "e5f22563-8fb6-4090-a4aa-2f0033d6c4ad"
+    },
+    "models": {
+      "keyframes": "nano_banana_pro (image; locked cast reference sheets)",
+      "animation": "kling3_0_turbo (image-to-video, declined_preset_id passed on every submission)",
+      "voiceover": "seed_audio (narrator Arthur 30fc8796-ceb6-4a66-b3a7-4a145ef7f346)",
+      "music": "SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) mixed at assembly - v3 template",
+      "assembly": "ffmpeg in Higgsfield sandbox, fixed-23s Production Standards v3 template (music in the mix graph)"
+    },
+    "v2_standards_applied": [
+      "Fira Sans Bold captions and brand card",
+      "loudnorm I=-14 LUFS / TP=-1.5 / LRA=11",
+      "SFX: whooshes at scene cuts, pop on the send beat; silent logo reveal",
+      "AV-SYNC: cuts at 5.36s / 4.90s / 9.24s + 3.5s card; VO ends 19.45s, inside the 22.5s guard",
+      "real portal UI on every visible computer screen (campaign-wide screen rule; screenless staging where no send beat)",
+      "characters never lip-sync (character lines are VO over gestures; only cast voices speak)",
+      "music: 0.18x bed under the -14 LUFS mix, 0.4s fade-in, fade-out ends BEFORE the brand card - silent logo reveal preserved",
+      "logo only on the brand-close card (white-pixel check t=19 low / t=21 high verified)"
+    ],
+    "logo_animation": "official white SWRS logo (media 38707f0b) fades in top-center on the BRAND-CLOSE CARD ONLY (t=19.7s, 0.8s alpha fade, 520px, soft drop shadow), silent reveal.",
+    "audio_mix": "standard DUCKING mix (scene SFX 0.22x during VO window), VO 1.25x / hooks 1.3x, music bed 0.18x (afade in 0.4s, out st=18.9 d=0.8), amix normalize=0 + alimiter 0.95 + loudnorm -14 LUFS.",
+    "hook_voiceover": [
+      {
+        "line": "Vlad found a new job. Employee of the month, actually.",
+        "voice": "Arthur",
+        "job_id": "6acbaefc-b32a-4359-accc-e1f8af565253",
+        "placement": "t=0.3s over scene 1 (5.36s)"
+      },
+      {
+        "line": "I eat shredded paper now. It's fine.",
+        "voice": "Vlad (Invoice Monster cast voice e5666b9c)",
+        "job_id": "769a92be-e4f9-4695-957b-8e953c980746",
+        "placement": "t=5.56s over scene 2 (4.90s) - character line, dialogue tail +0.6s honored in the guard"
+      }
+    ],
+    "voiceover": {
+      "line": "When accounts get placed on time, even monsters go straight. Just email info@swrecovery.com.",
+      "spoken_as": "email read as 'info at S-W Recovery dot com'",
+      "voice": "Arthur",
+      "job_id": "600097b8-c31b-4102-8695-56b153d76484",
+      "placement": "t=10.56s under scene 3, carries onto the brand card (ends 19.45s). Client wording verbatim at natural pace."
+    },
+    "standards_deferred": [
+      "Native vertical framing - finishing pass (this release ships the letterboxed 9:16 derivation)."
+    ],
+    "outputs": {
+      "master_16x9": {
+        "media_id": "c02b9979-0d3e-4d73-9c16-37f67ae2c1c2",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/c02b9979-0d3e-4d73-9c16-37f67ae2c1c2.mp4",
+        "use": "email campaigns / YouTube",
+        "resolution": "3840x2160 (4K)"
+      },
+      "square_1x1": {
+        "media_id": "645a51e3-a7fa-403a-84bf-409d50b97066",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/645a51e3-a7fa-403a-84bf-409d50b97066.mp4",
+        "use": "LinkedIn"
+      },
+      "vertical_9x16": {
+        "media_id": "0139af15-d3c3-4f20-af75-b6b040a6f3e0",
+        "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/0139af15-d3c3-4f20-af75-b6b040a6f3e0.mp4",
+        "use": "Reels / TikTok / Shorts"
+      },
+      "_note": "SEASON FOUR, PREMIUM 4K + MUSIC FROM DAY ONE (2026-08-26): the SWRS Cinematic theme (sonilo_music job 532fb0c8, owned outright) is mixed INTO the assembly (v3 template) - no separate remix pass. master_16x9 at 3840x2160/30fps (ByteDance aigc upscale of the 720p assembly master, job 2df4ff16-0161-4835-86c9-2cccb49f7f56; video stream from the upscaler, audio bit-exact copied from the -14 LUFS master mix). square_1x1 and vertical_9x16 derived at 1080 from the 4K source (lanczos, crf 18). All three on FRESH media ids per the revision rule; CDN fetch-verified 3840x2160 / 23.000s. Interim 720p assembly ids (verified, superseded same day, never linked in the screening room): 3d95354c-c555-4acf-9e43-87258648f16b/3eb1b508-f3d4-42fa-b690-2a5f65094034/c9a23082-729b-4bdc-8cf4-56ba970aa4a1."
+    },
+    "assembly_note": "Fixed-23s v3 template: 23.000s total - cuts 5.36/4.90/9.24 + 3.5s card at 19.5s; MEND 19.45s; whoosh at both cuts, pop on the send beat; music bed in the amix graph; captions c0 lower-third, cB on scene 2, c1 top.",
+    "assembly_metrics": "AD=4.608 BD=4.400 S1D=5.358 S2D=4.900 S3D=9.242 MEND=19.45 wpx19=7270 wpx21=15468",
+    "character_line_note": "Vlad's line 'I eat shredded paper now. It's fine.' is spoken in his cast voice (Vlad e5666b9c) as VO over gestures - no lip-sync, per the campaign rule."
+  },
+  "email_assets": {
+    "thumbnail_1200x675": {
+      "media_id": "08fce9ec-1f42-421a-bb45-1630ad7191f6",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/08fce9ec-1f42-421a-bb45-1630ad7191f6.jpg",
+      "note": "frame at 2.5s with play button"
+    },
+    "thumbnail_600x338": {
+      "media_id": "b4a41bf5-37e4-4877-8dd7-3777aa0e0bc2",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3GWA26vWzl5Frmb0iYCVWS61vFO/b4a41bf5-37e4-4877-8dd7-3777aa0e0bc2.jpg"
+    },
+    "links_to": "outputs.master_16x9.url",
+    "usage": "hook-frame play-button thumbnail hyperlinked to the hosted 16:9 video"
+  },
+  "scenes": [
+    {
+      "scene_id": "EP-044-S01",
+      "beat": "hook",
+      "duration_seconds": 5.358,
+      "keyframe_job_id": "1f91c94f-d4a5-4441-93a2-1e2a0a1b7eab",
+      "video_job_id": "7a4c0ca9-9a38-493c-8a77-0d990ba3c3a0",
+      "onscreen_text": "Vlad found a new job.",
+      "voiceover": "Vlad found a new job. Employee of the month, actually.",
+      "visual": "Vlad the Invoice Monster (reference character) proudly wears a small navy SWRS-blue employee lanyard and a paper hat, standing beside an office shredder station with a neat EMPLOYEE OF THE MONTH certificate pinned on the wall behind him;"
+    },
+    {
+      "scene_id": "EP-044-S02",
+      "beat": "character beat",
+      "duration_seconds": 4.9,
+      "keyframe_job_id": "e06bef6d-800e-42fd-9006-cb4a0fe1be23",
+      "video_job_id": "c74a4296-eb7c-4fbb-ab14-52bddee6c485",
+      "onscreen_text": "\"I eat shredded paper now. It's fine.\"",
+      "voiceover": "I eat shredded paper now. It's fine.",
+      "visual": "Close-up: Vlad the Invoice Monster (reference character) in his employee lanyard contentedly holds a small bowl of shredded paper strips like cereal, mid-shrug with a sheepish but genuinely happy smile; a strip dangles from the corner of his mouth; endearing reformed-villain comedy;"
+    },
+    {
+      "scene_id": "EP-044-S03",
+      "beat": "clear CTA",
+      "duration_seconds": 9.242,
+      "keyframe_job_id": "dd75b269-673d-48ba-bfad-fb2453491203",
+      "video_job_id": "6dd10434-5c1a-4ff4-bc80-78ba11eaa8f7",
+      "onscreen_text": "Even monsters go straight. / Just email info@swrecovery.com",
+      "voiceover": "When accounts get placed on time, even monsters go straight. Just email info@swrecovery.com.",
+      "visual": "Victor the vampire office worker (reference character) clicks Send on a laptop showing EXACTLY the real client portal interface from the reference screenshot;"
+    },
+    {
+      "scene_id": "EP-044-S04",
+      "beat": "brand close",
+      "duration_seconds": 3.5,
+      "type": "brand_card",
+      "onscreen_text": "Getting your accounts to SWRS is easier than you think. / Email your placements to info@swrecovery.com",
+      "visual": "Navy SWRS-color end card (Fira Sans) with the official white SWRS logo held top-center, silent reveal."
+    }
+  ]
+}
