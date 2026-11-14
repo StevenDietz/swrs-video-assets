@@ -1,0 +1,10 @@
+name: Delete old branches
+on: workflow_dispatch
+permissions: {contents: write}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - env: {GH_TOKEN: "${{ github.token }}"}
+        run: |
+          for b in pv1 pv2; do gh api -X DELETE repos/${{ github.repository }}/git/refs/heads/$b || true; done
